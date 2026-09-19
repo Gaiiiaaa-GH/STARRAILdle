@@ -15,9 +15,13 @@ Every mode has a daily challenge (same for everyone, one per day) and an infinit
 
 ## Features
 
+<img align="right" width="220" src=".github/assets/cipher-fanart.webp">
+
 - Colorblind mode (status badges on top of color)
 - Installable as a PWA, playable offline
 - Rotating background: random official banners across the game's cast
+
+<br clear="right">
 
 ## Installation
 
@@ -42,6 +46,8 @@ Background banners are the wiki's native promo art; the older ones were publishe
 ## Credits
 
 Banner: official introduction art for Cipher, Honkai: Star Rail.
+
+Fanart above: [@Ais_no_tye](https://x.com/Ais_no_tye).
 
 All character icons, portraits, and banners belong to HoYoverse — used here for non-commercial purposes, sourced via [Mar-7th/StarRailRes](https://github.com/Mar-7th/StarRailRes) and the [Fandom wiki](https://honkai-star-rail.fandom.com).
 
