@@ -1,6 +1,6 @@
 import React from 'react';
 import type { GameMode, Language } from '../types';
-import { HelpCircle, BarChart3, Volume2, VolumeX, Grid, Image, MessageSquare, Flame, Eye, EyeOff } from 'lucide-react';
+import { HelpCircle, BarChart3, Volume2, VolumeX, Grid, Image, MessageSquare, Flame, Eye, EyeOff, Calendar, Infinity } from 'lucide-react';
 import { soundManager } from '../utils/audio';
 
 interface HeaderProps {
@@ -94,13 +94,15 @@ export const Header: React.FC<HeaderProps> = ({
               className={`type-btn ${isDaily ? 'active' : ''}`}
               onClick={() => onToggleDaily(true)}
             >
-              {isFr ? '🗓️ Quotidien' : '🗓️ Daily'}
+              <Calendar size={14} />
+              <span>{isFr ? 'Quotidien' : 'Daily'}</span>
             </button>
             <button
               className={`type-btn ${!isDaily ? 'active' : ''}`}
               onClick={() => onToggleDaily(false)}
             >
-              {isFr ? '♾️ Infini' : '♾️ Practice'}
+              <Infinity size={14} />
+              <span>{isFr ? 'Infini' : 'Practice'}</span>
             </button>
           </div>
 

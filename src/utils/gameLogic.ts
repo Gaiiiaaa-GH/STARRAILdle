@@ -290,31 +290,31 @@ export function generateShareResult(
   }[mode];
 
   const dateStr = new Date().toLocaleDateString(lang === 'fr' ? 'fr-FR' : 'en-US');
-  let text = `✨ STARRAILdle - ${modeName} ${isDaily ? `(${dateStr})` : '(Pratique)'}\n`;
-  text += `${hasWon ? `🎉 Trouvé en ${guesses.length} essai${guesses.length > 1 ? 's' : ''} !` : '❌ Non trouvé'}\n\n`;
+  let text = `STARRAILdle - ${modeName} ${isDaily ? `(${dateStr})` : '(Pratique)'}\n`;
+  text += `${hasWon ? `Trouvé en ${guesses.length} essai${guesses.length > 1 ? 's' : ''}` : 'Non trouvé'}\n\n`;
 
   if (mode === 'classic') {
     for (const g of guesses) {
-      const getEmoji = (status: MatchStatus) => (status === 'correct' ? '🟩' : status === 'partial' ? '🟧' : '🟥');
+      const getMark = (status: MatchStatus) => (status === 'correct' ? 'O' : status === 'partial' ? '~' : 'X');
       const row = [
-        getEmoji(g.gender.status),
-        getEmoji(g.element.status),
-        getEmoji(g.path.status),
-        getEmoji(g.lore_paths.status),
-        getEmoji(g.rarity.status),
-        getEmoji(g.release_version.status),
-        getEmoji(g.weekly_boss.status),
-        getEmoji(g.world.status),
-        getEmoji(g.factions.status),
-      ].join('');
+        getMark(g.gender.status),
+        getMark(g.element.status),
+        getMark(g.path.status),
+        getMark(g.lore_paths.status),
+        getMark(g.rarity.status),
+        getMark(g.release_version.status),
+        getMark(g.weekly_boss.status),
+        getMark(g.world.status),
+        getMark(g.factions.status),
+      ].join(' ');
       text += `${row}\n`;
     }
   } else {
     for (let i = 0; i < guesses.length; i++) {
       if (i === guesses.length - 1 && hasWon) {
-        text += '🟩';
+        text += 'O';
       } else {
-        text += '🟥';
+        text += 'X';
       }
     }
     text += '\n';

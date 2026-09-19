@@ -26,7 +26,7 @@ export const HelpModal: React.FC<HelpModalProps> = ({ language, onClose }) => {
             <CheckCircle2 size={20} color="#34d399" className="help-row-icon" />
             <div>
               <div className="help-row-title" style={{ color: '#34d399' }}>
-                {isFr ? '🟩 Vert : Exact' : '🟩 Green: Exact Match'}
+                {isFr ? 'Vert : Exact' : 'Green: Exact Match'}
               </div>
               <div className="help-row-desc">
                 {isFr ? 'La propriété correspond parfaitement au personnage mystère.' : 'The attribute matches the mystery character exactly.'}
@@ -38,7 +38,7 @@ export const HelpModal: React.FC<HelpModalProps> = ({ language, onClose }) => {
             <AlertCircle size={20} color="#fb923c" className="help-row-icon" />
             <div>
               <div className="help-row-title" style={{ color: '#fb923c' }}>
-                {isFr ? '🟧 Orange : Partiel' : '🟧 Orange: Partial'}
+                {isFr ? 'Orange : Partiel' : 'Orange: Partial'}
               </div>
               <div className="help-row-desc">
                 {isFr ? (
@@ -64,7 +64,7 @@ export const HelpModal: React.FC<HelpModalProps> = ({ language, onClose }) => {
             <XCircle size={20} color="#f87171" className="help-row-icon" />
             <div>
               <div className="help-row-title" style={{ color: '#f87171' }}>
-                {isFr ? '🟥 Rouge : Incorrect' : '🟥 Red: No Match'}
+                {isFr ? 'Rouge : Incorrect' : 'Red: No Match'}
               </div>
               <div className="help-row-desc">
                 {isFr ? 'Aucun lien ou valeur différente.' : 'No overlap or completely different value.'}
