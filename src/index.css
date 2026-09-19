@@ -493,19 +493,8 @@ body {
   border: 1px solid var(--border);
   object-fit: cover;
 }
-.search-item-avatar.rarity-5 { border-color: var(--gold); }
-.search-item-avatar.rarity-4 { border-color: var(--purple); }
 
 .search-item-name { font-size: 0.95rem; font-weight: 600; color: #fff; }
-.search-item-meta {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  font-size: 0.75rem;
-  color: var(--text-muted);
-  margin-top: 2px;
-}
-.search-mini-icon { width: 16px; height: 16px; object-fit: contain; }
 
 /* ── Guess Board ─────────────────────────────────────── */
 

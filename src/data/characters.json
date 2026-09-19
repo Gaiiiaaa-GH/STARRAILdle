@@ -5582,6 +5582,86 @@
     }
   },
   {
+    "id": "1321",
+    "name_en": "The Dahlia",
+    "name_fr": "Le Dahlia",
+    "tag": "dahlia",
+    "rarity": 5,
+    "gender": "Female",
+    "element": {
+      "id": "fire",
+      "name_en": "Fire",
+      "name_fr": "Feu",
+      "icon": "assets/elements/fire.png"
+    },
+    "path": {
+      "id": "warlock",
+      "name_en": "Nihility",
+      "name_fr": "La Nihilité",
+      "icon": "assets/paths/warlock.png"
+    },
+    "lore_paths": [
+      {
+        "id": "warrior",
+        "name_en": "Destruction",
+        "name_fr": "La Destruction",
+        "icon": "assets/paths/warrior.png"
+      },
+      {
+        "id": "memory",
+        "name_en": "Remembrance",
+        "name_fr": "Le Souvenir",
+        "icon": "assets/paths/memory.png"
+      }
+    ],
+    "release_version": "3.8",
+    "world_en": "Penacony",
+    "world_fr": "Penacony",
+    "factions_en": [
+      "The Cremators",
+      "Annihilation Gang",
+      "Ever-Flame Mansion",
+      "Garden of Recollection (formerly)"
+    ],
+    "factions_fr": [
+      "The Cremators",
+      "Annihilation Gang",
+      "Ever-Flame Mansion",
+      "Garden of Recollection (anciennement)"
+    ],
+    "archetypes_en": [
+      "DoT / Nihility",
+      "Debuff"
+    ],
+    "archetypes_fr": [
+      "DoT / Nihility",
+      "Debuff"
+    ],
+    "weekly_boss": {
+      "material_id": "110508",
+      "material_name_en": "Vanquished Flow's Reticence",
+      "material_name_fr": "Mutisme de l'unicité",
+      "boss_name_en": "Tide of Strife",
+      "boss_name_fr": "Marée des conflits",
+      "world_en": "Amphoreus",
+      "world_fr": "Amphoreus",
+      "icon": "assets/bosses/110508.png"
+    },
+    "avatar": "assets/characters/1321.png",
+    "quotes": [
+      {
+        "en": "It's me. Did I scare you with how I... popped up without a sound?",
+        "fr": "C'est moi. Je t'ai fait peur en... apparaissant sans un bruit ?"
+      }
+    ],
+    "skill_hint": {
+      "icon": "assets/skills/1321_132102.png",
+      "name_en": "Lick... Enkindled Betrayal",
+      "name_fr": "Lèche... les flammes de la trahison",
+      "type": "Skill"
+    }
+  },
+  {
     "id": "1401",
     "name_en": "The Herta",
     "name_fr": "La Grande Herta",
@@ -7755,6 +7835,150 @@
     }
   },
   {
+    "id": "1512",
+    "name_en": "Robin • Summeretto",
+    "name_fr": "Robin • Estivaria",
+    "tag": "robinsummeretto",
+    "rarity": 5,
+    "gender": "Female",
+    "element": {
+      "id": "wind",
+      "name_en": "Wind",
+      "name_fr": "Vent",
+      "icon": "assets/elements/wind.png"
+    },
+    "path": {
+      "id": "memory",
+      "name_en": "Remembrance",
+      "name_fr": "Le Souvenir",
+      "icon": "assets/paths/memory.png"
+    },
+    "lore_paths": [
+      {
+        "id": "shaman",
+        "name_en": "Harmony",
+        "name_fr": "L'Harmonie",
+        "icon": "assets/paths/shaman.png"
+      }
+    ],
+    "release_version": "4.5",
+    "world_en": "Penacony",
+    "world_fr": "Penacony",
+    "factions_en": [
+      "Penacony",
+      "The Family",
+      "Oak Family"
+    ],
+    "factions_fr": [
+      "Penacony",
+      "The Family",
+      "Oak Family"
+    ],
+    "archetypes_en": [
+      "Harmony Support",
+      "Team Buff"
+    ],
+    "archetypes_fr": [
+      "Harmony Support",
+      "Team Buff"
+    ],
+    "weekly_boss": {
+      "material_id": "110509",
+      "material_name_en": "High Hopes of the Falsely Enlightened",
+      "material_name_fr": "Espoir du faux éveillé",
+      "boss_name_en": "Ode of False Light",
+      "boss_name_fr": "Ode de la Fausse Lumière",
+      "world_en": "Amphoreus",
+      "world_fr": "Amphoreus",
+      "icon": "assets/bosses/110509.png"
+    },
+    "avatar": "assets/characters/1512.png",
+    "quotes": [
+      {
+        "en": "It's nice to see you again. The weather in Astropolis is wonderful, and the moist breeze is filled with the scent of sunshine... I'm hoping to gather inspiration for a new song. Would you like to take a stroll together on the beach and listen to the sounds of sea conchs?",
+        "fr": "Ravie de te revoir. Le temps est magnifique à Astropolis, et la brise humide est chargée d'un parfum de soleil... J'espère trouver l'inspiration pour une nouvelle mélodie. Ça te dirait de te promener sur la plage et d'écouter le chant des coquillages ?"
+      }
+    ],
+    "skill_hint": {
+      "icon": "assets/skills/1512_151202.png",
+      "name_en": "Summer Strums the Soul",
+      "name_fr": "Âme inondée de soleil",
+      "type": "Skill"
+    }
+  },
+  {
+    "id": "1513",
+    "name_en": "Aventurine • Waveflair",
+    "name_fr": "Aventurine • Croisette",
+    "tag": "aventurinewaveflair",
+    "rarity": 5,
+    "gender": "Male",
+    "element": {
+      "id": "quantum",
+      "name_en": "Quantum",
+      "name_fr": "Quantique",
+      "icon": "assets/elements/quantum.png"
+    },
+    "path": {
+      "id": "elation",
+      "name_en": "Elation",
+      "name_fr": "L'Allégresse",
+      "icon": "assets/paths/elation.png"
+    },
+    "lore_paths": [
+      {
+        "id": "knight",
+        "name_en": "Preservation",
+        "name_fr": "La Préservation",
+        "icon": "assets/paths/knight.png"
+      }
+    ],
+    "release_version": "4.5",
+    "world_en": "Sigonia",
+    "world_fr": "Sigonia",
+    "factions_en": [
+      "Interastral Peace Corporation",
+      "Strategic Investment Department",
+      "Ten Stonehearts"
+    ],
+    "factions_fr": [
+      "Interastral Peace Corporation",
+      "Strategic Investment Department",
+      "Ten Stonehearts"
+    ],
+    "archetypes_en": [
+      "Elation Support",
+      "Team Buff"
+    ],
+    "archetypes_fr": [
+      "Elation Support",
+      "Team Buff"
+    ],
+    "weekly_boss": {
+      "material_id": "110509",
+      "material_name_en": "High Hopes of the Falsely Enlightened",
+      "material_name_fr": "Espoir du faux éveillé",
+      "boss_name_en": "Ode of False Light",
+      "boss_name_fr": "Ode de la Fausse Lumière",
+      "world_en": "Amphoreus",
+      "world_fr": "Amphoreus",
+      "icon": "assets/bosses/110509.png"
+    },
+    "avatar": "assets/characters/1513.png",
+    "quotes": [
+      {
+        "en": "Friends, we meet again! I just wrapped up a sponsored shoot, and wow, keeping a smile plastered to my face for the camera is no easy feat. But now that I've been promoted to P46, I can finally go on vacation. Want to relax and enjoy your time with me? I guarantee you'll have an unforgettable getaway.",
+        "fr": "Mes amis, nous voilà de nouveau réunis ! Je viens de terminer une séance photo sponsorisée, et laisse-moi te dire que garder le sourire devant l'objectif, ce n'est pas une mince affaire. Mais maintenant que je suis passé P46, je peux enfin prendre des vacances. Envie de te détendre en ma compagnie ? Je te garantis une escapade inoubliable."
+      }
+    ],
+    "skill_hint": {
+      "icon": "assets/skills/1513_151302.png",
+      "name_en": "Kill Shot, the Sands Boil",
+      "name_fr": "Exécution des sables ardents",
+      "type": "Skill"
+    }
+  },
+  {
     "id": "8001",
     "name_en": "Trailblazer (Destruction)",
     "name_fr": "Pionnier·ère (Destruction)",
@@ -8118,163 +8342,5 @@
       "name_fr": "Ovation tonitruante",
       "type": "Skill"
     }
-  },
-  {
-    "id": "1304_waveflair",
-    "name_en": "Aventurine (Waveflair)",
-    "name_fr": "Aventurine (Croisette)",
-    "tag": "aventurinewaveflair",
-    "rarity": 5,
-    "gender": "Male",
-    "element": {
-      "id": "imaginary",
-      "name_en": "Imaginary",
-      "name_fr": "Imaginaire",
-      "icon": "assets/elements/imaginary.png"
-    },
-    "path": {
-      "id": "knight",
-      "name_en": "Preservation",
-      "name_fr": "La Préservation",
-      "icon": "assets/paths/knight.png"
-    },
-    "lore_paths": [
-      {
-        "id": "preservation",
-        "name_en": "Preservation",
-        "name_fr": "La Préservation",
-        "icon": "assets/paths/knight.png"
-      }
-    ],
-    "release_version": "4.5",
-    "world_en": "Sigonia",
-    "world_fr": "Sigonia",
-    "factions_en": [
-      "Interastral Peace Corporation",
-      "Strategic Investment Department",
-      "Ten Stonehearts"
-    ],
-    "factions_fr": [
-      "Interastral Peace Corporation",
-      "Strategic Investment Department",
-      "Ten Stonehearts"
-    ],
-    "archetypes_en": [
-      "Stackable Team Shield",
-      "Follow-up / Blind Bet",
-      "Crit DMG Debuff",
-      "Effect RES Buff"
-    ],
-    "archetypes_fr": [
-      "Stackable Team Shield",
-      "Follow-up / Blind Bet",
-      "Crit DMG Debuff",
-      "Effect RES Buff"
-    ],
-    "weekly_boss": {
-      "material_id": "110504",
-      "material_name_en": "Past Evils of the Borehole Planet Disaster",
-      "material_name_fr": "Ancienne rancune du Désastre de l'ennui",
-      "boss_name_en": "Starcrusher Swarm King: Skaracabaz",
-      "boss_name_fr": "Skaracabaz, roi de l'Essaim",
-      "world_en": "Herta Space Station",
-      "world_fr": "Station spatiale Herta",
-      "icon": "assets/bosses/110504.png"
-    },
-    "avatar": "assets/characters/1304_waveflair.png",
-    "quotes": [
-      {
-        "en": "Even on the hot sand, the house always wins.",
-        "fr": "Même sur le sable chaud, la maison gagne toujours."
-      }
-    ],
-    "skill_hint": {
-      "icon": "assets/skills/1304_130402.png",
-      "name_en": "Cornerstone Deluxe",
-      "name_fr": "Pierre angulaire de la prospérité",
-      "type": "Skill"
-    },
-    "variant_of": "1304",
-    "outfit_name_en": "Waveflair",
-    "outfit_name_fr": "Croisette"
-  },
-  {
-    "id": "1309_summeretto",
-    "name_en": "Robin (Summeretto)",
-    "name_fr": "Robin (Estivaria)",
-    "tag": "robinsummeretto",
-    "rarity": 5,
-    "gender": "Female",
-    "element": {
-      "id": "physical",
-      "name_en": "Physical",
-      "name_fr": "Physique",
-      "icon": "assets/elements/physical.png"
-    },
-    "path": {
-      "id": "shaman",
-      "name_en": "Harmony",
-      "name_fr": "L'Harmonie",
-      "icon": "assets/paths/shaman.png"
-    },
-    "lore_paths": [
-      {
-        "id": "harmony",
-        "name_en": "Harmony",
-        "name_fr": "L'Harmonie",
-        "icon": "assets/paths/shaman.png"
-      }
-    ],
-    "release_version": "4.5",
-    "world_en": "Penacony",
-    "world_fr": "Penacony",
-    "factions_en": [
-      "Penacony",
-      "The Family",
-      "Oak Family"
-    ],
-    "factions_fr": [
-      "Penacony",
-      "The Family",
-      "Oak Family"
-    ],
-    "archetypes_en": [
-      "Concerto / Team Action Advance 100%",
-      "ATK Buff",
-      "Additional Physical DMG",
-      "Follow-up Synergy"
-    ],
-    "archetypes_fr": [
-      "Concerto / Team Action Advance 100%",
-      "ATK Buff",
-      "Additional Physical DMG",
-      "Follow-up Synergy"
-    ],
-    "weekly_boss": {
-      "material_id": "110504",
-      "material_name_en": "Past Evils of the Borehole Planet Disaster",
-      "material_name_fr": "Ancienne rancune du Désastre de l'ennui",
-      "boss_name_en": "Starcrusher Swarm King: Skaracabaz",
-      "boss_name_fr": "Skaracabaz, roi de l'Essaim",
-      "world_en": "Herta Space Station",
-      "world_fr": "Station spatiale Herta",
-      "icon": "assets/bosses/110504.png"
-    },
-    "avatar": "assets/characters/1309_summeretto.png",
-    "quotes": [
-      {
-        "en": "Let the summer sun compose an entirely new melody.",
-        "fr": "Laissez le soleil d'été composer une toute nouvelle mélodie."
-      }
-    ],
-    "skill_hint": {
-      "icon": "assets/skills/1309_130902.png",
-      "name_en": "Pinion's Aria",
-      "name_fr": "Aria de la plume",
-      "type": "Skill"
-    },
-    "variant_of": "1309",
-    "outfit_name_en": "Summeretto",
-    "outfit_name_fr": "Estivaria"
   }
 ]

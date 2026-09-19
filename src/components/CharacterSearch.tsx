@@ -124,29 +124,10 @@ export const CharacterSearch: React.FC<CharacterSearchProps> = ({
               <img
                 src={char.avatar}
                 alt={isFr ? char.name_fr : char.name_en}
-                className={`search-item-avatar rarity-${char.rarity}`}
+                className="search-item-avatar"
                 loading="lazy"
               />
-              <div className="search-item-info">
-                <span className="search-item-name">{isFr ? char.name_fr : char.name_en}</span>
-                <div className="search-item-meta">
-                  <img
-                    src={char.element.icon}
-                    alt={isFr ? char.element.name_fr : char.element.name_en}
-                    className="search-mini-icon"
-                  />
-                  <span>{isFr ? char.element.name_fr : char.element.name_en}</span>
-                  <span>•</span>
-                  <img
-                    src={char.path.icon}
-                    alt={isFr ? char.path.name_fr : char.path.name_en}
-                    className="search-mini-icon"
-                  />
-                  <span>{isFr ? char.path.name_fr : char.path.name_en}</span>
-                  <span>•</span>
-                  <span>v{char.release_version}</span>
-                </div>
-              </div>
+              <span className="search-item-name">{isFr ? char.name_fr : char.name_en}</span>
             </div>
           ))}
         </div>

@@ -1,4 +1,26 @@
 {
+  "1321": {
+    "factions_en": ["The Cremators", "Annihilation Gang", "Ever-Flame Mansion", "Garden of Recollection (formerly)"],
+    "factions_fr": ["The Cremators", "Annihilation Gang", "Ever-Flame Mansion", "Garden of Recollection (anciennement)"],
+    "lore_paths": [
+      {"id": "warrior", "name_en": "Destruction", "name_fr": "La Destruction", "icon": "assets/paths/warrior.png"},
+      {"id": "memory", "name_en": "Remembrance", "name_fr": "Le Souvenir", "icon": "assets/paths/memory.png"}
+    ]
+  },
+  "1512": {
+    "factions_en": ["Penacony", "The Family", "Oak Family"],
+    "factions_fr": ["Penacony", "The Family", "Oak Family"],
+    "lore_paths": [
+      {"id": "shaman", "name_en": "Harmony", "name_fr": "L'Harmonie", "icon": "assets/paths/shaman.png"}
+    ]
+  },
+  "1513": {
+    "factions_en": ["Interastral Peace Corporation", "Strategic Investment Department", "Ten Stonehearts"],
+    "factions_fr": ["Interastral Peace Corporation", "Strategic Investment Department", "Ten Stonehearts"],
+    "lore_paths": [
+      {"id": "knight", "name_en": "Preservation", "name_fr": "La Préservation", "icon": "assets/paths/knight.png"}
+    ]
+  },
   "1001": {
     "factions_en": [
       "Astral Express",

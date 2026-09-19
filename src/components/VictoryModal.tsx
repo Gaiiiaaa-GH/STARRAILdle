@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import type { Character, ComparisonResult, GameMode, Language } from '../types';
-import { Share2, Check, RotateCcw } from 'lucide-react';
+import { Share2, Check, RotateCcw, ArrowRight } from 'lucide-react';
 import confetti from 'canvas-confetti';
 import { generateShareResult } from '../utils/gameLogic';
 import { soundManager } from '../utils/audio';
@@ -10,10 +10,11 @@ interface VictoryModalProps {
   target: Character;
   mode: GameMode;
   isDaily: boolean;
-  guesses: ComparisonResult[];
+  guesses: ComparisonResult[] | Character[];
   language: Language;
   onClose: () => void;
   onNextRound?: () => void;
+  onNextMode?: () => void;
 }
 
 export const VictoryModal: React.FC<VictoryModalProps> = ({
@@ -24,6 +25,7 @@ export const VictoryModal: React.FC<VictoryModalProps> = ({
   language,
   onClose,
   onNextRound,
+  onNextMode,
 }) => {
   const [copied, setCopied] = useState(false);
   const isFr = language === 'fr';
@@ -138,6 +140,17 @@ export const VictoryModal: React.FC<VictoryModalProps> = ({
               >
                 <RotateCcw size={14} />
                 <span>{isFr ? 'Rejouer' : 'Play Again'}</span>
+              </button>
+            )}
+
+            {isDaily && onNextMode && (
+              <button
+                className="action-btn active"
+                onClick={() => { onClose(); onNextMode(); }}
+                style={{ width: '100%', justifyContent: 'center' }}
+              >
+                <ArrowRight size={14} />
+                <span>{isFr ? 'Mode Suivant' : 'Next Mode'}</span>
               </button>
             )}
           </div>

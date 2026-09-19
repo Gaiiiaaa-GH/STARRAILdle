@@ -278,7 +278,7 @@ export function recordLoss(mode: GameMode): AllStats {
 export function generateShareResult(
   mode: GameMode,
   isDaily: boolean,
-  guesses: ComparisonResult[],
+  guesses: ComparisonResult[] | Character[],
   hasWon: boolean,
   lang: 'fr' | 'en'
 ): string {
@@ -294,7 +294,7 @@ export function generateShareResult(
   text += `${hasWon ? `Trouvé en ${guesses.length} essai${guesses.length > 1 ? 's' : ''}` : 'Non trouvé'}\n\n`;
 
   if (mode === 'classic') {
-    for (const g of guesses) {
+    for (const g of guesses as ComparisonResult[]) {
       const getMark = (status: MatchStatus) => (status === 'correct' ? 'O' : status === 'partial' ? '~' : 'X');
       const row = [
         getMark(g.gender.status),

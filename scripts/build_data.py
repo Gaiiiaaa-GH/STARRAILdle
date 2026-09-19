@@ -291,36 +291,18 @@ CHARACTER_METADATA = {
     "8001": {"version": "1.0", "gender": "Other", "world": "Astral Express", "factions": ["Astral Express", "Nameless", "Stellaron Receptacle"], "archetypes": ["Physical Blast", "Crit Hypercarry"], "quote_fr": "Les règles sont faites pour être brisées !", "quote_en": "Rules are made to be broken!"},
     "8003": {"version": "1.0", "gender": "Other", "world": "Astral Express", "factions": ["Astral Express", "Nameless", "Belobog Lance"], "archetypes": ["Team Shield", "Taunt", "Fire Damage Reduction"], "quote_fr": "Que la lance de la Préservation embrase nos ennemis !", "quote_en": "Lance ablaze! Flaming lance, forward!"},
     "8005": {"version": "2.2", "gender": "Other", "world": "Astral Express", "factions": ["Astral Express", "Nameless", "Clockie Friend", "Penacony Hat"], "archetypes": ["Super Break Enabler", "Break Effect Team Buff", "Imaginary Break"], "quote_fr": "Dansez avec moi sous le chapeau magique de l'Harmonie !", "quote_en": "Time for a show-stopping performance! Dance along!"},
-    "8007": {"version": "3.0", "gender": "Other", "world": "Astral Express", "factions": ["Astral Express", "Nameless", "Chrysos Journey"], "archetypes": ["Summon / Memosprite (Mem)", "Ice Remembrance", "Crit Buff"], "quote_fr": "Mem, voyageons ensemble à travers les mémoires !", "quote_en": "Mem, lend me your strength! Let's explore together!"}
-}
+    "8007": {"version": "3.0", "gender": "Other", "world": "Astral Express", "factions": ["Astral Express", "Nameless", "Chrysos Journey"], "archetypes": ["Summon / Memosprite (Mem)", "Ice Remembrance", "Crit Buff"], "quote_fr": "Mem, voyageons ensemble à travers les mémoires !", "quote_en": "Mem, lend me your strength! Let's explore together!"},
 
-# Outfit-variant characters: released as an alternate "SP" splash-art card that reuses the
-# base character's full combat identity (element/path/rarity/gender/world/factions/boss).
-# StarRailRes lists these under their own numeric ids (1512, 1513) but with bogus/placeholder
-# path & element fields (e.g. it lists Aventurine-Waveflair's path as "Elation", not her real
-# "Preservation") -- those raw rows are excluded above and rebuilt here from the base character.
-OUTFIT_VARIANTS = [
-    {
-        "variant_id": "1304_waveflair",
-        "base_id": "1304",
-        "raw_id": "1513",
-        "outfit_name_en": "Waveflair",
-        "outfit_name_fr": "Croisette",
-        "version": "4.5",
-        "quote_en": "Even on the hot sand, the house always wins.",
-        "quote_fr": "Même sur le sable chaud, la maison gagne toujours.",
-    },
-    {
-        "variant_id": "1309_summeretto",
-        "base_id": "1309",
-        "raw_id": "1512",
-        "outfit_name_en": "Summeretto",
-        "outfit_name_fr": "Estivaria",
-        "version": "4.5",
-        "quote_en": "Let the summer sun compose an entirely new melody.",
-        "quote_fr": "Laissez le soleil d'été composer une toute nouvelle mélodie.",
-    },
-]
+    # These three ship their own combat kit (own element/path/abilities), verified against
+    # the wiki -- not simple reskins of an existing character, despite the family resemblance
+    # in name. An earlier pass here wrongly assumed 1512/1513 were cosmetic-only "outfit"
+    # variants of Robin/Aventurine and force-copied the base character's element/path onto
+    # them, which was backwards: StarRailRes's Elation/Remembrance path values were correct
+    # all along, they just belong in `path` (combat), not `lore_paths`.
+    "1321": {"version": "3.8", "gender": "Female", "world": "Penacony", "factions": ["The Cremators", "Annihilation Gang", "Ever-Flame Mansion"], "archetypes": ["DoT / Nihility", "Debuff"], "quote_fr": "C'est moi. Je t'ai fait peur en... apparaissant sans un bruit ?", "quote_en": "It's me. Did I scare you with how I... popped up without a sound?"},
+    "1512": {"version": "4.5", "gender": "Female", "world": "Penacony", "factions": ["Penacony", "The Family", "Oak Family"], "archetypes": ["Harmony Support", "Team Buff"], "quote_fr": "Ravie de te revoir. Le temps est magnifique à Astropolis, et la brise humide est chargée d'un parfum de soleil... J'espère trouver l'inspiration pour une nouvelle mélodie. Ça te dirait de te promener sur la plage et d'écouter le chant des coquillages ?", "quote_en": "It's nice to see you again. The weather in Astropolis is wonderful, and the moist breeze is filled with the scent of sunshine... I'm hoping to gather inspiration for a new song. Would you like to take a stroll together on the beach and listen to the sounds of sea conchs?"},
+    "1513": {"version": "4.5", "gender": "Male", "world": "Sigonia", "factions": ["Interastral Peace Corporation", "Strategic Investment Department", "Ten Stonehearts"], "archetypes": ["Elation Support", "Team Buff"], "quote_fr": "Mes amis, nous voilà de nouveau réunis ! Je viens de terminer une séance photo sponsorisée, et laisse-moi te dire que garder le sourire devant l'objectif, ce n'est pas une mince affaire. Mais maintenant que je suis passé P46, je peux enfin prendre des vacances. Envie de te détendre en ma compagnie ? Je te garantis une escapade inoubliable.", "quote_en": "Friends, we meet again! I just wrapped up a sponsored shoot, and wow, keeping a smile plastered to my face for the camera is no easy feat. But now that I've been promoted to P46, I can finally go on vacation. Want to relax and enjoy your time with me? I guarantee you'll have an unforgettable getaway."},
+}
 
 # Download Element Icons
 print("Downloading Element icons...")
@@ -350,10 +332,8 @@ for bid, bmeta in BOSS_INFO.items():
 # Process Characters
 processed_characters = []
 
-# Exclude duplicate male/female Trailblazer IDs (we only keep the "playerboy" id per path form)
-# and the raw 1512/1513 outfit-variant rows, which carry bogus path/element data for the
-# base character (variant art/version handled separately below, via OUTFIT_VARIANTS).
-EXCLUDE_IDS = {"8002", "8004", "8006", "8008", "8010", "1321", "1512", "1513"}
+# Exclude duplicate male/female Trailblazer IDs (we only keep the "playerboy" id per path form).
+EXCLUDE_IDS = {"8002", "8004", "8006", "8008", "8010"}
 
 for cid in sorted(chars_en.keys(), key=lambda x: int(x)):
     if cid in EXCLUDE_IDS:
@@ -512,57 +492,6 @@ for cid in sorted(chars_en.keys(), key=lambda x: int(x)):
     }
     processed_characters.append(char_obj)
     print(f"Processed: {name_en} ({name_fr}) - {meta['version']} - Boss: {wb_info['boss_name_en']}")
-
-# Build outfit-variant entries (alternate splash-art cards that reuse a base character's kit)
-print("\nBuilding outfit-variant entries...")
-by_id = {c["id"]: c for c in processed_characters}
-for variant in OUTFIT_VARIANTS:
-    base = by_id.get(variant["base_id"])
-    if not base:
-        print(f"Skipped variant {variant['variant_id']}: base character {variant['base_id']} not found")
-        continue
-
-    raw_id = variant["raw_id"]
-    raw_en = chars_en.get(raw_id, {})
-    icon_rel = raw_en.get('icon')
-    avatar_path = f"assets/characters/{variant['variant_id']}.png"
-    if icon_rel:
-        download_file(icon_rel, os.path.join(PUBLIC_DIR, "characters", f"{variant['variant_id']}.png"))
-        print(f"  {variant['variant_id']}: using distinct outfit art from StarRailRes ({icon_rel})")
-    else:
-        avatar_path = base["avatar"]
-        print(f"  {variant['variant_id']}: NOTE - no distinct outfit art found in StarRailRes, reusing base character's avatar/portrait")
-
-    name_en = f"{base['name_en']} ({variant['outfit_name_en']})"
-    name_fr = f"{base['name_fr']} ({variant['outfit_name_fr']})"
-
-    variant_obj = {
-        "id": variant["variant_id"],
-        "name_en": name_en,
-        "name_fr": name_fr,
-        "tag": raw_en.get('tag', variant["variant_id"]),
-        "rarity": base["rarity"],
-        "gender": base["gender"],
-        "element": base["element"],
-        "path": base["path"],
-        "lore_paths": base["lore_paths"],
-        "release_version": variant["version"],
-        "world_en": base["world_en"],
-        "world_fr": base["world_fr"],
-        "factions_en": base["factions_en"],
-        "factions_fr": base["factions_fr"],
-        "archetypes_en": base["archetypes_en"],
-        "archetypes_fr": base["archetypes_fr"],
-        "weekly_boss": base["weekly_boss"],
-        "avatar": avatar_path,
-        "quotes": [{"en": variant["quote_en"], "fr": variant["quote_fr"]}],
-        "skill_hint": base["skill_hint"],
-        "variant_of": base["id"],
-        "outfit_name_en": variant["outfit_name_en"],
-        "outfit_name_fr": variant["outfit_name_fr"],
-    }
-    processed_characters.append(variant_obj)
-    print(f"Processed variant: {name_en} ({name_fr}) - {variant['version']}")
 
 # Save full JSON
 out_path = os.path.join(DATA_DIR, "characters.json")

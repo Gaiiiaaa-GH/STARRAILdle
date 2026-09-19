@@ -67,9 +67,6 @@ export interface Character {
   silhouette_focus?: { x: number; y: number };
   quotes: { en: string; fr: string }[];
   skill_hint: SkillHint;
-  variant_of?: string;
-  outfit_name_en?: string;
-  outfit_name_fr?: string;
 }
 
 export type MatchStatus = 'correct' | 'partial' | 'incorrect';
