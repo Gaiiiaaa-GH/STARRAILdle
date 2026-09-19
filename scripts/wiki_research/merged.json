@@ -1,0 +1,1827 @@
+{
+  "1001": {
+    "factions_en": [
+      "Astral Express",
+      "The Nameless",
+      "The Moles",
+      "Slumbernana Association (formerly)",
+      "Chrysos Heirs (demigod)",
+      "Pure Children of Anāsrava",
+      "Titans"
+    ],
+    "factions_fr": [
+      "Astral Express",
+      "Les Sans Noms",
+      "Les Taupes",
+      "Association Slumbernana (anciennement)",
+      "Héritiers Chrysos (demi-dieu)",
+      "Purs Enfants d'Anāsrava",
+      "Titans"
+    ],
+    "lore_paths": [
+      {
+        "id": "trailblaze",
+        "name_en": "Trailblaze",
+        "name_fr": "Le Pionnier"
+      },
+      {
+        "id": "remembrance",
+        "name_en": "Remembrance",
+        "name_fr": "Le Souvenir",
+        "icon": "assets/paths/memory.png"
+      },
+      {
+        "id": "enigmata",
+        "name_en": "Enigmata",
+        "name_fr": "L'Énigmatique"
+      }
+    ]
+  },
+  "1002": {
+    "factions_en": [
+      "Astral Express",
+      "The Nameless"
+    ],
+    "factions_fr": [
+      "Astral Express",
+      "Les Sans Noms"
+    ],
+    "lore_paths": [
+      {
+        "id": "trailblaze",
+        "name_en": "Trailblaze",
+        "name_fr": "Le Pionnier"
+      },
+      {
+        "id": "permanence",
+        "name_en": "Permanence",
+        "name_fr": "La Permanence"
+      }
+    ]
+  },
+  "1003": {
+    "factions_en": [
+      "Astral Express",
+      "The Nameless",
+      "Graphia Family",
+      "Dovebrook District (hometown)"
+    ],
+    "factions_fr": [
+      "Astral Express",
+      "Les Sans Noms",
+      "Famille Graphia",
+      "Quartier de Colombeaux (lieu de naissance)"
+    ],
+    "lore_paths": [
+      {
+        "id": "trailblaze",
+        "name_en": "Trailblaze",
+        "name_fr": "Le Pionnier"
+      }
+    ]
+  },
+  "1004": {
+    "factions_en": [
+      "Astral Express",
+      "The Nameless",
+      "Anti-Entropy (formerly)"
+    ],
+    "factions_fr": [
+      "Astral Express",
+      "Les Sans Noms",
+      "Anti-Entropy (anciennement)"
+    ],
+    "lore_paths": [
+      {
+        "id": "trailblaze",
+        "name_en": "Trailblaze",
+        "name_fr": "Le Pionnier"
+      }
+    ]
+  },
+  "1005": {
+    "factions_en": [
+      "Stellaron Hunters"
+    ],
+    "factions_fr": [
+      "Chasseurs de Stellaron"
+    ],
+    "lore_paths": [
+      {
+        "id": "finality",
+        "name_en": "Finality",
+        "name_fr": "La Finalité"
+      }
+    ]
+  },
+  "1006": {
+    "factions_en": [
+      "Stellaron Hunters"
+    ],
+    "factions_fr": [
+      "Chasseurs de Stellaron"
+    ],
+    "lore_paths": [
+      {
+        "id": "finality",
+        "name_en": "Finality",
+        "name_fr": "La Finalité"
+      },
+      {
+        "id": "elation",
+        "name_en": "Elation",
+        "name_fr": "L'Allégresse",
+        "icon": "assets/paths/elation.png"
+      }
+    ]
+  },
+  "1008": {
+    "factions_en": [
+      "Herta Space Station",
+      "Security Department"
+    ],
+    "factions_fr": [
+      "Station spatiale Herta",
+      "Département de la sécurité"
+    ],
+    "lore_paths": [
+      {
+        "id": "destruction",
+        "name_en": "Destruction",
+        "name_fr": "La Destruction",
+        "icon": "assets/paths/warrior.png"
+      }
+    ]
+  },
+  "1009": {
+    "factions_en": [
+      "Herta Space Station"
+    ],
+    "factions_fr": [
+      "Station spatiale Herta"
+    ],
+    "lore_paths": [
+      {
+        "id": "harmony",
+        "name_en": "Harmony",
+        "name_fr": "L'Harmonie",
+        "icon": "assets/paths/shaman.png"
+      }
+    ]
+  },
+  "1013": {
+    "factions_en": [
+      "Herta Space Station",
+      "Genius Society"
+    ],
+    "factions_fr": [
+      "Station spatiale Herta",
+      "Société des génies"
+    ],
+    "lore_paths": [
+      {
+        "id": "erudition",
+        "name_en": "Erudition",
+        "name_fr": "L'Érudition",
+        "icon": "assets/paths/mage.png"
+      }
+    ]
+  },
+  "1014": {
+    "factions_en": [
+      "Fate/stay night Collaboration"
+    ],
+    "factions_fr": [
+      "Collaboration Fate/stay night"
+    ],
+    "lore_paths": [
+      {
+        "id": "destruction",
+        "name_en": "Destruction",
+        "name_fr": "La Destruction",
+        "icon": "assets/paths/warrior.png"
+      }
+    ]
+  },
+  "1015": {
+    "factions_en": [
+      "Fate/stay night Collaboration"
+    ],
+    "factions_fr": [
+      "Collaboration Fate/stay night"
+    ],
+    "lore_paths": [
+      {
+        "id": "hunt",
+        "name_en": "The Hunt",
+        "name_fr": "La Chasse",
+        "icon": "assets/paths/rogue.png"
+      }
+    ]
+  },
+  "1101": {
+    "factions_en": [
+      "Belobog",
+      "Silvermane Guards",
+      "Supreme Guardian"
+    ],
+    "factions_fr": [
+      "Belobog",
+      "Gardes de la crinière d'argent",
+      "Gardienne suprême"
+    ],
+    "lore_paths": [
+      {
+        "id": "preservation",
+        "name_en": "Preservation",
+        "name_fr": "La Préservation",
+        "icon": "assets/paths/knight.png"
+      }
+    ]
+  },
+  "1102": {
+    "factions_en": [
+      "Belobog",
+      "Wildfire"
+    ],
+    "factions_fr": [
+      "Belobog",
+      "Feux sauvages"
+    ],
+    "lore_paths": [
+      {
+        "id": "hunt",
+        "name_en": "The Hunt",
+        "name_fr": "La Chasse",
+        "icon": "assets/paths/rogue.png"
+      }
+    ]
+  },
+  "1103": {
+    "factions_en": [
+      "Belobog",
+      "Landau Family",
+      "Mechanical Fever",
+      "Silvermane Guards (formerly)"
+    ],
+    "factions_fr": [
+      "Belobog",
+      "Famille Landau",
+      "Fièvre mécanique",
+      "Gardes de la crinière d'argent (anciennement)"
+    ],
+    "lore_paths": [
+      {
+        "id": "preservation",
+        "name_en": "Preservation",
+        "name_fr": "La Préservation",
+        "icon": "assets/paths/knight.png"
+      }
+    ]
+  },
+  "1104": {
+    "factions_en": [
+      "Belobog",
+      "Silvermane Guards",
+      "Landau Family"
+    ],
+    "factions_fr": [
+      "Belobog",
+      "Gardes de la crinière d'argent",
+      "Famille Landau"
+    ],
+    "lore_paths": [
+      {
+        "id": "preservation",
+        "name_en": "Preservation",
+        "name_fr": "La Préservation",
+        "icon": "assets/paths/knight.png"
+      }
+    ]
+  },
+  "1105": {
+    "factions_en": [
+      "Belobog",
+      "Wildfire (Leader)",
+      "Silvermane Guards (formerly)"
+    ],
+    "factions_fr": [
+      "Belobog",
+      "Feux sauvages (chef)",
+      "Gardes de la crinière d'argent (anciennement)"
+    ],
+    "lore_paths": [
+      {
+        "id": "abundance",
+        "name_en": "Abundance",
+        "name_fr": "L'Abondance",
+        "icon": "assets/paths/priest.png"
+      }
+    ]
+  },
+  "1106": {
+    "factions_en": [
+      "Belobog",
+      "Mechanical Fever",
+      "Silvermane Guards"
+    ],
+    "factions_fr": [
+      "Belobog",
+      "Fièvre mécanique",
+      "Gardes de la crinière d'argent"
+    ],
+    "lore_paths": [
+      {
+        "id": "preservation",
+        "name_en": "Preservation",
+        "name_fr": "La Préservation",
+        "icon": "assets/paths/knight.png"
+      }
+    ]
+  },
+  "1107": {
+    "factions_en": [
+      "Belobog",
+      "Svarog's Scavengers",
+      "The Moles (honorary member)"
+    ],
+    "factions_fr": [
+      "Belobog",
+      "Les Prospecteurs",
+      "Les Taupes (membre honoraire)"
+    ],
+    "lore_paths": [
+      {
+        "id": "destruction",
+        "name_en": "Destruction",
+        "name_fr": "La Destruction",
+        "icon": "assets/paths/warrior.png"
+      }
+    ]
+  },
+  "1108": {
+    "factions_en": [
+      "Belobog",
+      "Wildfire",
+      "Masked Fools"
+    ],
+    "factions_fr": [
+      "Belobog",
+      "Feux sauvages",
+      "Fous masqués"
+    ],
+    "lore_paths": [
+      {
+        "id": "elation",
+        "name_en": "Elation",
+        "name_fr": "L'Allégresse",
+        "icon": "assets/paths/elation.png"
+      }
+    ]
+  },
+  "1109": {
+    "factions_en": [
+      "Belobog",
+      "The Moles (Leader)"
+    ],
+    "factions_fr": [
+      "Belobog",
+      "Les Taupes (cheffe)"
+    ],
+    "lore_paths": [
+      {
+        "id": "destruction",
+        "name_en": "Destruction",
+        "name_fr": "La Destruction",
+        "icon": "assets/paths/warrior.png"
+      }
+    ]
+  },
+  "1110": {
+    "factions_en": [
+      "Belobog",
+      "Landau Family",
+      "Mechanical Fever"
+    ],
+    "factions_fr": [
+      "Belobog",
+      "Famille Landau",
+      "Fièvre mécanique"
+    ],
+    "lore_paths": [
+      {
+        "id": "abundance",
+        "name_en": "Abundance",
+        "name_fr": "L'Abondance",
+        "icon": "assets/paths/priest.png"
+      }
+    ]
+  },
+  "1111": {
+    "factions_en": [
+      "Belobog",
+      "Wildfire",
+      "The Moles"
+    ],
+    "factions_fr": [
+      "Belobog",
+      "Feux sauvages",
+      "Les Taupes"
+    ],
+    "lore_paths": [
+      {
+        "id": "nihility",
+        "name_en": "Nihility",
+        "name_fr": "La Nihilité",
+        "icon": "assets/paths/warlock.png"
+      }
+    ]
+  },
+  "1112": {
+    "factions_en": [
+      "Interastral Peace Corporation",
+      "Strategic Investment Department",
+      "Ten Stonehearts"
+    ],
+    "factions_fr": [
+      "Corporation pour la Paix Interastrale",
+      "Département des investissements stratégiques",
+      "Dix cœurs de pierre"
+    ],
+    "lore_paths": [
+      {
+        "id": "preservation",
+        "name_en": "Preservation",
+        "name_fr": "La Préservation",
+        "icon": "assets/paths/knight.png"
+      }
+    ]
+  },
+  "1201": {
+    "factions_en": [
+      "Xianzhou Luofu",
+      "Divination Commission"
+    ],
+    "factions_fr": [
+      "Luofu de Xianzhou",
+      "Commission de Divination"
+    ],
+    "lore_paths": [
+      {
+        "id": "erudition",
+        "name_en": "Erudition",
+        "name_fr": "L'Érudition",
+        "icon": "assets/paths/mage.png"
+      }
+    ]
+  },
+  "1202": {
+    "factions_en": [
+      "Xianzhou Luofu",
+      "Sky-Faring Commission",
+      "Whistling Flames Guild"
+    ],
+    "factions_fr": [
+      "Luofu de Xianzhou",
+      "Commission du Ciel",
+      "Guilde des Flammes Sifflantes"
+    ],
+    "lore_paths": [
+      {
+        "id": "harmony",
+        "name_en": "Harmony",
+        "name_fr": "L'Harmonie",
+        "icon": "assets/paths/shaman.png"
+      }
+    ]
+  },
+  "1203": {
+    "factions_en": [
+      "Xianzhou Luofu",
+      "Xianzhou Yuque (registered merchant)"
+    ],
+    "factions_fr": [
+      "Luofu de Xianzhou",
+      "Yuque de Xianzhou (marchand enregistré)"
+    ],
+    "lore_paths": [
+      {
+        "id": "abundance",
+        "name_en": "Abundance",
+        "name_fr": "L'Abondance",
+        "icon": "assets/paths/priest.png"
+      }
+    ]
+  },
+  "1204": {
+    "factions_en": [
+      "Xianzhou Luofu",
+      "Cloud Knights",
+      "Arbiter-Generals",
+      "Six Charioteers",
+      "High-Cloud Quintet (formerly)"
+    ],
+    "factions_fr": [
+      "Luofu de Xianzhou",
+      "Chevaliers des Nuages",
+      "Général Céleste",
+      "Six Auriges",
+      "Quintet de Haut-Nuage (anciennement)"
+    ],
+    "lore_paths": [
+      {
+        "id": "hunt",
+        "name_en": "The Hunt",
+        "name_fr": "La Chasse",
+        "icon": "assets/paths/rogue.png"
+      }
+    ]
+  },
+  "1205": {
+    "factions_en": [
+      "Stellaron Hunters",
+      "High-Cloud Quintet (formerly)"
+    ],
+    "factions_fr": [
+      "Chasseurs de Stellaron",
+      "Quintet de Haut-Nuage (anciennement)"
+    ],
+    "lore_paths": [
+      {
+        "id": "finality",
+        "name_en": "Finality",
+        "name_fr": "La Finalité"
+      },
+      {
+        "id": "abundance",
+        "name_en": "Abundance",
+        "name_fr": "L'Abondance",
+        "icon": "assets/paths/priest.png"
+      }
+    ]
+  },
+  "1206": {
+    "factions_en": [
+      "Xianzhou Luofu",
+      "Xianzhou Yaoqing (formerly)",
+      "Cloud Knights",
+      "Ghost-Hunting Squad"
+    ],
+    "factions_fr": [
+      "Luofu de Xianzhou",
+      "Yaoqing de Xianzhou (anciennement)",
+      "Chevaliers des Nuages",
+      "Escouade de Chasse aux Fantômes"
+    ],
+    "lore_paths": [
+      {
+        "id": "hunt",
+        "name_en": "The Hunt",
+        "name_fr": "La Chasse",
+        "icon": "assets/paths/rogue.png"
+      }
+    ]
+  },
+  "1207": {
+    "factions_en": [
+      "Xianzhou Luofu",
+      "Six Charioteers",
+      "Sky-Faring Commission (head)"
+    ],
+    "factions_fr": [
+      "Luofu de Xianzhou",
+      "Six Auriges",
+      "Commission du Ciel (tête)"
+    ],
+    "lore_paths": [
+      {
+        "id": "hunt",
+        "name_en": "The Hunt",
+        "name_fr": "La Chasse",
+        "icon": "assets/paths/rogue.png"
+      }
+    ]
+  },
+  "1208": {
+    "factions_en": [
+      "Xianzhou Luofu",
+      "Xianzhou Yuque (formerly)",
+      "Six Charioteers",
+      "Divination Commission (head)"
+    ],
+    "factions_fr": [
+      "Luofu de Xianzhou",
+      "Yuque de Xianzhou (anciennement)",
+      "Six Auriges",
+      "Commission de Divination (tête)"
+    ],
+    "lore_paths": [
+      {
+        "id": "hunt",
+        "name_en": "The Hunt",
+        "name_fr": "La Chasse",
+        "icon": "assets/paths/rogue.png"
+      },
+      {
+        "id": "erudition",
+        "name_en": "Erudition",
+        "name_fr": "L'Érudition",
+        "icon": "assets/paths/mage.png"
+      }
+    ]
+  },
+  "1209": {
+    "factions_en": [
+      "Xianzhou Luofu",
+      "Cloud Knights"
+    ],
+    "factions_fr": [
+      "Luofu de Xianzhou",
+      "Chevaliers des Nuages"
+    ],
+    "lore_paths": [
+      {
+        "id": "hunt",
+        "name_en": "The Hunt",
+        "name_fr": "La Chasse",
+        "icon": "assets/paths/rogue.png"
+      }
+    ]
+  },
+  "1210": {
+    "factions_en": [
+      "Xianzhou Luofu",
+      "Ghost-Hunting Squad"
+    ],
+    "factions_fr": [
+      "Luofu de Xianzhou",
+      "Escouade de Chasse aux Fantômes"
+    ],
+    "lore_paths": [
+      {
+        "id": "nihility",
+        "name_en": "Nihility",
+        "name_fr": "La Nihilité",
+        "icon": "assets/paths/warlock.png"
+      }
+    ]
+  },
+  "1211": {
+    "factions_en": [
+      "Xianzhou Luofu",
+      "Alchemy Commission",
+      "High Elders"
+    ],
+    "factions_fr": [
+      "Luofu de Xianzhou",
+      "Commission d'Alchimie",
+      "Grands Anciens"
+    ],
+    "lore_paths": [
+      {
+        "id": "permanence",
+        "name_en": "Permanence",
+        "name_fr": "La Permanence"
+      }
+    ]
+  },
+  "1212": {
+    "factions_en": [
+      "Xianzhou Luofu",
+      "Xianzhou Cangcheng (formerly)",
+      "Cloud Knights (formerly)",
+      "High-Cloud Quintet (formerly)"
+    ],
+    "factions_fr": [
+      "Luofu de Xianzhou",
+      "Cangcheng de Xianzhou (anciennement)",
+      "Chevaliers des Nuages (anciennement)",
+      "Quintet de Haut-Nuage (anciennement)"
+    ],
+    "lore_paths": [
+      {
+        "id": "hunt",
+        "name_en": "The Hunt",
+        "name_fr": "La Chasse",
+        "icon": "assets/paths/rogue.png"
+      }
+    ]
+  },
+  "1213": {
+    "factions_en": [
+      "Xianzhou Luofu",
+      "The Nameless",
+      "Astral Express"
+    ],
+    "factions_fr": [
+      "Luofu de Xianzhou",
+      "Les Sans-Noms",
+      "Astral Express"
+    ],
+    "lore_paths": [
+      {
+        "id": "trailblaze",
+        "name_en": "Trailblaze",
+        "name_fr": "Le Pionnier"
+      },
+      {
+        "id": "permanence",
+        "name_en": "Permanence",
+        "name_fr": "La Permanence"
+      }
+    ]
+  },
+  "1214": {
+    "factions_en": [
+      "Xianzhou Luofu",
+      "Ten-Lords Commission"
+    ],
+    "factions_fr": [
+      "Luofu de Xianzhou",
+      "Commission des Dix Seigneurs"
+    ],
+    "lore_paths": [
+      {
+        "id": "destruction",
+        "name_en": "Destruction",
+        "name_fr": "La Destruction",
+        "icon": "assets/paths/warrior.png"
+      }
+    ]
+  },
+  "1215": {
+    "factions_en": [
+      "Xianzhou Luofu",
+      "Ten-Lords Commission"
+    ],
+    "factions_fr": [
+      "Luofu de Xianzhou",
+      "Commission des Dix Seigneurs"
+    ],
+    "lore_paths": [
+      {
+        "id": "harmony",
+        "name_en": "Harmony",
+        "name_fr": "L'Harmonie",
+        "icon": "assets/paths/shaman.png"
+      }
+    ]
+  },
+  "1217": {
+    "factions_en": [
+      "Xianzhou Luofu",
+      "Ten-Lords Commission",
+      "Ghost-Hunting Squad"
+    ],
+    "factions_fr": [
+      "Luofu de Xianzhou",
+      "Commission des Dix Seigneurs",
+      "Escouade de Chasse aux Fantômes"
+    ],
+    "lore_paths": [
+      {
+        "id": "abundance",
+        "name_en": "Abundance",
+        "name_fr": "L'Abondance",
+        "icon": "assets/paths/priest.png"
+      }
+    ]
+  },
+  "1218": {
+    "factions_en": [
+      "Xianzhou Yaoqing",
+      "Alchemy Commission"
+    ],
+    "factions_fr": [
+      "Yaoqing de Xianzhou",
+      "Commission d'Alchimie"
+    ],
+    "lore_paths": [
+      {
+        "id": "nihility",
+        "name_en": "Nihility",
+        "name_fr": "La Nihilité",
+        "icon": "assets/paths/warlock.png"
+      }
+    ]
+  },
+  "1220": {
+    "factions_en": [
+      "Xianzhou Yaoqing",
+      "Six Charioteers",
+      "Cloud Knights",
+      "Verdant Knights",
+      "Arbiter-Generals",
+      "Eclipse Pack (formerly, enslaved)"
+    ],
+    "factions_fr": [
+      "Yaoqing de Xianzhou",
+      "Six Auriges",
+      "Chevaliers des Nuages",
+      "Chevaliers de Verdoyaume",
+      "Général Céleste",
+      "Meute de l'Éclipse (anciennement, esclave)"
+    ],
+    "lore_paths": [
+      {
+        "id": "hunt",
+        "name_en": "The Hunt",
+        "name_fr": "La Chasse",
+        "icon": "assets/paths/rogue.png"
+      },
+      {
+        "id": "abundance",
+        "name_en": "Abundance",
+        "name_fr": "L'Abondance",
+        "icon": "assets/paths/priest.png"
+      }
+    ]
+  },
+  "1221": {
+    "factions_en": [
+      "Xianzhou Zhuming",
+      "Cloud Knights",
+      "Flamewheel Octet",
+      "Artisanship Commission (apprentice)"
+    ],
+    "factions_fr": [
+      "Zhuming de Xianzhou",
+      "Chevaliers des Nuages",
+      "Octuor du Disque Enflammé",
+      "Commission de l'Artisanat (apprentie)"
+    ],
+    "lore_paths": [
+      {
+        "id": "hunt",
+        "name_en": "The Hunt",
+        "name_fr": "La Chasse",
+        "icon": "assets/paths/rogue.png"
+      }
+    ]
+  },
+  "1222": {
+    "factions_en": [
+      "Xianzhou Luofu",
+      "Six Charioteers",
+      "Alchemy Commission (head)"
+    ],
+    "factions_fr": [
+      "Luofu de Xianzhou",
+      "Six Auriges",
+      "Commission d'Alchimie (tête)"
+    ],
+    "lore_paths": [
+      {
+        "id": "hunt",
+        "name_en": "The Hunt",
+        "name_fr": "La Chasse",
+        "icon": "assets/paths/rogue.png"
+      },
+      {
+        "id": "permanence",
+        "name_en": "Permanence",
+        "name_fr": "La Permanence"
+      }
+    ]
+  },
+  "1223": {
+    "factions_en": [
+      "Xianzhou Yaoqing",
+      "Shadow Guard",
+      "Disciples of Sanctus Medicus (formerly)"
+    ],
+    "factions_fr": [
+      "Yaoqing de Xianzhou",
+      "Garde de l'Ombre",
+      "Disciples de Sanctus Medicus (anciennement)"
+    ],
+    "lore_paths": [
+      {
+        "id": "hunt",
+        "name_en": "The Hunt",
+        "name_fr": "La Chasse",
+        "icon": "assets/paths/rogue.png"
+      }
+    ]
+  },
+  "1224": {
+    "factions_en": [
+      "Astral Express",
+      "The Nameless",
+      "The Moles",
+      "Slumbernana Association (formerly)",
+      "Chrysos Heirs (demigod)",
+      "Pure Children of Anāsrava",
+      "Titans"
+    ],
+    "factions_fr": [
+      "Astral Express",
+      "Les Sans-Noms",
+      "Les Taupes",
+      "Association Somno-banane (anciennement)",
+      "Héritiers chryséens (demi-dieu)",
+      "Enfants purs de l'Anāsrava",
+      "Titans"
+    ],
+    "lore_paths": [
+      {
+        "id": "trailblaze",
+        "name_en": "Trailblaze",
+        "name_fr": "Le Pionnier"
+      },
+      {
+        "id": "remembrance",
+        "name_en": "Remembrance",
+        "name_fr": "Le Souvenir",
+        "icon": "assets/paths/memory.png"
+      },
+      {
+        "id": "enigmata",
+        "name_en": "Enigmata",
+        "name_fr": "L'Énigmatique"
+      }
+    ]
+  },
+  "1225": {
+    "factions_en": [
+      "Xianzhou Luofu",
+      "Sky-Faring Commission (formerly)",
+      "Whistling Flames Guild (formerly, chief representative)"
+    ],
+    "factions_fr": [
+      "Luofu de Xianzhou",
+      "Commission du Ciel (anciennement)",
+      "Guilde des Flammes Sifflantes (anciennement, représentante en chef)"
+    ],
+    "lore_paths": [
+      {
+        "id": "destruction",
+        "name_en": "Destruction",
+        "name_fr": "La Destruction",
+        "icon": "assets/paths/warrior.png"
+      }
+    ]
+  },
+  "1301": {
+    "factions_en": [
+      "Penacony",
+      "Bloodhound Family",
+      "History Fictionologists"
+    ],
+    "factions_fr": [
+      "Penacony",
+      "Bloodhound Family",
+      "History Fictionologists"
+    ],
+    "lore_paths": [
+      {
+        "id": "enigmata",
+        "name_en": "Enigmata",
+        "name_fr": "L'Énigmatique"
+      }
+    ]
+  },
+  "1302": {
+    "factions_en": [
+      "Knights of Beauty"
+    ],
+    "factions_fr": [
+      "Knights of Beauty"
+    ],
+    "lore_paths": [
+      {
+        "id": "beauty",
+        "name_en": "The Beauty",
+        "name_fr": "La Beauté"
+      }
+    ]
+  },
+  "1303": {
+    "factions_en": [
+      "Herta Space Station",
+      "Genius Society"
+    ],
+    "factions_fr": [
+      "Herta Space Station",
+      "Genius Society"
+    ],
+    "lore_paths": [
+      {
+        "id": "erudition",
+        "name_en": "Erudition",
+        "name_fr": "L'Érudition",
+        "icon": "assets/paths/mage.png"
+      }
+    ]
+  },
+  "1304": {
+    "factions_en": [
+      "Interastral Peace Corporation",
+      "Strategic Investment Department",
+      "Ten Stonehearts"
+    ],
+    "factions_fr": [
+      "Interastral Peace Corporation",
+      "Strategic Investment Department",
+      "Ten Stonehearts"
+    ],
+    "lore_paths": [
+      {
+        "id": "preservation",
+        "name_en": "Preservation",
+        "name_fr": "La Préservation",
+        "icon": "assets/paths/knight.png"
+      }
+    ]
+  },
+  "1305": {
+    "factions_en": [
+      "Intelligentsia Guild",
+      "Council of Mundanites",
+      "University of Veritas Prime"
+    ],
+    "factions_fr": [
+      "Intelligentsia Guild",
+      "Council of Mundanites",
+      "University of Veritas Prime"
+    ],
+    "lore_paths": [
+      {
+        "id": "erudition",
+        "name_en": "Erudition",
+        "name_fr": "L'Érudition",
+        "icon": "assets/paths/mage.png"
+      }
+    ]
+  },
+  "1306": {
+    "factions_en": [
+      "Masked Fools"
+    ],
+    "factions_fr": [
+      "Masked Fools"
+    ],
+    "lore_paths": [
+      {
+        "id": "harmony",
+        "name_en": "Harmony",
+        "name_fr": "L'Harmonie",
+        "icon": "assets/paths/shaman.png"
+      },
+      {
+        "id": "elation",
+        "name_en": "Elation",
+        "name_fr": "L'Allégresse",
+        "icon": "assets/paths/elation.png"
+      }
+    ]
+  },
+  "1307": {
+    "factions_en": [
+      "Garden of Recollection"
+    ],
+    "factions_fr": [
+      "Garden of Recollection"
+    ],
+    "lore_paths": [
+      {
+        "id": "remembrance",
+        "name_en": "Remembrance",
+        "name_fr": "Le Souvenir",
+        "icon": "assets/paths/memory.png"
+      }
+    ]
+  },
+  "1308": {
+    "factions_en": [
+      "Self-Annihilators",
+      "Galaxy Rangers"
+    ],
+    "factions_fr": [
+      "Self-Annihilators",
+      "Galaxy Rangers"
+    ],
+    "lore_paths": [
+      {
+        "id": "nihility",
+        "name_en": "Nihility",
+        "name_fr": "La Nihilité",
+        "icon": "assets/paths/warlock.png"
+      }
+    ]
+  },
+  "1309": {
+    "factions_en": [
+      "Penacony",
+      "The Family",
+      "Oak Family"
+    ],
+    "factions_fr": [
+      "Penacony",
+      "The Family",
+      "Oak Family"
+    ],
+    "lore_paths": [
+      {
+        "id": "harmony",
+        "name_en": "Harmony",
+        "name_fr": "L'Harmonie",
+        "icon": "assets/paths/shaman.png"
+      }
+    ]
+  },
+  "1310": {
+    "factions_en": [
+      "Stellaron Hunters",
+      "Iron Cavalry"
+    ],
+    "factions_fr": [
+      "Stellaron Hunters",
+      "Iron Cavalry"
+    ],
+    "lore_paths": [
+      {
+        "id": "finality",
+        "name_en": "Finality",
+        "name_fr": "La Finalité"
+      },
+      {
+        "id": "propagation",
+        "name_en": "Propagation",
+        "name_fr": "La Propagation"
+      }
+    ]
+  },
+  "1312": {
+    "factions_en": [
+      "Penacony",
+      "The Nameless"
+    ],
+    "factions_fr": [
+      "Penacony",
+      "The Nameless"
+    ],
+    "lore_paths": [
+      {
+        "id": "trailblaze",
+        "name_en": "Trailblaze",
+        "name_fr": "Le Pionnier"
+      }
+    ]
+  },
+  "1313": {
+    "factions_en": [
+      "Astral Express",
+      "The Nameless",
+      "Cosmos",
+      "Penacony",
+      "The Family",
+      "Oak Family"
+    ],
+    "factions_fr": [
+      "Astral Express",
+      "The Nameless",
+      "Cosmos",
+      "Penacony",
+      "The Family",
+      "Oak Family"
+    ],
+    "lore_paths": [
+      {
+        "id": "harmony",
+        "name_en": "Harmony",
+        "name_fr": "L'Harmonie",
+        "icon": "assets/paths/shaman.png"
+      },
+      {
+        "id": "order",
+        "name_en": "Order",
+        "name_fr": "L'Ordre"
+      },
+      {
+        "id": "trailblaze",
+        "name_en": "Trailblaze",
+        "name_fr": "Le Pionnier"
+      }
+    ]
+  },
+  "1314": {
+    "factions_en": [
+      "Interastral Peace Corporation",
+      "Strategic Investment Department",
+      "Ten Stonehearts"
+    ],
+    "factions_fr": [
+      "Interastral Peace Corporation",
+      "Strategic Investment Department",
+      "Ten Stonehearts"
+    ],
+    "lore_paths": [
+      {
+        "id": "preservation",
+        "name_en": "Preservation",
+        "name_fr": "La Préservation",
+        "icon": "assets/paths/knight.png"
+      }
+    ]
+  },
+  "1315": {
+    "factions_en": [
+      "Galaxy Rangers"
+    ],
+    "factions_fr": [
+      "Galaxy Rangers"
+    ],
+    "lore_paths": [
+      {
+        "id": "hunt",
+        "name_en": "The Hunt",
+        "name_fr": "La Chasse",
+        "icon": "assets/paths/rogue.png"
+      }
+    ]
+  },
+  "1317": {
+    "factions_en": [
+      "Galaxy Rangers"
+    ],
+    "factions_fr": [
+      "Galaxy Rangers"
+    ],
+    "lore_paths": [
+      {
+        "id": "hunt",
+        "name_en": "The Hunt",
+        "name_fr": "La Chasse",
+        "icon": "assets/paths/rogue.png"
+      }
+    ]
+  },
+  "1401": {
+    "factions_en": [
+      "Herta Space Station",
+      "Genius Society"
+    ],
+    "factions_fr": [
+      "Herta Space Station",
+      "Genius Society"
+    ],
+    "lore_paths": [
+      {
+        "id": "erudition",
+        "name_en": "Erudition",
+        "name_fr": "L'Érudition",
+        "icon": "assets/paths/mage.png"
+      }
+    ]
+  },
+  "1402": {
+    "factions_en": [
+      "Amphoreus",
+      "Chrysos Heirs",
+      "Okhema",
+      "Titans"
+    ],
+    "factions_fr": [
+      "Amphoreus",
+      "Chrysos Heirs",
+      "Okhema",
+      "Titans"
+    ],
+    "lore_paths": [
+      {
+        "id": "destruction",
+        "name_en": "Destruction",
+        "name_fr": "La Destruction",
+        "icon": "assets/paths/warrior.png"
+      },
+      {
+        "id": "beauty",
+        "name_en": "The Beauty",
+        "name_fr": "La Beauté"
+      }
+    ]
+  },
+  "1403": {
+    "factions_en": [
+      "Amphoreus",
+      "Chrysos Heirs",
+      "Janusopolis",
+      "Okhema",
+      "Titans"
+    ],
+    "factions_fr": [
+      "Amphoreus",
+      "Chrysos Heirs",
+      "Janusopolis",
+      "Okhema",
+      "Titans"
+    ],
+    "lore_paths": [
+      {
+        "id": "destruction",
+        "name_en": "Destruction",
+        "name_fr": "La Destruction",
+        "icon": "assets/paths/warrior.png"
+      },
+      {
+        "id": "harmony",
+        "name_en": "Harmony",
+        "name_fr": "L'Harmonie",
+        "icon": "assets/paths/shaman.png"
+      }
+    ]
+  },
+  "1404": {
+    "factions_en": [
+      "Amphoreus",
+      "Chrysos Heirs",
+      "Castrum Kremnos",
+      "Kremnoan Detachment",
+      "Kremnoan Dynasty",
+      "Okhema",
+      "Titans"
+    ],
+    "factions_fr": [
+      "Amphoreus",
+      "Chrysos Heirs",
+      "Castrum Kremnos",
+      "Kremnoan Detachment",
+      "Kremnoan Dynasty",
+      "Okhema",
+      "Titans"
+    ],
+    "lore_paths": [
+      {
+        "id": "destruction",
+        "name_en": "Destruction",
+        "name_fr": "La Destruction",
+        "icon": "assets/paths/warrior.png"
+      },
+      {
+        "id": "hunt",
+        "name_en": "The Hunt",
+        "name_fr": "La Chasse",
+        "icon": "assets/paths/rogue.png"
+      }
+    ]
+  },
+  "1405": {
+    "factions_en": [
+      "Chrysos Heirs",
+      "Grove of Epiphany",
+      "Nousporists",
+      "Venerationists (formerly)",
+      "Seven Sages"
+    ],
+    "factions_fr": [
+      "Chrysos Heirs",
+      "Grove of Epiphany",
+      "Nousporists",
+      "Venerationists (formerly)",
+      "Seven Sages"
+    ],
+    "lore_paths": [
+      {
+        "id": "destruction",
+        "name_en": "Destruction",
+        "name_fr": "La Destruction",
+        "icon": "assets/paths/warrior.png"
+      },
+      {
+        "id": "erudition",
+        "name_en": "Erudition",
+        "name_fr": "L'Érudition",
+        "icon": "assets/paths/mage.png"
+      }
+    ]
+  },
+  "1406": {
+    "factions_en": [
+      "Chrysos Heirs",
+      "Dolos",
+      "Okhema",
+      "Three Hundred Rogues of Dolos"
+    ],
+    "factions_fr": [
+      "Chrysos Heirs",
+      "Dolos",
+      "Okhema",
+      "Three Hundred Rogues of Dolos"
+    ],
+    "lore_paths": [
+      {
+        "id": "destruction",
+        "name_en": "Destruction",
+        "name_fr": "La Destruction",
+        "icon": "assets/paths/warrior.png"
+      },
+      {
+        "id": "elation",
+        "name_en": "Elation",
+        "name_fr": "L'Allégresse",
+        "icon": "assets/paths/elation.png"
+      }
+    ]
+  },
+  "1407": {
+    "factions_en": [
+      "Chrysos Heirs",
+      "Styxia",
+      "Aidonia (formerly)",
+      "Okhema",
+      "Grove of Epiphany",
+      "Nousporists"
+    ],
+    "factions_fr": [
+      "Chrysos Heirs",
+      "Styxia",
+      "Aidonia (formerly)",
+      "Okhema",
+      "Grove of Epiphany",
+      "Nousporists"
+    ],
+    "lore_paths": [
+      {
+        "id": "destruction",
+        "name_en": "Destruction",
+        "name_fr": "La Destruction",
+        "icon": "assets/paths/warrior.png"
+      },
+      {
+        "id": "equilibrium",
+        "name_en": "Equilibrium",
+        "name_fr": "L'Équilibre"
+      }
+    ]
+  },
+  "1408": {
+    "factions_en": [
+      "Chrysos Heirs",
+      "Aedes Elysiae",
+      "Okhema",
+      "Grove of Epiphany",
+      "Nousporists"
+    ],
+    "factions_fr": [
+      "Chrysos Heirs",
+      "Aedes Elysiae",
+      "Okhema",
+      "Grove of Epiphany",
+      "Nousporists"
+    ],
+    "lore_paths": [
+      {
+        "id": "destruction",
+        "name_en": "Destruction",
+        "name_fr": "La Destruction",
+        "icon": "assets/paths/warrior.png"
+      },
+      {
+        "id": "trailblaze",
+        "name_en": "Trailblaze",
+        "name_fr": "Le Pionnier"
+      }
+    ]
+  },
+  "1409": {
+    "factions_en": [
+      "Chrysos Heirs",
+      "Twilight Courtyard",
+      "Grove of Epiphany",
+      "Nousporists",
+      "Okhema"
+    ],
+    "factions_fr": [
+      "Chrysos Heirs",
+      "Twilight Courtyard",
+      "Grove of Epiphany",
+      "Nousporists",
+      "Okhema"
+    ],
+    "lore_paths": [
+      {
+        "id": "destruction",
+        "name_en": "Destruction",
+        "name_fr": "La Destruction",
+        "icon": "assets/paths/warrior.png"
+      },
+      {
+        "id": "preservation",
+        "name_en": "Preservation",
+        "name_fr": "La Préservation",
+        "icon": "assets/paths/knight.png"
+      }
+    ]
+  },
+  "1410": {
+    "factions_en": [
+      "Chrysos Heirs",
+      "Titankin",
+      "Styxia",
+      "Okhema",
+      "The Five Gourmet Overlords"
+    ],
+    "factions_fr": [
+      "Chrysos Heirs",
+      "Titankin",
+      "Styxia",
+      "Okhema",
+      "The Five Gourmet Overlords"
+    ],
+    "lore_paths": [
+      {
+        "id": "destruction",
+        "name_en": "Destruction",
+        "name_fr": "La Destruction",
+        "icon": "assets/paths/warrior.png"
+      },
+      {
+        "id": "nihility",
+        "name_en": "Nihility",
+        "name_fr": "La Nihilité",
+        "icon": "assets/paths/warlock.png"
+      }
+    ]
+  },
+  "1412": {
+    "factions_en": [
+      "Chrysos Heirs",
+      "Okhema",
+      "Hyperborea"
+    ],
+    "factions_fr": [
+      "Chrysos Heirs",
+      "Okhema",
+      "Hyperborea"
+    ],
+    "lore_paths": [
+      {
+        "id": "destruction",
+        "name_en": "Destruction",
+        "name_fr": "La Destruction",
+        "icon": "assets/paths/warrior.png"
+      },
+      {
+        "id": "order",
+        "name_en": "Order",
+        "name_fr": "L'Ordre"
+      }
+    ]
+  },
+  "1413": {
+    "factions_en": [
+      "Chrysos Heirs",
+      "Pure Children of Anāsrava"
+    ],
+    "factions_fr": [
+      "Chrysos Heirs",
+      "Pure Children of Anāsrava"
+    ],
+    "lore_paths": [
+      {
+        "id": "remembrance",
+        "name_en": "Remembrance",
+        "name_fr": "Le Souvenir",
+        "icon": "assets/paths/memory.png"
+      },
+      {
+        "id": "enigmata",
+        "name_en": "Enigmata",
+        "name_fr": "L'Énigmatique"
+      }
+    ]
+  },
+  "1414": {
+    "factions_en": [
+      "Chrysos Heirs",
+      "Astral Express",
+      "The Nameless"
+    ],
+    "factions_fr": [
+      "Chrysos Heirs",
+      "Astral Express",
+      "The Nameless"
+    ],
+    "lore_paths": [
+      {
+        "id": "trailblaze",
+        "name_en": "Trailblaze",
+        "name_fr": "Le Pionnier"
+      },
+      {
+        "id": "permanence",
+        "name_en": "Permanence",
+        "name_fr": "La Permanence"
+      }
+    ]
+  },
+  "1415": {
+    "factions_en": [
+      "Chrysos Heirs (formerly)",
+      "Aedes Elysiae",
+      "Janusopolis",
+      "Pure Children of Anāsrava"
+    ],
+    "factions_fr": [
+      "Chrysos Heirs (formerly)",
+      "Aedes Elysiae",
+      "Janusopolis",
+      "Pure Children of Anāsrava"
+    ],
+    "lore_paths": [
+      {
+        "id": "remembrance",
+        "name_en": "Remembrance",
+        "name_fr": "Le Souvenir",
+        "icon": "assets/paths/memory.png"
+      },
+      {
+        "id": "destruction",
+        "name_en": "Destruction",
+        "name_fr": "La Destruction",
+        "icon": "assets/paths/warrior.png"
+      }
+    ]
+  },
+  "1501": {
+    "factions_en": [
+      "Masked Fools"
+    ],
+    "factions_fr": [
+      "Masked Fools"
+    ],
+    "lore_paths": [
+      {
+        "id": "elation",
+        "name_en": "Elation",
+        "name_fr": "L'Allégresse",
+        "icon": "assets/paths/elation.png"
+      }
+    ]
+  },
+  "1502": {
+    "factions_en": [
+      "Six Charioteers",
+      "Cloud Knights",
+      "Arbiter-Generals"
+    ],
+    "factions_fr": [
+      "Six Charioteers",
+      "Cloud Knights",
+      "Arbiter-Generals"
+    ],
+    "lore_paths": [
+      {
+        "id": "hunt",
+        "name_en": "The Hunt",
+        "name_fr": "La Chasse",
+        "icon": "assets/paths/rogue.png"
+      }
+    ]
+  },
+  "1504": {
+    "factions_en": [
+      "Galaxy Rangers",
+      "Ashen Detective Agency"
+    ],
+    "factions_fr": [
+      "Galaxy Rangers",
+      "Ashen Detective Agency"
+    ],
+    "lore_paths": [
+      {
+        "id": "hunt",
+        "name_en": "The Hunt",
+        "name_fr": "La Chasse",
+        "icon": "assets/paths/rogue.png"
+      },
+      {
+        "id": "voracity",
+        "name_en": "Voracity",
+        "name_fr": "La Voracité"
+      }
+    ]
+  },
+  "1505": {
+    "factions_en": [
+      "Elixir Seekers (formerly)"
+    ],
+    "factions_fr": [
+      "Elixir Seekers (formerly)"
+    ],
+    "lore_paths": [
+      {
+        "id": "abundance",
+        "name_en": "Abundance",
+        "name_fr": "L'Abondance",
+        "icon": "assets/paths/priest.png"
+      },
+      {
+        "id": "elation",
+        "name_en": "Elation",
+        "name_fr": "L'Allégresse",
+        "icon": "assets/paths/elation.png"
+      }
+    ]
+  },
+  "1506": {
+    "factions_en": [
+      "Stellaron Hunters"
+    ],
+    "factions_fr": [
+      "Stellaron Hunters"
+    ],
+    "lore_paths": [
+      {
+        "id": "finality",
+        "name_en": "Finality",
+        "name_fr": "La Finalité"
+      },
+      {
+        "id": "elation",
+        "name_en": "Elation",
+        "name_fr": "L'Allégresse",
+        "icon": "assets/paths/elation.png"
+      }
+    ]
+  },
+  "1507": {
+    "factions_en": [
+      "Stellaron Hunters",
+      "High-Cloud Quintet (formerly)"
+    ],
+    "factions_fr": [
+      "Stellaron Hunters",
+      "High-Cloud Quintet (formerly)"
+    ],
+    "lore_paths": [
+      {
+        "id": "finality",
+        "name_en": "Finality",
+        "name_fr": "La Finalité"
+      },
+      {
+        "id": "abundance",
+        "name_en": "Abundance",
+        "name_fr": "L'Abondance",
+        "icon": "assets/paths/priest.png"
+      }
+    ]
+  },
+  "1508": {
+    "factions_en": [
+      "Fate/stay night Collaboration",
+      "Tohsaka Family"
+    ],
+    "factions_fr": [
+      "Fate/stay night Collaboration",
+      "Tohsaka Family"
+    ],
+    "lore_paths": [
+      {
+        "id": "erudition",
+        "name_en": "Erudition",
+        "name_fr": "L'Érudition",
+        "icon": "assets/paths/mage.png"
+      }
+    ]
+  },
+  "1509": {
+    "factions_en": [
+      "Fate/stay night Collaboration"
+    ],
+    "factions_fr": [
+      "Fate/stay night Collaboration"
+    ],
+    "lore_paths": [
+      {
+        "id": "destruction",
+        "name_en": "Destruction",
+        "name_fr": "La Destruction",
+        "icon": "assets/paths/warrior.png"
+      }
+    ]
+  },
+  "1510": {
+    "factions_en": [
+      "Astral Express",
+      "The Nameless",
+      "Graphia Family",
+      "Dovebrook District"
+    ],
+    "factions_fr": [
+      "Astral Express",
+      "The Nameless",
+      "Graphia Family",
+      "Dovebrook District"
+    ],
+    "lore_paths": [
+      {
+        "id": "trailblaze",
+        "name_en": "Trailblaze",
+        "name_fr": "Le Pionnier"
+      }
+    ]
+  }
+}

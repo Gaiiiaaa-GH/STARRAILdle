@@ -1,0 +1,213 @@
+{
+  "1001": {
+    "factions_en": ["Astral Express", "The Nameless", "The Moles", "Slumbernana Association (formerly)", "Chrysos Heirs (demigod)", "Pure Children of Anāsrava", "Titans"],
+    "factions_fr": ["Astral Express", "Les Sans Noms", "Les Taupes", "Association Slumbernana (anciennement)", "Héritiers Chrysos (demi-dieu)", "Purs Enfants d'Anāsrava", "Titans"],
+    "lore_paths": [
+      { "id": "trailblaze", "name_en": "Trailblaze", "name_fr": "Le Pionnier" },
+      { "id": "remembrance", "name_en": "Remembrance", "name_fr": "Le Souvenir" },
+      { "id": "enigmata", "name_en": "Enigmata", "name_fr": "L'Énigme" }
+    ],
+    "source_url": "https://honkai-star-rail.fandom.com/wiki/March_7th",
+    "notes": "Re-fetched raw infobox wikitext directly via API. Infobox has THREE pathlore fields (pathlore/pathlore2/pathlore3): Trailblaze (Pathstrider, shared Astral Express tag), Remembrance (cited: 'special Emanator of Remembrance'), and Enigmata (citation-only, obscure/uncanonical term tied to the Data Bank entry 'Pure Child of Anāsrava — Remembrance'; not an official Aeon Path, so 'L'Énigme' is our own FR translation, not a wiki-confirmed term). Corrected from prior batch which only kept Remembrance as primary. Faction list also expanded: infobox actually lists 7 entries (faction..faction7), previously only 5 were captured - added 'Titans' (faction7, tagged only with a Coreflame-Time icon, no text note) and corrected 'Pure Child of Anāsrava' to plural 'Pure Children of Anāsrava' (actual infobox wording)."
+  },
+  "1002": {
+    "factions_en": ["Astral Express", "The Nameless"],
+    "factions_fr": ["Astral Express", "Les Sans Noms"],
+    "lore_paths": [
+      { "id": "trailblaze", "name_en": "Trailblaze", "name_fr": "Le Pionnier" },
+      { "id": "permanence", "name_en": "Permanence", "name_fr": "La Permanence" }
+    ],
+    "source_url": "https://honkai-star-rail.fandom.com/wiki/Dan_Heng",
+    "notes": "Infobox confirms both pathlore (Trailblaze) and pathlore2 (Permanence) - both kept per updated instructions. Faction list re-checked against raw infobox: only faction/faction2 fields exist (Astral Express, The Nameless); 'The Xianzhou Luofu' is a world2 field (home world), not a faction, correctly excluded."
+  },
+  "1003": {
+    "factions_en": ["Astral Express", "The Nameless", "Graphia Family", "Dovebrook District (hometown)"],
+    "factions_fr": ["Astral Express", "Les Sans Noms", "Famille Graphia", "Quartier de Colombeaux (lieu de naissance)"],
+    "lore_paths": [
+      { "id": "trailblaze", "name_en": "Trailblaze", "name_fr": "Le Pionnier" }
+    ],
+    "source_url": "https://honkai-star-rail.fandom.com/wiki/Himeko",
+    "notes": "Only one pathlore field in the infobox (Trailblaze, Pathstrider tag). Faction list re-checked and unchanged from prior batch (faction..faction4 all confirmed present in raw wikitext)."
+  },
+  "1004": {
+    "factions_en": ["Astral Express", "The Nameless", "Anti-Entropy (formerly)"],
+    "factions_fr": ["Astral Express", "Les Sans Noms", "Anti-Entropy (anciennement)"],
+    "lore_paths": [
+      { "id": "trailblaze", "name_en": "Trailblaze", "name_fr": "Le Pionnier" }
+    ],
+    "source_url": "https://honkai-star-rail.fandom.com/wiki/Welt",
+    "notes": "Only one pathlore field in the infobox (Trailblaze). Faction list re-checked and unchanged (faction..faction3 confirmed); 'Earth' is a world2 field (Honkai Impact 3rd home world), not a faction, correctly excluded."
+  },
+  "1005": {
+    "factions_en": ["Stellaron Hunters"],
+    "factions_fr": ["Chasseurs de Stellaron"],
+    "lore_paths": [
+      { "id": "finality", "name_en": "Finality", "name_fr": "La Finalité" }
+    ],
+    "source_url": "https://honkai-star-rail.fandom.com/wiki/Kafka",
+    "notes": "Only one pathlore field (Finality). Infobox has only a single faction field (Stellaron Hunters); no sub-affiliation beyond it is listed anywhere in the infobox, and it does not duplicate her 'world' field (Pteruges-V), so nothing to deepen."
+  },
+  "1006": {
+    "factions_en": ["Stellaron Hunters"],
+    "factions_fr": ["Chasseurs de Stellaron"],
+    "lore_paths": [
+      { "id": "finality", "name_en": "Finality", "name_fr": "La Finalité" },
+      { "id": "elation", "name_en": "Elation", "name_fr": "L'Allégresse" }
+    ],
+    "source_url": "https://honkai-star-rail.fandom.com/wiki/Silver_Wolf",
+    "notes": "Infobox confirms BOTH pathlore (Finality) and pathlore2 (Elation) - previously only Elation was kept as the chosen primary, now both included per updated instructions. Faction list unchanged (single field, Stellaron Hunters; does not duplicate her distinct 'world' field Punklorde)."
+  },
+  "1008": {
+    "factions_en": ["Herta Space Station", "Security Department"],
+    "factions_fr": ["Station spatiale Herta", "Département de la sécurité"],
+    "lore_paths": [
+      { "id": "destruction", "name_en": "Destruction", "name_fr": "La Destruction" }
+    ],
+    "source_url": "https://honkai-star-rail.fandom.com/wiki/Arlan",
+    "notes": "No pathlore field at all in the infobox - array holds the combat Path (Destruction) as the sole documented entry. Infobox 'faction' field itself only lists 'Herta Space Station', which duplicates his 'world' field - the only more specific sub-affiliation ('security department') comes from body prose ('He is the head of Herta Space Station's security department'), not a separate infobox faction field. Kept it since it is real and distinguishing, but flagging it is prose-sourced, not an infobox faction/faction2 entry."
+  },
+  "1009": {
+    "factions_en": ["Herta Space Station"],
+    "factions_fr": ["Station spatiale Herta"],
+    "lore_paths": [
+      { "id": "harmony", "name_en": "Harmony", "name_fr": "L'Harmonie" }
+    ],
+    "source_url": "https://honkai-star-rail.fandom.com/wiki/Asta",
+    "notes": "No pathlore field in the infobox - array holds combat Path (Harmony) as sole entry. Infobox 'faction' field only lists 'Herta Space Station' (duplicates 'world'); re-checked body prose too - she is described only by the role 'lead astronomer', with no named department/sub-org given anywhere on the page, so nothing further to add (not fabricated)."
+  },
+  "1013": {
+    "factions_en": ["Herta Space Station", "Genius Society"],
+    "factions_fr": ["Station spatiale Herta", "Société des génies"],
+    "lore_paths": [
+      { "id": "erudition", "name_en": "Erudition", "name_fr": "L'Érudition" }
+    ],
+    "source_url": "https://honkai-star-rail.fandom.com/wiki/Herta",
+    "notes": "Infobox explicitly lists pathlore = Erudition, same as her combat Path. Faction list already had the specific sub-affiliation (Genius Society) beyond the world-level Herta Space Station entry - confirmed unchanged."
+  },
+  "1014": {
+    "factions_en": ["Fate/stay night Collaboration"],
+    "factions_fr": ["Collaboration Fate/stay night"],
+    "lore_paths": [
+      { "id": "destruction", "name_en": "Destruction", "name_fr": "La Destruction" }
+    ],
+    "source_url": "https://honkai-star-rail.fandom.com/wiki/Saber",
+    "notes": "Infobox 'pathlore' field exists but is blank - no distinct lore path documented, array holds combat Path (Destruction) as sole entry. Faction/World infobox fields are both the generic collab catch-all 'Another World'; kept as 'Fate/stay night Collaboration' for clarity, consistent with prior batch."
+  },
+  "1015": {
+    "factions_en": ["Fate/stay night Collaboration"],
+    "factions_fr": ["Collaboration Fate/stay night"],
+    "lore_paths": [
+      { "id": "hunt", "name_en": "The Hunt", "name_fr": "La Chasse" }
+    ],
+    "source_url": "https://honkai-star-rail.fandom.com/wiki/Archer",
+    "notes": "Infobox 'pathlore' field exists but is blank - no distinct lore path documented, array holds combat Path (The Hunt) as sole entry. Same 'Another World' generic tag situation as Saber (1014); kept as 'Fate/stay night Collaboration'."
+  },
+  "1101": {
+    "factions_en": ["Belobog", "Silvermane Guards", "Supreme Guardian"],
+    "factions_fr": ["Belobog", "Gardes de la crinière d'argent", "Gardienne suprême"],
+    "lore_paths": [
+      { "id": "preservation", "name_en": "Preservation", "name_fr": "La Préservation" }
+    ],
+    "source_url": "https://honkai-star-rail.fandom.com/wiki/Bronya",
+    "notes": "Infobox pathlore = Preservation, distinct from her combat Path (Harmony). Faction list re-checked: EN infobox does not tag Silvermane Guards as formerly for Bronya (she is its commander and current Supreme Guardian) - kept as current, matching raw wikitext exactly."
+  },
+  "1102": {
+    "factions_en": ["Belobog", "Wildfire"],
+    "factions_fr": ["Belobog", "Feux sauvages"],
+    "lore_paths": [
+      { "id": "hunt", "name_en": "The Hunt", "name_fr": "La Chasse" }
+    ],
+    "source_url": "https://honkai-star-rail.fandom.com/wiki/Seele",
+    "notes": "No pathlore field in the infobox - array holds combat Path (The Hunt) as sole entry. Faction list unchanged (Belobog, Wildfire)."
+  },
+  "1103": {
+    "factions_en": ["Belobog", "Landau Family", "Mechanical Fever", "Silvermane Guards (formerly)"],
+    "factions_fr": ["Belobog", "Famille Landau", "Fièvre mécanique", "Gardes de la crinière d'argent (anciennement)"],
+    "lore_paths": [
+      { "id": "preservation", "name_en": "Preservation", "name_fr": "La Préservation" }
+    ],
+    "source_url": "https://honkai-star-rail.fandom.com/wiki/Serval",
+    "notes": "Infobox confirms pathlore = Preservation directly (distinct from combat Path Erudition). Faction list unchanged (faction..faction4 confirmed in raw wikitext, including Silvermane Guards tagged 'formerly')."
+  },
+  "1104": {
+    "factions_en": ["Belobog", "Silvermane Guards", "Landau Family"],
+    "factions_fr": ["Belobog", "Gardes de la crinière d'argent", "Famille Landau"],
+    "lore_paths": [
+      { "id": "preservation", "name_en": "Preservation", "name_fr": "La Préservation" }
+    ],
+    "source_url": "https://honkai-star-rail.fandom.com/wiki/Gepard",
+    "notes": "Infobox pathlore = Preservation, explicitly same as his combat Path. Faction list unchanged."
+  },
+  "1105": {
+    "factions_en": ["Belobog", "Wildfire (Leader)", "Silvermane Guards (formerly)"],
+    "factions_fr": ["Belobog", "Feux sauvages (chef)", "Gardes de la crinière d'argent (anciennement)"],
+    "lore_paths": [
+      { "id": "abundance", "name_en": "Abundance", "name_fr": "L'Abondance" }
+    ],
+    "source_url": "https://honkai-star-rail.fandom.com/wiki/Natasha",
+    "notes": "No pathlore field in the infobox - array holds combat Path (Abundance) as sole entry. Faction list unchanged."
+  },
+  "1106": {
+    "factions_en": ["Belobog", "Mechanical Fever", "Silvermane Guards"],
+    "factions_fr": ["Belobog", "Fièvre mécanique", "Gardes de la crinière d'argent"],
+    "lore_paths": [
+      { "id": "preservation", "name_en": "Preservation", "name_fr": "La Préservation" }
+    ],
+    "source_url": "https://honkai-star-rail.fandom.com/wiki/Pela",
+    "notes": "Infobox pathlore = Preservation confirmed directly in raw wikitext (previously only medium-high confidence from a partial fetch; now fully confirmed, distinct from combat Path Nihility). Faction list unchanged."
+  },
+  "1107": {
+    "factions_en": ["Belobog", "Svarog's Scavengers", "The Moles (honorary member)"],
+    "factions_fr": ["Belobog", "Les Prospecteurs", "Les Taupes (membre honoraire)"],
+    "lore_paths": [
+      { "id": "destruction", "name_en": "Destruction", "name_fr": "La Destruction" }
+    ],
+    "source_url": "https://honkai-star-rail.fandom.com/wiki/Clara",
+    "notes": "No pathlore field in the infobox - array holds combat Path (Destruction) as sole entry. Faction list unchanged."
+  },
+  "1108": {
+    "factions_en": ["Belobog", "Wildfire", "Masked Fools"],
+    "factions_fr": ["Belobog", "Feux sauvages", "Fous masqués"],
+    "lore_paths": [
+      { "id": "elation", "name_en": "Elation", "name_fr": "L'Allégresse" }
+    ],
+    "source_url": "https://honkai-star-rail.fandom.com/wiki/Sampo",
+    "notes": "Infobox pathlore = Elation confirmed directly (distinct from combat Path Nihility). Faction list unchanged."
+  },
+  "1109": {
+    "factions_en": ["Belobog", "The Moles (Leader)"],
+    "factions_fr": ["Belobog", "Les Taupes (cheffe)"],
+    "lore_paths": [
+      { "id": "destruction", "name_en": "Destruction", "name_fr": "La Destruction" }
+    ],
+    "source_url": "https://honkai-star-rail.fandom.com/wiki/Hook",
+    "notes": "No pathlore field in the infobox - array holds combat Path (Destruction) as sole entry. Faction list unchanged."
+  },
+  "1110": {
+    "factions_en": ["Belobog", "Landau Family", "Mechanical Fever"],
+    "factions_fr": ["Belobog", "Famille Landau", "Fièvre mécanique"],
+    "lore_paths": [
+      { "id": "abundance", "name_en": "Abundance", "name_fr": "L'Abondance" }
+    ],
+    "source_url": "https://honkai-star-rail.fandom.com/wiki/Lynx",
+    "notes": "No pathlore field in the infobox - array holds combat Path (Abundance) as sole entry. Faction list unchanged."
+  },
+  "1111": {
+    "factions_en": ["Belobog", "Wildfire", "The Moles"],
+    "factions_fr": ["Belobog", "Feux sauvages", "Les Taupes"],
+    "lore_paths": [
+      { "id": "nihility", "name_en": "Nihility", "name_fr": "La Nihilité" }
+    ],
+    "source_url": "https://honkai-star-rail.fandom.com/wiki/Luka",
+    "notes": "No pathlore field in the infobox - array holds combat Path (Nihility) as sole entry. Faction list unchanged."
+  },
+  "1112": {
+    "factions_en": ["Interastral Peace Corporation", "Strategic Investment Department", "Ten Stonehearts"],
+    "factions_fr": ["Corporation pour la Paix Interastrale", "Département des investissements stratégiques", "Dix cœurs de pierre"],
+    "lore_paths": [
+      { "id": "preservation", "name_en": "Preservation", "name_fr": "La Préservation" }
+    ],
+    "source_url": "https://honkai-star-rail.fandom.com/wiki/Topaz_%26_Numby",
+    "notes": "Infobox pathlore = Preservation confirmed directly, distinct from combat Path (The Hunt). Faction list unchanged (faction/faction2/faction3 confirmed in raw wikitext; infobox 'world' field is actually blank for this character). No FR wiki page exists for 'Topaz & Numby' - FR faction terms retained from Aventurine's FR wiki page (shared IPC/Strategic Investment Department/Ten Stonehearts affiliation), medium-high confidence."
+  }
+}

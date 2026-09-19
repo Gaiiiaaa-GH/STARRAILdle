@@ -1,0 +1,180 @@
+{
+  "1301": {
+    "factions_en": ["Penacony", "Bloodhound Family", "History Fictionologists"],
+    "factions_fr": ["Penacony", "Bloodhound Family", "History Fictionologists"],
+    "lore_paths": [
+      { "id": "enigmata", "name_en": "Enigmata", "name_fr": "L'Énigmatique" }
+    ],
+    "source_url": "https://honkai-star-rail.fandom.com/wiki/Gallagher",
+    "notes": "Combat path is Abundance. Infobox has a single pathlore field: pathlore=Enigmata, pathNote=Pathstrider, cited to his own quote in mission 'The Public Enemy': \"I'm a follower of the Enigmata. My philosophy forbids me to have faith in anything.\" No pathlore2 exists on the infobox. Faction list unchanged from prior pass (Penacony, Bloodhound Family, History Fictionologists) -- re-verified against raw wikitext, all three are real faction/faction2/faction3 fields."
+  },
+  "1302": {
+    "factions_en": ["Knights of Beauty"],
+    "factions_fr": ["Knights of Beauty"],
+    "lore_paths": [
+      { "id": "beauty", "name_en": "The Beauty", "name_fr": "La Beauté" }
+    ],
+    "source_url": "https://honkai-star-rail.fandom.com/wiki/Argenti",
+    "notes": "Combat path is Erudition. Infobox has a single pathlore field: pathlore=Beauty, no pathRef citation given in the infobox itself, but well-established in-story (his title is 'Knight of Beauty', faction Knights of Beauty are devotees of the Beauty Aeon Idrila). No pathlore2 exists. Only one faction on the infobox (Knights of Beauty); world field is empty so this is not a world-duplicate. 'beauty' id/fr not in the canonical translation list -- kept 'The Beauty' / 'La Beauté' for consistency with the rest of the dataset."
+  },
+  "1303": {
+    "factions_en": ["Herta Space Station", "Genius Society"],
+    "factions_fr": ["Herta Space Station", "Genius Society"],
+    "lore_paths": [
+      { "id": "erudition", "name_en": "Erudition", "name_fr": "L'Érudition" }
+    ],
+    "source_url": "https://honkai-star-rail.fandom.com/wiki/Ruan_Mei",
+    "notes": "Combat path is Harmony. Infobox has a single pathlore field: pathlore=Erudition, no pathRef citation given (no pathlore2 exists). Faction list re-verified: faction=Herta Space Station, faction2=Genius Society, both real infobox fields."
+  },
+  "1304": {
+    "factions_en": ["Interastral Peace Corporation", "Strategic Investment Department", "Ten Stonehearts"],
+    "factions_fr": ["Interastral Peace Corporation", "Strategic Investment Department", "Ten Stonehearts"],
+    "lore_paths": [
+      { "id": "preservation", "name_en": "Preservation", "name_fr": "La Préservation" }
+    ],
+    "source_url": "https://honkai-star-rail.fandom.com/wiki/Aventurine",
+    "notes": "Combat path is Preservation. Infobox has a single pathlore field: pathlore=Preservation (same as combat), pathNote=Pathstrider, cited to Dreamscape Pass 'Stars of Morning and Night'. No pathlore2 exists. Faction list re-verified: faction/faction2/faction3 all real infobox fields, world field is 'Sigonia-IV' (home world) which is separate and not duplicated in the faction list."
+  },
+  "1305": {
+    "factions_en": ["Intelligentsia Guild", "Council of Mundanites", "University of Veritas Prime"],
+    "factions_fr": ["Intelligentsia Guild", "Council of Mundanites", "University of Veritas Prime"],
+    "lore_paths": [
+      { "id": "erudition", "name_en": "Erudition", "name_fr": "L'Érudition" }
+    ],
+    "source_url": "https://honkai-star-rail.fandom.com/wiki/Dr._Ratio",
+    "notes": "Combat path is The Hunt. Infobox has a single pathlore field: pathlore=Erudition, pathNote='implied Pathstrider', pathRef cites Black Swan's general 'all the Pathstriders' line from 'Everything that Rises Must Converge' (not Erudition-specific). No pathlore2 exists. Faction list re-verified: all three are real infobox fields (faction/faction2/faction3); world field empty."
+  },
+  "1306": {
+    "factions_en": ["Masked Fools"],
+    "factions_fr": ["Masked Fools"],
+    "lore_paths": [
+      { "id": "harmony", "name_en": "Harmony", "name_fr": "L'Harmonie" },
+      { "id": "elation", "name_en": "Elation", "name_fr": "L'Allégresse" }
+    ],
+    "source_url": "https://honkai-star-rail.fandom.com/wiki/Sparkle",
+    "notes": "Combat path is Harmony. Re-fetched raw infobox: it literally contains only ONE pathlore field (pathlore=Elation, pathNote='implied Pathstrider', pathRef cites Black Swan's general Pathstriders-gathered line) -- there is no pathlore2 field for Harmony in the wikitext itself. Per explicit user confirmation (Harmony = her combat path, and thematically confirmed alongside Elation), both are kept in the lore_paths array: Harmony listed first (matching her combat path), Elation second (the infobox's distinct pathlore value). Faction list unchanged (Masked Fools only, already specific, not a world-duplicate -- world field is empty)."
+  },
+  "1307": {
+    "factions_en": ["Garden of Recollection"],
+    "factions_fr": ["Garden of Recollection"],
+    "lore_paths": [
+      { "id": "remembrance", "name_en": "Remembrance", "name_fr": "Le Souvenir" }
+    ],
+    "source_url": "https://honkai-star-rail.fandom.com/wiki/Black_Swan",
+    "notes": "Combat path is Nihility. Infobox has a single pathlore field: pathlore=Remembrance, pathNote=Pathstrider, cited to mission 'Phantasmoon, the Merciful Queen'. No pathlore2 exists (faction2 field is present but blank). Only one real faction (Garden of Recollection); world field empty."
+  },
+  "1308": {
+    "factions_en": ["Self-Annihilators", "Galaxy Rangers"],
+    "factions_fr": ["Self-Annihilators", "Galaxy Rangers"],
+    "lore_paths": [
+      { "id": "nihility", "name_en": "Nihility", "name_fr": "La Nihilité" }
+    ],
+    "source_url": "https://honkai-star-rail.fandom.com/wiki/Acheron",
+    "notes": "Combat path is Nihility. Infobox has a single pathlore field: pathlore=Nihility (same as combat), pathNote='Emanator and Pathstrider', cited to her own quote in 'A Walk Among the Tombstones' plus 'The Devil in Velvet'. No pathlore2 exists. Faction list re-verified: Self-Annihilators (faction) and Galaxy Rangers (faction2, flagged 'self-proclaimed' with a note that she's only categorized under it prior to a certain mission); world field is 'Izumo' (home world), not duplicated in factions."
+  },
+  "1309": {
+    "factions_en": ["Penacony", "The Family", "Oak Family"],
+    "factions_fr": ["Penacony", "The Family", "Oak Family"],
+    "lore_paths": [
+      { "id": "harmony", "name_en": "Harmony", "name_fr": "L'Harmonie" }
+    ],
+    "source_url": "https://honkai-star-rail.fandom.com/wiki/Robin",
+    "notes": "Combat path is Harmony. Infobox has a single pathlore field: pathlore=Harmony (same as combat), pathNote=Pathstrider, cited to Dreamscape Pass 'Stars of Morning and Night' and Sunday's line in 'Beauty and Destruction'. No pathlore2 exists. Faction list re-verified: Penacony, The Family, Oak Family (factionNote3='head') all real infobox fields."
+  },
+  "1310": {
+    "factions_en": ["Stellaron Hunters", "Iron Cavalry"],
+    "factions_fr": ["Stellaron Hunters", "Iron Cavalry"],
+    "lore_paths": [
+      { "id": "finality", "name_en": "Finality", "name_fr": "La Finalité" },
+      { "id": "propagation", "name_en": "Propagation", "name_fr": "La Propagation" }
+    ],
+    "source_url": "https://honkai-star-rail.fandom.com/wiki/Firefly",
+    "notes": "Combat path is Destruction (a third value, not a pathlore field, not included). Infobox documents TWO pathlore fields in this order: pathlore=Finality (cited to Jade's quote in 'Soldier's Pay' -- \"Traveling on the Path of Finality but struggling against your destiny\" -- plus 'Night Veil, Shroud the Silent Past'); pathlore2=Propagation, pathNote2=Pathstrider, cited to 'The Dream Split in Two'. Previously only Propagation was kept as the 'primary' pick; both are now kept in infobox field order (pathlore before pathlore2) per updated instructions. Faction list re-verified: Stellaron Hunters, Iron Cavalry (factionNote2='formerly')."
+  },
+  "1312": {
+    "factions_en": ["Penacony", "The Nameless"],
+    "factions_fr": ["Penacony", "The Nameless"],
+    "lore_paths": [
+      { "id": "trailblaze", "name_en": "Trailblaze", "name_fr": "Le Pionnier" }
+    ],
+    "source_url": "https://honkai-star-rail.fandom.com/wiki/Misha",
+    "notes": "Combat path is Destruction. Infobox has a single pathlore field: pathlore=Trailblaze, no pathRef citation given (lowest-confidence lore-path entry in this batch -- no supporting quote on the page). No pathlore2 exists. Faction list re-verified: Penacony, The Nameless. fr name updated to canonical 'Le Pionnier' (previously left untranslated as 'Trailblaze')."
+  },
+  "1313": {
+    "factions_en": ["Astral Express", "The Nameless", "Cosmos", "Penacony", "The Family", "Oak Family"],
+    "factions_fr": ["Astral Express", "The Nameless", "Cosmos", "Penacony", "The Family", "Oak Family"],
+    "lore_paths": [
+      { "id": "harmony", "name_en": "Harmony", "name_fr": "L'Harmonie" },
+      { "id": "order", "name_en": "Order", "name_fr": "L'Ordre" },
+      { "id": "trailblaze", "name_en": "Trailblaze", "name_fr": "Le Pionnier" }
+    ],
+    "source_url": "https://honkai-star-rail.fandom.com/wiki/Sunday",
+    "notes": "Combat path is Harmony. Infobox documents THREE pathlore fields, all now kept in field order: pathlore=Harmony (same as combat; pathNote='Pathstrider, temporary Emanator', cited to a YouTube reveal and mission 'Omen in the Trees'); pathlore2=Order (pathNote2='former Pathstrider', cited to mission 'Seabiscuit'); pathlore3=Trailblaze (pathNote3='Nameless', cited to his open-world dialogue). Faction list re-verified as 6 entries: Astral Express (current), The Nameless (current), Cosmos/Penacony/The Family (all 'formerly'), Oak Family ('former head') -- matches prior pass, no changes needed."
+  },
+  "1314": {
+    "factions_en": ["Interastral Peace Corporation", "Strategic Investment Department", "Ten Stonehearts"],
+    "factions_fr": ["Interastral Peace Corporation", "Strategic Investment Department", "Ten Stonehearts"],
+    "lore_paths": [
+      { "id": "preservation", "name_en": "Preservation", "name_fr": "La Préservation" }
+    ],
+    "source_url": "https://honkai-star-rail.fandom.com/wiki/Jade",
+    "notes": "Combat path is Erudition. Infobox has a single pathlore field: pathlore=Preservation, no pathRef citation given. No pathlore2 exists. Faction list re-verified: three real infobox fields (IPC, Strategic Investment Department, Ten Stonehearts); world field empty."
+  },
+  "1315": {
+    "factions_en": ["Galaxy Rangers"],
+    "factions_fr": ["Galaxy Rangers"],
+    "lore_paths": [
+      { "id": "hunt", "name_en": "The Hunt", "name_fr": "La Chasse" }
+    ],
+    "source_url": "https://honkai-star-rail.fandom.com/wiki/Boothill",
+    "notes": "Combat path is The Hunt. Infobox has a single pathlore field: pathlore=The Hunt (same as combat), no distinct citation. No pathlore2 exists. Only one faction (Galaxy Rangers), already specific; world field is 'Aeragan-Epharshel' (home world), not duplicated."
+  },
+  "1317": {
+    "factions_en": ["Galaxy Rangers"],
+    "factions_fr": ["Galaxy Rangers"],
+    "lore_paths": [
+      { "id": "hunt", "name_en": "The Hunt", "name_fr": "La Chasse" }
+    ],
+    "source_url": "https://honkai-star-rail.fandom.com/wiki/Rappa",
+    "notes": "Combat path is Erudition. Infobox has a single pathlore field: pathlore=The Hunt, no pathRef citation given, though consistent with her Hunt-aligned faction (Galaxy Rangers, shared with Boothill). No pathlore2 exists. Only one faction (Galaxy Rangers); world field empty."
+  },
+  "1401": {
+    "factions_en": ["Herta Space Station", "Genius Society"],
+    "factions_fr": ["Herta Space Station", "Genius Society"],
+    "lore_paths": [
+      { "id": "erudition", "name_en": "Erudition", "name_fr": "L'Érudition" }
+    ],
+    "source_url": "https://honkai-star-rail.fandom.com/wiki/The_Herta",
+    "notes": "Combat path is Erudition. Infobox has a single pathlore field: pathlore=Erudition (same as combat), pathNote='Emanator and Pathstrider', cited to missions 'Chaos In the Deep' and 'The Witch's Ardent Research'. No pathlore2 exists. Faction list re-verified: Herta Space Station, Genius Society; world field also lists 'Herta Space Station' plus 'The Blue' (home world) -- the faction list is not a bare world duplicate since Genius Society adds specificity."
+  },
+  "1402": {
+    "factions_en": ["Amphoreus", "Chrysos Heirs", "Okhema", "Titans"],
+    "factions_fr": ["Amphoreus", "Chrysos Heirs", "Okhema", "Titans"],
+    "lore_paths": [
+      { "id": "destruction", "name_en": "Destruction", "name_fr": "La Destruction" },
+      { "id": "beauty", "name_en": "The Beauty", "name_fr": "La Beauté" }
+    ],
+    "source_url": "https://honkai-star-rail.fandom.com/wiki/Aglaea",
+    "notes": "Combat path is Remembrance. Infobox documents TWO pathlore fields, both now kept in field order: pathlore=Destruction (shared Chrysos Heirs/golden-blood lore, cited to Lygus's quote in 'Hero, Shatter That Woeful Effigy' calling their bloodline 'fuel for the Aeon [of Destruction]' -- shared by all Chrysos Heirs in this batch, not personal to Aglaea); pathlore2=Beauty, pathNote2='simulated Path', cited to her KaLos618 'As I've Written' profile (her individual persona-Path, tied to titles 'Weaver of Romance'/'Chrysalis of Gold'). Previously only Beauty was kept as 'primary'; Destruction is now restored per updated instructions. Faction list unchanged: Amphoreus (also the 'world' field value, but faction2/3/4 add real specificity -- Chrysos Heirs [demigod], Okhema, Titans)."
+  },
+  "1403": {
+    "factions_en": ["Amphoreus", "Chrysos Heirs", "Janusopolis", "Okhema", "Titans"],
+    "factions_fr": ["Amphoreus", "Chrysos Heirs", "Janusopolis", "Okhema", "Titans"],
+    "lore_paths": [
+      { "id": "destruction", "name_en": "Destruction", "name_fr": "La Destruction" },
+      { "id": "harmony", "name_en": "Harmony", "name_fr": "L'Harmonie" }
+    ],
+    "source_url": "https://honkai-star-rail.fandom.com/wiki/Tribbie",
+    "notes": "Combat path is Harmony. Infobox documents TWO pathlore fields, both now kept in field order: pathlore=Destruction (shared Chrysos Heirs golden-blood lore, cited to the same Lygus quote in 'Hero, Shatter That Woeful Effigy'); pathlore2=Harmony, pathNote2='simulated Path', cited to her HapLotes405 'As I've Written' profile (her individual persona-Path, which happens to equal her own combat path). Previously only Destruction was kept as 'primary' (since Harmony duplicated her combat path); Harmony is now restored per updated instructions. Faction list unchanged: Amphoreus, Chrysos Heirs (demigod), Janusopolis (hometown), Okhema, Titans -- already deepened beyond the bare world name."
+  },
+  "1404": {
+    "factions_en": ["Amphoreus", "Chrysos Heirs", "Castrum Kremnos", "Kremnoan Detachment", "Kremnoan Dynasty", "Okhema", "Titans"],
+    "factions_fr": ["Amphoreus", "Chrysos Heirs", "Castrum Kremnos", "Kremnoan Detachment", "Kremnoan Dynasty", "Okhema", "Titans"],
+    "lore_paths": [
+      { "id": "destruction", "name_en": "Destruction", "name_fr": "La Destruction" },
+      { "id": "hunt", "name_en": "The Hunt", "name_fr": "La Chasse" }
+    ],
+    "source_url": "https://honkai-star-rail.fandom.com/wiki/Mydei",
+    "notes": "Combat path is Destruction. Infobox documents TWO pathlore fields, both now kept in field order: pathlore=Destruction (same as combat; shared Chrysos Heirs golden-blood lore, cited to the same Lygus quote -- he is literally 'The Blemished One', the central Destruction figure); pathlore2=The Hunt, pathNote2='simulated Path', cited to his PoleMos600 'As I've Written' profile (his individual persona-Path, genuinely distinct from Destruction). Previously only The Hunt was kept as 'primary'; Destruction is now restored per updated instructions. FACTION CORRECTION: re-fetched infobox shows a faction5='Kremnoan Dynasty' field (factionNote5='formerly', cited to mission 'Throne, End Those Long Years Forlorn') that was missing from the prior batch3.json -- added it between Kremnoan Detachment and Okhema."
+  }
+}

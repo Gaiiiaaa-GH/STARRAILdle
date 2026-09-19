@@ -1,0 +1,216 @@
+{
+  "1201": {
+    "factions_en": ["Xianzhou Luofu", "Divination Commission"],
+    "factions_fr": ["Luofu de Xianzhou", "Commission de Divination"],
+    "lore_paths": [
+      { "id": "erudition", "name_en": "Erudition", "name_fr": "L'Érudition" }
+    ],
+    "source_url": "https://honkai-star-rail.fandom.com/wiki/Qingque",
+    "notes": "Re-fetched infobox wikitext: no pathlore field documented; combat Path (Erudition) reused as the sole lore path. Faction list (faction/faction2) unchanged from prior research."
+  },
+  "1202": {
+    "factions_en": ["Xianzhou Luofu", "Sky-Faring Commission", "Whistling Flames Guild"],
+    "factions_fr": ["Luofu de Xianzhou", "Commission du Ciel", "Guilde des Flammes Sifflantes"],
+    "lore_paths": [
+      { "id": "harmony", "name_en": "Harmony", "name_fr": "L'Harmonie" }
+    ],
+    "source_url": "https://honkai-star-rail.fandom.com/wiki/Tingyun",
+    "notes": "No pathlore field documented; combat Path (Harmony) reused. 'Whistling Flames Guild' comes from the infobox's factionNote2 attached to the Sky-Faring Commission entry (faction2), not a separate faction field, but names a real distinct guild so it is kept as its own entry. Not listed on the current FR wiki page, so its FR term remains our own translation (fallback)."
+  },
+  "1203": {
+    "factions_en": ["Xianzhou Luofu", "Xianzhou Yuque (registered merchant)"],
+    "factions_fr": ["Luofu de Xianzhou", "Yuque de Xianzhou (marchand enregistré)"],
+    "lore_paths": [
+      { "id": "abundance", "name_en": "Abundance", "name_fr": "L'Abondance" }
+    ],
+    "source_url": "https://honkai-star-rail.fandom.com/wiki/Luocha",
+    "notes": "Infobox pathlore=Abundance, matching combat Path — explicitly documented rather than defaulted. Faction list (faction/faction2, factionNote2='registered merchant') unchanged from prior research."
+  },
+  "1204": {
+    "factions_en": ["Xianzhou Luofu", "Cloud Knights", "Arbiter-Generals", "Six Charioteers", "High-Cloud Quintet (formerly)"],
+    "factions_fr": ["Luofu de Xianzhou", "Chevaliers des Nuages", "Général Céleste", "Six Auriges", "Quintet de Haut-Nuage (anciennement)"],
+    "lore_paths": [
+      { "id": "hunt", "name_en": "The Hunt", "name_fr": "La Chasse" }
+    ],
+    "source_url": "https://honkai-star-rail.fandom.com/wiki/Jing_Yuan",
+    "notes": "Infobox pathlore=The Hunt, pathNote=Emanator; combat Path is Erudition so distinct. Faction list re-confirmed against the infobox; faction2='Xianzhou Alliance' is the broad Xianzhou civilization tier (duplicates the world/species-level identity, not a distinguishing sub-affiliation) and is intentionally excluded, consistent with prior research."
+  },
+  "1205": {
+    "factions_en": ["Stellaron Hunters", "High-Cloud Quintet (formerly)"],
+    "factions_fr": ["Chasseurs de Stellaron", "Quintet de Haut-Nuage (anciennement)"],
+    "lore_paths": [
+      { "id": "finality", "name_en": "Finality", "name_fr": "La Finalité" },
+      { "id": "abundance", "name_en": "Abundance", "name_fr": "L'Abondance" }
+    ],
+    "source_url": "https://honkai-star-rail.fandom.com/wiki/Blade",
+    "notes": "Infobox documents TWO pathlore entries in order: pathlore=Finality (sourced to Jade's line about Blade 'struggling against your destiny') and pathlore2=Abundance (pathNote2: 'assimilated with the flesh of Shuhu'). Both are now kept per updated guidance (previously only Finality was recorded as primary). Combat Path is Destruction, so both differ from it. 'Finality' is a personal/poetic path term specific to Blade, not one of the 14 standard Aeon-Paths."
+  },
+  "1206": {
+    "factions_en": ["Xianzhou Luofu", "Xianzhou Yaoqing (formerly)", "Cloud Knights", "Ghost-Hunting Squad"],
+    "factions_fr": ["Luofu de Xianzhou", "Yaoqing de Xianzhou (anciennement)", "Chevaliers des Nuages", "Escouade de Chasse aux Fantômes"],
+    "lore_paths": [
+      { "id": "hunt", "name_en": "The Hunt", "name_fr": "La Chasse" }
+    ],
+    "source_url": "https://honkai-star-rail.fandom.com/wiki/Sushang",
+    "notes": "Infobox pathlore=The Hunt, matching combat Path — explicitly confirmed. Faction list corrected: infobox faction5='Ghost-Hunting Squad' was missing from the prior research pass and has been added."
+  },
+  "1207": {
+    "factions_en": ["Xianzhou Luofu", "Six Charioteers", "Sky-Faring Commission (head)"],
+    "factions_fr": ["Luofu de Xianzhou", "Six Auriges", "Commission du Ciel (tête)"],
+    "lore_paths": [
+      { "id": "hunt", "name_en": "The Hunt", "name_fr": "La Chasse" }
+    ],
+    "source_url": "https://honkai-star-rail.fandom.com/wiki/Yukong",
+    "notes": "Infobox pathlore=The Hunt (no source ref given), reflecting the general Xianzhou Cloud Knights/Hunt-derived martial tradition. Combat Path is Harmony, so distinct. Faction list unchanged (factionNote4 confirms 'head of the Luofu' Sky-Faring Commission)."
+  },
+  "1208": {
+    "factions_en": ["Xianzhou Luofu", "Xianzhou Yuque (formerly)", "Six Charioteers", "Divination Commission (head)"],
+    "factions_fr": ["Luofu de Xianzhou", "Yuque de Xianzhou (anciennement)", "Six Auriges", "Commission de Divination (tête)"],
+    "lore_paths": [
+      { "id": "hunt", "name_en": "The Hunt", "name_fr": "La Chasse" },
+      { "id": "erudition", "name_en": "Erudition", "name_fr": "L'Érudition" }
+    ],
+    "source_url": "https://honkai-star-rail.fandom.com/wiki/Fu_Xuan",
+    "notes": "Infobox documents TWO pathlore entries in order: pathlore=The Hunt (unsourced) and pathlore2=Erudition (pathNote2: 'blessed by Nous', her Third Eye clairvoyance). Both are now kept per updated guidance (previously only Erudition was chosen as primary). Combat Path is Preservation, so both differ. Faction list corrected: infobox faction2='Xianzhou Yuque' (factionNote2='formerly') was missing from the prior research pass and has been added."
+  },
+  "1209": {
+    "factions_en": ["Xianzhou Luofu", "Cloud Knights"],
+    "factions_fr": ["Luofu de Xianzhou", "Chevaliers des Nuages"],
+    "lore_paths": [
+      { "id": "hunt", "name_en": "The Hunt", "name_fr": "La Chasse" }
+    ],
+    "source_url": "https://honkai-star-rail.fandom.com/wiki/Yanqing",
+    "notes": "Infobox pathlore=The Hunt, matching combat Path — explicitly confirmed. Faction list unchanged."
+  },
+  "1210": {
+    "factions_en": ["Xianzhou Luofu", "Ghost-Hunting Squad"],
+    "factions_fr": ["Luofu de Xianzhou", "Escouade de Chasse aux Fantômes"],
+    "lore_paths": [
+      { "id": "nihility", "name_en": "Nihility", "name_fr": "La Nihilité" }
+    ],
+    "source_url": "https://honkai-star-rail.fandom.com/wiki/Guinaifen",
+    "notes": "No pathlore field documented; combat Path (Nihility) reused. Faction list unchanged (world3='Court Camelot' is a world field, not a faction, so not included)."
+  },
+  "1211": {
+    "factions_en": ["Xianzhou Luofu", "Alchemy Commission", "High Elders"],
+    "factions_fr": ["Luofu de Xianzhou", "Commission d'Alchimie", "Grands Anciens"],
+    "lore_paths": [
+      { "id": "permanence", "name_en": "Permanence", "name_fr": "La Permanence" }
+    ],
+    "source_url": "https://honkai-star-rail.fandom.com/wiki/Bailu",
+    "notes": "Infobox pathlore=Permanence, pathNote='Vidyadhara lineage' — the recurring immortal/resurrecting Vidyadhara race theme (shared with Dan Heng • Imbibitor Lunae and Lingsha). Only one pathlore entry documented. Combat Path is Abundance, so distinct. Faction list unchanged."
+  },
+  "1212": {
+    "factions_en": ["Xianzhou Luofu", "Xianzhou Cangcheng (formerly)", "Cloud Knights (formerly)", "High-Cloud Quintet (formerly)"],
+    "factions_fr": ["Luofu de Xianzhou", "Cangcheng de Xianzhou (anciennement)", "Chevaliers des Nuages (anciennement)", "Quintet de Haut-Nuage (anciennement)"],
+    "lore_paths": [
+      { "id": "hunt", "name_en": "The Hunt", "name_fr": "La Chasse" }
+    ],
+    "source_url": "https://honkai-star-rail.fandom.com/wiki/Jingliu",
+    "notes": "Infobox pathlore=The Hunt, pathNote='formerly' — she was the Luofu's Sword Champion (Hunt-derived Cloud Knights techniques) before her Mara-struck Destruction combat Path manifested. Only one pathlore entry documented. Faction list unchanged."
+  },
+  "1213": {
+    "factions_en": ["Xianzhou Luofu", "The Nameless", "Astral Express"],
+    "factions_fr": ["Luofu de Xianzhou", "Les Sans-Noms", "Astral Express"],
+    "lore_paths": [
+      { "id": "trailblaze", "name_en": "Trailblaze", "name_fr": "Le Pionnier" },
+      { "id": "permanence", "name_en": "Permanence", "name_fr": "La Permanence" }
+    ],
+    "source_url": "https://honkai-star-rail.fandom.com/wiki/Dan_Heng_%E2%80%A2_Imbibitor_Lunae",
+    "notes": "Infobox documents TWO pathlore entries in order, both noted as 'Pathstrider': pathlore=Trailblaze (his Astral Express identity) and pathlore2=Permanence (his Vidyadhara heritage, same lineage theme as Bailu/Lingsha). Both are now kept per updated guidance (previously only Trailblaze was chosen as primary). Combat Path is Destruction, so both differ. Faction list unchanged."
+  },
+  "1214": {
+    "factions_en": ["Xianzhou Luofu", "Ten-Lords Commission"],
+    "factions_fr": ["Luofu de Xianzhou", "Commission des Dix Seigneurs"],
+    "lore_paths": [
+      { "id": "destruction", "name_en": "Destruction", "name_fr": "La Destruction" }
+    ],
+    "source_url": "https://honkai-star-rail.fandom.com/wiki/Xueyi",
+    "notes": "No pathlore field documented; combat Path (Destruction) reused. Faction list unchanged."
+  },
+  "1215": {
+    "factions_en": ["Xianzhou Luofu", "Ten-Lords Commission"],
+    "factions_fr": ["Luofu de Xianzhou", "Commission des Dix Seigneurs"],
+    "lore_paths": [
+      { "id": "harmony", "name_en": "Harmony", "name_fr": "L'Harmonie" }
+    ],
+    "source_url": "https://honkai-star-rail.fandom.com/wiki/Hanya",
+    "notes": "No pathlore field documented; combat Path (Harmony) reused. Faction list unchanged."
+  },
+  "1217": {
+    "factions_en": ["Xianzhou Luofu", "Ten-Lords Commission", "Ghost-Hunting Squad"],
+    "factions_fr": ["Luofu de Xianzhou", "Commission des Dix Seigneurs", "Escouade de Chasse aux Fantômes"],
+    "lore_paths": [
+      { "id": "abundance", "name_en": "Abundance", "name_fr": "L'Abondance" }
+    ],
+    "source_url": "https://honkai-star-rail.fandom.com/wiki/Huohuo",
+    "notes": "No pathlore field documented; combat Path (Abundance) reused. Faction list unchanged (faction3='Ghost-Hunting Squad' not on current FR wiki page, so its FR term remains our own translation)."
+  },
+  "1218": {
+    "factions_en": ["Xianzhou Yaoqing", "Alchemy Commission"],
+    "factions_fr": ["Yaoqing de Xianzhou", "Commission d'Alchimie"],
+    "lore_paths": [
+      { "id": "nihility", "name_en": "Nihility", "name_fr": "La Nihilité" }
+    ],
+    "source_url": "https://honkai-star-rail.fandom.com/wiki/Jiaoqiu",
+    "notes": "No pathlore field documented; combat Path (Nihility) reused. Faction list unchanged; infobox faction2='Xianzhou Alliance' excluded as the broad civilization tier (non-distinguishing)."
+  },
+  "1220": {
+    "factions_en": ["Xianzhou Yaoqing", "Six Charioteers", "Cloud Knights", "Verdant Knights", "Arbiter-Generals", "Eclipse Pack (formerly, enslaved)"],
+    "factions_fr": ["Yaoqing de Xianzhou", "Six Auriges", "Chevaliers des Nuages", "Chevaliers de Verdoyaume", "Général Céleste", "Meute de l'Éclipse (anciennement, esclave)"],
+    "lore_paths": [
+      { "id": "hunt", "name_en": "The Hunt", "name_fr": "La Chasse" },
+      { "id": "abundance", "name_en": "Abundance", "name_fr": "L'Abondance" }
+    ],
+    "source_url": "https://honkai-star-rail.fandom.com/wiki/Feixiao",
+    "notes": "Infobox documents TWO pathlore entries in order: pathlore=The Hunt, pathNote=Emanator (matches combat Path, confirmed Emanator status) and pathlore2=Abundance, pathNote2='consumed the Crimson Moon'. Both are now kept (previously only Hunt was recorded). Faction list corrected: infobox faction7='Eclipse Pack' (factionNote7='slave, formerly' — the Yaoqing gang that enslaved her) was missing from the prior research pass and has been added; its FR term is our own translation (fallback, not yet on the FR wiki page)."
+  },
+  "1221": {
+    "factions_en": ["Xianzhou Zhuming", "Cloud Knights", "Flamewheel Octet", "Artisanship Commission (apprentice)"],
+    "factions_fr": ["Zhuming de Xianzhou", "Chevaliers des Nuages", "Octuor du Disque Enflammé", "Commission de l'Artisanat (apprentie)"],
+    "lore_paths": [
+      { "id": "hunt", "name_en": "The Hunt", "name_fr": "La Chasse" }
+    ],
+    "source_url": "https://honkai-star-rail.fandom.com/wiki/Yunli",
+    "notes": "Infobox pathlore=The Hunt (unreferenced note, in line with the general Xianzhou Cloud Knights Hunt-derived martial tradition). Combat Path is Destruction, so distinct. Faction list corrected: infobox faction5='Artisanship Commission' (factionNote5='the Zhuming, apprentice') was missing from the prior research pass and has been added."
+  },
+  "1222": {
+    "factions_en": ["Xianzhou Luofu", "Six Charioteers", "Alchemy Commission (head)"],
+    "factions_fr": ["Luofu de Xianzhou", "Six Auriges", "Commission d'Alchimie (tête)"],
+    "lore_paths": [
+      { "id": "hunt", "name_en": "The Hunt", "name_fr": "La Chasse" },
+      { "id": "permanence", "name_en": "Permanence", "name_fr": "La Permanence" }
+    ],
+    "source_url": "https://honkai-star-rail.fandom.com/wiki/Lingsha",
+    "notes": "Infobox documents TWO pathlore entries in order: pathlore=The Hunt (unsourced) and pathlore2=Permanence, pathNote2='Vidyadhara lineage' (same recurring theme as Bailu and Dan Heng • Imbibitor Lunae). Both are now kept per updated guidance (previously only Permanence was chosen as primary). Combat Path is Abundance, so both differ. Faction list unchanged."
+  },
+  "1223": {
+    "factions_en": ["Xianzhou Yaoqing", "Shadow Guard", "Disciples of Sanctus Medicus (formerly)"],
+    "factions_fr": ["Yaoqing de Xianzhou", "Garde de l'Ombre", "Disciples de Sanctus Medicus (anciennement)"],
+    "lore_paths": [
+      { "id": "hunt", "name_en": "The Hunt", "name_fr": "La Chasse" }
+    ],
+    "source_url": "https://honkai-star-rail.fandom.com/wiki/Moze",
+    "notes": "No pathlore field documented; combat Path (The Hunt) reused. Faction list unchanged; FR terms for 'Shadow Guard' and 'Disciples of Sanctus Medicus' remain our own translation (fallback, not yet on the FR wiki page)."
+  },
+  "1224": {
+    "factions_en": ["Astral Express", "The Nameless", "The Moles", "Slumbernana Association (formerly)", "Chrysos Heirs (demigod)", "Pure Children of Anāsrava", "Titans"],
+    "factions_fr": ["Astral Express", "Les Sans-Noms", "Les Taupes", "Association Somno-banane (anciennement)", "Héritiers chryséens (demi-dieu)", "Enfants purs de l'Anāsrava", "Titans"],
+    "lore_paths": [
+      { "id": "trailblaze", "name_en": "Trailblaze", "name_fr": "Le Pionnier" },
+      { "id": "remembrance", "name_en": "Remembrance", "name_fr": "Le Souvenir" },
+      { "id": "enigmata", "name_en": "Enigmata", "name_fr": "L'Énigme" }
+    ],
+    "source_url": "https://honkai-star-rail.fandom.com/wiki/March_7th",
+    "notes": "ID 1224 is March 7th's playable 'The Hunt' path variant; the wiki keeps ONE shared Character Infobox for id=1001 with path=Preservation / path2=The Hunt covering both playable IDs, so this infobox's faction/pathlore data applies to 1224 too. It documents THREE pathlore entries in order: pathlore=Trailblaze (Pathstrider), pathlore2=Remembrance (pathNote2='Emanator and Pathstrider', the 2.4+ story revelation of her true nature), pathlore3=Enigmata (no note). All three are now kept (previously only Remembrance was chosen as primary). Faction list substantially expanded: prior research only captured 3 of the infobox's 7 documented factions — faction4='Slumbernana Association' (factionNote4='formerly'), faction5='Chrysos Heirs' (factionNote5 marks her as a demigod), faction6='Pure Children of Anāsrava', and faction7='Titans' were all missing and have been added. 'Chrysos Heirs' confirmed as 'Héritiers chryséens' on the FR wiki (via Cipher's page); 'Pure Children of Anāsrava' confirmed as 'Enfants purs de l'Anāsrava' (singular 'Enfant pure de l'Anāsrava' found on FR wiki); 'Titans' is unchanged in French; 'Slumbernana Association' FR term is our own translation (fallback, not documented on the FR wiki)."
+  },
+  "1225": {
+    "factions_en": ["Xianzhou Luofu", "Sky-Faring Commission (formerly)", "Whistling Flames Guild (formerly, chief representative)"],
+    "factions_fr": ["Luofu de Xianzhou", "Commission du Ciel (anciennement)", "Guilde des Flammes Sifflantes (anciennement, représentante en chef)"],
+    "lore_paths": [
+      { "id": "destruction", "name_en": "Destruction", "name_fr": "La Destruction" }
+    ],
+    "source_url": "https://honkai-star-rail.fandom.com/wiki/Fugue",
+    "notes": "Infobox pathlore=Destruction, pathNote='contaminated', sourced to Ruan Mei's line about Destruction contamination. Only one pathlore entry documented. Combat Path is Nihility, so distinct. Infobox 'faction' field itself only lists Xianzhou Luofu (no faction2/3 fields present), but her profile prose specifically calls her 'the former chief representative of the Whistling Flames merchant guild in the Sky-Faring Commission' (Tingyun's own guild/commission, before the incident that led to her becoming Fugue) — kept as the most specific, plot-relevant affiliation per prior research since it is a genuine documented sub-affiliation, just sourced from prose rather than a structured faction field. FR page title for this character is 'Pérégrine'."
+  }
+}

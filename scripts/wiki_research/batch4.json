@@ -1,0 +1,187 @@
+{
+  "1405": {
+    "factions_en": ["Chrysos Heirs", "Grove of Epiphany", "Nousporists", "Venerationists (formerly)", "Seven Sages"],
+    "factions_fr": ["Chrysos Heirs", "Grove of Epiphany", "Nousporists", "Venerationists (formerly)", "Seven Sages"],
+    "lore_paths": [
+      { "id": "destruction", "name_en": "Destruction", "name_fr": "La Destruction" },
+      { "id": "erudition", "name_en": "Erudition", "name_fr": "L'Érudition" }
+    ],
+    "source_url": "https://honkai-star-rail.fandom.com/wiki/Anaxa",
+    "notes": "Corrected: infobox pathlore=Destruction (shared Chrysos Heir golden-blood boilerplate) AND pathlore2=Erudition (simulated Path, matches combat). Both now kept per updated instructions (previously only Erudition was kept). Faction deepened: added faction5 Venerationists (formerly) — a specific religious order he was raised in, omitted from the prior pass. faction=Amphoreus (world dup) and faction7 Titans (generic race icon tag) omitted as non-distinguishing."
+  },
+  "1406": {
+    "factions_en": ["Chrysos Heirs", "Dolos", "Okhema", "Three Hundred Rogues of Dolos"],
+    "factions_fr": ["Chrysos Heirs", "Dolos", "Okhema", "Three Hundred Rogues of Dolos"],
+    "lore_paths": [
+      { "id": "destruction", "name_en": "Destruction", "name_fr": "La Destruction" },
+      { "id": "elation", "name_en": "Elation", "name_fr": "L'Allégresse" }
+    ],
+    "source_url": "https://honkai-star-rail.fandom.com/wiki/Cipher",
+    "notes": "Corrected per user example: infobox pathlore=Destruction (shared Chrysos Heir boilerplate) AND pathlore2=Elation (simulated Path) — both kept as separate array entries. Combat path is Nihility (neither lore path). Faction deepened: added faction4 Okhema (the Chrysos Heirs' mobile fortress-nation, a specific sub-affiliation distinct from the Amphoreus world tag), missing from the prior pass. faction6 Titans (generic icon tag) omitted."
+  },
+  "1407": {
+    "factions_en": ["Chrysos Heirs", "Styxia", "Aidonia (formerly)", "Okhema", "Grove of Epiphany", "Nousporists"],
+    "factions_fr": ["Chrysos Heirs", "Styxia", "Aidonia (formerly)", "Okhema", "Grove of Epiphany", "Nousporists"],
+    "lore_paths": [
+      { "id": "destruction", "name_en": "Destruction", "name_fr": "La Destruction" },
+      { "id": "equilibrium", "name_en": "Equilibrium", "name_fr": "L'Équilibre" }
+    ],
+    "source_url": "https://honkai-star-rail.fandom.com/wiki/Castorice",
+    "notes": "Corrected: infobox pathlore=Destruction (shared boilerplate) AND pathlore2=Equilibrium (simulated Path) — both kept. Combat path is Remembrance (neither lore path). Faction deepened: added faction5 Okhema (missing from prior pass). faction8 Titans (generic icon tag) omitted. 'Équilibre' is a straightforward but wiki-unconfirmed French translation."
+  },
+  "1408": {
+    "factions_en": ["Chrysos Heirs", "Aedes Elysiae", "Okhema", "Grove of Epiphany", "Nousporists"],
+    "factions_fr": ["Chrysos Heirs", "Aedes Elysiae", "Okhema", "Grove of Epiphany", "Nousporists"],
+    "lore_paths": [
+      { "id": "destruction", "name_en": "Destruction", "name_fr": "La Destruction" },
+      { "id": "trailblaze", "name_en": "Trailblaze", "name_fr": "Le Pionnier" }
+    ],
+    "source_url": "https://honkai-star-rail.fandom.com/wiki/Phainon",
+    "notes": "pathlore=Destruction here is NOT the generic Chrysos-Heir boilerplate but his own — he is the literal vessel of the Destruction Aeon's blessing ('simulated Path, World-Cleansing Blood, and Pathstrider'), matching his combat Path. pathlore2=Trailblaze is his distinct personal/narrative Path (Khaslana: body 'only ever burned for \\\"Worldbearing\\\"'). Both kept. Faction deepened: added faction4 Okhema (missing from prior pass). French 'Trailblaze' now translated to 'Le Pionnier' per the user-supplied canonical list (supersedes prior untranslated convention)."
+  },
+  "1409": {
+    "factions_en": ["Chrysos Heirs", "Twilight Courtyard", "Grove of Epiphany", "Nousporists", "Okhema"],
+    "factions_fr": ["Chrysos Heirs", "Twilight Courtyard", "Grove of Epiphany", "Nousporists", "Okhema"],
+    "lore_paths": [
+      { "id": "destruction", "name_en": "Destruction", "name_fr": "La Destruction" },
+      { "id": "preservation", "name_en": "Preservation", "name_fr": "La Préservation" }
+    ],
+    "source_url": "https://honkai-star-rail.fandom.com/wiki/Hyacine",
+    "notes": "pathlore=Destruction (shared boilerplate) AND pathlore2=Preservation (simulated Path) — both kept. Combat path is Remembrance. Faction deepened: added faction6 Okhema (missing from prior pass, listed after Nousporists in infobox order). faction7 Titans (generic icon tag) omitted."
+  },
+  "1410": {
+    "factions_en": ["Chrysos Heirs", "Titankin", "Styxia", "Okhema", "The Five Gourmet Overlords"],
+    "factions_fr": ["Chrysos Heirs", "Titankin", "Styxia", "Okhema", "The Five Gourmet Overlords"],
+    "lore_paths": [
+      { "id": "destruction", "name_en": "Destruction", "name_fr": "La Destruction" },
+      { "id": "nihility", "name_en": "Nihility", "name_fr": "La Nihilité" }
+    ],
+    "source_url": "https://honkai-star-rail.fandom.com/wiki/Hysilens",
+    "notes": "pathlore=Destruction (shared boilerplate) AND pathlore2=Nihility (simulated Path, matches combat) — both kept. Faction deepened: added faction5 Okhema (missing from prior pass). faction7 Titans (duplicate generic icon tag of faction3 Titankin) omitted; Titankin kept as the more specific tag."
+  },
+  "1412": {
+    "factions_en": ["Chrysos Heirs", "Okhema", "Hyperborea"],
+    "factions_fr": ["Chrysos Heirs", "Okhema", "Hyperborea"],
+    "lore_paths": [
+      { "id": "destruction", "name_en": "Destruction", "name_fr": "La Destruction" },
+      { "id": "order", "name_en": "Order", "name_fr": "L'Ordre" }
+    ],
+    "source_url": "https://honkai-star-rail.fandom.com/wiki/Cerydra",
+    "notes": "pathlore=Destruction (shared boilerplate) AND pathlore2=Order (simulated Path) — both kept. Combat path is Harmony. Faction list unchanged from prior pass (Okhema — former ruler — already captured). faction5 Titans (generic icon tag) omitted. 'Order' is a wiki-documented but less-common Path label; 'Ordre' is a straightforward, unconfirmed French translation."
+  },
+  "1413": {
+    "factions_en": ["Chrysos Heirs", "Pure Children of Anāsrava"],
+    "factions_fr": ["Chrysos Heirs", "Pure Children of Anāsrava"],
+    "lore_paths": [
+      { "id": "remembrance", "name_en": "Remembrance", "name_fr": "Le Souvenir" },
+      { "id": "enigmata", "name_en": "Enigmata", "name_fr": "Enigmata" }
+    ],
+    "source_url": "https://honkai-star-rail.fandom.com/wiki/Evernight",
+    "notes": "Corrected per user instruction: infobox pathlore=Remembrance (Emanator and Pathstrider — her native, non-simulated Path, matches combat) AND pathlore2=Enigmata (no 'simulated' note; her description says she 'shall stir the tide of Oblivion', which links to Enigmata) — BOTH now kept, where the prior pass reported only Enigmata. Faction list unchanged (no Okhema documented for her). 'Enigmata' kept untranslated in French (coined term)."
+  },
+  "1414": {
+    "factions_en": ["Chrysos Heirs", "Astral Express", "The Nameless"],
+    "factions_fr": ["Chrysos Heirs", "Astral Express", "The Nameless"],
+    "lore_paths": [
+      { "id": "trailblaze", "name_en": "Trailblaze", "name_fr": "Le Pionnier" },
+      { "id": "permanence", "name_en": "Permanence", "name_fr": "La Permanence" }
+    ],
+    "source_url": "https://honkai-star-rail.fandom.com/wiki/Dan_Heng_%E2%80%A2_Permansor_Terrae",
+    "notes": "Corrected per user instruction: infobox lists TWO lore paths, both marked 'Pathstrider': pathlore=Trailblaze and pathlore2=Permanence — BOTH now kept, where the prior pass reported only Permanence. Combat path is Preservation (neither lore path). Faction list unchanged (no Okhema documented). French 'Trailblaze' now translated to 'Le Pionnier' per canonical list."
+  },
+  "1415": {
+    "factions_en": ["Chrysos Heirs (formerly)", "Aedes Elysiae", "Janusopolis", "Pure Children of Anāsrava"],
+    "factions_fr": ["Chrysos Heirs (formerly)", "Aedes Elysiae", "Janusopolis", "Pure Children of Anāsrava"],
+    "lore_paths": [
+      { "id": "remembrance", "name_en": "Remembrance", "name_fr": "Le Souvenir" },
+      { "id": "destruction", "name_en": "Destruction", "name_fr": "La Destruction" }
+    ],
+    "source_url": "https://honkai-star-rail.fandom.com/wiki/Cyrene",
+    "notes": "pathlore=Remembrance (Emanator and simulated Path, matches combat) AND pathlore2=Destruction (uses the same shared Chrysos-Heir boilerplate quote, consistent with faction2 note 'demigod, formerly') — both kept. Faction list unchanged from prior pass."
+  },
+  "1501": {
+    "factions_en": ["Masked Fools"],
+    "factions_fr": ["Masked Fools"],
+    "lore_paths": [
+      { "id": "elation", "name_en": "Elation", "name_fr": "L'Allégresse" }
+    ],
+    "source_url": "https://honkai-star-rail.fandom.com/wiki/Sparxie",
+    "notes": "Only pathlore=Elation (Pathstrider) is documented, matching combat Path exactly; no pathlore2. Single-entry array. World Planarcadia (already covered by world_en) omitted from factions. Faction list unchanged."
+  },
+  "1502": {
+    "factions_en": ["Six Charioteers", "Cloud Knights", "Arbiter-Generals"],
+    "factions_fr": ["Six Charioteers", "Cloud Knights", "Arbiter-Generals"],
+    "lore_paths": [
+      { "id": "hunt", "name_en": "The Hunt", "name_fr": "La Chasse" }
+    ],
+    "source_url": "https://honkai-star-rail.fandom.com/wiki/Yao_Guang",
+    "notes": "Faction list corrected: infobox faction='The Xianzhou Yuque' and faction2='Xianzhou Alliance' EXACTLY duplicate world='Xianzhou Alliance'/world2='The Xianzhou Yuque' (this is the thin/generic case the user flagged) — both dropped as non-distinguishing. Kept only the genuinely specific sub-affiliations: Six Charioteers (of the Yuque), Cloud Knights, Arbiter-Generals. pathlore=The Hunt (Emanator), no pathlore2; single-entry array, distinct from her combat Path (Elation)."
+  },
+  "1504": {
+    "factions_en": ["Galaxy Rangers", "Ashen Detective Agency"],
+    "factions_fr": ["Galaxy Rangers", "Ashen Detective Agency"],
+    "lore_paths": [
+      { "id": "hunt", "name_en": "The Hunt", "name_fr": "La Chasse" },
+      { "id": "voracity", "name_en": "Voracity", "name_fr": "La Voracité" }
+    ],
+    "source_url": "https://honkai-star-rail.fandom.com/wiki/Ashveil",
+    "notes": "pathlore=The Hunt (no special note, matches combat Path directly) AND pathlore2=Voracity (fragment of Oroboros sealed within right arm) — both kept. faction2='Planarcadia' is explicitly world-level (profile tag prior to a story mission, duplicates world=Planarcadia) and correctly omitted. world2 Kronstadt (home world) not a faction, omitted."
+  },
+  "1505": {
+    "factions_en": ["Elixir Seekers (formerly)"],
+    "factions_fr": ["Elixir Seekers (formerly)"],
+    "lore_paths": [
+      { "id": "abundance", "name_en": "Abundance", "name_fr": "L'Abondance" },
+      { "id": "elation", "name_en": "Elation", "name_fr": "L'Allégresse" }
+    ],
+    "source_url": "https://honkai-star-rail.fandom.com/wiki/Evanescia",
+    "notes": "pathlore=Abundance (Emanator) AND pathlore2=Elation (matches combat Path) — both kept. faction=Planarcadia (world dup) omitted. Faction list unchanged from prior pass."
+  },
+  "1506": {
+    "factions_en": ["Stellaron Hunters"],
+    "factions_fr": ["Stellaron Hunters"],
+    "lore_paths": [
+      { "id": "finality", "name_en": "Finality", "name_fr": "La Finalité" },
+      { "id": "elation", "name_en": "Elation", "name_fr": "L'Allégresse" }
+    ],
+    "source_url": "https://honkai-star-rail.fandom.com/wiki/Silver_Wolf_LV.999",
+    "notes": "Corrected: infobox pathlore=Finality (Jade's shared Stellaron Hunter boilerplate quote, also on Mortenax Blade's page) AND pathlore2=Elation (Emanator, matches combat) — BOTH now kept per updated instructions (previously only Elation was kept since Finality was treated as pure group boilerplate). Faction list unchanged (world=Punklorde, home world, not a faction)."
+  },
+  "1507": {
+    "factions_en": ["Stellaron Hunters", "High-Cloud Quintet (formerly)"],
+    "factions_fr": ["Stellaron Hunters", "High-Cloud Quintet (formerly)"],
+    "lore_paths": [
+      { "id": "finality", "name_en": "Finality", "name_fr": "La Finalité" },
+      { "id": "abundance", "name_en": "Abundance", "name_fr": "L'Abondance" }
+    ],
+    "source_url": "https://honkai-star-rail.fandom.com/wiki/Mortenax_Blade",
+    "notes": "Corrected: infobox pathlore=Finality (same shared Stellaron Hunter boilerplate as Silver Wolf LV.999) AND pathlore2=Abundance (assimilated with the flesh of Shuhu) — BOTH now kept per updated instructions (previously only Abundance was kept). Combat path is Nihility (neither lore path). Real name Yingxing; faction list unchanged."
+  },
+  "1508": {
+    "factions_en": ["Fate/stay night Collaboration", "Tohsaka Family"],
+    "factions_fr": ["Fate/stay night Collaboration", "Tohsaka Family"],
+    "lore_paths": [
+      { "id": "erudition", "name_en": "Erudition", "name_fr": "L'Érudition" }
+    ],
+    "source_url": "https://honkai-star-rail.fandom.com/wiki/Rin_Tohsaka",
+    "notes": "Confirmed crossover character with no Path lore: infobox pathlore/pathNote/pathRef are all blank. Per instructions, single-entry array equal to her combat Path (Erudition). faction=Another World (generic crossover tag) relabeled as 'Fate/stay night Collaboration'; faction2 Tohsaka Family (Sixth Head) kept as the specific clue."
+  },
+  "1509": {
+    "factions_en": ["Fate/stay night Collaboration"],
+    "factions_fr": ["Fate/stay night Collaboration"],
+    "lore_paths": [
+      { "id": "destruction", "name_en": "Destruction", "name_fr": "La Destruction" }
+    ],
+    "source_url": "https://honkai-star-rail.fandom.com/wiki/Gilgamesh",
+    "notes": "Confirmed crossover character with no Path lore: infobox pathlore/pathNote/pathRef are all blank. Per instructions, single-entry array equal to his combat Path (Destruction). Infobox only lists faction=Another World (generic crossover tag), relabeled as 'Fate/stay night Collaboration'; no other specific faction documented."
+  },
+  "1510": {
+    "factions_en": ["Astral Express", "The Nameless", "Graphia Family", "Dovebrook District"],
+    "factions_fr": ["Astral Express", "The Nameless", "Graphia Family", "Dovebrook District"],
+    "lore_paths": [
+      { "id": "trailblaze", "name_en": "Trailblaze", "name_fr": "Le Pionnier" }
+    ],
+    "source_url": "https://honkai-star-rail.fandom.com/wiki/Himeko_%E2%80%A2_Nova",
+    "notes": "Only pathlore=Trailblaze (Pathstrider, citing Dan Heng's line about the Trailblaze Path) is documented; no pathlore2. Single-entry array, distinct from combat Path (Erudition). Faction deepened: added faction4 Dovebrook District (her hometown, a specific location distinct from world2=Planarcadia), missing from the prior pass. Real identity is Murata Himeko. French 'Trailblaze' now translated to 'Le Pionnier' per canonical list."
+  }
+}
