@@ -20,6 +20,8 @@ export const StatsModal: React.FC<StatsModalProps> = ({ stats, language, onClose
   const modeLabels: { id: GameMode; labelFr: string; labelEn: string }[] = [
     { id: 'classic', labelFr: 'Classique', labelEn: 'Classic' },
     { id: 'splash', labelFr: 'Splash Art', labelEn: 'Splash Art' },
+    { id: 'portrait', labelFr: 'Portrait', labelEn: 'Portrait' },
+    { id: 'grayscale', labelFr: 'N&B', labelEn: 'B&W' },
     { id: 'quote', labelFr: 'Citation', labelEn: 'Quote' },
     { id: 'skill', labelFr: 'Compétence', labelEn: 'Skill' },
   ];

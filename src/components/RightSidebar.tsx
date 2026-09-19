@@ -24,6 +24,12 @@ export const RightSidebar: React.FC<RightSidebarProps> = ({
     splash: isFr
       ? 'Reconnaissez le personnage à sa silhouette : l\'image dézoome et se recentre à chaque tentative.'
       : 'Recognize the character from their silhouette — the image zooms out and recenters with each attempt.',
+    portrait: isFr
+      ? 'Reconnaissez le personnage à son portrait officiel en silhouette, qui dézoome à chaque tentative.'
+      : "Recognize the character from their official portrait's silhouette, zooming out with each attempt.",
+    grayscale: isFr
+      ? 'Reconnaissez le personnage à son art promotionnel en noir et blanc, qui dézoome à chaque tentative.'
+      : 'Recognize the character from their promo art in black & white, zooming out with each attempt.',
     quote: isFr
       ? 'Trouvez l\'auteur de cette réplique culte. Des indices se débloquent progressivement.'
       : 'Identify who speaks this iconic voice line. Hints unlock as you guess.',

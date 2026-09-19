@@ -82,10 +82,12 @@ export const HelpModal: React.FC<HelpModalProps> = ({ language, onClose }) => {
           </div>
         </div>
 
-        <h3 className="help-section-title">{isFr ? 'Les 4 modes' : 'Game Modes'}</h3>
+        <h3 className="help-section-title">{isFr ? 'Les 6 modes' : 'Game Modes'}</h3>
         <ul className="help-modes-list">
           <li><b>{isFr ? 'Classique :' : 'Classic:'}</b> {isFr ? 'Tableau complet avec tous les attributs' : 'Full attribute table with clues'}</li>
-          <li><b>{isFr ? 'Splash Art :' : 'Splash Art:'}</b> {isFr ? 'Silhouette qui dézoome et se recentre' : 'Silhouette that zooms out and recenters'}</li>
+          <li><b>{isFr ? 'Splash Art :' : 'Splash Art:'}</b> {isFr ? 'Silhouette (art officiel varié) qui dézoome et se recentre' : 'Silhouette (varied official art) that zooms out and recenters'}</li>
+          <li><b>{isFr ? 'Portrait :' : 'Portrait:'}</b> {isFr ? 'Silhouette du portrait officiel qui dézoome' : "Official portrait's silhouette that zooms out"}</li>
+          <li><b>{isFr ? 'Noir & Blanc :' : 'Black & White:'}</b> {isFr ? "Art promotionnel désaturé qui dézoome" : 'Desaturated promo art that zooms out'}</li>
           <li><b>{isFr ? 'Citation :' : 'Quote:'}</b> {isFr ? 'Répliques vocales cultes' : 'Iconic voice lines'}</li>
           <li><b>{isFr ? 'Compétence :' : 'Skill:'}</b> {isFr ? 'Icône de compétence à identifier' : 'Ability icon identification'}</li>
         </ul>

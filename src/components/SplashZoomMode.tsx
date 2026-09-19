@@ -1,13 +1,18 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useMemo, useState } from 'react';
 import type { Character, Language } from '../types';
 import { CharacterSearch } from './CharacterSearch';
 import { NextRoundButton } from './NextRoundButton';
 import { GuessHistoryList } from './GuessHistoryList';
 import { Sparkles, Lightbulb } from 'lucide-react';
 import { soundManager } from '../utils/audio';
-import { getSilhouetteAnchor, type Anchor } from '../utils/silhouetteAnchor';
+import { pickSeeded } from '../utils/gameLogic';
+import { getSilhouetteAnchor, type Anchor, type AnchorMode } from '../utils/silhouetteAnchor';
+import bannerManifest from '../data/bannerManifest.json';
+
+export type SplashVariant = 'mixed' | 'portrait' | 'grayscale';
 
 interface SplashZoomModeProps {
+  variant: SplashVariant;
   characters: Character[];
   target: Character;
   guessedCharacters: Character[];
@@ -18,14 +23,38 @@ interface SplashZoomModeProps {
   language: Language;
 }
 
-// Progressive zoom-out over a black silhouette, transform-origin held fixed
-// at the computed anchor — no color fade, no manual pan/lerp needed: CSS
-// `transform: scale(s)` around a fixed origin already pulls the visible crop
-// toward the image's center as `s` drops toward 1 (see silhouetteAnchor.ts),
-// so shrinking the scale alone produces the "zoom out and recenter" motion.
+// Progressive zoom-out over a fixed transform-origin — no manual pan/lerp
+// needed: CSS `transform: scale(s)` around a fixed origin already pulls the
+// visible crop toward the image's center as `s` drops toward 1 (see
+// silhouetteAnchor.ts), so shrinking the scale alone produces the
+// "zoom out and recenter" motion.
 const ZOOM_STEPS = [3.0, 2.4, 1.95, 1.6, 1.3, 1.1];
 
+const bannerIds: Set<string> = new Set(bannerManifest as string[]);
+
+const COPY: Record<SplashVariant, { titleFr: string; titleEn: string; subFr: string; subEn: string }> = {
+  mixed: {
+    titleFr: 'Devinez la Silhouette',
+    titleEn: 'Guess the Silhouette',
+    subFr: "L'image dézoome et se recentre à chaque tentative.",
+    subEn: 'The image zooms out and recenters with each attempt.',
+  },
+  portrait: {
+    titleFr: 'Devinez le Portrait',
+    titleEn: 'Guess the Portrait',
+    subFr: "Le portrait officiel dézoome et se recentre à chaque tentative.",
+    subEn: "The character's official portrait zooms out and recenters with each attempt.",
+  },
+  grayscale: {
+    titleFr: 'Devinez en Noir et Blanc',
+    titleEn: 'Guess in Black & White',
+    subFr: "L'art promotionnel, désaturé, dézoome à chaque tentative.",
+    subEn: 'The promo art, desaturated, zooms out with each attempt.',
+  },
+};
+
 export const SplashZoomMode: React.FC<SplashZoomModeProps> = ({
+  variant,
   characters,
   target,
   guessedCharacters,
@@ -40,16 +69,44 @@ export const SplashZoomMode: React.FC<SplashZoomModeProps> = ({
   const isFr = language === 'fr';
   const attempts = guessedCharacters.length;
   const guessedIds = guessedCharacters.map((c) => c.id);
+  const copy = COPY[variant];
 
-  const splashArtSrc = target.portrait || target.avatar;
+  // Fresh per round: stable for everyone on the same daily target, a new
+  // draw each time practice hands out a new character (never re-rolled just
+  // by toggling daily/practice, so a round in progress never shifts under you).
+  // target.id isn't read in the callback -- it's only here to force a new
+  // value each time practice moves to a different character.
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  const practiceRoundNonce = useMemo(() => Math.random().toString(36).slice(2), [target.id]);
+  const today = new Date().toISOString().slice(0, 10);
+  const roundSeed = isDaily
+    ? `${target.id}_daily_${today}_${variant}`
+    : `${target.id}_practice_${practiceRoundNonce}_${variant}`;
+
+  const anchorMode: AnchorMode = variant === 'grayscale' ? 'contrast' : 'opacity';
+
+  const splashArtSrc = useMemo(() => {
+    if (variant === 'portrait') {
+      return target.portrait || target.avatar;
+    }
+    if (variant === 'grayscale') {
+      if (bannerIds.has(target.id)) return `/assets/banners/${target.id}.webp`;
+      return target.portrait || target.avatar;
+    }
+    // 'mixed': the two official art variants, so the same character doesn't
+    // always show the same pose/crop on top of always varying the anchor.
+    const sources = [target.preview, target.portrait].filter((s): s is string => Boolean(s));
+    if (sources.length === 0) return target.avatar;
+    return pickSeeded(sources, `${roundSeed}_source`);
+  }, [variant, roundSeed, target.id, target.preview, target.portrait, target.avatar]);
 
   useEffect(() => {
     let cancelled = false;
-    getSilhouetteAnchor(splashArtSrc, ZOOM_STEPS[0]).then((a) => {
+    getSilhouetteAnchor(splashArtSrc, ZOOM_STEPS[0], `${roundSeed}_anchor`, anchorMode).then((a) => {
       if (!cancelled) setAnchor(a);
     });
     return () => { cancelled = true; };
-  }, [splashArtSrc]);
+  }, [splashArtSrc, roundSeed, anchorMode]);
 
   const scale = ZOOM_STEPS[Math.min(attempts, ZOOM_STEPS.length - 1)];
 
@@ -58,7 +115,7 @@ export const SplashZoomMode: React.FC<SplashZoomModeProps> = ({
     : {
         transform: `scale(${scale})`,
         transformOrigin: `${anchor.x}% ${anchor.y}%`,
-        filter: 'brightness(0)',
+        filter: variant === 'grayscale' ? 'grayscale(100%)' : 'brightness(0)',
       };
 
   return (
@@ -67,22 +124,18 @@ export const SplashZoomMode: React.FC<SplashZoomModeProps> = ({
         <h2 className="splash-mode-title">
           {hasWon
             ? isFr ? `C'est ${target.name_fr} !` : `It's ${target.name_en}!`
-            : isFr ? 'Devinez la Silhouette' : 'Guess the Silhouette'}
+            : isFr ? copy.titleFr : copy.titleEn}
         </h2>
-        <p className="splash-mode-sub">
-          {isFr
-            ? 'L\'image dézoome et se recentre à chaque tentative.'
-            : 'The image zooms out and recenters with each attempt.'}
-        </p>
+        <p className="splash-mode-sub">{isFr ? copy.subFr : copy.subEn}</p>
       </div>
 
-      <div className={`splash-viewport-frame ${hasWon ? 'victory-glow' : ''}`}>
+      <div className={`splash-viewport-frame ${variant === 'grayscale' ? 'mode-grayscale' : ''} ${hasWon ? 'victory-glow' : ''}`}>
         <div className="silhouette-stage">
           {/* Remounted per target: without this, switching to a new round
               reuses the same <img>, so its CSS transition animates FROM the
               previous round's revealed style, flashing the new answer. */}
           <img
-            key={target.id}
+            key={`${target.id}_${variant}`}
             src={splashArtSrc}
             alt={hasWon ? (isFr ? target.name_fr : target.name_en) : ''}
             className="silhouette-layer"

@@ -3,6 +3,8 @@ import json
 import urllib.request
 import urllib.error
 import time
+from io import BytesIO
+from PIL import Image
 
 BASE_URL = "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/"
 
@@ -34,6 +36,8 @@ os.makedirs(os.path.join(PUBLIC_DIR, "paths"), exist_ok=True)
 os.makedirs(os.path.join(PUBLIC_DIR, "elements"), exist_ok=True)
 os.makedirs(os.path.join(PUBLIC_DIR, "bosses"), exist_ok=True)
 os.makedirs(os.path.join(PUBLIC_DIR, "skills"), exist_ok=True)
+os.makedirs(os.path.join(PUBLIC_DIR, "previews"), exist_ok=True)
+os.makedirs(os.path.join(PUBLIC_DIR, "portraits"), exist_ok=True)
 os.makedirs(DATA_DIR, exist_ok=True)
 
 def fetch_json(endpoint):
@@ -52,6 +56,24 @@ def download_file(rel_path, dest_path):
             f.write(resp.read())
     except Exception as e:
         print(f"Failed to download {url}: {e}")
+
+def download_as_webp(rel_path, dest_path, max_width=None, quality=85):
+    # Splash-art silhouette source images: same idea as the background
+    # banner compression, but keeps alpha (these are character cutouts on
+    # a transparent background, not opaque photos).
+    if os.path.exists(dest_path) and os.path.getsize(dest_path) > 0:
+        return
+    url = BASE_URL + rel_path
+    try:
+        req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+        with urllib.request.urlopen(req) as resp:
+            im = Image.open(BytesIO(resp.read())).convert('RGBA')
+        if max_width and im.width > max_width:
+            target_h = round(im.height * max_width / im.width)
+            im = im.resize((max_width, target_h), Image.LANCZOS)
+        im.save(dest_path, 'WEBP', quality=quality, method=6)
+    except Exception as e:
+        print(f"Failed to download/convert {url}: {e}")
 
 print("Fetching raw data from StarRailRes...")
 chars_en = fetch_json("index_new/en/characters.json")
@@ -400,6 +422,19 @@ for cid in sorted(chars_en.keys(), key=lambda x: int(x)):
     if icon_rel:
         download_file(icon_rel, os.path.join(PUBLIC_DIR, "characters", f"{cid}.png"))
 
+    # Splash Art mode source images: the two official-art variants get mixed
+    # per round (see silhouetteAnchor.ts) so the silhouette isn't always the
+    # same pose/crop for a given character.
+    preview_rel = c_en.get('preview')
+    preview_path = f"assets/previews/{cid}.webp"
+    if preview_rel:
+        download_as_webp(preview_rel, os.path.join(PUBLIC_DIR, "previews", f"{cid}.webp"), quality=88)
+
+    portrait_rel = c_en.get('portrait')
+    portrait_path = f"assets/portraits/{cid}.webp"
+    if portrait_rel:
+        download_as_webp(portrait_rel, os.path.join(PUBLIC_DIR, "portraits", f"{cid}.webp"), max_width=1200, quality=85)
+
     # Download a skill icon for Skill Game Mode
     skill_icon_url = None
     skill_name_en = None
@@ -482,6 +517,8 @@ for cid in sorted(chars_en.keys(), key=lambda x: int(x)):
             "icon": f"assets/bosses/{wb_id}.png"
         },
         "avatar": avatar_path,
+        "preview": preview_path if preview_rel else None,
+        "portrait": portrait_path if portrait_rel else None,
         "quotes": QUOTES_RESEARCH.get(cid, [{"en": meta["quote_en"], "fr": meta["quote_fr"]}]),
         "skill_hint": {
             "icon": skill_icon_url or avatar_path,

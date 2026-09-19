@@ -1,6 +1,6 @@
 export type Language = 'fr' | 'en';
 
-export type GameMode = 'classic' | 'splash' | 'quote' | 'skill';
+export type GameMode = 'classic' | 'splash' | 'portrait' | 'grayscale' | 'quote' | 'skill';
 
 export interface LocalizedString {
   en: string;
@@ -64,7 +64,7 @@ export interface Character {
   weekly_boss: WeeklyBossInfo;
   avatar: string;
   portrait?: string;
-  silhouette_focus?: { x: number; y: number };
+  preview?: string;
   quotes: { en: string; fr: string }[];
   skill_hint: SkillHint;
 }
@@ -147,6 +147,8 @@ export interface ModeStats {
 export interface AllStats {
   classic: ModeStats;
   splash: ModeStats;
+  portrait: ModeStats;
+  grayscale: ModeStats;
   quote: ModeStats;
   skill: ModeStats;
 }

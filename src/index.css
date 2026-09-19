@@ -661,6 +661,9 @@ body {
 .splash-viewport-frame.victory-glow {
   border-color: var(--accent);
 }
+.splash-viewport-frame.mode-grayscale {
+  background: radial-gradient(circle at 50% 35%, #3a3a3a, #101010);
+}
 
 .silhouette-stage {
   width: 100%;
@@ -824,6 +827,8 @@ body {
   gap: 6px;
   width: 100%;
   max-width: 440px;
+  position: relative;
+  z-index: 1;
 }
 
 .guess-history-item {

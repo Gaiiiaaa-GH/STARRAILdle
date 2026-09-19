@@ -5,7 +5,7 @@ import { BackgroundBanner } from './components/BackgroundBanner';
 import { Header } from './components/Header';
 import { RightSidebar } from './components/RightSidebar';
 import { ClassicMode } from './components/ClassicMode';
-import { SplashZoomMode } from './components/SplashZoomMode';
+import { SplashZoomMode, type SplashVariant } from './components/SplashZoomMode';
 import { QuoteMode } from './components/QuoteMode';
 import { SkillMode } from './components/SkillMode';
 import { VictoryModal } from './components/VictoryModal';
@@ -24,11 +24,24 @@ import { soundManager } from './utils/audio';
 
 const characters: Character[] = charactersDataRaw as unknown as Character[];
 
-const MODE_ORDER: GameMode[] = ['classic', 'splash', 'quote', 'skill'];
+const MODE_ORDER: GameMode[] = ['classic', 'splash', 'portrait', 'grayscale', 'quote', 'skill'];
+
+// Every mode whose win condition is just "guessed the right id" (everything
+// except Classic, which needs the full attribute comparison).
+type SimpleMode = Exclude<GameMode, 'classic'>;
+
+// variant/mode pairs for the three SplashZoomMode-driven silhouette games
+const SPLASH_VARIANTS: { mode: SimpleMode; variant: SplashVariant }[] = [
+  { mode: 'splash', variant: 'mixed' },
+  { mode: 'portrait', variant: 'portrait' },
+  { mode: 'grayscale', variant: 'grayscale' },
+];
 
 interface ModeGuesses {
   classic: ComparisonResult[];
   splash: Character[];
+  portrait: Character[];
+  grayscale: Character[];
   quote: Character[];
   skill: Character[];
 }
@@ -36,6 +49,8 @@ interface ModeGuesses {
 interface ModeWon {
   classic: boolean;
   splash: boolean;
+  portrait: boolean;
+  grayscale: boolean;
   quote: boolean;
   skill: boolean;
 }
@@ -63,6 +78,8 @@ export function App() {
     return {
       classic: getDailyTarget(characters, 'classic'),
       splash: getDailyTarget(characters, 'splash'),
+      portrait: getDailyTarget(characters, 'portrait'),
+      grayscale: getDailyTarget(characters, 'grayscale'),
       quote: getDailyTarget(characters, 'quote'),
       skill: getDailyTarget(characters, 'skill'),
     };
@@ -71,14 +88,16 @@ export function App() {
   const [practiceTargets, setPracticeTargets] = useState(() => ({
     classic: getRandomTarget(characters),
     splash: getRandomTarget(characters),
+    portrait: getRandomTarget(characters),
+    grayscale: getRandomTarget(characters),
     quote: getRandomTarget(characters),
     skill: getRandomTarget(characters),
   }));
 
   // Guesses & win state, tracked separately for daily vs. practice so hopping
   // over to practice mode and back can never clobber the day's progress.
-  const emptyGuesses = (): ModeGuesses => ({ classic: [], splash: [], quote: [], skill: [] });
-  const emptyWon = (): ModeWon => ({ classic: false, splash: false, quote: false, skill: false });
+  const emptyGuesses = (): ModeGuesses => ({ classic: [], splash: [], portrait: [], grayscale: [], quote: [], skill: [] });
+  const emptyWon = (): ModeWon => ({ classic: false, splash: false, portrait: false, grayscale: false, quote: false, skill: false });
 
   const [dailyGuesses, setDailyGuesses] = useState<ModeGuesses>(emptyGuesses);
   const [dailyHasWon, setDailyHasWon] = useState<ModeWon>(emptyWon);
@@ -141,6 +160,18 @@ export function App() {
             .filter(Boolean) as Character[];
           setDailyGuesses((prev) => ({ ...prev, splash: rehydrated }));
         }
+        if (parsed.portraitGuesses && Array.isArray(parsed.portraitGuesses)) {
+          const rehydrated = parsed.portraitGuesses
+            .map((pg: { id: string }) => characters.find((c) => c.id === pg.id))
+            .filter(Boolean) as Character[];
+          setDailyGuesses((prev) => ({ ...prev, portrait: rehydrated }));
+        }
+        if (parsed.grayscaleGuesses && Array.isArray(parsed.grayscaleGuesses)) {
+          const rehydrated = parsed.grayscaleGuesses
+            .map((gg: { id: string }) => characters.find((c) => c.id === gg.id))
+            .filter(Boolean) as Character[];
+          setDailyGuesses((prev) => ({ ...prev, grayscale: rehydrated }));
+        }
         if (parsed.quoteGuesses && Array.isArray(parsed.quoteGuesses)) {
           const rehydrated = parsed.quoteGuesses
             .map((qg: { id: string }) => characters.find((c) => c.id === qg.id))
@@ -167,6 +198,8 @@ export function App() {
     const payload = {
       classicGuesses: dailyGuesses.classic,
       splashGuesses: dailyGuesses.splash,
+      portraitGuesses: dailyGuesses.portrait,
+      grayscaleGuesses: dailyGuesses.grayscale,
       quoteGuesses: dailyGuesses.quote,
       skillGuesses: dailyGuesses.skill,
       hasWon: dailyHasWon,
@@ -201,6 +234,8 @@ export function App() {
       setPracticeTargets({
         classic: getRandomTarget(characters),
         splash: getRandomTarget(characters),
+        portrait: getRandomTarget(characters),
+        grayscale: getRandomTarget(characters),
         quote: getRandomTarget(characters),
         skill: getRandomTarget(characters),
       });
@@ -243,42 +278,14 @@ export function App() {
     }
   };
 
-  const handleSplashGuess = (guessChar: Character) => {
-    if (hasWon.splash) return;
-    const newGuesses = [guessChar, ...guesses.splash];
-    setGuesses((prev) => ({ ...prev, splash: newGuesses }));
+  const handleSimpleGuess = (mode: SimpleMode) => (guessChar: Character) => {
+    if (hasWon[mode]) return;
+    const newGuesses = [guessChar, ...guesses[mode]];
+    setGuesses((prev) => ({ ...prev, [mode]: newGuesses }));
 
     if (guessChar.id === currentTarget.id) {
-      setHasWon((prev) => ({ ...prev, splash: true }));
-      recordWin('splash', newGuesses.length);
-      setIsVictoryModalOpen(true);
-    } else {
-      soundManager.playFlip(0);
-    }
-  };
-
-  const handleQuoteGuess = (guessChar: Character) => {
-    if (hasWon.quote) return;
-    const newGuesses = [guessChar, ...guesses.quote];
-    setGuesses((prev) => ({ ...prev, quote: newGuesses }));
-
-    if (guessChar.id === currentTarget.id) {
-      setHasWon((prev) => ({ ...prev, quote: true }));
-      recordWin('quote', newGuesses.length);
-      setIsVictoryModalOpen(true);
-    } else {
-      soundManager.playFlip(0);
-    }
-  };
-
-  const handleSkillGuess = (guessChar: Character) => {
-    if (hasWon.skill) return;
-    const newGuesses = [guessChar, ...guesses.skill];
-    setGuesses((prev) => ({ ...prev, skill: newGuesses }));
-
-    if (guessChar.id === currentTarget.id) {
-      setHasWon((prev) => ({ ...prev, skill: true }));
-      recordWin('skill', newGuesses.length);
+      setHasWon((prev) => ({ ...prev, [mode]: true }));
+      recordWin(mode, newGuesses.length);
       setIsVictoryModalOpen(true);
     } else {
       soundManager.playFlip(0);
@@ -322,25 +329,27 @@ export function App() {
               />
             )}
 
-            {currentMode === 'splash' && (
+            {SPLASH_VARIANTS.map(({ mode, variant }) => currentMode === mode && (
               <SplashZoomMode
+                key={mode}
+                variant={variant}
                 characters={characters}
                 target={currentTarget}
-                guessedCharacters={guesses.splash}
-                onMakeGuess={handleSplashGuess}
-                hasWon={hasWon.splash}
+                guessedCharacters={guesses[mode]}
+                onMakeGuess={handleSimpleGuess(mode)}
+                hasWon={hasWon[mode]}
                 isDaily={isDaily}
-                onResetPractice={() => handleResetPractice('splash')}
+                onResetPractice={() => handleResetPractice(mode)}
                 language={language}
               />
-            )}
+            ))}
 
             {currentMode === 'quote' && (
               <QuoteMode
                 characters={characters}
                 target={currentTarget}
                 guessedCharacters={guesses.quote}
-                onMakeGuess={handleQuoteGuess}
+                onMakeGuess={handleSimpleGuess('quote')}
                 hasWon={hasWon.quote}
                 isDaily={isDaily}
                 onResetPractice={() => handleResetPractice('quote')}
@@ -353,7 +362,7 @@ export function App() {
                 characters={characters}
                 target={currentTarget}
                 guessedCharacters={guesses.skill}
-                onMakeGuess={handleSkillGuess}
+                onMakeGuess={handleSimpleGuess('skill')}
                 hasWon={hasWon.skill}
                 isDaily={isDaily}
                 onResetPractice={() => handleResetPractice('skill')}

@@ -1,6 +1,6 @@
 import React from 'react';
 import type { GameMode, Language } from '../types';
-import { HelpCircle, BarChart3, Volume2, VolumeX, Grid, Image, MessageSquare, Flame, Eye, EyeOff, Calendar, Infinity as InfinityIcon } from 'lucide-react';
+import { HelpCircle, BarChart3, Volume2, VolumeX, Grid, Image, MessageSquare, Flame, Eye, EyeOff, Calendar, Infinity as InfinityIcon, UserRound, Contrast } from 'lucide-react';
 import { soundManager } from '../utils/audio';
 
 interface HeaderProps {
@@ -39,6 +39,8 @@ export const Header: React.FC<HeaderProps> = ({
   const modes: { id: GameMode; labelFr: string; labelEn: string; icon: React.ReactNode }[] = [
     { id: 'classic', labelFr: 'Classique', labelEn: 'Classic', icon: <Grid size={17} /> },
     { id: 'splash', labelFr: 'Splash Art', labelEn: 'Splash Art', icon: <Image size={17} /> },
+    { id: 'portrait', labelFr: 'Portrait', labelEn: 'Portrait', icon: <UserRound size={17} /> },
+    { id: 'grayscale', labelFr: 'Noir & Blanc', labelEn: 'Black & White', icon: <Contrast size={17} /> },
     { id: 'quote', labelFr: 'Citation', labelEn: 'Quote', icon: <MessageSquare size={17} /> },
     { id: 'skill', labelFr: 'Compétence', labelEn: 'Skill', icon: <Flame size={17} /> },
   ];

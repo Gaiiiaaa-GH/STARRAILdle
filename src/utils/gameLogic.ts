@@ -227,6 +227,8 @@ const defaultModeStats: ModeStats = {
 export const defaultAllStats: AllStats = {
   classic: { ...defaultModeStats },
   splash: { ...defaultModeStats },
+  portrait: { ...defaultModeStats },
+  grayscale: { ...defaultModeStats },
   quote: { ...defaultModeStats },
   skill: { ...defaultModeStats },
 };
@@ -285,6 +287,8 @@ export function generateShareResult(
   const modeName = {
     classic: lang === 'fr' ? 'Classique' : 'Classic',
     splash: lang === 'fr' ? 'Splash Art Zoom' : 'Splash Art',
+    portrait: lang === 'fr' ? 'Portrait' : 'Portrait',
+    grayscale: lang === 'fr' ? 'Noir et Blanc' : 'Black & White',
     quote: lang === 'fr' ? 'Citation' : 'Quote',
     skill: lang === 'fr' ? 'Compétence' : 'Skill',
   }[mode];

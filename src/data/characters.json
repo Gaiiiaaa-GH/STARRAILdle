@@ -78,6 +78,8 @@
       "icon": "assets/bosses/110501.png"
     },
     "avatar": "assets/characters/1001.png",
+    "preview": "assets/previews/1001.webp",
+    "portrait": "assets/portraits/1001.webp",
     "quotes": [
       {
         "en": "I told ya I could fight!",
@@ -168,6 +170,8 @@
       "icon": "assets/bosses/110501.png"
     },
     "avatar": "assets/characters/1002.png",
+    "preview": "assets/previews/1002.webp",
+    "portrait": "assets/portraits/1002.webp",
     "quotes": [
       {
         "en": "The truth of life and death, revealed in an instant.",
@@ -259,6 +263,8 @@
       "icon": "assets/bosses/110501.png"
     },
     "avatar": "assets/characters/1003.png",
+    "preview": "assets/previews/1003.webp",
+    "portrait": "assets/portraits/1003.webp",
     "quotes": [
       {
         "en": "Humanity never conceals its desire to control the heavens... And I'm no exception.",
@@ -348,6 +354,8 @@
       "icon": "assets/bosses/110501.png"
     },
     "avatar": "assets/characters/1004.png",
+    "preview": "assets/previews/1004.webp",
+    "portrait": "assets/portraits/1004.webp",
     "quotes": [
       {
         "en": "Witness the stars shatter before you... Survive or be destroyed, there is no other choice.",
@@ -435,6 +443,8 @@
       "icon": "assets/bosses/110503.png"
     },
     "avatar": "assets/characters/1005.png",
+    "preview": "assets/previews/1005.webp",
+    "portrait": "assets/portraits/1005.webp",
     "quotes": [
       {
         "en": "Good times never last.",
@@ -526,6 +536,8 @@
       "icon": "assets/bosses/110501.png"
     },
     "avatar": "assets/characters/1006.png",
+    "preview": "assets/previews/1006.webp",
+    "portrait": "assets/portraits/1006.webp",
     "quotes": [
       {
         "en": "This combat needs optimizing.",
@@ -612,6 +624,8 @@
       "icon": "assets/bosses/110501.png"
     },
     "avatar": "assets/characters/1008.png",
+    "preview": "assets/previews/1008.webp",
+    "portrait": "assets/portraits/1008.webp",
     "quotes": [
       {
         "en": "Let me pay you back — tenfold!",
@@ -698,6 +712,8 @@
       "icon": "assets/bosses/110501.png"
     },
     "avatar": "assets/characters/1009.png",
+    "preview": "assets/previews/1009.webp",
+    "portrait": "assets/portraits/1009.webp",
     "quotes": [
       {
         "en": "Oh profound secrets of the stars, give these Trailblazers your blessing!",
@@ -788,6 +804,8 @@
       "icon": "assets/bosses/110501.png"
     },
     "avatar": "assets/characters/1013.png",
+    "preview": "assets/previews/1013.webp",
+    "portrait": "assets/portraits/1013.webp",
     "quotes": [
       {
         "en": "Ever see a diamond this big? It's all yours~",
@@ -874,6 +892,8 @@
       "icon": "assets/bosses/110501.png"
     },
     "avatar": "assets/characters/1014.png",
+    "preview": "assets/previews/1014.webp",
+    "portrait": "assets/portraits/1014.webp",
     "quotes": [
       {
         "en": "Excalibur!",
@@ -960,6 +980,8 @@
       "icon": "assets/bosses/110502.png"
     },
     "avatar": "assets/characters/1015.png",
+    "preview": "assets/previews/1015.webp",
+    "portrait": "assets/portraits/1015.webp",
     "quotes": [
       {
         "en": "I am the bone of my sword. Steel is my body, and fire is my blood. I have created over a thousand blades.",
@@ -1052,6 +1074,8 @@
       "icon": "assets/bosses/110502.png"
     },
     "avatar": "assets/characters/1101.png",
+    "preview": "assets/previews/1101.webp",
+    "portrait": "assets/portraits/1101.webp",
     "quotes": [
       {
         "en": "To guard and defend, crush them!",
@@ -1140,6 +1164,8 @@
       "icon": "assets/bosses/110502.png"
     },
     "avatar": "assets/characters/1102.png",
+    "preview": "assets/previews/1102.webp",
+    "portrait": "assets/portraits/1102.webp",
     "quotes": [
       {
         "en": "Disappear among the sea of butterflies, illusions of the past!",
@@ -1230,6 +1256,8 @@
       "icon": "assets/bosses/110502.png"
     },
     "avatar": "assets/characters/1103.png",
+    "preview": "assets/previews/1103.webp",
+    "portrait": "assets/portraits/1103.webp",
     "quotes": [
       {
         "en": "Fight it or rock with it... my music conquers all!",
@@ -1320,6 +1348,8 @@
       "icon": "assets/bosses/110502.png"
     },
     "avatar": "assets/characters/1104.png",
+    "preview": "assets/previews/1104.webp",
+    "portrait": "assets/portraits/1104.webp",
     "quotes": [
       {
         "en": "Years of cold hardens the will. We shall never fall!",
@@ -1410,6 +1440,8 @@
       "icon": "assets/bosses/110502.png"
     },
     "avatar": "assets/characters/1105.png",
+    "preview": "assets/previews/1105.webp",
+    "portrait": "assets/portraits/1105.webp",
     "quotes": [
       {
         "en": "Time for a shot.",
@@ -1500,6 +1532,8 @@
       "icon": "assets/bosses/110502.png"
     },
     "avatar": "assets/characters/1106.png",
+    "preview": "assets/previews/1106.webp",
+    "portrait": "assets/portraits/1106.webp",
     "quotes": [
       {
         "en": "Net markers activated — time for a good old counterattack.",
@@ -1590,6 +1624,8 @@
       "icon": "assets/bosses/110502.png"
     },
     "avatar": "assets/characters/1107.png",
+    "preview": "assets/previews/1107.webp",
+    "portrait": "assets/portraits/1107.webp",
     "quotes": [
       {
         "en": "Help me, Mr. Svarog!",
@@ -1680,6 +1716,8 @@
       "icon": "assets/bosses/110502.png"
     },
     "avatar": "assets/characters/1108.png",
+    "preview": "assets/previews/1108.webp",
+    "portrait": "assets/portraits/1108.webp",
     "quotes": [
       {
         "en": "The customer is king, and for me to betray the king, well... You gotta make it worth my while.",
@@ -1766,6 +1804,8 @@
       "icon": "assets/bosses/110502.png"
     },
     "avatar": "assets/characters/1109.png",
+    "preview": "assets/previews/1109.webp",
+    "portrait": "assets/portraits/1109.webp",
     "quotes": [
       {
         "en": "Moles, Moles, leaving our holes, brave Moles, charge as a whole!",
@@ -1858,6 +1898,8 @@
       "icon": "assets/bosses/110502.png"
     },
     "avatar": "assets/characters/1110.png",
+    "preview": "assets/previews/1110.webp",
+    "portrait": "assets/portraits/1110.webp",
     "quotes": [
       {
         "en": "For a tough case like yours, we're gonna try them all!",
@@ -1948,6 +1990,8 @@
       "icon": "assets/bosses/110503.png"
     },
     "avatar": "assets/characters/1111.png",
+    "preview": "assets/previews/1111.webp",
+    "portrait": "assets/portraits/1111.webp",
     "quotes": [
       {
         "en": "An opponent worth their salt... Let's see some sparks fly!",
@@ -2040,6 +2084,8 @@
       "icon": "assets/bosses/110503.png"
     },
     "avatar": "assets/characters/1112.png",
+    "preview": "assets/previews/1112.webp",
+    "portrait": "assets/portraits/1112.webp",
     "quotes": [
       {
         "en": "Investing in victory... means playing the long game!",
@@ -2128,6 +2174,8 @@
       "icon": "assets/bosses/110502.png"
     },
     "avatar": "assets/characters/1201.png",
+    "preview": "assets/previews/1201.webp",
+    "portrait": "assets/portraits/1201.webp",
     "quotes": [
       {
         "en": "Life's just like a game of tiles, you never know what's gonna come up next~",
@@ -2218,6 +2266,8 @@
       "icon": "assets/bosses/110501.png"
     },
     "avatar": "assets/characters/1202.png",
+    "preview": "assets/previews/1202.webp",
+    "portrait": "assets/portraits/1202.webp",
     "quotes": [
       {
         "en": "Seize the moment!",
@@ -2308,6 +2358,8 @@
       "icon": "assets/bosses/110502.png"
     },
     "avatar": "assets/characters/1203.png",
+    "preview": "assets/previews/1203.webp",
+    "portrait": "assets/portraits/1203.webp",
     "quotes": [
       {
         "en": "Time to settle your accounts.",
@@ -2402,6 +2454,8 @@
       "icon": "assets/bosses/110501.png"
     },
     "avatar": "assets/characters/1204.png",
+    "preview": "assets/previews/1204.webp",
+    "portrait": "assets/portraits/1204.webp",
     "quotes": [
       {
         "en": "A foregone conclusion.",
@@ -2497,6 +2551,8 @@
       "icon": "assets/bosses/110503.png"
     },
     "avatar": "assets/characters/1205.png",
+    "preview": "assets/previews/1205.webp",
+    "portrait": "assets/portraits/1205.webp",
     "quotes": [
       {
         "en": "Life itself is punishment.",
@@ -2589,6 +2645,8 @@
       "icon": "assets/bosses/110502.png"
     },
     "avatar": "assets/characters/1206.png",
+    "preview": "assets/previews/1206.webp",
+    "portrait": "assets/portraits/1206.webp",
     "quotes": [
       {
         "en": "No more playing nice!",
@@ -2681,6 +2739,8 @@
       "icon": "assets/bosses/110501.png"
     },
     "avatar": "assets/characters/1207.png",
+    "preview": "assets/previews/1207.webp",
+    "portrait": "assets/portraits/1207.webp",
     "quotes": [
       {
         "en": "Brave the wind!",
@@ -2781,6 +2841,8 @@
       "icon": "assets/bosses/110503.png"
     },
     "avatar": "assets/characters/1208.png",
+    "preview": "assets/previews/1208.webp",
+    "portrait": "assets/portraits/1208.webp",
     "quotes": [
       {
         "en": "The omniscia sees through you...",
@@ -2869,6 +2931,8 @@
       "icon": "assets/bosses/110502.png"
     },
     "avatar": "assets/characters/1209.png",
+    "preview": "assets/previews/1209.webp",
+    "portrait": "assets/portraits/1209.webp",
     "quotes": [
       {
         "en": "A strong adversary. Help me improve!",
@@ -2957,6 +3021,8 @@
       "icon": "assets/bosses/110503.png"
     },
     "avatar": "assets/characters/1210.png",
+    "preview": "assets/previews/1210.webp",
+    "portrait": "assets/portraits/1210.webp",
     "quotes": [
       {
         "en": "Come feast your eyes!",
@@ -3046,6 +3112,8 @@
       "icon": "assets/bosses/110502.png"
     },
     "avatar": "assets/characters/1211.png",
+    "preview": "assets/previews/1211.webp",
+    "portrait": "assets/portraits/1211.webp",
     "quotes": [
       {
         "en": "Ha, you don't look so good.",
@@ -3140,6 +3208,8 @@
       "icon": "assets/bosses/110503.png"
     },
     "avatar": "assets/characters/1212.png",
+    "preview": "assets/previews/1212.webp",
+    "portrait": "assets/portraits/1212.webp",
     "quotes": [
       {
         "en": "Unworthy of my time.",
@@ -3234,6 +3304,8 @@
       "icon": "assets/bosses/110503.png"
     },
     "avatar": "assets/characters/1213.png",
+    "preview": "assets/previews/1213.webp",
+    "portrait": "assets/portraits/1213.webp",
     "quotes": [
       {
         "en": "I sense a storm...",
@@ -3324,6 +3396,8 @@
       "icon": "assets/bosses/110504.png"
     },
     "avatar": "assets/characters/1214.png",
+    "preview": "assets/previews/1214.webp",
+    "portrait": "assets/portraits/1214.webp",
     "quotes": [
       {
         "en": "Do you admit this crime?",
@@ -3414,6 +3488,8 @@
       "icon": "assets/bosses/110503.png"
     },
     "avatar": "assets/characters/1215.png",
+    "preview": "assets/previews/1215.webp",
+    "portrait": "assets/portraits/1215.webp",
     "quotes": [
       {
         "en": "You don't know how serious this is...",
@@ -3506,6 +3582,8 @@
       "icon": "assets/bosses/110503.png"
     },
     "avatar": "assets/characters/1217.png",
+    "preview": "assets/previews/1217.webp",
+    "portrait": "assets/portraits/1217.webp",
     "quotes": [
       {
         "en": "Demons... depart...",
@@ -3596,6 +3674,8 @@
       "icon": "assets/bosses/110503.png"
     },
     "avatar": "assets/characters/1218.png",
+    "preview": "assets/previews/1218.webp",
+    "portrait": "assets/portraits/1218.webp",
     "quotes": [
       {
         "en": "I still prefer adding fuel to the fire.",
@@ -3700,6 +3780,8 @@
       "icon": "assets/bosses/110503.png"
     },
     "avatar": "assets/characters/1220.png",
+    "preview": "assets/previews/1220.webp",
+    "portrait": "assets/portraits/1220.webp",
     "quotes": [
       {
         "en": "Set me aflame! Let's find out if you can reduce me to cinders!",
@@ -3792,6 +3874,8 @@
       "icon": "assets/bosses/110503.png"
     },
     "avatar": "assets/characters/1221.png",
+    "preview": "assets/previews/1221.webp",
+    "portrait": "assets/portraits/1221.webp",
     "quotes": [
       {
         "en": "Strike while the iron is hot.",
@@ -3889,6 +3973,8 @@
       "icon": "assets/bosses/110506.png"
     },
     "avatar": "assets/characters/1222.png",
+    "preview": "assets/previews/1222.webp",
+    "portrait": "assets/portraits/1222.webp",
     "quotes": [
       {
         "en": "...The stench of evil.",
@@ -3981,6 +4067,8 @@
       "icon": "assets/bosses/110506.png"
     },
     "avatar": "assets/characters/1223.png",
+    "preview": "assets/previews/1223.webp",
+    "portrait": "assets/portraits/1223.webp",
     "quotes": [
       {
         "en": "I am the blade...",
@@ -4091,6 +4179,8 @@
       "icon": "assets/bosses/110501.png"
     },
     "avatar": "assets/characters/1224.png",
+    "preview": "assets/previews/1224.webp",
+    "portrait": "assets/portraits/1224.webp",
     "quotes": [
       {
         "en": "You'll make for good practice!",
@@ -4183,6 +4273,8 @@
       "icon": "assets/bosses/110503.png"
     },
     "avatar": "assets/characters/1225.png",
+    "preview": "assets/previews/1225.webp",
+    "portrait": "assets/portraits/1225.webp",
     "quotes": [
       {
         "en": "Let's seize this fine moment.",
@@ -4274,6 +4366,8 @@
       "icon": "assets/bosses/110504.png"
     },
     "avatar": "assets/characters/1301.png",
+    "preview": "assets/previews/1301.webp",
+    "portrait": "assets/portraits/1301.webp",
     "quotes": [
       {
         "en": "Life's like a good brew – full-bodied and sweet.",
@@ -4359,6 +4453,8 @@
       "icon": "assets/bosses/110503.png"
     },
     "avatar": "assets/characters/1302.png",
+    "preview": "assets/previews/1302.webp",
+    "portrait": "assets/portraits/1302.webp",
     "quotes": [
       {
         "en": "The Beauty... is eternal.",
@@ -4449,6 +4545,8 @@
       "icon": "assets/bosses/110504.png"
     },
     "avatar": "assets/characters/1303.png",
+    "preview": "assets/previews/1303.webp",
+    "portrait": "assets/portraits/1303.webp",
     "quotes": [
       {
         "en": "Eternal melody.",
@@ -4541,6 +4639,8 @@
       "icon": "assets/bosses/110504.png"
     },
     "avatar": "assets/characters/1304.png",
+    "preview": "assets/previews/1304.webp",
+    "portrait": "assets/portraits/1304.webp",
     "quotes": [
       {
         "en": "Going all in. Tab's on me.",
@@ -4633,6 +4733,8 @@
       "icon": "assets/bosses/110504.png"
     },
     "avatar": "assets/characters/1305.png",
+    "preview": "assets/previews/1305.webp",
+    "portrait": "assets/portraits/1305.webp",
     "quotes": [
       {
         "en": "Knowledge is the measure of all things. It reveals truth... and falsehood.",
@@ -4727,6 +4829,8 @@
       "icon": "assets/bosses/110504.png"
     },
     "avatar": "assets/characters/1306.png",
+    "preview": "assets/previews/1306.webp",
+    "portrait": "assets/portraits/1306.webp",
     "quotes": [
       {
         "en": "Let's play hide and seek.",
@@ -4813,6 +4917,8 @@
       "icon": "assets/bosses/110504.png"
     },
     "avatar": "assets/characters/1307.png",
+    "preview": "assets/previews/1307.webp",
+    "portrait": "assets/portraits/1307.webp",
     "quotes": [
       {
         "en": "Beneath the silent waters lies an endless abyss.",
@@ -4903,6 +5009,8 @@
       "icon": "assets/bosses/110504.png"
     },
     "avatar": "assets/characters/1308.png",
+    "preview": "assets/previews/1308.webp",
+    "portrait": "assets/portraits/1308.webp",
     "quotes": [
       {
         "en": "Existence is fleeting as the dawn's dew, destined for oblivion.",
@@ -4995,6 +5103,8 @@
       "icon": "assets/bosses/110504.png"
     },
     "avatar": "assets/characters/1309.png",
+    "preview": "assets/previews/1309.webp",
+    "portrait": "assets/portraits/1309.webp",
     "quotes": [
       {
         "en": "Tonight, the stars echo because of me.",
@@ -5089,6 +5199,8 @@
       "icon": "assets/bosses/110505.png"
     },
     "avatar": "assets/characters/1310.png",
+    "preview": "assets/previews/1310.webp",
+    "portrait": "assets/portraits/1310.webp",
     "quotes": [
       {
         "en": "I will fight for myself, until everything... burns to ashes!",
@@ -5176,6 +5288,8 @@
       "icon": "assets/bosses/110504.png"
     },
     "avatar": "assets/characters/1312.png",
+    "preview": "assets/previews/1312.webp",
+    "portrait": "assets/portraits/1312.webp",
     "quotes": [
       {
         "en": "The one thing I look forward to? Growing up, of course!",
@@ -5284,6 +5398,8 @@
       "icon": "assets/bosses/110505.png"
     },
     "avatar": "assets/characters/1313.png",
+    "preview": "assets/previews/1313.webp",
+    "portrait": "assets/portraits/1313.webp",
     "quotes": [
       {
         "en": "I will walk with you, watch over you, and guide you on your path.",
@@ -5376,6 +5492,8 @@
       "icon": "assets/bosses/110505.png"
     },
     "avatar": "assets/characters/1314.png",
+    "preview": "assets/previews/1314.webp",
+    "portrait": "assets/portraits/1314.webp",
     "quotes": [
       {
         "en": "There's no backing out now, for me... or for you.",
@@ -5464,6 +5582,8 @@
       "icon": "assets/bosses/110505.png"
     },
     "avatar": "assets/characters/1315.png",
+    "preview": "assets/previews/1315.webp",
+    "portrait": "assets/portraits/1315.webp",
     "quotes": [
       {
         "en": "There are only two kinds of people in the world — those with a loaded gun... and those who dig their own grave!",
@@ -5552,6 +5672,8 @@
       "icon": "assets/bosses/110505.png"
     },
     "avatar": "assets/characters/1317.png",
+    "preview": "assets/previews/1317.webp",
+    "portrait": "assets/portraits/1317.webp",
     "quotes": [
       {
         "en": "Slash! Cut! Cleave!",
@@ -5648,6 +5770,8 @@
       "icon": "assets/bosses/110508.png"
     },
     "avatar": "assets/characters/1321.png",
+    "preview": "assets/previews/1321.webp",
+    "portrait": "assets/portraits/1321.webp",
     "quotes": [
       {
         "en": "It's me. Did I scare you with how I... popped up without a sound?",
@@ -5722,6 +5846,8 @@
       "icon": "assets/bosses/110506.png"
     },
     "avatar": "assets/characters/1401.png",
+    "preview": "assets/previews/1401.webp",
+    "portrait": "assets/portraits/1401.webp",
     "quotes": [
       {
         "en": "Endless riddles, but the answer... is nothing but a void.",
@@ -5821,6 +5947,8 @@
       "icon": "assets/bosses/110506.png"
     },
     "avatar": "assets/characters/1402.png",
+    "preview": "assets/previews/1402.webp",
+    "portrait": "assets/portraits/1402.webp",
     "quotes": [
       {
         "en": "Thus, your fate and mine become one.",
@@ -5921,6 +6049,8 @@
       "icon": "assets/bosses/110505.png"
     },
     "avatar": "assets/characters/1403.png",
+    "preview": "assets/previews/1403.webp",
+    "portrait": "assets/portraits/1403.webp",
     "quotes": [
       {
         "en": "Move aside, no bullying allowed!",
@@ -6025,6 +6155,8 @@
       "icon": "assets/bosses/110506.png"
     },
     "avatar": "assets/characters/1404.png",
+    "preview": "assets/previews/1404.webp",
+    "portrait": "assets/portraits/1404.webp",
     "quotes": [
       {
         "en": "I allow you to accept your punishment!",
@@ -6125,6 +6257,8 @@
       "icon": "assets/bosses/110505.png"
     },
     "avatar": "assets/characters/1405.png",
+    "preview": "assets/previews/1405.webp",
+    "portrait": "assets/portraits/1405.webp",
     "quotes": [
       {
         "en": "Sink into insanity!",
@@ -6223,6 +6357,8 @@
       "icon": "assets/bosses/110507.png"
     },
     "avatar": "assets/characters/1406.png",
+    "preview": "assets/previews/1406.webp",
+    "portrait": "assets/portraits/1406.webp",
     "quotes": [
       {
         "en": "Treasure~ Come to me!",
@@ -6324,6 +6460,8 @@
       "icon": "assets/bosses/110506.png"
     },
     "avatar": "assets/characters/1407.png",
+    "preview": "assets/previews/1407.webp",
+    "portrait": "assets/portraits/1407.webp",
     "quotes": [
       {
         "en": "Please, wilt here.",
@@ -6423,6 +6561,8 @@
       "icon": "assets/bosses/110507.png"
     },
     "avatar": "assets/characters/1408.png",
+    "preview": "assets/previews/1408.webp",
+    "portrait": "assets/portraits/1408.webp",
     "quotes": [
       {
         "en": "The new world will arrive!",
@@ -6521,6 +6661,8 @@
       "icon": "assets/bosses/110505.png"
     },
     "avatar": "assets/characters/1409.png",
+    "preview": "assets/previews/1409.webp",
+    "portrait": "assets/portraits/1409.webp",
     "quotes": [
       {
         "en": "We do need some sunshine~",
@@ -6619,6 +6761,8 @@
       "icon": "assets/bosses/110507.png"
     },
     "avatar": "assets/characters/1410.png",
+    "preview": "assets/previews/1410.webp",
+    "portrait": "assets/portraits/1410.webp",
     "quotes": [
       {
         "en": "Tides, sink with me.",
@@ -6712,6 +6856,8 @@
       "icon": "assets/bosses/110507.png"
     },
     "avatar": "assets/characters/1412.png",
+    "preview": "assets/previews/1412.webp",
+    "portrait": "assets/portraits/1412.webp",
     "quotes": [
       {
         "en": "Come now, step onto the board!",
@@ -6803,6 +6949,8 @@
       "icon": "assets/bosses/110507.png"
     },
     "avatar": "assets/characters/1413.png",
+    "preview": "assets/previews/1413.webp",
+    "portrait": "assets/portraits/1413.webp",
     "quotes": [
       {
         "en": "Go on. Treat our guests nicely~",
@@ -6897,6 +7045,8 @@
       "icon": "assets/bosses/110507.png"
     },
     "avatar": "assets/characters/1414.png",
+    "preview": "assets/previews/1414.webp",
+    "portrait": "assets/portraits/1414.webp",
     "quotes": [
       {
         "en": "Mountains roar. Dragons rise!",
@@ -6995,6 +7145,8 @@
       "icon": "assets/bosses/110507.png"
     },
     "avatar": "assets/characters/1415.png",
+    "preview": "assets/previews/1415.webp",
+    "portrait": "assets/portraits/1415.webp",
     "quotes": [
       {
         "en": "Endless flowers, please bloom for tomorrow.",
@@ -7081,6 +7233,8 @@
       "icon": "assets/bosses/110508.png"
     },
     "avatar": "assets/characters/1501.png",
+    "preview": "assets/previews/1501.webp",
+    "portrait": "assets/portraits/1501.webp",
     "quotes": [
       {
         "en": "Punishment time!",
@@ -7171,6 +7325,8 @@
       "icon": "assets/bosses/110508.png"
     },
     "avatar": "assets/characters/1502.png",
+    "preview": "assets/previews/1502.webp",
+    "portrait": "assets/portraits/1502.webp",
     "quotes": [
       {
         "en": "Stars of fortune favor us.",
@@ -7264,6 +7420,8 @@
       "icon": "assets/bosses/110508.png"
     },
     "avatar": "assets/characters/1504.png",
+    "preview": "assets/previews/1504.webp",
+    "portrait": "assets/portraits/1504.webp",
     "quotes": [
       {
         "en": "I... see through you.",
@@ -7356,6 +7514,8 @@
       "icon": "assets/bosses/110508.png"
     },
     "avatar": "assets/characters/1505.png",
+    "preview": "assets/previews/1505.webp",
+    "portrait": "assets/portraits/1505.webp",
     "quotes": [
       {
         "en": "By the Phantasmoon I'll vanquish you!",
@@ -7447,6 +7607,8 @@
       "icon": "assets/bosses/110508.png"
     },
     "avatar": "assets/characters/1506.png",
+    "preview": "assets/previews/1506.webp",
+    "portrait": "assets/portraits/1506.webp",
     "quotes": [
       {
         "en": "Let me teach you some moves. Get all that?",
@@ -7540,6 +7702,8 @@
       "icon": "assets/bosses/110508.png"
     },
     "avatar": "assets/characters/1507.png",
+    "preview": "assets/previews/1507.webp",
+    "portrait": "assets/portraits/1507.webp",
     "quotes": [
       {
         "en": "Purgatory... take hold!",
@@ -7628,6 +7792,8 @@
       "icon": "assets/bosses/110501.png"
     },
     "avatar": "assets/characters/1508.png",
+    "preview": "assets/previews/1508.webp",
+    "portrait": "assets/portraits/1508.webp",
     "quotes": [
       {
         "en": "Time to shine!",
@@ -7714,6 +7880,8 @@
       "icon": "assets/bosses/110502.png"
     },
     "avatar": "assets/characters/1509.png",
+    "preview": "assets/previews/1509.webp",
+    "portrait": "assets/portraits/1509.webp",
     "quotes": [
       {
         "en": "Behold and worship! Hahahahahaha!",
@@ -7805,6 +7973,8 @@
       "icon": "assets/bosses/110508.png"
     },
     "avatar": "assets/characters/1510.png",
+    "preview": "assets/previews/1510.webp",
+    "portrait": "assets/portraits/1510.webp",
     "quotes": [
       {
         "en": "I'll safeguard your path ahead!",
@@ -7893,6 +8063,8 @@
       "icon": "assets/bosses/110509.png"
     },
     "avatar": "assets/characters/1512.png",
+    "preview": "assets/previews/1512.webp",
+    "portrait": "assets/portraits/1512.webp",
     "quotes": [
       {
         "en": "It's nice to see you again. The weather in Astropolis is wonderful, and the moist breeze is filled with the scent of sunshine... I'm hoping to gather inspiration for a new song. Would you like to take a stroll together on the beach and listen to the sounds of sea conchs?",
@@ -7965,6 +8137,8 @@
       "icon": "assets/bosses/110509.png"
     },
     "avatar": "assets/characters/1513.png",
+    "preview": "assets/previews/1513.webp",
+    "portrait": "assets/portraits/1513.webp",
     "quotes": [
       {
         "en": "Friends, we meet again! I just wrapped up a sponsored shoot, and wow, keeping a smile plastered to my face for the camera is no easy feat. But now that I've been promoted to P46, I can finally go on vacation. Want to relax and enjoy your time with me? I guarantee you'll have an unforgettable getaway.",
@@ -8036,6 +8210,8 @@
       "icon": "assets/bosses/110501.png"
     },
     "avatar": "assets/characters/8001.png",
+    "preview": "assets/previews/8001.webp",
+    "portrait": "assets/portraits/8001.webp",
     "quotes": [
       {
         "en": "Rules are made to be broken!",
@@ -8109,6 +8285,8 @@
       "icon": "assets/bosses/110501.png"
     },
     "avatar": "assets/characters/8003.png",
+    "preview": "assets/previews/8003.webp",
+    "portrait": "assets/portraits/8003.webp",
     "quotes": [
       {
         "en": "Lance ablaze! Flaming lance, forward!",
@@ -8184,6 +8362,8 @@
       "icon": "assets/bosses/110504.png"
     },
     "avatar": "assets/characters/8005.png",
+    "preview": "assets/previews/8005.webp",
+    "portrait": "assets/portraits/8005.webp",
     "quotes": [
       {
         "en": "Time for a show-stopping performance! Dance along!",
@@ -8257,6 +8437,8 @@
       "icon": "assets/bosses/110506.png"
     },
     "avatar": "assets/characters/8007.png",
+    "preview": "assets/previews/8007.webp",
+    "portrait": "assets/portraits/8007.webp",
     "quotes": [
       {
         "en": "Mem, lend me your strength! Let's explore together!",
@@ -8330,6 +8512,8 @@
       "icon": "assets/bosses/110508.png"
     },
     "avatar": "assets/characters/8009.png",
+    "preview": "assets/previews/8009.webp",
+    "portrait": "assets/portraits/8009.webp",
     "quotes": [
       {
         "en": "Laughter is a weapon, and I intend to use it well!",
