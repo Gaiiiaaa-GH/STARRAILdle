@@ -86,8 +86,11 @@ export const SplashZoomMode: React.FC<SplashZoomModeProps> = ({
   const anchorMode: AnchorMode = variant === 'grayscale' ? 'contrast' : 'opacity';
 
   const splashArtSrc = useMemo(() => {
+    // StarRailRes names these the opposite of what you'd expect: its
+    // "preview" field is the tight face/bust crop, its "portrait" field is
+    // the big dynamic splash-art scene with background and effects.
     if (variant === 'portrait') {
-      return target.portrait || target.avatar;
+      return target.preview || target.avatar;
     }
     if (variant === 'grayscale') {
       if (bannerIds.has(target.id)) return `/assets/banners/${target.id}.webp`;
