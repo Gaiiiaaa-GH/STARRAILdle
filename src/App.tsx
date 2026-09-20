@@ -17,7 +17,9 @@ import {
   getDailyTarget,
   getRandomTarget,
   loadGameStats,
+  loadDailyStreaks,
   recordWin,
+  recordDailyWin,
   CLASSIC_MODE_CARD_COUNT,
 } from './utils/gameLogic';
 import { soundManager } from './utils/audio';
@@ -32,7 +34,7 @@ type SimpleMode = Exclude<GameMode, 'classic'>;
 
 // variant/mode pairs for the three SplashZoomMode-driven silhouette games
 const SPLASH_VARIANTS: { mode: SimpleMode; variant: SplashVariant }[] = [
-  { mode: 'splash', variant: 'mixed' },
+  { mode: 'splash', variant: 'splashArt' },
   { mode: 'portrait', variant: 'portrait' },
   { mode: 'grayscale', variant: 'grayscale' },
 ];
@@ -273,6 +275,7 @@ export function App() {
       setTimeout(() => {
         setHasWon((prev) => ({ ...prev, classic: true }));
         recordWin('classic', newGuesses.length);
+        if (isDaily) recordDailyWin('classic', new Date().toISOString().slice(0, 10));
         setIsVictoryModalOpen(true);
       }, CLASSIC_MODE_CARD_COUNT * 280 + 350);
     }
@@ -286,10 +289,27 @@ export function App() {
     if (guessChar.id === currentTarget.id) {
       setHasWon((prev) => ({ ...prev, [mode]: true }));
       recordWin(mode, newGuesses.length);
+      if (isDaily) recordDailyWin(mode, new Date().toISOString().slice(0, 10));
       setIsVictoryModalOpen(true);
     } else {
       soundManager.playFlip(0);
     }
+  };
+
+  // Skill mode's Challenge variant: finding the character only records the
+  // guess, it doesn't win the round -- the round is decided by
+  // handleSkillChallengeResult once the ability-type question is answered,
+  // and a wrong answer never wins (no half-credit).
+  const handleSkillCharacterFound = (character: Character) => {
+    setGuesses((prev) => ({ ...prev, skill: [character, ...prev.skill] }));
+  };
+
+  const handleSkillChallengeResult = (correct: boolean) => {
+    if (!correct) return;
+    setHasWon((prev) => ({ ...prev, skill: true }));
+    recordWin('skill', guesses.skill.length);
+    if (isDaily) recordDailyWin('skill', new Date().toISOString().slice(0, 10));
+    setIsVictoryModalOpen(true);
   };
 
   return (
@@ -363,6 +383,8 @@ export function App() {
                 target={currentTarget}
                 guessedCharacters={guesses.skill}
                 onMakeGuess={handleSimpleGuess('skill')}
+                onCharacterFound={handleSkillCharacterFound}
+                onChallengeResult={handleSkillChallengeResult}
                 hasWon={hasWon.skill}
                 isDaily={isDaily}
                 onResetPractice={() => handleResetPractice('skill')}
@@ -398,6 +420,7 @@ export function App() {
         {isStatsModalOpen && (
           <StatsModal
             stats={loadGameStats()}
+            streaks={loadDailyStreaks()}
             language={language}
             onClose={() => setIsStatsModalOpen(false)}
           />

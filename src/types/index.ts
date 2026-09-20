@@ -64,9 +64,9 @@ export interface Character {
   weekly_boss: WeeklyBossInfo;
   avatar: string;
   portrait?: string;
-  preview?: string;
+  splash_art?: string;
   quotes: { en: string; fr: string }[];
-  skill_hint: SkillHint;
+  skill_hints: SkillHint[];
 }
 
 export type MatchStatus = 'correct' | 'partial' | 'incorrect';
@@ -139,8 +139,6 @@ export interface ComparisonResult {
 export interface ModeStats {
   played: number;
   won: number;
-  currentStreak: number;
-  maxStreak: number;
   guessDistribution: Record<number, number>;
 }
 
@@ -151,4 +149,22 @@ export interface AllStats {
   grayscale: ModeStats;
   quote: ModeStats;
   skill: ModeStats;
+}
+
+// Kept in a separate localStorage entry from AllStats on purpose: a daily
+// streak is precious (and date-sensitive) enough that it shouldn't be at
+// risk if a future update ever changes the shape of the general stats blob.
+export interface DailyStreak {
+  current: number;
+  max: number;
+  lastWinDate: string | null;
+}
+
+export interface AllDailyStreaks {
+  classic: DailyStreak;
+  splash: DailyStreak;
+  portrait: DailyStreak;
+  grayscale: DailyStreak;
+  quote: DailyStreak;
+  skill: DailyStreak;
 }

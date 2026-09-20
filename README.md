@@ -7,13 +7,13 @@ Daily character-guessing game for Honkai: Star Rail — Loldle/Wordle-inspired, 
 ## Modes
 
 - **Classic** — guess via 9 compared attributes (element, path, lore path, rarity, version, weekly boss, world, factions)
-- **Splash Art** — silhouette that zooms out and recenters with each attempt, mixing two official art variants
-- **Portrait** — same silhouette zoom, but always the character's official portrait
+- **Splash Art** — silhouette of the character's official splash art, zooming out with each attempt
+- **Portrait** — same silhouette zoom, but always the character's official close-up portrait
 - **Black & White** — promo art, desaturated, zooming out with each attempt
 - **Quote** — guess the character from a real in-game line
-- **Skill** — guess from a skill's icon
+- **Skill** — guess from an ability icon (Basic ATK / Skill / Ultimate / Talent / Technique, a different one each round); optional Challenge Mode asks you to name which of those five it was
 
-Every mode has a daily challenge (same for everyone, one per day) and an infinite practice mode (random targets).
+Every mode has a daily challenge (same for everyone, one per day) and an infinite practice mode (random targets). Daily wins build a per-mode streak, kept in its own local storage entry so it survives future updates to the rest of the site's saved data.
 
 ## Features
 
@@ -22,6 +22,7 @@ Every mode has a daily challenge (same for everyone, one per day) and an infinit
 - Colorblind mode (status badges on top of color)
 - Installable as a PWA, playable offline
 - Rotating background: random official banners across the game's cast
+- Daily streak tracking per mode
 
 <br clear="right">
 
@@ -45,7 +46,9 @@ To regenerate the dataset after a game update, rerun `python scripts/build_data.
 
 Background banners are the wiki's native promo art; the older ones were published below 1080p, so those were upscaled with [Real-ESRGAN](https://github.com/xinntao/Real-ESRGAN) (anime model) to a consistent 1920px width.
 
-Splash Art mode picks between each character's `character_preview` and `character_portrait` art (also from StarRailRes — note that upstream names them backwards from what you'd expect: `preview` is the tight face/bust crop, `portrait` is the big dynamic scene); Portrait mode always uses the face/bust crop; Black & White reuses the promo banners (falling back to the big scene art for the dozen characters without one). All three pick the zoom's starting point from a coarse 3x3 grid of candidate spots on the image — one qualifying spot per zone, picked with a seed (character + day for daily, random for practice) — instead of a single fixed "best" point, so the reveal isn't always centered on the same part of the same pose. Splash Art and Portrait score candidates by opaque-pixel ratio (how much of the window is silhouette vs. background); Black & White has no transparency to measure, so it scores by local contrast instead, favoring detailed/textured spots over flat ones.
+Splash Art and Portrait each get their own dedicated art (`public/assets/SPLASHART/`, `public/assets/PORTRAIT/`) from StarRailRes's `character_preview` and `character_portrait` fields — note that upstream names them backwards from what you'd expect: `preview` is the tight face/bust crop (-> Portrait mode), `portrait` is the big dynamic scene (-> Splash Art mode); renamed on download so nothing downstream has to remember that. Black & White reuses the promo banners, falling back to the Splash Art image for the dozen characters without one. All three pick the zoom's starting point from a coarse 3x3 grid of candidate spots on the image — one qualifying spot per zone, picked with a seed (character + day for daily, random for practice) — instead of a single fixed "best" point, so the reveal isn't always centered on the same part of the same pose. Splash Art and Portrait score candidates by opaque-pixel ratio (how much of the window is silhouette vs. background); Black & White has no transparency to measure, so it scores by local contrast instead, favoring detailed/textured spots over flat ones.
+
+Skill mode downloads up to five ability icons per character (one per real type: Basic ATK/Skill/Ultimate/Talent/Technique, deduped from StarRailRes's own list) instead of always the same one, so both the icon shown and the Challenge Mode question actually vary.
 
 ## Credits
 

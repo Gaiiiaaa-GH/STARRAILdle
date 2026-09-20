@@ -1,19 +1,21 @@
 import React, { useState } from 'react';
-import type { AllStats, GameMode, Language } from '../types';
+import type { AllStats, AllDailyStreaks, GameMode, Language } from '../types';
 import { Trophy, Flame, Target, Award } from 'lucide-react';
 import { soundManager } from '../utils/audio';
 import { Modal } from './Modal';
 
 interface StatsModalProps {
   stats: AllStats;
+  streaks: AllDailyStreaks;
   language: Language;
   onClose: () => void;
 }
 
-export const StatsModal: React.FC<StatsModalProps> = ({ stats, language, onClose }) => {
+export const StatsModal: React.FC<StatsModalProps> = ({ stats, streaks, language, onClose }) => {
   const [selectedMode, setSelectedMode] = useState<GameMode>('classic');
   const isFr = language === 'fr';
   const modeStats = stats[selectedMode];
+  const modeStreak = streaks[selectedMode];
 
   const winRate = modeStats.played > 0 ? Math.round((modeStats.won / modeStats.played) * 100) : 0;
 
@@ -59,12 +61,12 @@ export const StatsModal: React.FC<StatsModalProps> = ({ stats, language, onClose
           </div>
           <div className="stat-card">
             <Flame size={16} color="#f97316" />
-            <div className="stat-value">{modeStats.currentStreak}</div>
-            <div className="stat-label">{isFr ? 'Série' : 'Streak'}</div>
+            <div className="stat-value">{modeStreak.current}</div>
+            <div className="stat-label">{isFr ? 'Série quotidienne' : 'Daily Streak'}</div>
           </div>
           <div className="stat-card">
             <Award size={16} color="var(--purple)" />
-            <div className="stat-value">{modeStats.maxStreak}</div>
+            <div className="stat-value">{modeStreak.max}</div>
             <div className="stat-label">Max</div>
           </div>
         </div>

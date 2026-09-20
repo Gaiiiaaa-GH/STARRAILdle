@@ -325,6 +325,12 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 2rem;
+  /* Plain children here have no background of their own (unlike the glass
+     cards, which get promoted above the backdrop for free via their own
+     backdrop-filter) -- promote the whole wrapper once instead of patching
+     every text/button element that lives directly inside it. */
+  position: relative;
+  z-index: 1;
 }
 
 /* Right guide panel — sticky within its own grid column, so it can
@@ -1028,6 +1034,71 @@ body {
   color: var(--text-muted);
 }
 .skill-name.revealed { color: var(--accent); }
+
+.challenge-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 10px;
+  padding: 5px 12px;
+  border-radius: var(--radius-pill);
+  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.03);
+  color: var(--text-muted);
+  font-size: 0.72rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+}
+.challenge-toggle.active {
+  background: var(--accent-dim);
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.challenge-question {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border);
+  width: 100%;
+  text-align: center;
+}
+.challenge-question-title {
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--text-dim);
+  margin-bottom: 0.6rem;
+}
+.challenge-options {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 6px;
+}
+.challenge-option-btn {
+  padding: 6px 12px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.03);
+  color: #fff;
+  font-size: 0.78rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s;
+}
+.challenge-option-btn:hover { background: rgba(255, 255, 255, 0.08); border-color: var(--border-hover); }
+
+.challenge-result {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 14px;
+  border-radius: var(--radius-pill);
+  font-size: 0.82rem;
+  font-weight: 700;
+}
+.challenge-result.correct { background: var(--correct); border: 1px solid var(--correct-border); color: #fff; }
+.challenge-result.wrong { background: var(--wrong); border: 1px solid var(--wrong-border); color: #fff; }
 
 /* ── Classic mode extras ─────────────────────────────── */
 

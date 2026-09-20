@@ -36,8 +36,8 @@ os.makedirs(os.path.join(PUBLIC_DIR, "paths"), exist_ok=True)
 os.makedirs(os.path.join(PUBLIC_DIR, "elements"), exist_ok=True)
 os.makedirs(os.path.join(PUBLIC_DIR, "bosses"), exist_ok=True)
 os.makedirs(os.path.join(PUBLIC_DIR, "skills"), exist_ok=True)
-os.makedirs(os.path.join(PUBLIC_DIR, "previews"), exist_ok=True)
-os.makedirs(os.path.join(PUBLIC_DIR, "portraits"), exist_ok=True)
+os.makedirs(os.path.join(PUBLIC_DIR, "PORTRAIT"), exist_ok=True)
+os.makedirs(os.path.join(PUBLIC_DIR, "SPLASHART"), exist_ok=True)
 os.makedirs(DATA_DIR, exist_ok=True)
 
 def fetch_json(endpoint):
@@ -201,12 +201,12 @@ CHARACTER_METADATA = {
     "1211": {"version": "1.0", "gender": "Female", "world": "Xianzhou Luofu", "factions": ["Xianzhou Luofu", "Alchemy Commission", "Vidyadhara High Elder"], "archetypes": ["Heal / Sustain", "Revive", "Invigoration"], "quote_fr": "Buvez cette tisane et faites de beaux rêves !", "quote_en": "Good medicine tastes bitter, but this will cure you!"},
     
     # 1.1
-    "1005": {"version": "1.1", "gender": "Female", "world": "Punklorde", "factions": ["Stellaron Hunters", "Punklorde"], "archetypes": ["Weakness Implant", "DEF Shred", "All-Type RES Shred", "Debuff"], "quote_fr": "C'est juste un jeu, et je gagne toujours.", "quote_en": "Can this game get any more interesting?"},
+    "1005": {"version": "1.2", "gender": "Female", "world": "Pteruges-V", "factions": ["Stellaron Hunters", "Punklorde"], "archetypes": ["Weakness Implant", "DEF Shred", "All-Type RES Shred", "Debuff"], "quote_fr": "C'est juste un jeu, et je gagne toujours.", "quote_en": "Can this game get any more interesting?"},
     "1203": {"version": "1.1", "gender": "Male", "world": "Xianzhou Luofu", "factions": ["Intergalactic Merchant", "Abundance Followers"], "archetypes": ["Auto-Heal / Field", "Dispel", "Cleanse", "Heal / Sustain"], "quote_fr": "Les morts reposent en paix, et les vivants persévèrent.", "quote_en": "The dead shall rest, the living shall proceed."},
     "1207": {"version": "1.1", "gender": "Female", "world": "Xianzhou Luofu", "factions": ["Xianzhou Luofu", "Sky-Faring Commission", "Helm Master"], "archetypes": ["Crit Rate Buff", "Crit DMG Buff", "ATK Buff", "Imaginary Break"], "quote_fr": "Volez au cœur du cyclone céleste !", "quote_en": "Ascend to the endless skies!"},
     
     # 1.2
-    "1006": {"version": "1.2", "gender": "Female", "world": "Pteruges-V", "factions": ["Stellaron Hunters", "Destiny's Slave Followers"], "archetypes": ["DoT / Shock", "DoT Detonation", "Follow-up"], "quote_fr": "Boom. Ferme les yeux et écoute le violon.", "quote_en": "Boom. Listen to my tune..."},
+    "1006": {"version": "1.1", "gender": "Female", "world": "Punklorde", "factions": ["Stellaron Hunters", "Destiny's Slave Followers"], "archetypes": ["DoT / Shock", "DoT Detonation", "Follow-up"], "quote_fr": "Boom. Ferme les yeux et écoute le violon.", "quote_en": "Boom. Listen to my tune..."},
     "1205": {"version": "1.2", "gender": "Male", "world": "Xianzhou Luofu", "factions": ["Stellaron Hunters", "High-Cloud Quintet", "Cloud Knights"], "archetypes": ["HP Consume", "Follow-up", "Crit Hypercarry", "Self-Heal"], "quote_fr": "Ce corps ne connaît pas la mort... seulement le tourment.", "quote_en": "That paradise may be unreachable for me... Savor it for me!"},
     "1111": {"version": "1.2", "gender": "Male", "world": "Jarilo-VI", "factions": ["Jarilo-VI", "Wildfire", "Underworld Fight Club"], "archetypes": ["DoT / Bleed", "Single Target Burst", "Vulnerability"], "quote_fr": "Mon poing d'acier va vous remettre les idées en place !", "quote_en": "Direct hit! Here comes the champion's right hook!"},
     
@@ -422,41 +422,46 @@ for cid in sorted(chars_en.keys(), key=lambda x: int(x)):
     if icon_rel:
         download_file(icon_rel, os.path.join(PUBLIC_DIR, "characters", f"{cid}.png"))
 
-    # Splash Art mode source images: the two official-art variants get mixed
-    # per round (see silhouetteAnchor.ts) so the silhouette isn't always the
-    # same pose/crop for a given character.
-    preview_rel = c_en.get('preview')
-    preview_path = f"assets/previews/{cid}.webp"
-    if preview_rel:
-        download_as_webp(preview_rel, os.path.join(PUBLIC_DIR, "previews", f"{cid}.webp"), quality=88)
-
-    portrait_rel = c_en.get('portrait')
-    portrait_path = f"assets/portraits/{cid}.webp"
+    # Two dedicated source images, one per silhouette game mode. StarRailRes
+    # names its own fields the opposite of what you'd expect: its "preview"
+    # is the tight face/bust crop (-> our Portrait mode), its "portrait" is
+    # the big dynamic splash-art scene (-> our Splash Art mode). Renamed here
+    # on download so nothing downstream has to remember that gotcha.
+    portrait_rel = c_en.get('preview')
+    portrait_path = f"assets/PORTRAIT/{cid}.webp"
     if portrait_rel:
-        download_as_webp(portrait_rel, os.path.join(PUBLIC_DIR, "portraits", f"{cid}.webp"), max_width=1200, quality=85)
+        download_as_webp(portrait_rel, os.path.join(PUBLIC_DIR, "PORTRAIT", f"{cid}.webp"), quality=88)
 
-    # Download a skill icon for Skill Game Mode
-    skill_icon_url = None
-    skill_name_en = None
-    skill_name_fr = None
-    skill_type = None
+    splash_art_rel = c_en.get('portrait')
+    splash_art_path = f"assets/SPLASHART/{cid}.webp"
+    if splash_art_rel:
+        download_as_webp(splash_art_rel, os.path.join(PUBLIC_DIR, "SPLASHART", f"{cid}.webp"), max_width=1200, quality=85)
 
-    if c_en.get('skills'):
-        # Pick ultimate or skill
-        for sk_id in c_en.get('skills'):
-            sk_data_en = skills_en.get(sk_id, {})
-            sk_data_fr = skills_fr.get(sk_id, {})
-            sk_type = sk_data_en.get('type_text', '')
-            if 'Ultimate' in sk_type or 'Skill' in sk_type or 'Talent' in sk_type:
-                sk_icon_rel = sk_data_en.get('icon')
-                if sk_icon_rel:
-                    fname = f"{cid}_{sk_id}.png"
-                    download_file(sk_icon_rel, os.path.join(PUBLIC_DIR, "skills", fname))
-                    skill_icon_url = f"assets/skills/{fname}"
-                    skill_name_en = sk_data_en.get('name')
-                    skill_name_fr = sk_data_fr.get('name', skill_name_en)
-                    skill_type = sk_type
-                    break
+    # Download skill icons for Skill Game Mode: one entry per real ability
+    # type (Basic ATK / Skill / Ultimate / Talent / Technique), deduped so a
+    # character with an alternate/eidolon-enhanced kit doesn't list the same
+    # type twice. A random one gets shown per round (see SkillMode.tsx),
+    # which is also what makes "guess the ability type" a real question in
+    # Challenge Mode instead of always being "Skill".
+    KNOWN_SKILL_TYPES = {'Basic ATK', 'Skill', 'Ultimate', 'Talent', 'Technique'}
+    skill_hints = []
+    seen_types = set()
+    for sk_id in c_en.get('skills', []):
+        sk_data_en = skills_en.get(sk_id, {})
+        sk_data_fr = skills_fr.get(sk_id, {})
+        sk_type = sk_data_en.get('type_text', '')
+        sk_icon_rel = sk_data_en.get('icon')
+        if sk_type not in KNOWN_SKILL_TYPES or sk_type in seen_types or not sk_icon_rel:
+            continue
+        seen_types.add(sk_type)
+        fname = f"{cid}_{sk_id}.png"
+        download_file(sk_icon_rel, os.path.join(PUBLIC_DIR, "skills", fname))
+        skill_hints.append({
+            "icon": f"assets/skills/{fname}",
+            "name_en": sk_data_en.get('name'),
+            "name_fr": sk_data_fr.get('name', sk_data_en.get('name')),
+            "type": sk_type,
+        })
 
     wiki = WIKI_RESEARCH.get(cid)
     if wiki:
@@ -517,15 +522,15 @@ for cid in sorted(chars_en.keys(), key=lambda x: int(x)):
             "icon": f"assets/bosses/{wb_id}.png"
         },
         "avatar": avatar_path,
-        "preview": preview_path if preview_rel else None,
         "portrait": portrait_path if portrait_rel else None,
+        "splash_art": splash_art_path if splash_art_rel else None,
         "quotes": QUOTES_RESEARCH.get(cid, [{"en": meta["quote_en"], "fr": meta["quote_fr"]}]),
-        "skill_hint": {
-            "icon": skill_icon_url or avatar_path,
-            "name_en": skill_name_en or f"{name_en}'s Power",
-            "name_fr": skill_name_fr or f"Pouvoir de {name_fr}",
-            "type": skill_type or "Ultimate"
-        }
+        "skill_hints": skill_hints or [{
+            "icon": avatar_path,
+            "name_en": f"{name_en}'s Power",
+            "name_fr": f"Pouvoir de {name_fr}",
+            "type": "Skill",
+        }],
     }
     processed_characters.append(char_obj)
     print(f"Processed: {name_en} ({name_fr}) - {meta['version']} - Boss: {wb_info['boss_name_en']}")

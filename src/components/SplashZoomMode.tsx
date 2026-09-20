@@ -5,11 +5,10 @@ import { NextRoundButton } from './NextRoundButton';
 import { GuessHistoryList } from './GuessHistoryList';
 import { Sparkles, Lightbulb } from 'lucide-react';
 import { soundManager } from '../utils/audio';
-import { pickSeeded } from '../utils/gameLogic';
 import { getSilhouetteAnchor, type Anchor, type AnchorMode } from '../utils/silhouetteAnchor';
 import bannerManifest from '../data/bannerManifest.json';
 
-export type SplashVariant = 'mixed' | 'portrait' | 'grayscale';
+export type SplashVariant = 'splashArt' | 'portrait' | 'grayscale';
 
 interface SplashZoomModeProps {
   variant: SplashVariant;
@@ -33,11 +32,11 @@ const ZOOM_STEPS = [3.0, 2.4, 1.95, 1.6, 1.3, 1.1];
 const bannerIds: Set<string> = new Set(bannerManifest as string[]);
 
 const COPY: Record<SplashVariant, { titleFr: string; titleEn: string; subFr: string; subEn: string }> = {
-  mixed: {
+  splashArt: {
     titleFr: 'Devinez la Silhouette',
     titleEn: 'Guess the Silhouette',
-    subFr: "L'image dézoome et se recentre à chaque tentative.",
-    subEn: 'The image zooms out and recenters with each attempt.',
+    subFr: "L'art officiel dézoome et se recentre à chaque tentative.",
+    subEn: 'The official splash art zooms out and recenters with each attempt.',
   },
   portrait: {
     titleFr: 'Devinez le Portrait',
@@ -85,23 +84,18 @@ export const SplashZoomMode: React.FC<SplashZoomModeProps> = ({
 
   const anchorMode: AnchorMode = variant === 'grayscale' ? 'contrast' : 'opacity';
 
+  // Each mode has its own dedicated source image -- no more mixing, so a
+  // character's Portrait mode look never bleeds into Splash Art or vice versa.
   const splashArtSrc = useMemo(() => {
-    // StarRailRes names these the opposite of what you'd expect: its
-    // "preview" field is the tight face/bust crop, its "portrait" field is
-    // the big dynamic splash-art scene with background and effects.
     if (variant === 'portrait') {
-      return target.preview || target.avatar;
+      return target.portrait || target.avatar;
     }
     if (variant === 'grayscale') {
       if (bannerIds.has(target.id)) return `/assets/banners/${target.id}.webp`;
-      return target.portrait || target.avatar;
+      return target.splash_art || target.avatar;
     }
-    // 'mixed': the two official art variants, so the same character doesn't
-    // always show the same pose/crop on top of always varying the anchor.
-    const sources = [target.preview, target.portrait].filter((s): s is string => Boolean(s));
-    if (sources.length === 0) return target.avatar;
-    return pickSeeded(sources, `${roundSeed}_source`);
-  }, [variant, roundSeed, target.id, target.preview, target.portrait, target.avatar]);
+    return target.splash_art || target.avatar;
+  }, [variant, target.id, target.portrait, target.splash_art, target.avatar]);
 
   useEffect(() => {
     let cancelled = false;

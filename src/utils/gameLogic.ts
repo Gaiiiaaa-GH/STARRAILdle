@@ -1,4 +1,4 @@
-import type { Character, ComparisonResult, MatchStatus, AllStats, ModeStats, GameMode } from '../types';
+import type { Character, ComparisonResult, MatchStatus, AllStats, ModeStats, GameMode, DailyStreak, AllDailyStreaks } from '../types';
 
 // Number of attribute cards in the Classic mode guess-board row (character +
 // gender + element + path + lore_paths + rarity + version + boss + world +
@@ -219,8 +219,6 @@ export function getRandomTarget(characters: Character[], excludeId?: string): Ch
 const defaultModeStats: ModeStats = {
   played: 0,
   won: 0,
-  currentStreak: 0,
-  maxStreak: 0,
   guessDistribution: {},
 };
 
@@ -258,22 +256,59 @@ export function recordWin(mode: GameMode, guessCount: number): AllStats {
   const modeStat = stats[mode];
   modeStat.played += 1;
   modeStat.won += 1;
-  modeStat.currentStreak += 1;
-  if (modeStat.currentStreak > modeStat.maxStreak) {
-    modeStat.maxStreak = modeStat.currentStreak;
-  }
   modeStat.guessDistribution[guessCount] = (modeStat.guessDistribution[guessCount] || 0) + 1;
   saveGameStats(stats);
   return stats;
 }
 
-export function recordLoss(mode: GameMode): AllStats {
-  const stats = loadGameStats();
-  const modeStat = stats[mode];
-  modeStat.played += 1;
-  modeStat.currentStreak = 0;
-  saveGameStats(stats);
-  return stats;
+// Daily win streaks live in their own localStorage entry (see AllDailyStreaks
+// doc comment) and are date-based, not just a per-win counter: winning
+// practice rounds never touches this, and skipping a calendar day resets
+// the streak back to 1 instead of silently continuing.
+const defaultDailyStreak: DailyStreak = { current: 0, max: 0, lastWinDate: null };
+
+export const defaultDailyStreaks: AllDailyStreaks = {
+  classic: { ...defaultDailyStreak },
+  splash: { ...defaultDailyStreak },
+  portrait: { ...defaultDailyStreak },
+  grayscale: { ...defaultDailyStreak },
+  quote: { ...defaultDailyStreak },
+  skill: { ...defaultDailyStreak },
+};
+
+export function loadDailyStreaks(): AllDailyStreaks {
+  try {
+    const saved = localStorage.getItem('starraildle_daily_streaks_v1');
+    if (saved) {
+      return { ...defaultDailyStreaks, ...JSON.parse(saved) };
+    }
+  } catch {
+    // Fallback
+  }
+  return defaultDailyStreaks;
+}
+
+export function saveDailyStreaks(streaks: AllDailyStreaks) {
+  try {
+    localStorage.setItem('starraildle_daily_streaks_v1', JSON.stringify(streaks));
+  } catch {
+    // Fallback
+  }
+}
+
+// Call only for a daily win (never practice). Safe to call more than once
+// for the same day -- already having today's date recorded is a no-op.
+export function recordDailyWin(mode: GameMode, today: string): AllDailyStreaks {
+  const streaks = loadDailyStreaks();
+  const streak = streaks[mode];
+  if (streak.lastWinDate !== today) {
+    const yesterday = new Date(Date.now() - 86400000).toISOString().slice(0, 10);
+    streak.current = streak.lastWinDate === yesterday ? streak.current + 1 : 1;
+    streak.max = Math.max(streak.max, streak.current);
+    streak.lastWinDate = today;
+    saveDailyStreaks(streaks);
+  }
+  return streaks;
 }
 
 // Share text generation for Discord/Twitter

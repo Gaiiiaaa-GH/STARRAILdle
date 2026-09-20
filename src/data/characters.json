@@ -78,8 +78,8 @@
       "icon": "assets/bosses/110501.png"
     },
     "avatar": "assets/characters/1001.png",
-    "preview": "assets/previews/1001.webp",
-    "portrait": "assets/portraits/1001.webp",
+    "portrait": "assets/PORTRAIT/1001.webp",
+    "splash_art": "assets/SPLASHART/1001.webp",
     "quotes": [
       {
         "en": "I told ya I could fight!",
@@ -102,12 +102,38 @@
         "fr": "On écrase maintenant ou plus tard ?"
       }
     ],
-    "skill_hint": {
-      "icon": "assets/skills/1001_100102.png",
-      "name_en": "The Power of Cuteness",
-      "name_fr": "Par le pouvoir de la mignonnerie",
-      "type": "Skill"
-    }
+    "skill_hints": [
+      {
+        "icon": "assets/skills/1001_100101.png",
+        "name_en": "Frigid Cold Arrow",
+        "name_fr": "Flèche du froid glacial",
+        "type": "Basic ATK"
+      },
+      {
+        "icon": "assets/skills/1001_100102.png",
+        "name_en": "The Power of Cuteness",
+        "name_fr": "Par le pouvoir de la mignonnerie",
+        "type": "Skill"
+      },
+      {
+        "icon": "assets/skills/1001_100103.png",
+        "name_en": "Glacial Cascade",
+        "name_fr": "Cascade glaciale",
+        "type": "Ultimate"
+      },
+      {
+        "icon": "assets/skills/1001_100104.png",
+        "name_en": "Girl Power",
+        "name_fr": "Girl Power",
+        "type": "Talent"
+      },
+      {
+        "icon": "assets/skills/1001_100107.png",
+        "name_en": "Freezing Beauty",
+        "name_fr": "Beauté glacée",
+        "type": "Technique"
+      }
+    ]
   },
   {
     "id": "1002",
@@ -170,8 +196,8 @@
       "icon": "assets/bosses/110501.png"
     },
     "avatar": "assets/characters/1002.png",
-    "preview": "assets/previews/1002.webp",
-    "portrait": "assets/portraits/1002.webp",
+    "portrait": "assets/PORTRAIT/1002.webp",
+    "splash_art": "assets/SPLASHART/1002.webp",
     "quotes": [
       {
         "en": "The truth of life and death, revealed in an instant.",
@@ -194,12 +220,38 @@
         "fr": "Il est trop tard pour se repentir."
       }
     ],
-    "skill_hint": {
-      "icon": "assets/skills/1002_100202.png",
-      "name_en": "Cloudlancer Art: Torrent",
-      "name_fr": "Lance perce-nuages : Torrent",
-      "type": "Skill"
-    }
+    "skill_hints": [
+      {
+        "icon": "assets/skills/1002_100201.png",
+        "name_en": "Cloudlancer Art: North Wind",
+        "name_fr": "Lance perce-nuages : Vent du nord",
+        "type": "Basic ATK"
+      },
+      {
+        "icon": "assets/skills/1002_100202.png",
+        "name_en": "Cloudlancer Art: Torrent",
+        "name_fr": "Lance perce-nuages : Torrent",
+        "type": "Skill"
+      },
+      {
+        "icon": "assets/skills/1002_100203.png",
+        "name_en": "Ethereal Dream",
+        "name_fr": "Rêve éthéré",
+        "type": "Ultimate"
+      },
+      {
+        "icon": "assets/skills/1002_100204.png",
+        "name_en": "Superiority of Reach",
+        "name_fr": "Portée supérieure",
+        "type": "Talent"
+      },
+      {
+        "icon": "assets/skills/1002_100207.png",
+        "name_en": "Splitting Spearhead",
+        "name_fr": "Pointe affûtée",
+        "type": "Technique"
+      }
+    ]
   },
   {
     "id": "1003",
@@ -263,8 +315,8 @@
       "icon": "assets/bosses/110501.png"
     },
     "avatar": "assets/characters/1003.png",
-    "preview": "assets/previews/1003.webp",
-    "portrait": "assets/portraits/1003.webp",
+    "portrait": "assets/PORTRAIT/1003.webp",
+    "splash_art": "assets/SPLASHART/1003.webp",
     "quotes": [
       {
         "en": "Humanity never conceals its desire to control the heavens... And I'm no exception.",
@@ -287,12 +339,38 @@
         "fr": "Une cible d'entraînement ?"
       }
     ],
-    "skill_hint": {
-      "icon": "assets/skills/1003_100302.png",
-      "name_en": "Molten Detonation",
-      "name_fr": "Détonation en fusion",
-      "type": "Skill"
-    }
+    "skill_hints": [
+      {
+        "icon": "assets/skills/1003_100301.png",
+        "name_en": "Sawblade Tuning",
+        "name_fr": "Accordage de la lame de scie",
+        "type": "Basic ATK"
+      },
+      {
+        "icon": "assets/skills/1003_100302.png",
+        "name_en": "Molten Detonation",
+        "name_fr": "Détonation en fusion",
+        "type": "Skill"
+      },
+      {
+        "icon": "assets/skills/1003_100303.png",
+        "name_en": "Heavenly Flare",
+        "name_fr": "Éclat céleste",
+        "type": "Ultimate"
+      },
+      {
+        "icon": "assets/skills/1003_100304.png",
+        "name_en": "Victory Rush",
+        "name_fr": "Ruée vers la victoire",
+        "type": "Talent"
+      },
+      {
+        "icon": "assets/skills/1003_100307.png",
+        "name_en": "Incomplete Combustion",
+        "name_fr": "Combustion incomplète",
+        "type": "Technique"
+      }
+    ]
   },
   {
     "id": "1004",
@@ -354,8 +432,8 @@
       "icon": "assets/bosses/110501.png"
     },
     "avatar": "assets/characters/1004.png",
-    "preview": "assets/previews/1004.webp",
-    "portrait": "assets/portraits/1004.webp",
+    "portrait": "assets/PORTRAIT/1004.webp",
+    "splash_art": "assets/SPLASHART/1004.webp",
     "quotes": [
       {
         "en": "Witness the stars shatter before you... Survive or be destroyed, there is no other choice.",
@@ -378,12 +456,38 @@
         "fr": "Il semble que tu aies besoin de connaître l'épreuve."
       }
     ],
-    "skill_hint": {
-      "icon": "assets/skills/1004_100402.png",
-      "name_en": "Edge of the Void",
-      "name_fr": "Frontière du vide",
-      "type": "Skill"
-    }
+    "skill_hints": [
+      {
+        "icon": "assets/skills/1004_100401.png",
+        "name_en": "Gravity Suppression",
+        "name_fr": "Suppression de la gravité",
+        "type": "Basic ATK"
+      },
+      {
+        "icon": "assets/skills/1004_100402.png",
+        "name_en": "Edge of the Void",
+        "name_fr": "Frontière du vide",
+        "type": "Skill"
+      },
+      {
+        "icon": "assets/skills/1004_100403.png",
+        "name_en": "Synthetic Black Hole",
+        "name_fr": "Trou noir synthétique",
+        "type": "Ultimate"
+      },
+      {
+        "icon": "assets/skills/1004_100404.png",
+        "name_en": "Time Distortion",
+        "name_fr": "Distorsion temporelle",
+        "type": "Talent"
+      },
+      {
+        "icon": "assets/skills/1004_100407.png",
+        "name_en": "Gravitational Imprisonment",
+        "name_fr": "Emprisonnement gravitationnel",
+        "type": "Technique"
+      }
+    ]
   },
   {
     "id": "1005",
@@ -411,9 +515,9 @@
         "name_fr": "La Finalité"
       }
     ],
-    "release_version": "1.1",
-    "world_en": "Punklorde",
-    "world_fr": "Punklorde",
+    "release_version": "1.2",
+    "world_en": "Pteruges-V",
+    "world_fr": "Pteruges-V",
     "factions_en": [
       "Stellaron Hunters"
     ],
@@ -443,8 +547,8 @@
       "icon": "assets/bosses/110503.png"
     },
     "avatar": "assets/characters/1005.png",
-    "preview": "assets/previews/1005.webp",
-    "portrait": "assets/portraits/1005.webp",
+    "portrait": "assets/PORTRAIT/1005.webp",
+    "splash_art": "assets/SPLASHART/1005.webp",
     "quotes": [
       {
         "en": "Good times never last.",
@@ -467,12 +571,38 @@
         "fr": "J'adore particulièrement les manteaux de velours, si fragiles et si beaux."
       }
     ],
-    "skill_hint": {
-      "icon": "assets/skills/1005_100502.png",
-      "name_en": "Caressing Moonlight",
-      "name_fr": "Caresse du clair de lune",
-      "type": "Skill"
-    }
+    "skill_hints": [
+      {
+        "icon": "assets/skills/1005_100501.png",
+        "name_en": "Midnight Tumult",
+        "name_fr": "Tumulte de minuit",
+        "type": "Basic ATK"
+      },
+      {
+        "icon": "assets/skills/1005_100502.png",
+        "name_en": "Caressing Moonlight",
+        "name_fr": "Caresse du clair de lune",
+        "type": "Skill"
+      },
+      {
+        "icon": "assets/skills/1005_100503.png",
+        "name_en": "Twilight Trill",
+        "name_fr": "Trille crépusculaire",
+        "type": "Ultimate"
+      },
+      {
+        "icon": "assets/skills/1005_100504.png",
+        "name_en": "Gentle but Cruel",
+        "name_fr": "Douce mais cruelle",
+        "type": "Talent"
+      },
+      {
+        "icon": "assets/skills/1005_100507.png",
+        "name_en": "Mercy Is Not Forgiveness",
+        "name_fr": "La pitié n'est pas un pardon",
+        "type": "Technique"
+      }
+    ]
   },
   {
     "id": "1006",
@@ -506,9 +636,9 @@
         "icon": "assets/paths/elation.png"
       }
     ],
-    "release_version": "1.2",
-    "world_en": "Pteruges-V",
-    "world_fr": "Pteruges-V",
+    "release_version": "1.1",
+    "world_en": "Punklorde",
+    "world_fr": "Punklorde",
     "factions_en": [
       "Stellaron Hunters"
     ],
@@ -536,8 +666,8 @@
       "icon": "assets/bosses/110501.png"
     },
     "avatar": "assets/characters/1006.png",
-    "preview": "assets/previews/1006.webp",
-    "portrait": "assets/portraits/1006.webp",
+    "portrait": "assets/PORTRAIT/1006.webp",
+    "splash_art": "assets/SPLASHART/1006.webp",
     "quotes": [
       {
         "en": "This combat needs optimizing.",
@@ -560,12 +690,38 @@
         "fr": "Tu as mordu à l'hameçon aussi facilement ?"
       }
     ],
-    "skill_hint": {
-      "icon": "assets/skills/1006_100602.png",
-      "name_en": "Allow Changes?",
-      "name_fr": "Autoriser les modifications ?",
-      "type": "Skill"
-    }
+    "skill_hints": [
+      {
+        "icon": "assets/skills/1006_100601.png",
+        "name_en": "System Warning",
+        "name_fr": "Alerte système",
+        "type": "Basic ATK"
+      },
+      {
+        "icon": "assets/skills/1006_100602.png",
+        "name_en": "Allow Changes?",
+        "name_fr": "Autoriser les modifications ?",
+        "type": "Skill"
+      },
+      {
+        "icon": "assets/skills/1006_100603.png",
+        "name_en": "User Banned",
+        "name_fr": "Compte bloqué",
+        "type": "Ultimate"
+      },
+      {
+        "icon": "assets/skills/1006_100604.png",
+        "name_en": "Awaiting System Response...",
+        "name_fr": "En attente de la réponse du système...",
+        "type": "Talent"
+      },
+      {
+        "icon": "assets/skills/1006_100607.png",
+        "name_en": "Force Quit Program",
+        "name_fr": "Arrêt forcé du programme",
+        "type": "Technique"
+      }
+    ]
   },
   {
     "id": "1008",
@@ -624,8 +780,8 @@
       "icon": "assets/bosses/110501.png"
     },
     "avatar": "assets/characters/1008.png",
-    "preview": "assets/previews/1008.webp",
-    "portrait": "assets/portraits/1008.webp",
+    "portrait": "assets/PORTRAIT/1008.webp",
+    "splash_art": "assets/SPLASHART/1008.webp",
     "quotes": [
       {
         "en": "Let me pay you back — tenfold!",
@@ -648,12 +804,38 @@
         "fr": "Même une petite force peut s'avérer utile."
       }
     ],
-    "skill_hint": {
-      "icon": "assets/skills/1008_100802.png",
-      "name_en": "Shackle Breaker",
-      "name_fr": "Briseur de chaînes",
-      "type": "Skill"
-    }
+    "skill_hints": [
+      {
+        "icon": "assets/skills/1008_100801.png",
+        "name_en": "Lightning Rush",
+        "name_fr": "Ruée éclair",
+        "type": "Basic ATK"
+      },
+      {
+        "icon": "assets/skills/1008_100802.png",
+        "name_en": "Shackle Breaker",
+        "name_fr": "Briseur de chaînes",
+        "type": "Skill"
+      },
+      {
+        "icon": "assets/skills/1008_100803.png",
+        "name_en": "Frenzied Punishment",
+        "name_fr": "Châtiment frénétique",
+        "type": "Ultimate"
+      },
+      {
+        "icon": "assets/skills/1008_100804.png",
+        "name_en": "Pain and Anger",
+        "name_fr": "Douleur et colère",
+        "type": "Talent"
+      },
+      {
+        "icon": "assets/skills/1008_100807.png",
+        "name_en": "Swift Harvest",
+        "name_fr": "Moisson rapide",
+        "type": "Technique"
+      }
+    ]
   },
   {
     "id": "1009",
@@ -712,8 +894,8 @@
       "icon": "assets/bosses/110501.png"
     },
     "avatar": "assets/characters/1009.png",
-    "preview": "assets/previews/1009.webp",
-    "portrait": "assets/portraits/1009.webp",
+    "portrait": "assets/PORTRAIT/1009.webp",
+    "splash_art": "assets/SPLASHART/1009.webp",
     "quotes": [
       {
         "en": "Oh profound secrets of the stars, give these Trailblazers your blessing!",
@@ -736,12 +918,38 @@
         "fr": "Tu peux voir les étoiles d'ici aussi ?"
       }
     ],
-    "skill_hint": {
-      "icon": "assets/skills/1009_100902.png",
-      "name_en": "Meteor Storm",
-      "name_fr": "Tempête de météores",
-      "type": "Skill"
-    }
+    "skill_hints": [
+      {
+        "icon": "assets/skills/1009_100901.png",
+        "name_en": "Spectrum Beam",
+        "name_fr": "Rayon spectral",
+        "type": "Basic ATK"
+      },
+      {
+        "icon": "assets/skills/1009_100902.png",
+        "name_en": "Meteor Storm",
+        "name_fr": "Tempête de météores",
+        "type": "Skill"
+      },
+      {
+        "icon": "assets/skills/1009_100903.png",
+        "name_en": "Astral Blessing",
+        "name_fr": "Bénédiction astrale",
+        "type": "Ultimate"
+      },
+      {
+        "icon": "assets/skills/1009_100904.png",
+        "name_en": "Astrometry",
+        "name_fr": "Astrométrie",
+        "type": "Talent"
+      },
+      {
+        "icon": "assets/skills/1009_100907.png",
+        "name_en": "Miracle Flash",
+        "name_fr": "Coup de génie",
+        "type": "Technique"
+      }
+    ]
   },
   {
     "id": "1013",
@@ -804,8 +1012,8 @@
       "icon": "assets/bosses/110501.png"
     },
     "avatar": "assets/characters/1013.png",
-    "preview": "assets/previews/1013.webp",
-    "portrait": "assets/portraits/1013.webp",
+    "portrait": "assets/PORTRAIT/1013.webp",
+    "splash_art": "assets/SPLASHART/1013.webp",
     "quotes": [
       {
         "en": "Ever see a diamond this big? It's all yours~",
@@ -828,12 +1036,38 @@
         "fr": "Oh, pauvre de toi..."
       }
     ],
-    "skill_hint": {
-      "icon": "assets/skills/1013_101302.png",
-      "name_en": "One-Time Offer",
-      "name_fr": "Une offre à ne pas manquer",
-      "type": "Skill"
-    }
+    "skill_hints": [
+      {
+        "icon": "assets/skills/1013_101301.png",
+        "name_en": "What Are You Looking At?",
+        "name_fr": "Qu'est-ce que tu regardes ?",
+        "type": "Basic ATK"
+      },
+      {
+        "icon": "assets/skills/1013_101302.png",
+        "name_en": "One-Time Offer",
+        "name_fr": "Une offre à ne pas manquer",
+        "type": "Skill"
+      },
+      {
+        "icon": "assets/skills/1013_101303.png",
+        "name_en": "It's Magic, I Added Some Magic",
+        "name_fr": "La magie, c'est exquis",
+        "type": "Ultimate"
+      },
+      {
+        "icon": "assets/skills/1013_101304.png",
+        "name_en": "Fine, I'll Do It Myself",
+        "name_fr": "La chance a tourné !",
+        "type": "Talent"
+      },
+      {
+        "icon": "assets/skills/1013_101307.png",
+        "name_en": "It Can Still Be Optimized",
+        "name_fr": "Il y a de la marge de progression",
+        "type": "Technique"
+      }
+    ]
   },
   {
     "id": "1014",
@@ -892,8 +1126,8 @@
       "icon": "assets/bosses/110501.png"
     },
     "avatar": "assets/characters/1014.png",
-    "preview": "assets/previews/1014.webp",
-    "portrait": "assets/portraits/1014.webp",
+    "portrait": "assets/PORTRAIT/1014.webp",
+    "splash_art": "assets/SPLASHART/1014.webp",
     "quotes": [
       {
         "en": "Excalibur!",
@@ -916,12 +1150,38 @@
         "fr": "Il est temps d'en finir !"
       }
     ],
-    "skill_hint": {
-      "icon": "assets/skills/1014_101402.png",
-      "name_en": "Strike Air: Hammer of the Wind King",
-      "name_fr": "Strike Air : Marteau du roi des vents",
-      "type": "Skill"
-    }
+    "skill_hints": [
+      {
+        "icon": "assets/skills/1014_101401.png",
+        "name_en": "Invisible Air: Barrier of the Wind King",
+        "name_fr": "Invisible Air : Barrière du roi des vents",
+        "type": "Basic ATK"
+      },
+      {
+        "icon": "assets/skills/1014_101402.png",
+        "name_en": "Strike Air: Hammer of the Wind King",
+        "name_fr": "Strike Air : Marteau du roi des vents",
+        "type": "Skill"
+      },
+      {
+        "icon": "assets/skills/1014_101403.png",
+        "name_en": "Excalibur",
+        "name_fr": "Excalibur",
+        "type": "Ultimate"
+      },
+      {
+        "icon": "assets/skills/1014_101404.png",
+        "name_en": "Dragon Reactor Core",
+        "name_fr": "Noyau du réacteur dragon",
+        "type": "Talent"
+      },
+      {
+        "icon": "assets/skills/1014_101407.png",
+        "name_en": "Behold, the King of Knights",
+        "name_fr": "Le Roi des chevaliers est là",
+        "type": "Technique"
+      }
+    ]
   },
   {
     "id": "1015",
@@ -980,8 +1240,8 @@
       "icon": "assets/bosses/110502.png"
     },
     "avatar": "assets/characters/1015.png",
-    "preview": "assets/previews/1015.webp",
-    "portrait": "assets/portraits/1015.webp",
+    "portrait": "assets/PORTRAIT/1015.webp",
+    "splash_art": "assets/SPLASHART/1015.webp",
     "quotes": [
       {
         "en": "I am the bone of my sword. Steel is my body, and fire is my blood. I have created over a thousand blades.",
@@ -1004,12 +1264,38 @@
         "fr": "Une chance de régler le problème à la racine !"
       }
     ],
-    "skill_hint": {
-      "icon": "assets/skills/1015_101502.png",
-      "name_en": "Caladbolg II: Fake Spiral Sword",
-      "name_fr": "Caladbolg II : Épée spirale factice",
-      "type": "Skill"
-    }
+    "skill_hints": [
+      {
+        "icon": "assets/skills/1015_101501.png",
+        "name_en": "Kanshou and Bakuya",
+        "name_fr": "Kanshou et Bakuya",
+        "type": "Basic ATK"
+      },
+      {
+        "icon": "assets/skills/1015_101502.png",
+        "name_en": "Caladbolg II: Fake Spiral Sword",
+        "name_fr": "Caladbolg II : Épée spirale factice",
+        "type": "Skill"
+      },
+      {
+        "icon": "assets/skills/1015_101503.png",
+        "name_en": "Unlimited Blade Works",
+        "name_fr": "Unlimited Blade Works",
+        "type": "Ultimate"
+      },
+      {
+        "icon": "assets/skills/1015_101504.png",
+        "name_en": "Mind's Eye (True)",
+        "name_fr": "Œil de l'esprit (véritable)",
+        "type": "Talent"
+      },
+      {
+        "icon": "assets/skills/1015_101507.png",
+        "name_en": "Clairvoyance",
+        "name_fr": "Clairvoyance",
+        "type": "Technique"
+      }
+    ]
   },
   {
     "id": "1101",
@@ -1074,8 +1360,8 @@
       "icon": "assets/bosses/110502.png"
     },
     "avatar": "assets/characters/1101.png",
-    "preview": "assets/previews/1101.webp",
-    "portrait": "assets/portraits/1101.webp",
+    "portrait": "assets/PORTRAIT/1101.webp",
+    "splash_art": "assets/SPLASHART/1101.webp",
     "quotes": [
       {
         "en": "To guard and defend, crush them!",
@@ -1098,12 +1384,38 @@
         "fr": "Nous reprendrons ce que nous avons perdu."
       }
     ],
-    "skill_hint": {
-      "icon": "assets/skills/1101_110102.png",
-      "name_en": "Combat Redeployment",
-      "name_fr": "Redéploiement de combat",
-      "type": "Skill"
-    }
+    "skill_hints": [
+      {
+        "icon": "assets/skills/1101_110101.png",
+        "name_en": "Windrider Bullet",
+        "name_fr": "Tir du mistral",
+        "type": "Basic ATK"
+      },
+      {
+        "icon": "assets/skills/1101_110102.png",
+        "name_en": "Combat Redeployment",
+        "name_fr": "Redéploiement de combat",
+        "type": "Skill"
+      },
+      {
+        "icon": "assets/skills/1101_110103.png",
+        "name_en": "The Belobog March",
+        "name_fr": "La marche de Belobog",
+        "type": "Ultimate"
+      },
+      {
+        "icon": "assets/skills/1101_110104.png",
+        "name_en": "Leading the Way",
+        "name_fr": "Première de cordée",
+        "type": "Talent"
+      },
+      {
+        "icon": "assets/skills/1101_110107.png",
+        "name_en": "Banner of Command",
+        "name_fr": "Bannière de commandement",
+        "type": "Technique"
+      }
+    ]
   },
   {
     "id": "1102",
@@ -1164,8 +1476,8 @@
       "icon": "assets/bosses/110502.png"
     },
     "avatar": "assets/characters/1102.png",
-    "preview": "assets/previews/1102.webp",
-    "portrait": "assets/portraits/1102.webp",
+    "portrait": "assets/PORTRAIT/1102.webp",
+    "splash_art": "assets/SPLASHART/1102.webp",
     "quotes": [
       {
         "en": "Disappear among the sea of butterflies, illusions of the past!",
@@ -1188,12 +1500,38 @@
         "fr": "Une faux affûtée a besoin de cibles."
       }
     ],
-    "skill_hint": {
-      "icon": "assets/skills/1102_110202.png",
-      "name_en": "Sheathed Blade",
-      "name_fr": "Lame rengainée",
-      "type": "Skill"
-    }
+    "skill_hints": [
+      {
+        "icon": "assets/skills/1102_110201.png",
+        "name_en": "Thwack",
+        "name_fr": "Représailles",
+        "type": "Basic ATK"
+      },
+      {
+        "icon": "assets/skills/1102_110202.png",
+        "name_en": "Sheathed Blade",
+        "name_fr": "Lame rengainée",
+        "type": "Skill"
+      },
+      {
+        "icon": "assets/skills/1102_110203.png",
+        "name_en": "Butterfly Flurry",
+        "name_fr": "Volée de papillons",
+        "type": "Ultimate"
+      },
+      {
+        "icon": "assets/skills/1102_110204.png",
+        "name_en": "Resurgence",
+        "name_fr": "Résurgence",
+        "type": "Talent"
+      },
+      {
+        "icon": "assets/skills/1102_110207.png",
+        "name_en": "Phantom Illusion",
+        "name_fr": "Illusion fantôme",
+        "type": "Technique"
+      }
+    ]
   },
   {
     "id": "1103",
@@ -1256,8 +1594,8 @@
       "icon": "assets/bosses/110502.png"
     },
     "avatar": "assets/characters/1103.png",
-    "preview": "assets/previews/1103.webp",
-    "portrait": "assets/portraits/1103.webp",
+    "portrait": "assets/PORTRAIT/1103.webp",
+    "splash_art": "assets/SPLASHART/1103.webp",
     "quotes": [
       {
         "en": "Fight it or rock with it... my music conquers all!",
@@ -1280,12 +1618,38 @@
         "fr": "Il y a de l'inspiration dans chaque regard et chaque brise."
       }
     ],
-    "skill_hint": {
-      "icon": "assets/skills/1103_110302.png",
-      "name_en": "Lightning Flash",
-      "name_fr": "Éclair rapide",
-      "type": "Skill"
-    }
+    "skill_hints": [
+      {
+        "icon": "assets/skills/1103_110301.png",
+        "name_en": "Roaring Thunderclap",
+        "name_fr": "Coup de tonnerre rugissant",
+        "type": "Basic ATK"
+      },
+      {
+        "icon": "assets/skills/1103_110302.png",
+        "name_en": "Lightning Flash",
+        "name_fr": "Éclair rapide",
+        "type": "Skill"
+      },
+      {
+        "icon": "assets/skills/1103_110303.png",
+        "name_en": "Here Comes the Mechanical Fever",
+        "name_fr": "Fièvre mécanique",
+        "type": "Ultimate"
+      },
+      {
+        "icon": "assets/skills/1103_110304.png",
+        "name_en": "Galvanic Chords",
+        "name_fr": "Accords galvaniques",
+        "type": "Talent"
+      },
+      {
+        "icon": "assets/skills/1103_110307.png",
+        "name_en": "Good Night, Belobog",
+        "name_fr": "Bonsoir Belobog",
+        "type": "Technique"
+      }
+    ]
   },
   {
     "id": "1104",
@@ -1348,8 +1712,8 @@
       "icon": "assets/bosses/110502.png"
     },
     "avatar": "assets/characters/1104.png",
-    "preview": "assets/previews/1104.webp",
-    "portrait": "assets/portraits/1104.webp",
+    "portrait": "assets/PORTRAIT/1104.webp",
+    "splash_art": "assets/SPLASHART/1104.webp",
     "quotes": [
       {
         "en": "Years of cold hardens the will. We shall never fall!",
@@ -1372,12 +1736,38 @@
         "fr": "Je resterai jusqu'au bout."
       }
     ],
-    "skill_hint": {
-      "icon": "assets/skills/1104_110402.png",
-      "name_en": "Daunting Smite",
-      "name_fr": "Frappe intimidante",
-      "type": "Skill"
-    }
+    "skill_hints": [
+      {
+        "icon": "assets/skills/1104_110401.png",
+        "name_en": "Fist of Conviction",
+        "name_fr": "Poing de la conviction",
+        "type": "Basic ATK"
+      },
+      {
+        "icon": "assets/skills/1104_110402.png",
+        "name_en": "Daunting Smite",
+        "name_fr": "Frappe intimidante",
+        "type": "Skill"
+      },
+      {
+        "icon": "assets/skills/1104_110403.png",
+        "name_en": "Enduring Bulwark",
+        "name_fr": "Rempart d'endurance",
+        "type": "Ultimate"
+      },
+      {
+        "icon": "assets/skills/1104_110404.png",
+        "name_en": "Unyielding Will",
+        "name_fr": "Volonté inflexible",
+        "type": "Talent"
+      },
+      {
+        "icon": "assets/skills/1104_110407.png",
+        "name_en": "Comradery",
+        "name_fr": "Camaraderie",
+        "type": "Technique"
+      }
+    ]
   },
   {
     "id": "1105",
@@ -1440,8 +1830,8 @@
       "icon": "assets/bosses/110502.png"
     },
     "avatar": "assets/characters/1105.png",
-    "preview": "assets/previews/1105.webp",
-    "portrait": "assets/portraits/1105.webp",
+    "portrait": "assets/PORTRAIT/1105.webp",
+    "splash_art": "assets/SPLASHART/1105.webp",
     "quotes": [
       {
         "en": "Time for a shot.",
@@ -1464,12 +1854,38 @@
         "fr": "Une opération délicate."
       }
     ],
-    "skill_hint": {
-      "icon": "assets/skills/1105_110502.png",
-      "name_en": "Love, Heal, and Choose",
-      "name_fr": "Aimer, guérir et choisir",
-      "type": "Skill"
-    }
+    "skill_hints": [
+      {
+        "icon": "assets/skills/1105_110501.png",
+        "name_en": "Behind the Kindness",
+        "name_fr": "Derrière la bonté",
+        "type": "Basic ATK"
+      },
+      {
+        "icon": "assets/skills/1105_110502.png",
+        "name_en": "Love, Heal, and Choose",
+        "name_fr": "Aimer, guérir et choisir",
+        "type": "Skill"
+      },
+      {
+        "icon": "assets/skills/1105_110503.png",
+        "name_en": "Gift of Rebirth",
+        "name_fr": "Cadeau de la renaissance",
+        "type": "Ultimate"
+      },
+      {
+        "icon": "assets/skills/1105_110504.png",
+        "name_en": "Innervation",
+        "name_fr": "Innervation",
+        "type": "Talent"
+      },
+      {
+        "icon": "assets/skills/1105_110507.png",
+        "name_en": "Hypnosis Research",
+        "name_fr": "Recherche sur l'hypnose",
+        "type": "Technique"
+      }
+    ]
   },
   {
     "id": "1106",
@@ -1532,8 +1948,8 @@
       "icon": "assets/bosses/110502.png"
     },
     "avatar": "assets/characters/1106.png",
-    "preview": "assets/previews/1106.webp",
-    "portrait": "assets/portraits/1106.webp",
+    "portrait": "assets/PORTRAIT/1106.webp",
+    "splash_art": "assets/SPLASHART/1106.webp",
     "quotes": [
       {
         "en": "Net markers activated — time for a good old counterattack.",
@@ -1556,12 +1972,38 @@
         "fr": "Reste concentrée, avance."
       }
     ],
-    "skill_hint": {
-      "icon": "assets/skills/1106_110602.png",
-      "name_en": "Frostbite",
-      "name_fr": "Morsure du givre",
-      "type": "Skill"
-    }
+    "skill_hints": [
+      {
+        "icon": "assets/skills/1106_110601.png",
+        "name_en": "Frost Shot",
+        "name_fr": "Tir givré",
+        "type": "Basic ATK"
+      },
+      {
+        "icon": "assets/skills/1106_110602.png",
+        "name_en": "Frostbite",
+        "name_fr": "Morsure du givre",
+        "type": "Skill"
+      },
+      {
+        "icon": "assets/skills/1106_110603.png",
+        "name_en": "Zone Suppression",
+        "name_fr": "Suppression de zone",
+        "type": "Ultimate"
+      },
+      {
+        "icon": "assets/skills/1106_110604.png",
+        "name_en": "Data Collecting",
+        "name_fr": "Collecte de données",
+        "type": "Talent"
+      },
+      {
+        "icon": "assets/skills/1106_110607.png",
+        "name_en": "Preemptive Strike",
+        "name_fr": "Frappe préventive",
+        "type": "Technique"
+      }
+    ]
   },
   {
     "id": "1107",
@@ -1624,8 +2066,8 @@
       "icon": "assets/bosses/110502.png"
     },
     "avatar": "assets/characters/1107.png",
-    "preview": "assets/previews/1107.webp",
-    "portrait": "assets/portraits/1107.webp",
+    "portrait": "assets/PORTRAIT/1107.webp",
+    "splash_art": "assets/SPLASHART/1107.webp",
     "quotes": [
       {
         "en": "Help me, Mr. Svarog!",
@@ -1648,12 +2090,38 @@
         "fr": "Les choses vont s'améliorer... pas vrai ?"
       }
     ],
-    "skill_hint": {
-      "icon": "assets/skills/1107_110702.png",
-      "name_en": "Svarog Watches Over You",
-      "name_fr": "Svarog veille sur toi",
-      "type": "Skill"
-    }
+    "skill_hints": [
+      {
+        "icon": "assets/skills/1107_110701.png",
+        "name_en": "I Want to Help",
+        "name_fr": "Je veux aider",
+        "type": "Basic ATK"
+      },
+      {
+        "icon": "assets/skills/1107_110702.png",
+        "name_en": "Svarog Watches Over You",
+        "name_fr": "Svarog veille sur toi",
+        "type": "Skill"
+      },
+      {
+        "icon": "assets/skills/1107_110703.png",
+        "name_en": "Promise, Not Command",
+        "name_fr": "C'est une promesse, pas un ordre",
+        "type": "Ultimate"
+      },
+      {
+        "icon": "assets/skills/1107_110704.png",
+        "name_en": "Because We're Family",
+        "name_fr": "Parce qu'on est une famille",
+        "type": "Talent"
+      },
+      {
+        "icon": "assets/skills/1107_110707.png",
+        "name_en": "A Small Price for Victory",
+        "name_fr": "Le prix de la victoire",
+        "type": "Technique"
+      }
+    ]
   },
   {
     "id": "1108",
@@ -1716,8 +2184,8 @@
       "icon": "assets/bosses/110502.png"
     },
     "avatar": "assets/characters/1108.png",
-    "preview": "assets/previews/1108.webp",
-    "portrait": "assets/portraits/1108.webp",
+    "portrait": "assets/PORTRAIT/1108.webp",
+    "splash_art": "assets/SPLASHART/1108.webp",
     "quotes": [
       {
         "en": "The customer is king, and for me to betray the king, well... You gotta make it worth my while.",
@@ -1740,12 +2208,38 @@
         "fr": "Tout le monde a un passé haut en couleur, tu ne trouves pas... ?"
       }
     ],
-    "skill_hint": {
-      "icon": "assets/skills/1108_110802.png",
-      "name_en": "Ricochet Love",
-      "name_fr": "Amour rebondissant",
-      "type": "Skill"
-    }
+    "skill_hints": [
+      {
+        "icon": "assets/skills/1108_110801.png",
+        "name_en": "Dazzling Blades",
+        "name_fr": "Lames éblouissantes",
+        "type": "Basic ATK"
+      },
+      {
+        "icon": "assets/skills/1108_110802.png",
+        "name_en": "Ricochet Love",
+        "name_fr": "Amour rebondissant",
+        "type": "Skill"
+      },
+      {
+        "icon": "assets/skills/1108_110803.png",
+        "name_en": "Surprise Present",
+        "name_fr": "Cadeau surprise",
+        "type": "Ultimate"
+      },
+      {
+        "icon": "assets/skills/1108_110804.png",
+        "name_en": "Windtorn Dagger",
+        "name_fr": "Dague de bourrasque",
+        "type": "Talent"
+      },
+      {
+        "icon": "assets/skills/1108_110807.png",
+        "name_en": "Shining Bright",
+        "name_fr": "Éblouissement",
+        "type": "Technique"
+      }
+    ]
   },
   {
     "id": "1109",
@@ -1804,8 +2298,8 @@
       "icon": "assets/bosses/110502.png"
     },
     "avatar": "assets/characters/1109.png",
-    "preview": "assets/previews/1109.webp",
-    "portrait": "assets/portraits/1109.webp",
+    "portrait": "assets/PORTRAIT/1109.webp",
+    "splash_art": "assets/SPLASHART/1109.webp",
     "quotes": [
       {
         "en": "Moles, Moles, leaving our holes, brave Moles, charge as a whole!",
@@ -1828,12 +2322,38 @@
         "fr": "Tu as encore le temps de te rendre !"
       }
     ],
-    "skill_hint": {
-      "icon": "assets/skills/1109_110902.png",
-      "name_en": "Hey! Remember Hook?",
-      "name_fr": "Hé ! Tu te souviens de moi ?",
-      "type": "Skill"
-    }
+    "skill_hints": [
+      {
+        "icon": "assets/skills/1109_110901.png",
+        "name_en": "Hehe! Don't Get Burned!",
+        "name_fr": "Héhé ! Attention, ça brûle !",
+        "type": "Basic ATK"
+      },
+      {
+        "icon": "assets/skills/1109_110902.png",
+        "name_en": "Hey! Remember Hook?",
+        "name_fr": "Hé ! Tu te souviens de moi ?",
+        "type": "Skill"
+      },
+      {
+        "icon": "assets/skills/1109_110903.png",
+        "name_en": "Boom! Here Comes the Fire!",
+        "name_fr": "Boom ! Ça prend feu !",
+        "type": "Ultimate"
+      },
+      {
+        "icon": "assets/skills/1109_110904.png",
+        "name_en": "Ha! Oil to the Flames!",
+        "name_fr": "Ha ! De l'huile sur le feu !",
+        "type": "Talent"
+      },
+      {
+        "icon": "assets/skills/1109_110907.png",
+        "name_en": "Ack! Look at This Mess!",
+        "name_fr": "Aïe ! Regarde-moi ce bazar !",
+        "type": "Technique"
+      }
+    ]
   },
   {
     "id": "1110",
@@ -1898,8 +2418,8 @@
       "icon": "assets/bosses/110502.png"
     },
     "avatar": "assets/characters/1110.png",
-    "preview": "assets/previews/1110.webp",
-    "portrait": "assets/portraits/1110.webp",
+    "portrait": "assets/PORTRAIT/1110.webp",
+    "splash_art": "assets/SPLASHART/1110.webp",
     "quotes": [
       {
         "en": "For a tough case like yours, we're gonna try them all!",
@@ -1922,12 +2442,38 @@
         "fr": "Pardon, je passe."
       }
     ],
-    "skill_hint": {
-      "icon": "assets/skills/1110_111002.png",
-      "name_en": "Salted Camping Cans",
-      "name_fr": "Sardines en conserve",
-      "type": "Skill"
-    }
+    "skill_hints": [
+      {
+        "icon": "assets/skills/1110_111001.png",
+        "name_en": "Ice Crampon Technique",
+        "name_fr": "Attaque au pic à glace",
+        "type": "Basic ATK"
+      },
+      {
+        "icon": "assets/skills/1110_111002.png",
+        "name_en": "Salted Camping Cans",
+        "name_fr": "Sardines en conserve",
+        "type": "Skill"
+      },
+      {
+        "icon": "assets/skills/1110_111003.png",
+        "name_en": "Snowfield First Aid",
+        "name_fr": "Plan de secours des Plaines des neiges",
+        "type": "Ultimate"
+      },
+      {
+        "icon": "assets/skills/1110_111004.png",
+        "name_en": "Outdoor Survival Experience",
+        "name_fr": "Expérience de survie en pleine nature",
+        "type": "Talent"
+      },
+      {
+        "icon": "assets/skills/1110_111007.png",
+        "name_en": "Chocolate Energy Bar",
+        "name_fr": "Barre énergétique chocolatée",
+        "type": "Technique"
+      }
+    ]
   },
   {
     "id": "1111",
@@ -1990,8 +2536,8 @@
       "icon": "assets/bosses/110503.png"
     },
     "avatar": "assets/characters/1111.png",
-    "preview": "assets/previews/1111.webp",
-    "portrait": "assets/portraits/1111.webp",
+    "portrait": "assets/PORTRAIT/1111.webp",
+    "splash_art": "assets/SPLASHART/1111.webp",
     "quotes": [
       {
         "en": "An opponent worth their salt... Let's see some sparks fly!",
@@ -2014,12 +2560,38 @@
         "fr": "Pourquoi s'entraîner une fois par jour quand on peut le faire deux fois ?"
       }
     ],
-    "skill_hint": {
-      "icon": "assets/skills/1111_111102.png",
-      "name_en": "Lacerating Fist",
-      "name_fr": "Poing lacérateur",
-      "type": "Skill"
-    }
+    "skill_hints": [
+      {
+        "icon": "assets/skills/1111_111101.png",
+        "name_en": "Direct Punch",
+        "name_fr": "Direct du droit",
+        "type": "Basic ATK"
+      },
+      {
+        "icon": "assets/skills/1111_111102.png",
+        "name_en": "Lacerating Fist",
+        "name_fr": "Poing lacérateur",
+        "type": "Skill"
+      },
+      {
+        "icon": "assets/skills/1111_111103.png",
+        "name_en": "Coup de Grâce",
+        "name_fr": "Coup de grâce",
+        "type": "Ultimate"
+      },
+      {
+        "icon": "assets/skills/1111_111104.png",
+        "name_en": "Flying Sparks",
+        "name_fr": "Étincelles volantes",
+        "type": "Talent"
+      },
+      {
+        "icon": "assets/skills/1111_111107.png",
+        "name_en": "Anticipator",
+        "name_fr": "Anticipation",
+        "type": "Technique"
+      }
+    ]
   },
   {
     "id": "1112",
@@ -2084,8 +2656,8 @@
       "icon": "assets/bosses/110503.png"
     },
     "avatar": "assets/characters/1112.png",
-    "preview": "assets/previews/1112.webp",
-    "portrait": "assets/portraits/1112.webp",
+    "portrait": "assets/PORTRAIT/1112.webp",
+    "splash_art": "assets/SPLASHART/1112.webp",
     "quotes": [
       {
         "en": "Investing in victory... means playing the long game!",
@@ -2108,12 +2680,38 @@
         "fr": "Ne sois pas complaisant — les bons investisseurs pensent toujours sur le long terme."
       }
     ],
-    "skill_hint": {
-      "icon": "assets/skills/1112_111202.png",
-      "name_en": "Difficulty Paying?",
-      "name_fr": "Des difficultés de paiement ?",
-      "type": "Skill"
-    }
+    "skill_hints": [
+      {
+        "icon": "assets/skills/1112_111201.png",
+        "name_en": "Deficit...",
+        "name_fr": "Déficit",
+        "type": "Basic ATK"
+      },
+      {
+        "icon": "assets/skills/1112_111202.png",
+        "name_en": "Difficulty Paying?",
+        "name_fr": "Des difficultés de paiement ?",
+        "type": "Skill"
+      },
+      {
+        "icon": "assets/skills/1112_111203.png",
+        "name_en": "Turn a Profit!",
+        "name_fr": "Pertes et profits",
+        "type": "Ultimate"
+      },
+      {
+        "icon": "assets/skills/1112_111204.png",
+        "name_en": "Trotter Market!?",
+        "name_fr": "Magoret porteur",
+        "type": "Talent"
+      },
+      {
+        "icon": "assets/skills/1112_111207.png",
+        "name_en": "Explicit Subsidy",
+        "name_fr": "Subvention explicite",
+        "type": "Technique"
+      }
+    ]
   },
   {
     "id": "1201",
@@ -2174,8 +2772,8 @@
       "icon": "assets/bosses/110502.png"
     },
     "avatar": "assets/characters/1201.png",
-    "preview": "assets/previews/1201.webp",
-    "portrait": "assets/portraits/1201.webp",
+    "portrait": "assets/PORTRAIT/1201.webp",
+    "splash_art": "assets/SPLASHART/1201.webp",
     "quotes": [
       {
         "en": "Life's just like a game of tiles, you never know what's gonna come up next~",
@@ -2198,12 +2796,38 @@
         "fr": "On est en pleine série, héhé~"
       }
     ],
-    "skill_hint": {
-      "icon": "assets/skills/1201_120102.png",
-      "name_en": "A Scoop of Moon",
-      "name_fr": "Coup de pouce",
-      "type": "Skill"
-    }
+    "skill_hints": [
+      {
+        "icon": "assets/skills/1201_120101.png",
+        "name_en": "Flower Pick",
+        "name_fr": "Bonne pioche",
+        "type": "Basic ATK"
+      },
+      {
+        "icon": "assets/skills/1201_120102.png",
+        "name_en": "A Scoop of Moon",
+        "name_fr": "Coup de pouce",
+        "type": "Skill"
+      },
+      {
+        "icon": "assets/skills/1201_120103.png",
+        "name_en": "A Quartet? Woo-hoo!",
+        "name_fr": "Quatre pungs en main ? Tout va bien !",
+        "type": "Ultimate"
+      },
+      {
+        "icon": "assets/skills/1201_120104.png",
+        "name_en": "Celestial Jade",
+        "name_fr": "Jade céleste",
+        "type": "Talent"
+      },
+      {
+        "icon": "assets/skills/1201_120107.png",
+        "name_en": "Game Solitaire",
+        "name_fr": "Accro aux jeux",
+        "type": "Technique"
+      }
+    ]
   },
   {
     "id": "1202",
@@ -2266,8 +2890,8 @@
       "icon": "assets/bosses/110501.png"
     },
     "avatar": "assets/characters/1202.png",
-    "preview": "assets/previews/1202.webp",
-    "portrait": "assets/portraits/1202.webp",
+    "portrait": "assets/PORTRAIT/1202.webp",
+    "splash_art": "assets/SPLASHART/1202.webp",
     "quotes": [
       {
         "en": "Seize the moment!",
@@ -2290,12 +2914,38 @@
         "fr": "Que les maux s'en aillent~"
       }
     ],
-    "skill_hint": {
-      "icon": "assets/skills/1202_120202.png",
-      "name_en": "Soothing Melody",
-      "name_fr": "Mélodie apaisante",
-      "type": "Skill"
-    }
+    "skill_hints": [
+      {
+        "icon": "assets/skills/1202_120201.png",
+        "name_en": "Dislodged",
+        "name_fr": "Expulsion",
+        "type": "Basic ATK"
+      },
+      {
+        "icon": "assets/skills/1202_120202.png",
+        "name_en": "Soothing Melody",
+        "name_fr": "Mélodie apaisante",
+        "type": "Skill"
+      },
+      {
+        "icon": "assets/skills/1202_120203.png",
+        "name_en": "Amidst the Rejoicing Clouds",
+        "name_fr": "Bienveillance des nuages",
+        "type": "Ultimate"
+      },
+      {
+        "icon": "assets/skills/1202_120204.png",
+        "name_en": "Violet Sparknado",
+        "name_fr": "Déluge d'étincelles pourpres",
+        "type": "Talent"
+      },
+      {
+        "icon": "assets/skills/1202_120207.png",
+        "name_en": "Gentle Breeze",
+        "name_fr": "Douce brise",
+        "type": "Technique"
+      }
+    ]
   },
   {
     "id": "1203",
@@ -2358,8 +3008,8 @@
       "icon": "assets/bosses/110502.png"
     },
     "avatar": "assets/characters/1203.png",
-    "preview": "assets/previews/1203.webp",
-    "portrait": "assets/portraits/1203.webp",
+    "portrait": "assets/PORTRAIT/1203.webp",
+    "splash_art": "assets/SPLASHART/1203.webp",
     "quotes": [
       {
         "en": "Time to settle your accounts.",
@@ -2382,12 +3032,38 @@
         "fr": "Il faut du temps et de la patience pour qu'une graine pousse."
       }
     ],
-    "skill_hint": {
-      "icon": "assets/skills/1203_120302.png",
-      "name_en": "Prayer of Abyss Flower",
-      "name_fr": "Prière de la Fleur de l'abîme",
-      "type": "Skill"
-    }
+    "skill_hints": [
+      {
+        "icon": "assets/skills/1203_120301.png",
+        "name_en": "Thorns of the Abyss",
+        "name_fr": "Épines de l'abîme",
+        "type": "Basic ATK"
+      },
+      {
+        "icon": "assets/skills/1203_120302.png",
+        "name_en": "Prayer of Abyss Flower",
+        "name_fr": "Prière de la Fleur de l'abîme",
+        "type": "Skill"
+      },
+      {
+        "icon": "assets/skills/1203_120303.png",
+        "name_en": "Death Wish",
+        "name_fr": "Pulsion de mort",
+        "type": "Ultimate"
+      },
+      {
+        "icon": "assets/skills/1203_120304.png",
+        "name_en": "Cycle of Life",
+        "name_fr": "Cycle de la vie",
+        "type": "Talent"
+      },
+      {
+        "icon": "assets/skills/1203_120307.png",
+        "name_en": "Mercy of a Fool",
+        "name_fr": "Miséricorde d'un fou",
+        "type": "Technique"
+      }
+    ]
   },
   {
     "id": "1204",
@@ -2454,8 +3130,8 @@
       "icon": "assets/bosses/110501.png"
     },
     "avatar": "assets/characters/1204.png",
-    "preview": "assets/previews/1204.webp",
-    "portrait": "assets/portraits/1204.webp",
+    "portrait": "assets/PORTRAIT/1204.webp",
+    "splash_art": "assets/SPLASHART/1204.webp",
     "quotes": [
       {
         "en": "A foregone conclusion.",
@@ -2478,12 +3154,38 @@
         "fr": "Les batailles sont des parties d'échecs, aucune ne ressemble à une autre."
       }
     ],
-    "skill_hint": {
-      "icon": "assets/skills/1204_120402.png",
-      "name_en": "Rifting Zenith",
-      "name_fr": "Zénith tonitruant",
-      "type": "Skill"
-    }
+    "skill_hints": [
+      {
+        "icon": "assets/skills/1204_120401.png",
+        "name_en": "Glistening Light",
+        "name_fr": "Feux de la lumière",
+        "type": "Basic ATK"
+      },
+      {
+        "icon": "assets/skills/1204_120402.png",
+        "name_en": "Rifting Zenith",
+        "name_fr": "Zénith tonitruant",
+        "type": "Skill"
+      },
+      {
+        "icon": "assets/skills/1204_120403.png",
+        "name_en": "Lightbringer",
+        "name_fr": "Porteur de lumière",
+        "type": "Ultimate"
+      },
+      {
+        "icon": "assets/skills/1204_120404.png",
+        "name_en": "Prana Extirpated",
+        "name_fr": "Annihilation du prana",
+        "type": "Talent"
+      },
+      {
+        "icon": "assets/skills/1204_120407.png",
+        "name_en": "Spiritus Invocation",
+        "name_fr": "Invocation d'esprit",
+        "type": "Technique"
+      }
+    ]
   },
   {
     "id": "1205",
@@ -2551,8 +3253,8 @@
       "icon": "assets/bosses/110503.png"
     },
     "avatar": "assets/characters/1205.png",
-    "preview": "assets/previews/1205.webp",
-    "portrait": "assets/portraits/1205.webp",
+    "portrait": "assets/PORTRAIT/1205.webp",
+    "splash_art": "assets/SPLASHART/1205.webp",
     "quotes": [
       {
         "en": "Life itself is punishment.",
@@ -2575,12 +3277,38 @@
         "fr": "Il n'y a pas de raccourci vers la destruction."
       }
     ],
-    "skill_hint": {
-      "icon": "assets/skills/1205_120502.png",
-      "name_en": "Hellscape",
-      "name_fr": "Vue de l'enfer",
-      "type": "Skill"
-    }
+    "skill_hints": [
+      {
+        "icon": "assets/skills/1205_120501.png",
+        "name_en": "Shard Sword",
+        "name_fr": "Lame d'éclat",
+        "type": "Basic ATK"
+      },
+      {
+        "icon": "assets/skills/1205_120502.png",
+        "name_en": "Hellscape",
+        "name_fr": "Vue de l'enfer",
+        "type": "Skill"
+      },
+      {
+        "icon": "assets/skills/1205_120503.png",
+        "name_en": "Death Sentence",
+        "name_fr": "Condamnation à mort",
+        "type": "Ultimate"
+      },
+      {
+        "icon": "assets/skills/1205_120504.png",
+        "name_en": "Shuhu's Gift",
+        "name_fr": "Don de Shuhu",
+        "type": "Talent"
+      },
+      {
+        "icon": "assets/skills/1205_120507.png",
+        "name_en": "Karma Wind",
+        "name_fr": "Vent de karma",
+        "type": "Technique"
+      }
+    ]
   },
   {
     "id": "1206",
@@ -2645,8 +3373,8 @@
       "icon": "assets/bosses/110502.png"
     },
     "avatar": "assets/characters/1206.png",
-    "preview": "assets/previews/1206.webp",
-    "portrait": "assets/portraits/1206.webp",
+    "portrait": "assets/PORTRAIT/1206.webp",
+    "splash_art": "assets/SPLASHART/1206.webp",
     "quotes": [
       {
         "en": "No more playing nice!",
@@ -2669,12 +3397,38 @@
         "fr": "Laisse-moi passer, ou je te passerai dessus."
       }
     ],
-    "skill_hint": {
-      "icon": "assets/skills/1206_120602.png",
-      "name_en": "Cloudfencer Art: Mountainfall",
-      "name_fr": "Escrime perce-nuages : Chute de montagne",
-      "type": "Skill"
-    }
+    "skill_hints": [
+      {
+        "icon": "assets/skills/1206_120601.png",
+        "name_en": "Cloudfencer Art: Starshine",
+        "name_fr": "Escrime perce-nuages : Étoile brillante",
+        "type": "Basic ATK"
+      },
+      {
+        "icon": "assets/skills/1206_120602.png",
+        "name_en": "Cloudfencer Art: Mountainfall",
+        "name_fr": "Escrime perce-nuages : Chute de montagne",
+        "type": "Skill"
+      },
+      {
+        "icon": "assets/skills/1206_120603.png",
+        "name_en": "Shape of Taixu: Dawn Herald",
+        "name_fr": "Forme de Taixu : Héraut de l'aube",
+        "type": "Ultimate"
+      },
+      {
+        "icon": "assets/skills/1206_120604.png",
+        "name_en": "Dancing Blade",
+        "name_fr": "Lame dansante",
+        "type": "Talent"
+      },
+      {
+        "icon": "assets/skills/1206_120607.png",
+        "name_en": "Cloudfencer Art: Warcry",
+        "name_fr": "Escrime perce-nuages : Cri de guerre",
+        "type": "Technique"
+      }
+    ]
   },
   {
     "id": "1207",
@@ -2739,8 +3493,8 @@
       "icon": "assets/bosses/110501.png"
     },
     "avatar": "assets/characters/1207.png",
-    "preview": "assets/previews/1207.webp",
-    "portrait": "assets/portraits/1207.webp",
+    "portrait": "assets/PORTRAIT/1207.webp",
+    "splash_art": "assets/SPLASHART/1207.webp",
     "quotes": [
       {
         "en": "Brave the wind!",
@@ -2763,12 +3517,38 @@
         "fr": "Les cieux sont vastes, le cerf-volant vole où bon lui semble."
       }
     ],
-    "skill_hint": {
-      "icon": "assets/skills/1207_120702.png",
-      "name_en": "Emboldening Salvo",
-      "name_fr": "Salve de courage",
-      "type": "Skill"
-    }
+    "skill_hints": [
+      {
+        "icon": "assets/skills/1207_120701.png",
+        "name_en": "Arrowslinger",
+        "name_fr": "Tir de flèche",
+        "type": "Basic ATK"
+      },
+      {
+        "icon": "assets/skills/1207_120702.png",
+        "name_en": "Emboldening Salvo",
+        "name_fr": "Salve de courage",
+        "type": "Skill"
+      },
+      {
+        "icon": "assets/skills/1207_120703.png",
+        "name_en": "Diving Kestrel",
+        "name_fr": "Crécerelle en piqué",
+        "type": "Ultimate"
+      },
+      {
+        "icon": "assets/skills/1207_120704.png",
+        "name_en": "Seven Layers, One Arrow",
+        "name_fr": "Sept épaisseurs, une flèche",
+        "type": "Talent"
+      },
+      {
+        "icon": "assets/skills/1207_120707.png",
+        "name_en": "Windchaser",
+        "name_fr": "À la poursuite du vent",
+        "type": "Technique"
+      }
+    ]
   },
   {
     "id": "1208",
@@ -2841,8 +3621,8 @@
       "icon": "assets/bosses/110503.png"
     },
     "avatar": "assets/characters/1208.png",
-    "preview": "assets/previews/1208.webp",
-    "portrait": "assets/portraits/1208.webp",
+    "portrait": "assets/PORTRAIT/1208.webp",
+    "splash_art": "assets/SPLASHART/1208.webp",
     "quotes": [
       {
         "en": "The omniscia sees through you...",
@@ -2865,12 +3645,38 @@
         "fr": "Tout change au fil de la divination."
       }
     ],
-    "skill_hint": {
-      "icon": "assets/skills/1208_120802.png",
-      "name_en": "Known by Stars, Shown by Hearts",
-      "name_fr": "Merveille des étoiles",
-      "type": "Skill"
-    }
+    "skill_hints": [
+      {
+        "icon": "assets/skills/1208_120801.png",
+        "name_en": "Novaburst",
+        "name_fr": "Frappe stellaire",
+        "type": "Basic ATK"
+      },
+      {
+        "icon": "assets/skills/1208_120802.png",
+        "name_en": "Known by Stars, Shown by Hearts",
+        "name_fr": "Merveille des étoiles",
+        "type": "Skill"
+      },
+      {
+        "icon": "assets/skills/1208_120803.png",
+        "name_en": "Woes of Many Morphed to One",
+        "name_fr": "Évolution ultime",
+        "type": "Ultimate"
+      },
+      {
+        "icon": "assets/skills/1208_120804.png",
+        "name_en": "Bleak Breeds Bliss",
+        "name_fr": "Coup du sort",
+        "type": "Talent"
+      },
+      {
+        "icon": "assets/skills/1208_120807.png",
+        "name_en": "Of Fortune Comes Fate",
+        "name_fr": "De la chance au destin",
+        "type": "Technique"
+      }
+    ]
   },
   {
     "id": "1209",
@@ -2931,8 +3737,8 @@
       "icon": "assets/bosses/110502.png"
     },
     "avatar": "assets/characters/1209.png",
-    "preview": "assets/previews/1209.webp",
-    "portrait": "assets/portraits/1209.webp",
+    "portrait": "assets/PORTRAIT/1209.webp",
+    "splash_art": "assets/SPLASHART/1209.webp",
     "quotes": [
       {
         "en": "A strong adversary. Help me improve!",
@@ -2955,12 +3761,38 @@
         "fr": "La victoire par la lame~"
       }
     ],
-    "skill_hint": {
-      "icon": "assets/skills/1209_120902.png",
-      "name_en": "Darting Ironthorn",
-      "name_fr": "Salve d'aiguillons",
-      "type": "Skill"
-    }
+    "skill_hints": [
+      {
+        "icon": "assets/skills/1209_120901.png",
+        "name_en": "Frost Thorn",
+        "name_fr": "Épine de givre",
+        "type": "Basic ATK"
+      },
+      {
+        "icon": "assets/skills/1209_120902.png",
+        "name_en": "Darting Ironthorn",
+        "name_fr": "Salve d'aiguillons",
+        "type": "Skill"
+      },
+      {
+        "icon": "assets/skills/1209_120903.png",
+        "name_en": "Amidst the Raining Bliss",
+        "name_fr": "Béatitude au milieu de l'averse",
+        "type": "Ultimate"
+      },
+      {
+        "icon": "assets/skills/1209_120904.png",
+        "name_en": "One With the Sword",
+        "name_fr": "Connexion avec la lame",
+        "type": "Talent"
+      },
+      {
+        "icon": "assets/skills/1209_120907.png",
+        "name_en": "The One True Sword",
+        "name_fr": "La seule et unique lame",
+        "type": "Technique"
+      }
+    ]
   },
   {
     "id": "1210",
@@ -3021,8 +3853,8 @@
       "icon": "assets/bosses/110503.png"
     },
     "avatar": "assets/characters/1210.png",
-    "preview": "assets/previews/1210.webp",
-    "portrait": "assets/portraits/1210.webp",
+    "portrait": "assets/PORTRAIT/1210.webp",
+    "splash_art": "assets/SPLASHART/1210.webp",
     "quotes": [
       {
         "en": "Come feast your eyes!",
@@ -3045,12 +3877,38 @@
         "fr": "Répands ces ondes positives, et regarde la chance suivre~"
       }
     ],
-    "skill_hint": {
-      "icon": "assets/skills/1210_121002.png",
-      "name_en": "Blazing Welcome",
-      "name_fr": "Accueil enflammé",
-      "type": "Skill"
-    }
+    "skill_hints": [
+      {
+        "icon": "assets/skills/1210_121001.png",
+        "name_en": "Standing Ovation",
+        "name_fr": "Ovation du public",
+        "type": "Basic ATK"
+      },
+      {
+        "icon": "assets/skills/1210_121002.png",
+        "name_en": "Blazing Welcome",
+        "name_fr": "Accueil enflammé",
+        "type": "Skill"
+      },
+      {
+        "icon": "assets/skills/1210_121003.png",
+        "name_en": "Watch This Showstopper",
+        "name_fr": "Attention les yeux",
+        "type": "Ultimate"
+      },
+      {
+        "icon": "assets/skills/1210_121004.png",
+        "name_en": "PatrAeon Benefits",
+        "name_fr": "Chapeau l'artiste",
+        "type": "Talent"
+      },
+      {
+        "icon": "assets/skills/1210_121007.png",
+        "name_en": "Skill Showcase",
+        "name_fr": "Démonstration de talent",
+        "type": "Technique"
+      }
+    ]
   },
   {
     "id": "1211",
@@ -3112,8 +3970,8 @@
       "icon": "assets/bosses/110502.png"
     },
     "avatar": "assets/characters/1211.png",
-    "preview": "assets/previews/1211.webp",
-    "portrait": "assets/portraits/1211.webp",
+    "portrait": "assets/PORTRAIT/1211.webp",
+    "splash_art": "assets/SPLASHART/1211.webp",
     "quotes": [
       {
         "en": "Ha, you don't look so good.",
@@ -3136,12 +3994,38 @@
         "fr": "Debout ici en silence, la violence me manque~"
       }
     ],
-    "skill_hint": {
-      "icon": "assets/skills/1211_121102.png",
-      "name_en": "Singing Among Clouds",
-      "name_fr": "Chanter parmi les nuages",
-      "type": "Skill"
-    }
+    "skill_hints": [
+      {
+        "icon": "assets/skills/1211_121101.png",
+        "name_en": "Diagnostic Kick",
+        "name_fr": "Diagnostic musclé",
+        "type": "Basic ATK"
+      },
+      {
+        "icon": "assets/skills/1211_121102.png",
+        "name_en": "Singing Among Clouds",
+        "name_fr": "Chanter parmi les nuages",
+        "type": "Skill"
+      },
+      {
+        "icon": "assets/skills/1211_121103.png",
+        "name_en": "Felicitous Thunderleap",
+        "name_fr": "Foudroyés par la félicité",
+        "type": "Ultimate"
+      },
+      {
+        "icon": "assets/skills/1211_121104.png",
+        "name_en": "Gourdful of Elixir",
+        "name_fr": "Gourde d'élixir",
+        "type": "Talent"
+      },
+      {
+        "icon": "assets/skills/1211_121107.png",
+        "name_en": "Saunter in the Rain",
+        "name_fr": "Flânerie sous la pluie",
+        "type": "Technique"
+      }
+    ]
   },
   {
     "id": "1212",
@@ -3208,8 +4092,8 @@
       "icon": "assets/bosses/110503.png"
     },
     "avatar": "assets/characters/1212.png",
-    "preview": "assets/previews/1212.webp",
-    "portrait": "assets/portraits/1212.webp",
+    "portrait": "assets/PORTRAIT/1212.webp",
+    "splash_art": "assets/SPLASHART/1212.webp",
     "quotes": [
       {
         "en": "Unworthy of my time.",
@@ -3232,12 +4116,38 @@
         "fr": "Ne te soucie pas de l'issue."
       }
     ],
-    "skill_hint": {
-      "icon": "assets/skills/1212_121202.png",
-      "name_en": "Transcendent Flash",
-      "name_fr": "Éclair transcendant",
-      "type": "Skill"
-    }
+    "skill_hints": [
+      {
+        "icon": "assets/skills/1212_121201.png",
+        "name_en": "Lucent Moonglow",
+        "name_fr": "Lueur sélénite",
+        "type": "Basic ATK"
+      },
+      {
+        "icon": "assets/skills/1212_121202.png",
+        "name_en": "Transcendent Flash",
+        "name_fr": "Éclair transcendant",
+        "type": "Skill"
+      },
+      {
+        "icon": "assets/skills/1212_121203.png",
+        "name_en": "Florephemeral Dreamflux",
+        "name_fr": "Rêves floréphémères",
+        "type": "Ultimate"
+      },
+      {
+        "icon": "assets/skills/1212_121204.png",
+        "name_en": "Crescent Transmigration",
+        "name_fr": "Migration du croissant",
+        "type": "Talent"
+      },
+      {
+        "icon": "assets/skills/1212_121207.png",
+        "name_en": "Shine of Truth",
+        "name_fr": "Éclat de la vérité",
+        "type": "Technique"
+      }
+    ]
   },
   {
     "id": "1213",
@@ -3304,8 +4214,8 @@
       "icon": "assets/bosses/110503.png"
     },
     "avatar": "assets/characters/1213.png",
-    "preview": "assets/previews/1213.webp",
-    "portrait": "assets/portraits/1213.webp",
+    "portrait": "assets/PORTRAIT/1213.webp",
+    "splash_art": "assets/SPLASHART/1213.webp",
     "quotes": [
       {
         "en": "I sense a storm...",
@@ -3328,12 +4238,38 @@
         "fr": "Un dragon... revient toujours."
       }
     ],
-    "skill_hint": {
-      "icon": "assets/skills/1213_121302.png",
-      "name_en": "Dracore Libre",
-      "name_fr": "Déchaînement du dragon",
-      "type": "Skill"
-    }
+    "skill_hints": [
+      {
+        "icon": "assets/skills/1213_121301.png",
+        "name_en": "Beneficent Lotus",
+        "name_fr": "Lotus bénéfique",
+        "type": "Basic ATK"
+      },
+      {
+        "icon": "assets/skills/1213_121302.png",
+        "name_en": "Dracore Libre",
+        "name_fr": "Déchaînement du dragon",
+        "type": "Skill"
+      },
+      {
+        "icon": "assets/skills/1213_121303.png",
+        "name_en": "Azure's Aqua Ablutes All",
+        "name_fr": "Absolution des eaux azur",
+        "type": "Ultimate"
+      },
+      {
+        "icon": "assets/skills/1213_121304.png",
+        "name_en": "Righteous Heart",
+        "name_fr": "Cœur vertueux",
+        "type": "Talent"
+      },
+      {
+        "icon": "assets/skills/1213_121307.png",
+        "name_en": "Heaven-Quelling Prismadrakon",
+        "name_fr": "Prismadragon de fulguration",
+        "type": "Technique"
+      }
+    ]
   },
   {
     "id": "1214",
@@ -3396,8 +4332,8 @@
       "icon": "assets/bosses/110504.png"
     },
     "avatar": "assets/characters/1214.png",
-    "preview": "assets/previews/1214.webp",
-    "portrait": "assets/portraits/1214.webp",
+    "portrait": "assets/PORTRAIT/1214.webp",
+    "splash_art": "assets/SPLASHART/1214.webp",
     "quotes": [
       {
         "en": "Do you admit this crime?",
@@ -3420,12 +4356,38 @@
         "fr": "La mort ne m'a pas encore réclamée."
       }
     ],
-    "skill_hint": {
-      "icon": "assets/skills/1214_121402.png",
-      "name_en": "Iniquity Obliteration",
-      "name_fr": "Éradication des péchés",
-      "type": "Skill"
-    }
+    "skill_hints": [
+      {
+        "icon": "assets/skills/1214_121401.png",
+        "name_en": "Mara-Sunder Awl",
+        "name_fr": "Pique scindemara",
+        "type": "Basic ATK"
+      },
+      {
+        "icon": "assets/skills/1214_121402.png",
+        "name_en": "Iniquity Obliteration",
+        "name_fr": "Éradication des péchés",
+        "type": "Skill"
+      },
+      {
+        "icon": "assets/skills/1214_121403.png",
+        "name_en": "Divine Castigation",
+        "name_fr": "Châtiment divin",
+        "type": "Ultimate"
+      },
+      {
+        "icon": "assets/skills/1214_121404.png",
+        "name_en": "Karmic Perpetuation",
+        "name_fr": "Rétribution karmique",
+        "type": "Talent"
+      },
+      {
+        "icon": "assets/skills/1214_121407.png",
+        "name_en": "Summary Execution",
+        "name_fr": "Exécution sommaire",
+        "type": "Technique"
+      }
+    ]
   },
   {
     "id": "1215",
@@ -3488,8 +4450,8 @@
       "icon": "assets/bosses/110503.png"
     },
     "avatar": "assets/characters/1215.png",
-    "preview": "assets/previews/1215.webp",
-    "portrait": "assets/portraits/1215.webp",
+    "portrait": "assets/PORTRAIT/1215.webp",
+    "splash_art": "assets/SPLASHART/1215.webp",
     "quotes": [
       {
         "en": "You don't know how serious this is...",
@@ -3512,12 +4474,38 @@
         "fr": "Il reste des affaires en suspens... Retour au monde des vivants."
       }
     ],
-    "skill_hint": {
-      "icon": "assets/skills/1215_121502.png",
-      "name_en": "Samsara, Locked",
-      "name_fr": "Emprisonnement d'âme",
-      "type": "Skill"
-    }
+    "skill_hints": [
+      {
+        "icon": "assets/skills/1215_121501.png",
+        "name_en": "Oracle Brush",
+        "name_fr": "Pinceau divin",
+        "type": "Basic ATK"
+      },
+      {
+        "icon": "assets/skills/1215_121502.png",
+        "name_en": "Samsara, Locked",
+        "name_fr": "Emprisonnement d'âme",
+        "type": "Skill"
+      },
+      {
+        "icon": "assets/skills/1215_121503.png",
+        "name_en": "Ten-Lords' Decree, All Shall Obey",
+        "name_fr": "Sentence universelle",
+        "type": "Ultimate"
+      },
+      {
+        "icon": "assets/skills/1215_121504.png",
+        "name_en": "Sanction",
+        "name_fr": "Châtiment",
+        "type": "Talent"
+      },
+      {
+        "icon": "assets/skills/1215_121507.png",
+        "name_en": "Netherworld Judgment",
+        "name_fr": "Jugement de l'au-delà",
+        "type": "Technique"
+      }
+    ]
   },
   {
     "id": "1217",
@@ -3582,8 +4570,8 @@
       "icon": "assets/bosses/110503.png"
     },
     "avatar": "assets/characters/1217.png",
-    "preview": "assets/previews/1217.webp",
-    "portrait": "assets/portraits/1217.webp",
+    "portrait": "assets/PORTRAIT/1217.webp",
+    "splash_art": "assets/SPLASHART/1217.webp",
     "quotes": [
       {
         "en": "Demons... depart...",
@@ -3606,12 +4594,38 @@
         "fr": "Dois-je vraiment passer toute ma vie à la Commission des Dix Seigneurs... ?"
       }
     ],
-    "skill_hint": {
-      "icon": "assets/skills/1217_121702.png",
-      "name_en": "Talisman: Protection",
-      "name_fr": "Talisman de protection",
-      "type": "Skill"
-    }
+    "skill_hints": [
+      {
+        "icon": "assets/skills/1217_121701.png",
+        "name_en": "Banner: Stormcaller",
+        "name_fr": "Bannière de tempête",
+        "type": "Basic ATK"
+      },
+      {
+        "icon": "assets/skills/1217_121702.png",
+        "name_en": "Talisman: Protection",
+        "name_fr": "Talisman de protection",
+        "type": "Skill"
+      },
+      {
+        "icon": "assets/skills/1217_121703.png",
+        "name_en": "Tail: Spiritual Domination",
+        "name_fr": "Domination spirituelle de Plumeau",
+        "type": "Ultimate"
+      },
+      {
+        "icon": "assets/skills/1217_121704.png",
+        "name_en": "Possession: Ethereal Metaflow",
+        "name_fr": "Connexion métaphysique éthérée",
+        "type": "Talent"
+      },
+      {
+        "icon": "assets/skills/1217_121707.png",
+        "name_en": "Fiend: Impeachment of Evil",
+        "name_fr": "Répression du mal",
+        "type": "Technique"
+      }
+    ]
   },
   {
     "id": "1218",
@@ -3674,8 +4688,8 @@
       "icon": "assets/bosses/110503.png"
     },
     "avatar": "assets/characters/1218.png",
-    "preview": "assets/previews/1218.webp",
-    "portrait": "assets/portraits/1218.webp",
+    "portrait": "assets/PORTRAIT/1218.webp",
+    "splash_art": "assets/SPLASHART/1218.webp",
     "quotes": [
       {
         "en": "I still prefer adding fuel to the fire.",
@@ -3698,12 +4712,38 @@
         "fr": "Mieux vaut ne pas bouger que d'attendre son tour."
       }
     ],
-    "skill_hint": {
-      "icon": "assets/skills/1218_121802.png",
-      "name_en": "Scorch Onslaught",
-      "name_fr": "Lancer d'épices",
-      "type": "Skill"
-    }
+    "skill_hints": [
+      {
+        "icon": "assets/skills/1218_121801.png",
+        "name_en": "Heart Afire",
+        "name_fr": "Cœur de flamme",
+        "type": "Basic ATK"
+      },
+      {
+        "icon": "assets/skills/1218_121802.png",
+        "name_en": "Scorch Onslaught",
+        "name_fr": "Lancer d'épices",
+        "type": "Skill"
+      },
+      {
+        "icon": "assets/skills/1218_121803.png",
+        "name_en": "Pyrograph Arcanum",
+        "name_fr": "Arcanes pyrogramiques",
+        "type": "Ultimate"
+      },
+      {
+        "icon": "assets/skills/1218_121804.png",
+        "name_en": "Quartet Finesse, Octave Finery",
+        "name_fr": "Force et raffinement",
+        "type": "Talent"
+      },
+      {
+        "icon": "assets/skills/1218_121807.png",
+        "name_en": "Fiery Queller",
+        "name_fr": "Réprimande ardente",
+        "type": "Technique"
+      }
+    ]
   },
   {
     "id": "1220",
@@ -3780,8 +4820,8 @@
       "icon": "assets/bosses/110503.png"
     },
     "avatar": "assets/characters/1220.png",
-    "preview": "assets/previews/1220.webp",
-    "portrait": "assets/portraits/1220.webp",
+    "portrait": "assets/PORTRAIT/1220.webp",
+    "splash_art": "assets/SPLASHART/1220.webp",
     "quotes": [
       {
         "en": "Set me aflame! Let's find out if you can reduce me to cinders!",
@@ -3804,12 +4844,38 @@
         "fr": "Trop lent ! Je peux aller encore plus vite !"
       }
     ],
-    "skill_hint": {
-      "icon": "assets/skills/1220_122002.png",
-      "name_en": "Waraxe",
-      "name_fr": "Hache de guerre",
-      "type": "Skill"
-    }
+    "skill_hints": [
+      {
+        "icon": "assets/skills/1220_122001.png",
+        "name_en": "Boltsunder",
+        "name_fr": "Éclair tonitruant",
+        "type": "Basic ATK"
+      },
+      {
+        "icon": "assets/skills/1220_122002.png",
+        "name_en": "Waraxe",
+        "name_fr": "Hache de guerre",
+        "type": "Skill"
+      },
+      {
+        "icon": "assets/skills/1220_122003.png",
+        "name_en": "Terrasplit",
+        "name_fr": "Fracture du monde",
+        "type": "Ultimate"
+      },
+      {
+        "icon": "assets/skills/1220_122004.png",
+        "name_en": "Thunderhunt",
+        "name_fr": "Traque-tonnerre",
+        "type": "Talent"
+      },
+      {
+        "icon": "assets/skills/1220_122007.png",
+        "name_en": "Stormborn",
+        "name_fr": "Manifestation de tempête",
+        "type": "Technique"
+      }
+    ]
   },
   {
     "id": "1221",
@@ -3874,8 +4940,8 @@
       "icon": "assets/bosses/110503.png"
     },
     "avatar": "assets/characters/1221.png",
-    "preview": "assets/previews/1221.webp",
-    "portrait": "assets/portraits/1221.webp",
+    "portrait": "assets/PORTRAIT/1221.webp",
+    "splash_art": "assets/SPLASHART/1221.webp",
     "quotes": [
       {
         "en": "Strike while the iron is hot.",
@@ -3898,12 +4964,38 @@
         "fr": "Trempé et forgé, tout est infusé dans l'épée."
       }
     ],
-    "skill_hint": {
-      "icon": "assets/skills/1221_122102.png",
-      "name_en": "Bladeborne Quake",
-      "name_fr": "Lame de choc",
-      "type": "Skill"
-    }
+    "skill_hints": [
+      {
+        "icon": "assets/skills/1221_122101.png",
+        "name_en": "Galespin Summersault",
+        "name_fr": "Frappe tourbillonnante",
+        "type": "Basic ATK"
+      },
+      {
+        "icon": "assets/skills/1221_122102.png",
+        "name_en": "Bladeborne Quake",
+        "name_fr": "Lame de choc",
+        "type": "Skill"
+      },
+      {
+        "icon": "assets/skills/1221_122103.png",
+        "name_en": "Earthbind, Etherbreak",
+        "name_fr": "Du ciel à la terre",
+        "type": "Ultimate"
+      },
+      {
+        "icon": "assets/skills/1221_122104.png",
+        "name_en": "Flashforge",
+        "name_fr": "Représailles de la forge",
+        "type": "Talent"
+      },
+      {
+        "icon": "assets/skills/1221_122107.png",
+        "name_en": "Posterior Precedence",
+        "name_fr": "Riposte anticipée",
+        "type": "Technique"
+      }
+    ]
   },
   {
     "id": "1222",
@@ -3973,8 +5065,8 @@
       "icon": "assets/bosses/110506.png"
     },
     "avatar": "assets/characters/1222.png",
-    "preview": "assets/previews/1222.webp",
-    "portrait": "assets/portraits/1222.webp",
+    "portrait": "assets/PORTRAIT/1222.webp",
+    "splash_art": "assets/SPLASHART/1222.webp",
     "quotes": [
       {
         "en": "...The stench of evil.",
@@ -3997,12 +5089,38 @@
         "fr": "Brume infinie et fumée sans fin."
       }
     ],
-    "skill_hint": {
-      "icon": "assets/skills/1222_122202.png",
-      "name_en": "Smoke and Splendor",
-      "name_fr": "Vapeurs incandescentes",
-      "type": "Skill"
-    }
+    "skill_hints": [
+      {
+        "icon": "assets/skills/1222_122201.png",
+        "name_en": "Votive Incense",
+        "name_fr": "Encens sacré",
+        "type": "Basic ATK"
+      },
+      {
+        "icon": "assets/skills/1222_122202.png",
+        "name_en": "Smoke and Splendor",
+        "name_fr": "Vapeurs incandescentes",
+        "type": "Skill"
+      },
+      {
+        "icon": "assets/skills/1222_122203.png",
+        "name_en": "Dripping Mistscape",
+        "name_fr": "Voile des brumes évanescentes",
+        "type": "Ultimate"
+      },
+      {
+        "icon": "assets/skills/1222_122204.png",
+        "name_en": "Mistdance Manifest",
+        "name_fr": "Danse nébuleuse",
+        "type": "Talent"
+      },
+      {
+        "icon": "assets/skills/1222_122207.png",
+        "name_en": "Wisps of Aurora",
+        "name_fr": "Effluves de l'aurore",
+        "type": "Technique"
+      }
+    ]
   },
   {
     "id": "1223",
@@ -4067,8 +5185,8 @@
       "icon": "assets/bosses/110506.png"
     },
     "avatar": "assets/characters/1223.png",
-    "preview": "assets/previews/1223.webp",
-    "portrait": "assets/portraits/1223.webp",
+    "portrait": "assets/PORTRAIT/1223.webp",
+    "splash_art": "assets/SPLASHART/1223.webp",
     "quotes": [
       {
         "en": "I am the blade...",
@@ -4091,12 +5209,38 @@
         "fr": "La violence est le moyen ultime, et c'est aussi mon seul moyen."
       }
     ],
-    "skill_hint": {
-      "icon": "assets/skills/1223_122302.png",
-      "name_en": "Fleetwinged Raid",
-      "name_fr": "Frappe de l'aigle",
-      "type": "Skill"
-    }
+    "skill_hints": [
+      {
+        "icon": "assets/skills/1223_122301.png",
+        "name_en": "Hurlthorn",
+        "name_fr": "Dague volante",
+        "type": "Basic ATK"
+      },
+      {
+        "icon": "assets/skills/1223_122302.png",
+        "name_en": "Fleetwinged Raid",
+        "name_fr": "Frappe de l'aigle",
+        "type": "Skill"
+      },
+      {
+        "icon": "assets/skills/1223_122303.png",
+        "name_en": "Dash In, Gash Out",
+        "name_fr": "Perforation des ténèbres",
+        "type": "Ultimate"
+      },
+      {
+        "icon": "assets/skills/1223_122304.png",
+        "name_en": "Cascading Featherblade",
+        "name_fr": "Assaut des plumes",
+        "type": "Talent"
+      },
+      {
+        "icon": "assets/skills/1223_122307.png",
+        "name_en": "Bated Wings",
+        "name_fr": "Vol obscur",
+        "type": "Technique"
+      }
+    ]
   },
   {
     "id": "1224",
@@ -4179,8 +5323,8 @@
       "icon": "assets/bosses/110501.png"
     },
     "avatar": "assets/characters/1224.png",
-    "preview": "assets/previews/1224.webp",
-    "portrait": "assets/portraits/1224.webp",
+    "portrait": "assets/PORTRAIT/1224.webp",
+    "splash_art": "assets/SPLASHART/1224.webp",
     "quotes": [
       {
         "en": "You'll make for good practice!",
@@ -4203,12 +5347,38 @@
         "fr": "Tu n'y serais jamais arrivé sans moi !"
       }
     ],
-    "skill_hint": {
-      "icon": "assets/skills/1224_122402.png",
-      "name_en": "Master, It's Tea Time!",
-      "name_fr": "Maître, c'est l'heure du thé !",
-      "type": "Skill"
-    }
+    "skill_hints": [
+      {
+        "icon": "assets/skills/1224_122401.png",
+        "name_en": "My Sword Zaps Demons",
+        "name_fr": "Lame tueuse de démons",
+        "type": "Basic ATK"
+      },
+      {
+        "icon": "assets/skills/1224_122402.png",
+        "name_en": "Master, It's Tea Time!",
+        "name_fr": "Maître, c'est l'heure du thé !",
+        "type": "Skill"
+      },
+      {
+        "icon": "assets/skills/1224_122403.png",
+        "name_en": "March 7th, the Apex Heroine",
+        "name_fr": "March 7th, héroïne suprême",
+        "type": "Ultimate"
+      },
+      {
+        "icon": "assets/skills/1224_122404.png",
+        "name_en": "Master, I've Ascended!",
+        "name_fr": "J'ai compris, Maître !",
+        "type": "Talent"
+      },
+      {
+        "icon": "assets/skills/1224_122407.png",
+        "name_en": "Feast in One Go",
+        "name_fr": "Repas sur le pouce",
+        "type": "Technique"
+      }
+    ]
   },
   {
     "id": "1225",
@@ -4273,8 +5443,8 @@
       "icon": "assets/bosses/110503.png"
     },
     "avatar": "assets/characters/1225.png",
-    "preview": "assets/previews/1225.webp",
-    "portrait": "assets/portraits/1225.webp",
+    "portrait": "assets/PORTRAIT/1225.webp",
+    "splash_art": "assets/SPLASHART/1225.webp",
     "quotes": [
       {
         "en": "Let's seize this fine moment.",
@@ -4297,12 +5467,38 @@
         "fr": "La métamorphose consiste toujours à se libérer du passé."
       }
     ],
-    "skill_hint": {
-      "icon": "assets/skills/1225_122502.png",
-      "name_en": "Virtue Beckons Bliss",
-      "name_fr": "Félicité méritée",
-      "type": "Skill"
-    }
+    "skill_hints": [
+      {
+        "icon": "assets/skills/1225_122501.png",
+        "name_en": "Radiant Streak",
+        "name_fr": "Radiance dardante",
+        "type": "Basic ATK"
+      },
+      {
+        "icon": "assets/skills/1225_122502.png",
+        "name_en": "Virtue Beckons Bliss",
+        "name_fr": "Félicité méritée",
+        "type": "Skill"
+      },
+      {
+        "icon": "assets/skills/1225_122503.png",
+        "name_en": "Solar Splendor Shines Upon All",
+        "name_fr": "Splendeur solaire éblouissante",
+        "type": "Ultimate"
+      },
+      {
+        "icon": "assets/skills/1225_122504.png",
+        "name_en": "Fortune Follows Where Virtue Spreads",
+        "name_fr": "Vertu mère de fortune",
+        "type": "Talent"
+      },
+      {
+        "icon": "assets/skills/1225_122507.png",
+        "name_en": "Percipient Shine",
+        "name_fr": "Éclat étourdissant",
+        "type": "Technique"
+      }
+    ]
   },
   {
     "id": "1301",
@@ -4366,8 +5562,8 @@
       "icon": "assets/bosses/110504.png"
     },
     "avatar": "assets/characters/1301.png",
-    "preview": "assets/previews/1301.webp",
-    "portrait": "assets/portraits/1301.webp",
+    "portrait": "assets/PORTRAIT/1301.webp",
+    "splash_art": "assets/SPLASHART/1301.webp",
     "quotes": [
       {
         "en": "Life's like a good brew – full-bodied and sweet.",
@@ -4390,12 +5586,38 @@
         "fr": "Le temps file à toute vitesse."
       }
     ],
-    "skill_hint": {
-      "icon": "assets/skills/1301_130102.png",
-      "name_en": "Special Brew",
-      "name_fr": "Cuvée spéciale",
-      "type": "Skill"
-    }
+    "skill_hints": [
+      {
+        "icon": "assets/skills/1301_130101.png",
+        "name_en": "Corkage Fee",
+        "name_fr": "Coup de pompe",
+        "type": "Basic ATK"
+      },
+      {
+        "icon": "assets/skills/1301_130102.png",
+        "name_en": "Special Brew",
+        "name_fr": "Cuvée spéciale",
+        "type": "Skill"
+      },
+      {
+        "icon": "assets/skills/1301_130103.png",
+        "name_en": "Champagne Etiquette",
+        "name_fr": "C'est ma tournée !",
+        "type": "Ultimate"
+      },
+      {
+        "icon": "assets/skills/1301_130104.png",
+        "name_en": "Tipsy Tussle",
+        "name_fr": "Ébriété destructrice",
+        "type": "Talent"
+      },
+      {
+        "icon": "assets/skills/1301_130107.png",
+        "name_en": "Artisan Elixir",
+        "name_fr": "Sans modération",
+        "type": "Technique"
+      }
+    ]
   },
   {
     "id": "1302",
@@ -4453,8 +5675,8 @@
       "icon": "assets/bosses/110503.png"
     },
     "avatar": "assets/characters/1302.png",
-    "preview": "assets/previews/1302.webp",
-    "portrait": "assets/portraits/1302.webp",
+    "portrait": "assets/PORTRAIT/1302.webp",
+    "splash_art": "assets/SPLASHART/1302.webp",
     "quotes": [
       {
         "en": "The Beauty... is eternal.",
@@ -4477,12 +5699,38 @@
         "fr": "Ce vent familier... un appel au doux souvenir."
       }
     ],
-    "skill_hint": {
-      "icon": "assets/skills/1302_130202.png",
-      "name_en": "Justice, Hereby Blooms",
-      "name_fr": "Épines de la justice",
-      "type": "Skill"
-    }
+    "skill_hints": [
+      {
+        "icon": "assets/skills/1302_130201.png",
+        "name_en": "Fleeting Fragrance",
+        "name_fr": "Fragrance fugace",
+        "type": "Basic ATK"
+      },
+      {
+        "icon": "assets/skills/1302_130202.png",
+        "name_en": "Justice, Hereby Blooms",
+        "name_fr": "Épines de la justice",
+        "type": "Skill"
+      },
+      {
+        "icon": "assets/skills/1302_130203.png",
+        "name_en": "For In This Garden, Supreme Beauty Bestows",
+        "name_fr": "Beauté infinie du jardin des roses",
+        "type": "Ultimate"
+      },
+      {
+        "icon": "assets/skills/1302_130204.png",
+        "name_en": "Sublime Object",
+        "name_fr": "Objet de convoitise",
+        "type": "Talent"
+      },
+      {
+        "icon": "assets/skills/1302_130207.png",
+        "name_en": "Manifesto of Purest Virtue",
+        "name_fr": "Manifeste de la vertu",
+        "type": "Technique"
+      }
+    ]
   },
   {
     "id": "1303",
@@ -4545,8 +5793,8 @@
       "icon": "assets/bosses/110504.png"
     },
     "avatar": "assets/characters/1303.png",
-    "preview": "assets/previews/1303.webp",
-    "portrait": "assets/portraits/1303.webp",
+    "portrait": "assets/PORTRAIT/1303.webp",
+    "splash_art": "assets/SPLASHART/1303.webp",
     "quotes": [
       {
         "en": "Eternal melody.",
@@ -4569,12 +5817,38 @@
         "fr": "La vie... une véritable merveille."
       }
     ],
-    "skill_hint": {
-      "icon": "assets/skills/1303_130302.png",
-      "name_en": "String Sings Slow Swirls",
-      "name_fr": "Chant lancinant des cordes",
-      "type": "Skill"
-    }
+    "skill_hints": [
+      {
+        "icon": "assets/skills/1303_130301.png",
+        "name_en": "Threading Fragrance",
+        "name_fr": "Parfum entêtant",
+        "type": "Basic ATK"
+      },
+      {
+        "icon": "assets/skills/1303_130302.png",
+        "name_en": "String Sings Slow Swirls",
+        "name_fr": "Chant lancinant des cordes",
+        "type": "Skill"
+      },
+      {
+        "icon": "assets/skills/1303_130303.png",
+        "name_en": "Petals to Stream, Repose in Dream",
+        "name_fr": "Ondée de pétales",
+        "type": "Ultimate"
+      },
+      {
+        "icon": "assets/skills/1303_130304.png",
+        "name_en": "Somatotypical Helix",
+        "name_fr": "Spirale fractale",
+        "type": "Talent"
+      },
+      {
+        "icon": "assets/skills/1303_130307.png",
+        "name_en": "Silken Serenade",
+        "name_fr": "Sérénade de soie",
+        "type": "Technique"
+      }
+    ]
   },
   {
     "id": "1304",
@@ -4639,8 +5913,8 @@
       "icon": "assets/bosses/110504.png"
     },
     "avatar": "assets/characters/1304.png",
-    "preview": "assets/previews/1304.webp",
-    "portrait": "assets/portraits/1304.webp",
+    "portrait": "assets/PORTRAIT/1304.webp",
+    "splash_art": "assets/SPLASHART/1304.webp",
     "quotes": [
       {
         "en": "Going all in. Tab's on me.",
@@ -4663,12 +5937,38 @@
         "fr": "La fortune suit la chance, comme toujours."
       }
     ],
-    "skill_hint": {
-      "icon": "assets/skills/1304_130402.png",
-      "name_en": "Cornerstone Deluxe",
-      "name_fr": "Pierre angulaire de la prospérité",
-      "type": "Skill"
-    }
+    "skill_hints": [
+      {
+        "icon": "assets/skills/1304_130401.png",
+        "name_en": "Straight Bet",
+        "name_fr": "Pari direct",
+        "type": "Basic ATK"
+      },
+      {
+        "icon": "assets/skills/1304_130402.png",
+        "name_en": "Cornerstone Deluxe",
+        "name_fr": "Pierre angulaire de la prospérité",
+        "type": "Skill"
+      },
+      {
+        "icon": "assets/skills/1304_130403.png",
+        "name_en": "Roulette Shark",
+        "name_fr": "Roi de la roulette",
+        "type": "Ultimate"
+      },
+      {
+        "icon": "assets/skills/1304_130404.png",
+        "name_en": "Shot Loaded Right",
+        "name_fr": "Visé juste",
+        "type": "Talent"
+      },
+      {
+        "icon": "assets/skills/1304_130407.png",
+        "name_en": "The Red or the Black",
+        "name_fr": "Rouge ou noir",
+        "type": "Technique"
+      }
+    ]
   },
   {
     "id": "1305",
@@ -4733,8 +6033,8 @@
       "icon": "assets/bosses/110504.png"
     },
     "avatar": "assets/characters/1305.png",
-    "preview": "assets/previews/1305.webp",
-    "portrait": "assets/portraits/1305.webp",
+    "portrait": "assets/PORTRAIT/1305.webp",
+    "splash_art": "assets/SPLASHART/1305.webp",
     "quotes": [
       {
         "en": "Knowledge is the measure of all things. It reveals truth... and falsehood.",
@@ -4757,12 +6057,38 @@
         "fr": "Médiocre !"
       }
     ],
-    "skill_hint": {
-      "icon": "assets/skills/1305_130502.png",
-      "name_en": "Intellectual Midwifery",
-      "name_fr": "Déclic intellectuel",
-      "type": "Skill"
-    }
+    "skill_hints": [
+      {
+        "icon": "assets/skills/1305_130501.png",
+        "name_en": "Mind is Might",
+        "name_fr": "Puissance de l'esprit",
+        "type": "Basic ATK"
+      },
+      {
+        "icon": "assets/skills/1305_130502.png",
+        "name_en": "Intellectual Midwifery",
+        "name_fr": "Déclic intellectuel",
+        "type": "Skill"
+      },
+      {
+        "icon": "assets/skills/1305_130503.png",
+        "name_en": "Syllogistic Paradox",
+        "name_fr": "Paradoxe du syllogisme",
+        "type": "Ultimate"
+      },
+      {
+        "icon": "assets/skills/1305_130504.png",
+        "name_en": "Cogito, Ergo Sum",
+        "name_fr": "Cogito, Ergo Sum",
+        "type": "Talent"
+      },
+      {
+        "icon": "assets/skills/1305_130507.png",
+        "name_en": "Mold of Idolatry",
+        "name_fr": "Fascination façonnée",
+        "type": "Technique"
+      }
+    ]
   },
   {
     "id": "1306",
@@ -4829,8 +6155,8 @@
       "icon": "assets/bosses/110504.png"
     },
     "avatar": "assets/characters/1306.png",
-    "preview": "assets/previews/1306.webp",
-    "portrait": "assets/portraits/1306.webp",
+    "portrait": "assets/PORTRAIT/1306.webp",
+    "splash_art": "assets/SPLASHART/1306.webp",
     "quotes": [
       {
         "en": "Let's play hide and seek.",
@@ -4853,12 +6179,38 @@
         "fr": "Tu as 10 secondes — 10, 9...1 !"
       }
     ],
-    "skill_hint": {
-      "icon": "assets/skills/1306_130602.png",
-      "name_en": "Dreamdiver",
-      "name_fr": "Anguille sous roche",
-      "type": "Skill"
-    }
+    "skill_hints": [
+      {
+        "icon": "assets/skills/1306_130601.png",
+        "name_en": "Monodrama",
+        "name_fr": "Mélodrame",
+        "type": "Basic ATK"
+      },
+      {
+        "icon": "assets/skills/1306_130602.png",
+        "name_en": "Dreamdiver",
+        "name_fr": "Anguille sous roche",
+        "type": "Skill"
+      },
+      {
+        "icon": "assets/skills/1306_130603.png",
+        "name_en": "The Hero with a Thousand Faces",
+        "name_fr": "Personnage aux mille visages",
+        "type": "Ultimate"
+      },
+      {
+        "icon": "assets/skills/1306_130604.png",
+        "name_en": "Red Herring",
+        "name_fr": "Fausse piste",
+        "type": "Talent"
+      },
+      {
+        "icon": "assets/skills/1306_130607.png",
+        "name_en": "Unreliable Narrator",
+        "name_fr": "Histoire bancale",
+        "type": "Technique"
+      }
+    ]
   },
   {
     "id": "1307",
@@ -4917,8 +6269,8 @@
       "icon": "assets/bosses/110504.png"
     },
     "avatar": "assets/characters/1307.png",
-    "preview": "assets/previews/1307.webp",
-    "portrait": "assets/portraits/1307.webp",
+    "portrait": "assets/PORTRAIT/1307.webp",
+    "splash_art": "assets/SPLASHART/1307.webp",
     "quotes": [
       {
         "en": "Beneath the silent waters lies an endless abyss.",
@@ -4941,12 +6293,38 @@
         "fr": "Les souvenirs sont en perpétuel changement."
       }
     ],
-    "skill_hint": {
-      "icon": "assets/skills/1307_130702.png",
-      "name_en": "Decadence, False Twilight",
-      "name_fr": "Décadence du faux crépuscule",
-      "type": "Skill"
-    }
+    "skill_hints": [
+      {
+        "icon": "assets/skills/1307_130701.png",
+        "name_en": "Percipience, Silent Dawn",
+        "name_fr": "Perspicacité de l'aube silencieuse",
+        "type": "Basic ATK"
+      },
+      {
+        "icon": "assets/skills/1307_130702.png",
+        "name_en": "Decadence, False Twilight",
+        "name_fr": "Décadence du faux crépuscule",
+        "type": "Skill"
+      },
+      {
+        "icon": "assets/skills/1307_130703.png",
+        "name_en": "Bliss of Otherworld's Embrace",
+        "name_fr": "Bénédiction de l'étreinte de l'au-delà",
+        "type": "Ultimate"
+      },
+      {
+        "icon": "assets/skills/1307_130704.png",
+        "name_en": "Loom of Fate's Caprice",
+        "name_fr": "Toile du caprice du destin",
+        "type": "Talent"
+      },
+      {
+        "icon": "assets/skills/1307_130707.png",
+        "name_en": "From Façade to Vérité",
+        "name_fr": "Du mythe à la réalité",
+        "type": "Technique"
+      }
+    ]
   },
   {
     "id": "1308",
@@ -5009,8 +6387,8 @@
       "icon": "assets/bosses/110504.png"
     },
     "avatar": "assets/characters/1308.png",
-    "preview": "assets/previews/1308.webp",
-    "portrait": "assets/portraits/1308.webp",
+    "portrait": "assets/PORTRAIT/1308.webp",
+    "splash_art": "assets/SPLASHART/1308.webp",
     "quotes": [
       {
         "en": "Existence is fleeting as the dawn's dew, destined for oblivion.",
@@ -5033,12 +6411,38 @@
         "fr": "Ne te retourne jamais — le chemin derrière toi a disparu."
       }
     ],
-    "skill_hint": {
-      "icon": "assets/skills/1308_130802.png",
-      "name_en": "Octobolt Flash",
-      "name_fr": "Éclair multiple",
-      "type": "Skill"
-    }
+    "skill_hints": [
+      {
+        "icon": "assets/skills/1308_130801.png",
+        "name_en": "Trilateral Wiltcross",
+        "name_fr": "Flétrissement des trois sagesses",
+        "type": "Basic ATK"
+      },
+      {
+        "icon": "assets/skills/1308_130802.png",
+        "name_en": "Octobolt Flash",
+        "name_fr": "Éclair multiple",
+        "type": "Skill"
+      },
+      {
+        "icon": "assets/skills/1308_130803.png",
+        "name_en": "Slashed Dream Cries in Red",
+        "name_fr": "Rêve flétri écarlate",
+        "type": "Ultimate"
+      },
+      {
+        "icon": "assets/skills/1308_130804.png",
+        "name_en": "Atop Rainleaf Hangs Oneness",
+        "name_fr": "Pluie de feuillages rouges",
+        "type": "Talent"
+      },
+      {
+        "icon": "assets/skills/1308_130807.png",
+        "name_en": "Quadrivalent Ascendance",
+        "name_fr": "Chemin de la réalisation",
+        "type": "Technique"
+      }
+    ]
   },
   {
     "id": "1309",
@@ -5103,8 +6507,8 @@
       "icon": "assets/bosses/110504.png"
     },
     "avatar": "assets/characters/1309.png",
-    "preview": "assets/previews/1309.webp",
-    "portrait": "assets/portraits/1309.webp",
+    "portrait": "assets/PORTRAIT/1309.webp",
+    "splash_art": "assets/SPLASHART/1309.webp",
     "quotes": [
       {
         "en": "Tonight, the stars echo because of me.",
@@ -5127,12 +6531,38 @@
         "fr": "Tous ensemble, résonnons encore une fois."
       }
     ],
-    "skill_hint": {
-      "icon": "assets/skills/1309_130902.png",
-      "name_en": "Pinion's Aria",
-      "name_fr": "Aria de la plume",
-      "type": "Skill"
-    }
+    "skill_hints": [
+      {
+        "icon": "assets/skills/1309_130901.png",
+        "name_en": "Wingflip White Noise",
+        "name_fr": "Battement d'aile silencieux",
+        "type": "Basic ATK"
+      },
+      {
+        "icon": "assets/skills/1309_130902.png",
+        "name_en": "Pinion's Aria",
+        "name_fr": "Aria de la plume",
+        "type": "Skill"
+      },
+      {
+        "icon": "assets/skills/1309_130903.png",
+        "name_en": "Vox Harmonique, Opus Cosmique",
+        "name_fr": "Vox Harmonique, Opus Cosmique",
+        "type": "Ultimate"
+      },
+      {
+        "icon": "assets/skills/1309_130904.png",
+        "name_en": "Tonal Resonance",
+        "name_fr": "Résonance du chœur",
+        "type": "Talent"
+      },
+      {
+        "icon": "assets/skills/1309_130907.png",
+        "name_en": "Overture of Inebriation",
+        "name_fr": "Prélude à l'ivresse",
+        "type": "Technique"
+      }
+    ]
   },
   {
     "id": "1310",
@@ -5199,8 +6629,8 @@
       "icon": "assets/bosses/110505.png"
     },
     "avatar": "assets/characters/1310.png",
-    "preview": "assets/previews/1310.webp",
-    "portrait": "assets/portraits/1310.webp",
+    "portrait": "assets/PORTRAIT/1310.webp",
+    "splash_art": "assets/SPLASHART/1310.webp",
     "quotes": [
       {
         "en": "I will fight for myself, until everything... burns to ashes!",
@@ -5223,12 +6653,38 @@
         "fr": "Mission... terminée..."
       }
     ],
-    "skill_hint": {
-      "icon": "assets/skills/1310_131002.png",
-      "name_en": "Order: Aerial Bombardment",
-      "name_fr": "Manœuvre de frappe aérienne",
-      "type": "Skill"
-    }
+    "skill_hints": [
+      {
+        "icon": "assets/skills/1310_131001.png",
+        "name_en": "Order: Flare Propulsion",
+        "name_fr": "Manœuvre de propulsion éclair",
+        "type": "Basic ATK"
+      },
+      {
+        "icon": "assets/skills/1310_131002.png",
+        "name_en": "Order: Aerial Bombardment",
+        "name_fr": "Manœuvre de frappe aérienne",
+        "type": "Skill"
+      },
+      {
+        "icon": "assets/skills/1310_131003.png",
+        "name_en": "Fyrefly Type-IV: Complete Combustion",
+        "name_fr": "Combustion complète de Lampyroptère type IV",
+        "type": "Ultimate"
+      },
+      {
+        "icon": "assets/skills/1310_131004.png",
+        "name_en": "Chrysalid Pyronexus",
+        "name_fr": "Cœur en feu de la chrysalide",
+        "type": "Talent"
+      },
+      {
+        "icon": "assets/skills/1310_131007.png",
+        "name_en": "Δ Order: Meteoric Incineration",
+        "name_fr": "Δ Manœuvre d'incinération météoritique",
+        "type": "Technique"
+      }
+    ]
   },
   {
     "id": "1312",
@@ -5288,8 +6744,8 @@
       "icon": "assets/bosses/110504.png"
     },
     "avatar": "assets/characters/1312.png",
-    "preview": "assets/previews/1312.webp",
-    "portrait": "assets/portraits/1312.webp",
+    "portrait": "assets/PORTRAIT/1312.webp",
+    "splash_art": "assets/SPLASHART/1312.webp",
     "quotes": [
       {
         "en": "The one thing I look forward to? Growing up, of course!",
@@ -5312,12 +6768,38 @@
         "fr": "J'ai fait de mon mieux..."
       }
     ],
-    "skill_hint": {
-      "icon": "assets/skills/1312_131202.png",
-      "name_en": "R—Room Service!",
-      "name_fr": "À votre service !",
-      "type": "Skill"
-    }
+    "skill_hints": [
+      {
+        "icon": "assets/skills/1312_131201.png",
+        "name_en": "E—Excuse Me, Please!",
+        "name_fr": "P—Pardon de vous déranger !",
+        "type": "Basic ATK"
+      },
+      {
+        "icon": "assets/skills/1312_131202.png",
+        "name_en": "R—Room Service!",
+        "name_fr": "À votre service !",
+        "type": "Skill"
+      },
+      {
+        "icon": "assets/skills/1312_131203.png",
+        "name_en": "G—Gonna Be Late!",
+        "name_fr": "J—Je vais être en retard !",
+        "type": "Ultimate"
+      },
+      {
+        "icon": "assets/skills/1312_131204.png",
+        "name_en": "Horological Escapement",
+        "name_fr": "Échappée minutée",
+        "type": "Talent"
+      },
+      {
+        "icon": "assets/skills/1312_131207.png",
+        "name_en": "Wait, You Are So Beautiful!",
+        "name_fr": "Pas si vite !",
+        "type": "Technique"
+      }
+    ]
   },
   {
     "id": "1313",
@@ -5398,8 +6880,8 @@
       "icon": "assets/bosses/110505.png"
     },
     "avatar": "assets/characters/1313.png",
-    "preview": "assets/previews/1313.webp",
-    "portrait": "assets/portraits/1313.webp",
+    "portrait": "assets/PORTRAIT/1313.webp",
+    "splash_art": "assets/SPLASHART/1313.webp",
     "quotes": [
       {
         "en": "I will walk with you, watch over you, and guide you on your path.",
@@ -5422,12 +6904,38 @@
         "fr": "Un vaste voyage t'attend, aventure-toi et observe."
       }
     ],
-    "skill_hint": {
-      "icon": "assets/skills/1313_131302.png",
-      "name_en": "Benison of Paper and Rites",
-      "name_fr": "Bénédiction des écritures",
-      "type": "Skill"
-    }
+    "skill_hints": [
+      {
+        "icon": "assets/skills/1313_131301.png",
+        "name_en": "Gleaming Admonition",
+        "name_fr": "Admonestation éblouissante",
+        "type": "Basic ATK"
+      },
+      {
+        "icon": "assets/skills/1313_131302.png",
+        "name_en": "Benison of Paper and Rites",
+        "name_fr": "Bénédiction des écritures",
+        "type": "Skill"
+      },
+      {
+        "icon": "assets/skills/1313_131303.png",
+        "name_en": "Ode to Caress and Cicatrix",
+        "name_fr": "Ode à la légèreté et aux cicatrices",
+        "type": "Ultimate"
+      },
+      {
+        "icon": "assets/skills/1313_131304.png",
+        "name_en": "The Sorrowing Body",
+        "name_fr": "Confessions du corps",
+        "type": "Talent"
+      },
+      {
+        "icon": "assets/skills/1313_131307.png",
+        "name_en": "The Glorious Mysteries",
+        "name_fr": "Mystères de la gloire",
+        "type": "Technique"
+      }
+    ]
   },
   {
     "id": "1314",
@@ -5492,8 +7000,8 @@
       "icon": "assets/bosses/110505.png"
     },
     "avatar": "assets/characters/1314.png",
-    "preview": "assets/previews/1314.webp",
-    "portrait": "assets/portraits/1314.webp",
+    "portrait": "assets/PORTRAIT/1314.webp",
+    "splash_art": "assets/SPLASHART/1314.webp",
     "quotes": [
       {
         "en": "There's no backing out now, for me... or for you.",
@@ -5516,12 +7024,38 @@
         "fr": "Je garderai tes désirs près de mon cœur."
       }
     ],
-    "skill_hint": {
-      "icon": "assets/skills/1314_131402.png",
-      "name_en": "Acquisition Surety",
-      "name_fr": "Contrat d'acquisition",
-      "type": "Skill"
-    }
+    "skill_hints": [
+      {
+        "icon": "assets/skills/1314_131401.png",
+        "name_en": "Lash of Riches",
+        "name_fr": "Revers de fortune",
+        "type": "Basic ATK"
+      },
+      {
+        "icon": "assets/skills/1314_131402.png",
+        "name_en": "Acquisition Surety",
+        "name_fr": "Contrat d'acquisition",
+        "type": "Skill"
+      },
+      {
+        "icon": "assets/skills/1314_131403.png",
+        "name_en": "Vow of the Deep",
+        "name_fr": "Pacte de l'abîme",
+        "type": "Ultimate"
+      },
+      {
+        "icon": "assets/skills/1314_131404.png",
+        "name_en": "Fang of Flare Flaying",
+        "name_fr": "Crocs ravageurs",
+        "type": "Talent"
+      },
+      {
+        "icon": "assets/skills/1314_131407.png",
+        "name_en": "Visionary Predation",
+        "name_fr": "Vision de prédateur",
+        "type": "Technique"
+      }
+    ]
   },
   {
     "id": "1315",
@@ -5582,8 +7116,8 @@
       "icon": "assets/bosses/110505.png"
     },
     "avatar": "assets/characters/1315.png",
-    "preview": "assets/previews/1315.webp",
-    "portrait": "assets/portraits/1315.webp",
+    "portrait": "assets/PORTRAIT/1315.webp",
+    "splash_art": "assets/SPLASHART/1315.webp",
     "quotes": [
       {
         "en": "There are only two kinds of people in the world — those with a loaded gun... and those who dig their own grave!",
@@ -5606,12 +7140,38 @@
         "fr": "Les temps ont changé, ma belle."
       }
     ],
-    "skill_hint": {
-      "icon": "assets/skills/1315_131502.png",
-      "name_en": "Sizzlin' Tango",
-      "name_fr": "Tango endiablé",
-      "type": "Skill"
-    }
+    "skill_hints": [
+      {
+        "icon": "assets/skills/1315_131501.png",
+        "name_en": "Skullcrush Spurs",
+        "name_fr": "Coup de talon brise-crâne",
+        "type": "Basic ATK"
+      },
+      {
+        "icon": "assets/skills/1315_131502.png",
+        "name_en": "Sizzlin' Tango",
+        "name_fr": "Tango endiablé",
+        "type": "Skill"
+      },
+      {
+        "icon": "assets/skills/1315_131503.png",
+        "name_en": "Dust Devil's Sunset Rodeo",
+        "name_fr": "Crépuscule des plaines du sud",
+        "type": "Ultimate"
+      },
+      {
+        "icon": "assets/skills/1315_131504.png",
+        "name_en": "Five Peas in a Pod",
+        "name_fr": "Barillet plein",
+        "type": "Talent"
+      },
+      {
+        "icon": "assets/skills/1315_131507.png",
+        "name_en": "3-9× Smile",
+        "name_fr": "Sourire carnassier",
+        "type": "Technique"
+      }
+    ]
   },
   {
     "id": "1317",
@@ -5672,8 +7232,8 @@
       "icon": "assets/bosses/110505.png"
     },
     "avatar": "assets/characters/1317.png",
-    "preview": "assets/previews/1317.webp",
-    "portrait": "assets/portraits/1317.webp",
+    "portrait": "assets/PORTRAIT/1317.webp",
+    "splash_art": "assets/SPLASHART/1317.webp",
     "quotes": [
       {
         "en": "Slash! Cut! Cleave!",
@@ -5696,12 +7256,38 @@
         "fr": "Je me souviendrai de tes derniers mots. Adieu."
       }
     ],
-    "skill_hint": {
-      "icon": "assets/skills/1317_131702.png",
-      "name_en": "Ninja Strike: Rooted Resolute",
-      "name_fr": "Frappe ninja : Résolution profonde",
-      "type": "Skill"
-    }
+    "skill_hints": [
+      {
+        "icon": "assets/skills/1317_131701.png",
+        "name_en": "Ninjutsu: Rise Above Tumbles",
+        "name_fr": "Ninjutsu : Élévation",
+        "type": "Basic ATK"
+      },
+      {
+        "icon": "assets/skills/1317_131702.png",
+        "name_en": "Ninja Strike: Rooted Resolute",
+        "name_fr": "Frappe ninja : Résolution profonde",
+        "type": "Skill"
+      },
+      {
+        "icon": "assets/skills/1317_131703.png",
+        "name_en": "Nindō Supreme: Aishiteru",
+        "name_fr": "Nindô suprême de l'Amour profond",
+        "type": "Ultimate"
+      },
+      {
+        "icon": "assets/skills/1317_131704.png",
+        "name_en": "Ninja Tech: Endurance Gauge",
+        "name_fr": "Technique ninja : Jauge d'endurance",
+        "type": "Talent"
+      },
+      {
+        "icon": "assets/skills/1317_131707.png",
+        "name_en": "Ninja Dash: By Leaps and Bounds",
+        "name_fr": "Glissade ninja : Boing Boing",
+        "type": "Technique"
+      }
+    ]
   },
   {
     "id": "1321",
@@ -5770,20 +7356,46 @@
       "icon": "assets/bosses/110508.png"
     },
     "avatar": "assets/characters/1321.png",
-    "preview": "assets/previews/1321.webp",
-    "portrait": "assets/portraits/1321.webp",
+    "portrait": "assets/PORTRAIT/1321.webp",
+    "splash_art": "assets/SPLASHART/1321.webp",
     "quotes": [
       {
         "en": "It's me. Did I scare you with how I... popped up without a sound?",
         "fr": "C'est moi. Je t'ai fait peur en... apparaissant sans un bruit ?"
       }
     ],
-    "skill_hint": {
-      "icon": "assets/skills/1321_132102.png",
-      "name_en": "Lick... Enkindled Betrayal",
-      "name_fr": "Lèche... les flammes de la trahison",
-      "type": "Skill"
-    }
+    "skill_hints": [
+      {
+        "icon": "assets/skills/1321_132101.png",
+        "name_en": "Fiddle... Fissured Memory",
+        "name_fr": "Disparation... d'un souvenir fragmenté",
+        "type": "Basic ATK"
+      },
+      {
+        "icon": "assets/skills/1321_132102.png",
+        "name_en": "Lick... Enkindled Betrayal",
+        "name_fr": "Lèche... les flammes de la trahison",
+        "type": "Skill"
+      },
+      {
+        "icon": "assets/skills/1321_132103.png",
+        "name_en": "Wallow... Entombed Ash",
+        "name_fr": "Sombre... dans les cendres",
+        "type": "Ultimate"
+      },
+      {
+        "icon": "assets/skills/1321_132104.png",
+        "name_en": "Who's Afraid of Constance?",
+        "name_fr": "Qui craint Constance ?",
+        "type": "Talent"
+      },
+      {
+        "icon": "assets/skills/1321_132107.png",
+        "name_en": "The Heart Makes the Finest Tomb",
+        "name_fr": "Cœur tombal",
+        "type": "Technique"
+      }
+    ]
   },
   {
     "id": "1401",
@@ -5846,8 +7458,8 @@
       "icon": "assets/bosses/110506.png"
     },
     "avatar": "assets/characters/1401.png",
-    "preview": "assets/previews/1401.webp",
-    "portrait": "assets/portraits/1401.webp",
+    "portrait": "assets/PORTRAIT/1401.webp",
+    "splash_art": "assets/SPLASHART/1401.webp",
     "quotes": [
       {
         "en": "Endless riddles, but the answer... is nothing but a void.",
@@ -5870,12 +7482,38 @@
         "fr": "Impressionnant, mais bon, il s'agit de moi, après tout."
       }
     ],
-    "skill_hint": {
-      "icon": "assets/skills/1401_140102.png",
-      "name_en": "Big Brain Energy",
-      "name_fr": "Aux portes de la connaissance",
-      "type": "Skill"
-    }
+    "skill_hints": [
+      {
+        "icon": "assets/skills/1401_140101.png",
+        "name_en": "Did You Get It",
+        "name_fr": "Ça rentre dans le crâne ?",
+        "type": "Basic ATK"
+      },
+      {
+        "icon": "assets/skills/1401_140102.png",
+        "name_en": "Big Brain Energy",
+        "name_fr": "Aux portes de la connaissance",
+        "type": "Skill"
+      },
+      {
+        "icon": "assets/skills/1401_140103.png",
+        "name_en": "Told Ya! Magic Happens",
+        "name_fr": "Je t'avais bien dit que c'était de la magie",
+        "type": "Ultimate"
+      },
+      {
+        "icon": "assets/skills/1401_140104.png",
+        "name_en": "Hand Them Over",
+        "name_fr": "Donne-moi ça",
+        "type": "Talent"
+      },
+      {
+        "icon": "assets/skills/1401_140107.png",
+        "name_en": "Vibe Checker",
+        "name_fr": "Voyons voir ce qu'il y a de beau",
+        "type": "Technique"
+      }
+    ]
   },
   {
     "id": "1402",
@@ -5947,8 +7585,8 @@
       "icon": "assets/bosses/110506.png"
     },
     "avatar": "assets/characters/1402.png",
-    "preview": "assets/previews/1402.webp",
-    "portrait": "assets/portraits/1402.webp",
+    "portrait": "assets/PORTRAIT/1402.webp",
+    "splash_art": "assets/SPLASHART/1402.webp",
     "quotes": [
       {
         "en": "Thus, your fate and mine become one.",
@@ -5971,12 +7609,38 @@
         "fr": "Même les épopées les plus majestueuses sont tissées de mots isolés."
       }
     ],
-    "skill_hint": {
-      "icon": "assets/skills/1402_140202.png",
-      "name_en": "Rise, Exalted Renown",
-      "name_fr": "Élève-toi, renommée exaltée",
-      "type": "Skill"
-    }
+    "skill_hints": [
+      {
+        "icon": "assets/skills/1402_140201.png",
+        "name_en": "Thorned Nectar",
+        "name_fr": "Déluge d'épée",
+        "type": "Basic ATK"
+      },
+      {
+        "icon": "assets/skills/1402_140202.png",
+        "name_en": "Rise, Exalted Renown",
+        "name_fr": "Élève-toi, renommée exaltée",
+        "type": "Skill"
+      },
+      {
+        "icon": "assets/skills/1402_140203.png",
+        "name_en": "Dance, Destined Weaveress",
+        "name_fr": "Danse, tisseuse de la destinée",
+        "type": "Ultimate"
+      },
+      {
+        "icon": "assets/skills/1402_140204.png",
+        "name_en": "Rosy-Fingered",
+        "name_fr": "Doigts de la rose dorée",
+        "type": "Talent"
+      },
+      {
+        "icon": "assets/skills/1402_140207.png",
+        "name_en": "Meteoric Sunder",
+        "name_fr": "Déchirure étoilée",
+        "type": "Technique"
+      }
+    ]
   },
   {
     "id": "1403",
@@ -6049,8 +7713,8 @@
       "icon": "assets/bosses/110505.png"
     },
     "avatar": "assets/characters/1403.png",
-    "preview": "assets/previews/1403.webp",
-    "portrait": "assets/portraits/1403.webp",
+    "portrait": "assets/PORTRAIT/1403.webp",
+    "splash_art": "assets/SPLASHART/1403.webp",
     "quotes": [
       {
         "en": "Move aside, no bullying allowed!",
@@ -6073,12 +7737,38 @@
         "fr": "L'union fait la force~"
       }
     ],
-    "skill_hint": {
-      "icon": "assets/skills/1403_140302.png",
-      "name_en": "Where'd the Gifts Go",
-      "name_fr": "En avant les cadeaux",
-      "type": "Skill"
-    }
+    "skill_hints": [
+      {
+        "icon": "assets/skills/1403_140301.png",
+        "name_en": "Hundred Rockets",
+        "name_fr": "Fusée des étoiles",
+        "type": "Basic ATK"
+      },
+      {
+        "icon": "assets/skills/1403_140302.png",
+        "name_en": "Where'd the Gifts Go",
+        "name_fr": "En avant les cadeaux",
+        "type": "Skill"
+      },
+      {
+        "icon": "assets/skills/1403_140303.png",
+        "name_en": "Guess Who Lives Here",
+        "name_fr": "Ça va déménager",
+        "type": "Ultimate"
+      },
+      {
+        "icon": "assets/skills/1403_140304.png",
+        "name_en": "Busy as Tribbie",
+        "name_fr": "Tribbie à la rescousse",
+        "type": "Talent"
+      },
+      {
+        "icon": "assets/skills/1403_140307.png",
+        "name_en": "If You're Happy and You Know It",
+        "name_fr": "Si tu es heureux tape dans tes mains",
+        "type": "Technique"
+      }
+    ]
   },
   {
     "id": "1404",
@@ -6155,8 +7845,8 @@
       "icon": "assets/bosses/110506.png"
     },
     "avatar": "assets/characters/1404.png",
-    "preview": "assets/previews/1404.webp",
-    "portrait": "assets/portraits/1404.webp",
+    "portrait": "assets/PORTRAIT/1404.webp",
+    "splash_art": "assets/SPLASHART/1404.webp",
     "quotes": [
       {
         "en": "I allow you to accept your punishment!",
@@ -6179,12 +7869,38 @@
         "fr": "La discorde ne cessera pas avec la victoire."
       }
     ],
-    "skill_hint": {
-      "icon": "assets/skills/1404_140402.png",
-      "name_en": "Deaths are Legion, Regrets are None",
-      "name_fr": "Mille morts sans regrets",
-      "type": "Skill"
-    }
+    "skill_hints": [
+      {
+        "icon": "assets/skills/1404_140401.png",
+        "name_en": "Vow of Voyage",
+        "name_fr": "Serment de conquête",
+        "type": "Basic ATK"
+      },
+      {
+        "icon": "assets/skills/1404_140402.png",
+        "name_en": "Deaths are Legion, Regrets are None",
+        "name_fr": "Mille morts sans regrets",
+        "type": "Skill"
+      },
+      {
+        "icon": "assets/skills/1404_140403.png",
+        "name_en": "Throne of Bones",
+        "name_fr": "Trône d'annihilation",
+        "type": "Ultimate"
+      },
+      {
+        "icon": "assets/skills/1404_140404.png",
+        "name_en": "Blood for Blood",
+        "name_fr": "Sang pour sang",
+        "type": "Talent"
+      },
+      {
+        "icon": "assets/skills/1404_140407.png",
+        "name_en": "Cage of Broken Lance",
+        "name_fr": "Reddition des lances brisées",
+        "type": "Technique"
+      }
+    ]
   },
   {
     "id": "1405",
@@ -6257,8 +7973,8 @@
       "icon": "assets/bosses/110505.png"
     },
     "avatar": "assets/characters/1405.png",
-    "preview": "assets/previews/1405.webp",
-    "portrait": "assets/portraits/1405.webp",
+    "portrait": "assets/PORTRAIT/1405.webp",
+    "splash_art": "assets/SPLASHART/1405.webp",
     "quotes": [
       {
         "en": "Sink into insanity!",
@@ -6281,12 +7997,38 @@
         "fr": "Toutes choses sont liées par leur origine et faites de la même essence."
       }
     ],
-    "skill_hint": {
-      "icon": "assets/skills/1405_140502.png",
-      "name_en": "Fractal, Exiles Fallacy",
-      "name_fr": "Fractale de fausses connaissances",
-      "type": "Skill"
-    }
+    "skill_hints": [
+      {
+        "icon": "assets/skills/1405_140501.png",
+        "name_en": "Pain, Brews Truth",
+        "name_fr": "Tourments de la vérité",
+        "type": "Basic ATK"
+      },
+      {
+        "icon": "assets/skills/1405_140502.png",
+        "name_en": "Fractal, Exiles Fallacy",
+        "name_fr": "Fractale de fausses connaissances",
+        "type": "Skill"
+      },
+      {
+        "icon": "assets/skills/1405_140503.png",
+        "name_en": "Sprouting Life Sculpts Earth",
+        "name_fr": "Genèse de l'émergence de la vie",
+        "type": "Ultimate"
+      },
+      {
+        "icon": "assets/skills/1405_140504.png",
+        "name_en": "Tetrad Wisdom Reigns Thrice",
+        "name_fr": "Clairvoyance et suprématie",
+        "type": "Talent"
+      },
+      {
+        "icon": "assets/skills/1405_140507.png",
+        "name_en": "Prism of the Pupil",
+        "name_fr": "Prisme de l'éclat de la pupille",
+        "type": "Technique"
+      }
+    ]
   },
   {
     "id": "1406",
@@ -6357,8 +8099,8 @@
       "icon": "assets/bosses/110507.png"
     },
     "avatar": "assets/characters/1406.png",
-    "preview": "assets/previews/1406.webp",
-    "portrait": "assets/portraits/1406.webp",
+    "portrait": "assets/PORTRAIT/1406.webp",
+    "splash_art": "assets/SPLASHART/1406.webp",
     "quotes": [
       {
         "en": "Treasure~ Come to me!",
@@ -6381,12 +8123,38 @@
         "fr": "Je suis le Titan de la Fortune !"
       }
     ],
-    "skill_hint": {
-      "icon": "assets/skills/1406_140602.png",
-      "name_en": "Hey, Jackpot for the Taking",
-      "name_fr": "Butin en vue !",
-      "type": "Skill"
-    }
+    "skill_hints": [
+      {
+        "icon": "assets/skills/1406_140601.png",
+        "name_en": "Oops, a Missed Catch",
+        "name_fr": "Je t'aurai un jour",
+        "type": "Basic ATK"
+      },
+      {
+        "icon": "assets/skills/1406_140602.png",
+        "name_en": "Hey, Jackpot for the Taking",
+        "name_fr": "Butin en vue !",
+        "type": "Skill"
+      },
+      {
+        "icon": "assets/skills/1406_140603.png",
+        "name_en": "Yours Truly, Kitty Phantom Thief!",
+        "name_fr": "Bien à toi, la chatte voleuse fantôme !",
+        "type": "Ultimate"
+      },
+      {
+        "icon": "assets/skills/1406_140604.png",
+        "name_en": "The Hospitable Dolosian",
+        "name_fr": "L'Hospitalité à la dolosienne",
+        "type": "Talent"
+      },
+      {
+        "icon": "assets/skills/1406_140607.png",
+        "name_en": "Puss in Boots",
+        "name_fr": "Chat botté",
+        "type": "Technique"
+      }
+    ]
   },
   {
     "id": "1407",
@@ -6460,8 +8228,8 @@
       "icon": "assets/bosses/110506.png"
     },
     "avatar": "assets/characters/1407.png",
-    "preview": "assets/previews/1407.webp",
-    "portrait": "assets/portraits/1407.webp",
+    "portrait": "assets/PORTRAIT/1407.webp",
+    "splash_art": "assets/SPLASHART/1407.webp",
     "quotes": [
       {
         "en": "Please, wilt here.",
@@ -6484,12 +8252,38 @@
         "fr": "Puissent les âmes errantes trouver leur propre chemin."
       }
     ],
-    "skill_hint": {
-      "icon": "assets/skills/1407_140702.png",
-      "name_en": "Silence, Wraithfly's Caress",
-      "name_fr": "Caresse du papillon",
-      "type": "Skill"
-    }
+    "skill_hints": [
+      {
+        "icon": "assets/skills/1407_140701.png",
+        "name_en": "Lament, Nethersea's Ripple",
+        "name_fr": "Oscillations de la mer du néant",
+        "type": "Basic ATK"
+      },
+      {
+        "icon": "assets/skills/1407_140702.png",
+        "name_en": "Silence, Wraithfly's Caress",
+        "name_fr": "Caresse du papillon",
+        "type": "Skill"
+      },
+      {
+        "icon": "assets/skills/1407_140703.png",
+        "name_en": "Doomshriek, Dawn's Chime",
+        "name_fr": "Rugissement de l'apocalypse",
+        "type": "Ultimate"
+      },
+      {
+        "icon": "assets/skills/1407_140704.png",
+        "name_en": "Desolation Across Palms",
+        "name_fr": "Désolation des paumes",
+        "type": "Talent"
+      },
+      {
+        "icon": "assets/skills/1407_140707.png",
+        "name_en": "Wail, Death's Herald",
+        "name_fr": "Prélude à la mort",
+        "type": "Technique"
+      }
+    ]
   },
   {
     "id": "1408",
@@ -6561,8 +8355,8 @@
       "icon": "assets/bosses/110507.png"
     },
     "avatar": "assets/characters/1408.png",
-    "preview": "assets/previews/1408.webp",
-    "portrait": "assets/portraits/1408.webp",
+    "portrait": "assets/PORTRAIT/1408.webp",
+    "splash_art": "assets/SPLASHART/1408.webp",
     "quotes": [
       {
         "en": "The new world will arrive!",
@@ -6585,12 +8379,38 @@
         "fr": "J'irai jusqu'au bout avec toutes vos volontés... quel qu'en soit le prix."
       }
     ],
-    "skill_hint": {
-      "icon": "assets/skills/1408_140802.png",
-      "name_en": "Let There Be Light",
-      "name_fr": "Que la lumière soit",
-      "type": "Skill"
-    }
+    "skill_hints": [
+      {
+        "icon": "assets/skills/1408_140801.png",
+        "name_en": "Stride to Deliverance",
+        "name_fr": "Libération en marche",
+        "type": "Basic ATK"
+      },
+      {
+        "icon": "assets/skills/1408_140802.png",
+        "name_en": "Let There Be Light",
+        "name_fr": "Que la lumière soit",
+        "type": "Skill"
+      },
+      {
+        "icon": "assets/skills/1408_140803.png",
+        "name_en": "He Who Bears the World Must Burn",
+        "name_fr": "Qui portera le monde brûlera",
+        "type": "Ultimate"
+      },
+      {
+        "icon": "assets/skills/1408_140804.png",
+        "name_en": "Pyric Corpus",
+        "name_fr": "Corps ardent",
+        "type": "Talent"
+      },
+      {
+        "icon": "assets/skills/1408_140807.png",
+        "name_en": "Beginning of the End",
+        "name_fr": "Le début de la fin",
+        "type": "Technique"
+      }
+    ]
   },
   {
     "id": "1409",
@@ -6661,8 +8481,8 @@
       "icon": "assets/bosses/110505.png"
     },
     "avatar": "assets/characters/1409.png",
-    "preview": "assets/previews/1409.webp",
-    "portrait": "assets/portraits/1409.webp",
+    "portrait": "assets/PORTRAIT/1409.webp",
+    "splash_art": "assets/SPLASHART/1409.webp",
     "quotes": [
       {
         "en": "We do need some sunshine~",
@@ -6685,12 +8505,38 @@
         "fr": "Pas de précipitation. Vider son esprit est aussi une bonne façon de se détendre~"
       }
     ],
-    "skill_hint": {
-      "icon": "assets/skills/1409_140902.png",
-      "name_en": "Love Over the Rainbow",
-      "name_fr": "Amour arc-en-ciel",
-      "type": "Skill"
-    }
+    "skill_hints": [
+      {
+        "icon": "assets/skills/1409_140901.png",
+        "name_en": "When Breeze Kisses Cirrus",
+        "name_fr": "Quand la brise caresse les nuages",
+        "type": "Basic ATK"
+      },
+      {
+        "icon": "assets/skills/1409_140902.png",
+        "name_en": "Love Over the Rainbow",
+        "name_fr": "Amour arc-en-ciel",
+        "type": "Skill"
+      },
+      {
+        "icon": "assets/skills/1409_140903.png",
+        "name_en": "We Who Fly Into Twilight",
+        "name_fr": "Nous qui volons vers l'aube",
+        "type": "Ultimate"
+      },
+      {
+        "icon": "assets/skills/1409_140904.png",
+        "name_en": "First Light Heals the World",
+        "name_fr": "L'aube guérit le monde",
+        "type": "Talent"
+      },
+      {
+        "icon": "assets/skills/1409_140907.png",
+        "name_en": "Day So Right, Life So Fine!",
+        "name_fr": "La vie est belle sous le soleil !",
+        "type": "Technique"
+      }
+    ]
   },
   {
     "id": "1410",
@@ -6761,8 +8607,8 @@
       "icon": "assets/bosses/110507.png"
     },
     "avatar": "assets/characters/1410.png",
-    "preview": "assets/previews/1410.webp",
-    "portrait": "assets/portraits/1410.webp",
+    "portrait": "assets/PORTRAIT/1410.webp",
+    "splash_art": "assets/SPLASHART/1410.webp",
     "quotes": [
       {
         "en": "Tides, sink with me.",
@@ -6785,12 +8631,38 @@
         "fr": "Quel meilleur moment pour jouer un air ?"
       }
     ],
-    "skill_hint": {
-      "icon": "assets/skills/1410_141002.png",
-      "name_en": "Overtone Hum: Chorus After Dark Tides",
-      "name_fr": "Aria par-delà les courants",
-      "type": "Skill"
-    }
+    "skill_hints": [
+      {
+        "icon": "assets/skills/1410_141001.png",
+        "name_en": "Aeolian Mode: Echoes in Still Waters",
+        "name_fr": "Écho des eaux calmes",
+        "type": "Basic ATK"
+      },
+      {
+        "icon": "assets/skills/1410_141002.png",
+        "name_en": "Overtone Hum: Chorus After Dark Tides",
+        "name_fr": "Aria par-delà les courants",
+        "type": "Skill"
+      },
+      {
+        "icon": "assets/skills/1410_141003.png",
+        "name_en": "Maelstrom Rhapsody",
+        "name_fr": "Rhapsodie du maelström",
+        "type": "Ultimate"
+      },
+      {
+        "icon": "assets/skills/1410_141004.png",
+        "name_en": "Sirenic Serenade",
+        "name_fr": "Sérénade des sirènes",
+        "type": "Talent"
+      },
+      {
+        "icon": "assets/skills/1410_141007.png",
+        "name_en": "At Ocean's Abode",
+        "name_fr": "Foyer océanique",
+        "type": "Technique"
+      }
+    ]
   },
   {
     "id": "1412",
@@ -6856,8 +8728,8 @@
       "icon": "assets/bosses/110507.png"
     },
     "avatar": "assets/characters/1412.png",
-    "preview": "assets/previews/1412.webp",
-    "portrait": "assets/portraits/1412.webp",
+    "portrait": "assets/PORTRAIT/1412.webp",
+    "splash_art": "assets/SPLASHART/1412.webp",
     "quotes": [
       {
         "en": "Come now, step onto the board!",
@@ -6880,12 +8752,38 @@
         "fr": "Si le monde n'était que noir ou blanc, il perdrait tout son charme."
       }
     ],
-    "skill_hint": {
-      "icon": "assets/skills/1412_141202.png",
-      "name_en": "Pawn's Promotion",
-      "name_fr": "Promotion en reine",
-      "type": "Skill"
-    }
+    "skill_hints": [
+      {
+        "icon": "assets/skills/1412_141201.png",
+        "name_en": "King's Castling",
+        "name_fr": "Grand roque",
+        "type": "Basic ATK"
+      },
+      {
+        "icon": "assets/skills/1412_141202.png",
+        "name_en": "Pawn's Promotion",
+        "name_fr": "Promotion en reine",
+        "type": "Skill"
+      },
+      {
+        "icon": "assets/skills/1412_141203.png",
+        "name_en": "Scholar's Mate",
+        "name_fr": "Coup du berger",
+        "type": "Ultimate"
+      },
+      {
+        "icon": "assets/skills/1412_141204.png",
+        "name_en": "Ave Imperator",
+        "name_fr": "Ave Imperator",
+        "type": "Talent"
+      },
+      {
+        "icon": "assets/skills/1412_141207.png",
+        "name_en": "First-Move Advantage",
+        "name_fr": "Initiative",
+        "type": "Technique"
+      }
+    ]
   },
   {
     "id": "1413",
@@ -6949,8 +8847,8 @@
       "icon": "assets/bosses/110507.png"
     },
     "avatar": "assets/characters/1413.png",
-    "preview": "assets/previews/1413.webp",
-    "portrait": "assets/portraits/1413.webp",
+    "portrait": "assets/PORTRAIT/1413.webp",
+    "splash_art": "assets/SPLASHART/1413.webp",
     "quotes": [
       {
         "en": "Go on. Treat our guests nicely~",
@@ -6973,12 +8871,38 @@
         "fr": "Arrête de stresser... Tu m'as, moi, non ?"
       }
     ],
-    "skill_hint": {
-      "icon": "assets/skills/1413_141302.png",
-      "name_en": "Day Gently Slips",
-      "name_fr": "Ainsi s'éteint le jour",
-      "type": "Skill"
-    }
+    "skill_hints": [
+      {
+        "icon": "assets/skills/1413_141301.png",
+        "name_en": "Time Thence Blurs",
+        "name_fr": "Porosité du temps",
+        "type": "Basic ATK"
+      },
+      {
+        "icon": "assets/skills/1413_141302.png",
+        "name_en": "Day Gently Slips",
+        "name_fr": "Ainsi s'éteint le jour",
+        "type": "Skill"
+      },
+      {
+        "icon": "assets/skills/1413_141303.png",
+        "name_en": "O Wakeful World, Goodnight",
+        "name_fr": "Bonne nuit, monde éveillé",
+        "type": "Ultimate"
+      },
+      {
+        "icon": "assets/skills/1413_141304.png",
+        "name_en": "With Me, This Night",
+        "name_fr": "La nuit et moi",
+        "type": "Talent"
+      },
+      {
+        "icon": "assets/skills/1413_141307.png",
+        "name_en": "Let it Rain Cold On Thee",
+        "name_fr": "Que tombe la pluie froide",
+        "type": "Technique"
+      }
+    ]
   },
   {
     "id": "1414",
@@ -7045,8 +8969,8 @@
       "icon": "assets/bosses/110507.png"
     },
     "avatar": "assets/characters/1414.png",
-    "preview": "assets/previews/1414.webp",
-    "portrait": "assets/portraits/1414.webp",
+    "portrait": "assets/PORTRAIT/1414.webp",
+    "splash_art": "assets/SPLASHART/1414.webp",
     "quotes": [
       {
         "en": "Mountains roar. Dragons rise!",
@@ -7069,12 +8993,38 @@
         "fr": "Mon but a toujours été de protéger."
       }
     ],
-    "skill_hint": {
-      "icon": "assets/skills/1414_141402.png",
-      "name_en": "Terra Omnibus",
-      "name_fr": "Terre, mère de vie",
-      "type": "Skill"
-    }
+    "skill_hints": [
+      {
+        "icon": "assets/skills/1414_141401.png",
+        "name_en": "Aegis Vitae",
+        "name_fr": "Aegis Vitae",
+        "type": "Basic ATK"
+      },
+      {
+        "icon": "assets/skills/1414_141402.png",
+        "name_en": "Terra Omnibus",
+        "name_fr": "Terre, mère de vie",
+        "type": "Skill"
+      },
+      {
+        "icon": "assets/skills/1414_141403.png",
+        "name_en": "A Dragon's Zenith Knows No Rue",
+        "name_fr": "Lumière absolue du dragon",
+        "type": "Ultimate"
+      },
+      {
+        "icon": "assets/skills/1414_141404.png",
+        "name_en": "Of Virtue, Forms Unfold",
+        "name_fr": "Formes de vertu manifestes",
+        "type": "Talent"
+      },
+      {
+        "icon": "assets/skills/1414_141407.png",
+        "name_en": "Earthrend",
+        "name_fr": "Fissures terrestres",
+        "type": "Technique"
+      }
+    ]
   },
   {
     "id": "1415",
@@ -7145,8 +9095,8 @@
       "icon": "assets/bosses/110507.png"
     },
     "avatar": "assets/characters/1415.png",
-    "preview": "assets/previews/1415.webp",
-    "portrait": "assets/portraits/1415.webp",
+    "portrait": "assets/PORTRAIT/1415.webp",
+    "splash_art": "assets/SPLASHART/1415.webp",
     "quotes": [
       {
         "en": "Endless flowers, please bloom for tomorrow.",
@@ -7169,12 +9119,38 @@
         "fr": "Ensemble, nous pouvons tout accomplir."
       }
     ],
-    "skill_hint": {
-      "icon": "assets/skills/1415_141502.png",
-      "name_en": "Bloom, Elysium of Beyond",
-      "name_fr": "Floraison, l'Élysée de l'au-delà",
-      "type": "Skill"
-    }
+    "skill_hints": [
+      {
+        "icon": "assets/skills/1415_141501.png",
+        "name_en": "Lo, Hope Takes Flight!",
+        "name_fr": "L'espoir renaît !",
+        "type": "Basic ATK"
+      },
+      {
+        "icon": "assets/skills/1415_141502.png",
+        "name_en": "Bloom, Elysium of Beyond",
+        "name_fr": "Floraison, l'Élysée de l'au-delà",
+        "type": "Skill"
+      },
+      {
+        "icon": "assets/skills/1415_141503.png",
+        "name_en": "Verse ◦ Vow ∞",
+        "name_fr": "◦ de vers, ∞ de vœux",
+        "type": "Ultimate"
+      },
+      {
+        "icon": "assets/skills/1415_141504.png",
+        "name_en": "Hearts Gather as One",
+        "name_fr": "Les cœurs s'unissent",
+        "type": "Talent"
+      },
+      {
+        "icon": "assets/skills/1415_141507.png",
+        "name_en": "Peace at West Wind's End",
+        "name_fr": "Paix à la fin du vent d'ouest",
+        "type": "Technique"
+      }
+    ]
   },
   {
     "id": "1501",
@@ -7233,8 +9209,8 @@
       "icon": "assets/bosses/110508.png"
     },
     "avatar": "assets/characters/1501.png",
-    "preview": "assets/previews/1501.webp",
-    "portrait": "assets/portraits/1501.webp",
+    "portrait": "assets/PORTRAIT/1501.webp",
+    "splash_art": "assets/SPLASHART/1501.webp",
     "quotes": [
       {
         "en": "Punishment time!",
@@ -7257,12 +9233,38 @@
         "fr": "Une vague de fortune arrive ! En pleine face."
       }
     ],
-    "skill_hint": {
-      "icon": "assets/skills/1501_150102.png",
-      "name_en": "Boom! Sparxicle's Poppin'",
-      "name_fr": "Faites de la place !",
-      "type": "Skill"
-    }
+    "skill_hints": [
+      {
+        "icon": "assets/skills/1501_150101.png",
+        "name_en": "Cat Got Your Flametongue?",
+        "name_fr": "La mèche n'a pas pris ?",
+        "type": "Basic ATK"
+      },
+      {
+        "icon": "assets/skills/1501_150102.png",
+        "name_en": "Boom! Sparxicle's Poppin'",
+        "name_fr": "Faites de la place !",
+        "type": "Skill"
+      },
+      {
+        "icon": "assets/skills/1501_150103.png",
+        "name_en": "Party's Wildin' and Camera's Rollin'",
+        "name_fr": "Collab de légende",
+        "type": "Ultimate"
+      },
+      {
+        "icon": "assets/skills/1501_150104.png",
+        "name_en": "Sleight of Sparx Hand",
+        "name_fr": "Maîtresse des étincelles",
+        "type": "Talent"
+      },
+      {
+        "icon": "assets/skills/1501_150107.png",
+        "name_en": "Content Monetization",
+        "name_fr": "Monétisation du flux",
+        "type": "Technique"
+      }
+    ]
   },
   {
     "id": "1502",
@@ -7325,8 +9327,8 @@
       "icon": "assets/bosses/110508.png"
     },
     "avatar": "assets/characters/1502.png",
-    "preview": "assets/previews/1502.webp",
-    "portrait": "assets/portraits/1502.webp",
+    "portrait": "assets/PORTRAIT/1502.webp",
+    "splash_art": "assets/SPLASHART/1502.webp",
     "quotes": [
       {
         "en": "Stars of fortune favor us.",
@@ -7349,12 +9351,38 @@
         "fr": "Aujourd'hui est un bon jour pour attaquer. Crois-moi."
       }
     ],
-    "skill_hint": {
-      "icon": "assets/skills/1502_150202.png",
-      "name_en": "Decalight Unveils All",
-      "name_fr": "Rayonnement d'omniscience",
-      "type": "Skill"
-    }
+    "skill_hints": [
+      {
+        "icon": "assets/skills/1502_150201.png",
+        "name_en": "Whistlebolt Sings Joy",
+        "name_fr": "Chant de joie des plumes",
+        "type": "Basic ATK"
+      },
+      {
+        "icon": "assets/skills/1502_150202.png",
+        "name_en": "Decalight Unveils All",
+        "name_fr": "Rayonnement d'omniscience",
+        "type": "Skill"
+      },
+      {
+        "icon": "assets/skills/1502_150203.png",
+        "name_en": "Hexagram of Feathered Fortune",
+        "name_fr": "Plumes auspicieuses",
+        "type": "Ultimate"
+      },
+      {
+        "icon": "assets/skills/1502_150204.png",
+        "name_en": "Behold Wherever Light Unfolds",
+        "name_fr": "Contemple là où la lumière se déploie",
+        "type": "Talent"
+      },
+      {
+        "icon": "assets/skills/1502_150207.png",
+        "name_en": "Untethered Glimmer Sails Far",
+        "name_fr": "Éclat fédérateur",
+        "type": "Technique"
+      }
+    ]
   },
   {
     "id": "1504",
@@ -7420,8 +9448,8 @@
       "icon": "assets/bosses/110508.png"
     },
     "avatar": "assets/characters/1504.png",
-    "preview": "assets/previews/1504.webp",
-    "portrait": "assets/portraits/1504.webp",
+    "portrait": "assets/PORTRAIT/1504.webp",
+    "splash_art": "assets/SPLASHART/1504.webp",
     "quotes": [
       {
         "en": "I... see through you.",
@@ -7444,12 +9472,38 @@
         "fr": "Les jours paisibles sont vraiment rares."
       }
     ],
-    "skill_hint": {
-      "icon": "assets/skills/1504_150402.png",
-      "name_en": "Flog: Smite Evil",
-      "name_fr": "Fouet du châtiment",
-      "type": "Skill"
-    }
+    "skill_hints": [
+      {
+        "icon": "assets/skills/1504_150401.png",
+        "name_en": "Talons: Inculcate Decorum",
+        "name_fr": "Griffes sorties, la bienséance est sauve",
+        "type": "Basic ATK"
+      },
+      {
+        "icon": "assets/skills/1504_150402.png",
+        "name_en": "Flog: Smite Evil",
+        "name_fr": "Fouet du châtiment",
+        "type": "Skill"
+      },
+      {
+        "icon": "assets/skills/1504_150403.png",
+        "name_en": "Banquet: Insatiable Appetite",
+        "name_fr": "Banquet de l'insatiable appétit",
+        "type": "Ultimate"
+      },
+      {
+        "icon": "assets/skills/1504_150404.png",
+        "name_en": "Rancor: Enmity Reprisal",
+        "name_fr": "Rancœur des représailles",
+        "type": "Talent"
+      },
+      {
+        "icon": "assets/skills/1504_150407.png",
+        "name_en": "Devour: O Loathsome Hand",
+        "name_fr": "Main abjecte, nourris-toi",
+        "type": "Technique"
+      }
+    ]
   },
   {
     "id": "1505",
@@ -7514,8 +9568,8 @@
       "icon": "assets/bosses/110508.png"
     },
     "avatar": "assets/characters/1505.png",
-    "preview": "assets/previews/1505.webp",
-    "portrait": "assets/portraits/1505.webp",
+    "portrait": "assets/PORTRAIT/1505.webp",
+    "splash_art": "assets/SPLASHART/1505.webp",
     "quotes": [
       {
         "en": "By the Phantasmoon I'll vanquish you!",
@@ -7538,12 +9592,38 @@
         "fr": "Tu pensais sérieusement que je n'étais qu'une mascotte ?"
       }
     ],
-    "skill_hint": {
-      "icon": "assets/skills/1505_150502.png",
-      "name_en": "Discipline: Final Verdict",
-      "name_fr": "Discipline : Verdict final",
-      "type": "Skill"
-    }
+    "skill_hints": [
+      {
+        "icon": "assets/skills/1505_150501.png",
+        "name_en": "Syllabus: Pop Quiz",
+        "name_fr": "Contrôle : Interro surprise",
+        "type": "Basic ATK"
+      },
+      {
+        "icon": "assets/skills/1505_150502.png",
+        "name_en": "Discipline: Final Verdict",
+        "name_fr": "Discipline : Verdict final",
+        "type": "Skill"
+      },
+      {
+        "icon": "assets/skills/1505_150503.png",
+        "name_en": "Swordsong: Absolution Denied",
+        "name_fr": "Chante-lame : Absolution refusée",
+        "type": "Ultimate"
+      },
+      {
+        "icon": "assets/skills/1505_150504.png",
+        "name_en": "Youth: Halcyon Evermore",
+        "name_fr": "Jouvence : Sérénité éternelle",
+        "type": "Talent"
+      },
+      {
+        "icon": "assets/skills/1505_150507.png",
+        "name_en": "Petalfall: Floral Reminiscence",
+        "name_fr": "Pluie de pétales : Souvenirs floraux",
+        "type": "Technique"
+      }
+    ]
   },
   {
     "id": "1506",
@@ -7607,8 +9687,8 @@
       "icon": "assets/bosses/110508.png"
     },
     "avatar": "assets/characters/1506.png",
-    "preview": "assets/previews/1506.webp",
-    "portrait": "assets/portraits/1506.webp",
+    "portrait": "assets/PORTRAIT/1506.webp",
+    "splash_art": "assets/SPLASHART/1506.webp",
     "quotes": [
       {
         "en": "Let me teach you some moves. Get all that?",
@@ -7631,12 +9711,38 @@
         "fr": "Un jeu absolument top niveau."
       }
     ],
-    "skill_hint": {
-      "icon": "assets/skills/1506_150602.png",
-      "name_en": "Trigger Happy",
-      "name_fr": "Piou piou piou !",
-      "type": "Skill"
-    }
+    "skill_hints": [
+      {
+        "icon": "assets/skills/1506_150601.png",
+        "name_en": "One Punch!",
+        "name_fr": "Un poing, c'est tout !",
+        "type": "Basic ATK"
+      },
+      {
+        "icon": "assets/skills/1506_150602.png",
+        "name_en": "Trigger Happy",
+        "name_fr": "Piou piou piou !",
+        "type": "Skill"
+      },
+      {
+        "icon": "assets/skills/1506_150603.png",
+        "name_en": "God Mode: ON!",
+        "name_fr": "Mode MVP activé !",
+        "type": "Ultimate"
+      },
+      {
+        "icon": "assets/skills/1506_150604.png",
+        "name_en": "I Carry, We Win",
+        "name_fr": "Hard carry",
+        "type": "Talent"
+      },
+      {
+        "icon": "assets/skills/1506_150607.png",
+        "name_en": "This? Absolute Meta!",
+        "name_fr": "Ça, c'est meta !",
+        "type": "Technique"
+      }
+    ]
   },
   {
     "id": "1507",
@@ -7702,8 +9808,8 @@
       "icon": "assets/bosses/110508.png"
     },
     "avatar": "assets/characters/1507.png",
-    "preview": "assets/previews/1507.webp",
-    "portrait": "assets/portraits/1507.webp",
+    "portrait": "assets/PORTRAIT/1507.webp",
+    "splash_art": "assets/SPLASHART/1507.webp",
     "quotes": [
       {
         "en": "Purgatory... take hold!",
@@ -7726,12 +9832,38 @@
         "fr": "Tous les comptes se règlent ici."
       }
     ],
-    "skill_hint": {
-      "icon": "assets/skills/1507_150702.png",
-      "name_en": "A Rain of Blades Seals Fate",
-      "name_fr": "Pluie de lames funeste",
-      "type": "Skill"
-    }
+    "skill_hints": [
+      {
+        "icon": "assets/skills/1507_150701.png",
+        "name_en": "A Broken Blade Still Slays",
+        "name_fr": "Tuer d'une lame brisée",
+        "type": "Basic ATK"
+      },
+      {
+        "icon": "assets/skills/1507_150702.png",
+        "name_en": "A Rain of Blades Seals Fate",
+        "name_fr": "Pluie de lames funeste",
+        "type": "Skill"
+      },
+      {
+        "icon": "assets/skills/1507_150703.png",
+        "name_en": "Fornax Ex Corpore",
+        "name_fr": "Fornax Ex Corpore",
+        "type": "Ultimate"
+      },
+      {
+        "icon": "assets/skills/1507_150704.png",
+        "name_en": "All Karma Comes Due",
+        "name_fr": "Rétribution karmique",
+        "type": "Talent"
+      },
+      {
+        "icon": "assets/skills/1507_150707.png",
+        "name_en": "Blade's Reach Spares None",
+        "name_fr": "Tous mourront de ma lame",
+        "type": "Technique"
+      }
+    ]
   },
   {
     "id": "1508",
@@ -7792,8 +9924,8 @@
       "icon": "assets/bosses/110501.png"
     },
     "avatar": "assets/characters/1508.png",
-    "preview": "assets/previews/1508.webp",
-    "portrait": "assets/portraits/1508.webp",
+    "portrait": "assets/PORTRAIT/1508.webp",
+    "splash_art": "assets/SPLASHART/1508.webp",
     "quotes": [
       {
         "en": "Time to shine!",
@@ -7816,12 +9948,38 @@
         "fr": "Avec élégance et prestance, je donne tout ce que j'ai !"
       }
     ],
-    "skill_hint": {
-      "icon": "assets/skills/1508_150802.png",
-      "name_en": "Jeweled Sword Zelretch",
-      "name_fr": "Épée ornée Zelretch",
-      "type": "Skill"
-    }
+    "skill_hints": [
+      {
+        "icon": "assets/skills/1508_150801.png",
+        "name_en": "Bajiquan",
+        "name_fr": "Bajiquan",
+        "type": "Basic ATK"
+      },
+      {
+        "icon": "assets/skills/1508_150802.png",
+        "name_en": "Jeweled Sword Zelretch",
+        "name_fr": "Épée ornée Zelretch",
+        "type": "Skill"
+      },
+      {
+        "icon": "assets/skills/1508_150803.png",
+        "name_en": "An Gal Ta Ki Gal Šè",
+        "name_fr": "An Gal Ta Ki Gal Šè",
+        "type": "Ultimate"
+      },
+      {
+        "icon": "assets/skills/1508_150804.png",
+        "name_en": "Gem Magecraft",
+        "name_fr": "Magie minérale",
+        "type": "Talent"
+      },
+      {
+        "icon": "assets/skills/1508_150807.png",
+        "name_en": "Conversion Charge",
+        "name_fr": "Conversion de charge",
+        "type": "Technique"
+      }
+    ]
   },
   {
     "id": "1509",
@@ -7880,8 +10038,8 @@
       "icon": "assets/bosses/110502.png"
     },
     "avatar": "assets/characters/1509.png",
-    "preview": "assets/previews/1509.webp",
-    "portrait": "assets/portraits/1509.webp",
+    "portrait": "assets/PORTRAIT/1509.webp",
+    "splash_art": "assets/SPLASHART/1509.webp",
     "quotes": [
       {
         "en": "Behold and worship! Hahahahahaha!",
@@ -7904,12 +10062,38 @@
         "fr": "Tu oses appeler ça une « bataille » ?"
       }
     ],
-    "skill_hint": {
-      "icon": "assets/skills/1509_150902.png",
-      "name_en": "Gate of Babylon",
-      "name_fr": "Gate of Babylon",
-      "type": "Skill"
-    }
+    "skill_hints": [
+      {
+        "icon": "assets/skills/1509_150901.png",
+        "name_en": "Halfhearted Blow",
+        "name_fr": "Coup indifférent",
+        "type": "Basic ATK"
+      },
+      {
+        "icon": "assets/skills/1509_150902.png",
+        "name_en": "Gate of Babylon",
+        "name_fr": "Gate of Babylon",
+        "type": "Skill"
+      },
+      {
+        "icon": "assets/skills/1509_150903.png",
+        "name_en": "Enuma Elish",
+        "name_fr": "Enuma Elish",
+        "type": "Ultimate"
+      },
+      {
+        "icon": "assets/skills/1509_150904.png",
+        "name_en": "\"Amuse Me to the Fullest\"",
+        "name_fr": "« Dévoue-toi et divertis-moi »",
+        "type": "Talent"
+      },
+      {
+        "icon": "assets/skills/1509_150907.png",
+        "name_en": "Enkidu",
+        "name_fr": "Enkidu",
+        "type": "Technique"
+      }
+    ]
   },
   {
     "id": "1510",
@@ -7973,8 +10157,8 @@
       "icon": "assets/bosses/110508.png"
     },
     "avatar": "assets/characters/1510.png",
-    "preview": "assets/previews/1510.webp",
-    "portrait": "assets/portraits/1510.webp",
+    "portrait": "assets/PORTRAIT/1510.webp",
+    "splash_art": "assets/SPLASHART/1510.webp",
     "quotes": [
       {
         "en": "I'll safeguard your path ahead!",
@@ -7997,12 +10181,38 @@
         "fr": "Tu vas bientôt réapprendre qui sont vraiment les Sans-Nom."
       }
     ],
-    "skill_hint": {
-      "icon": "assets/skills/1510_151002.png",
-      "name_en": "Upraise the Vanward Cresset",
-      "name_fr": "Phare dans l'obscurité",
-      "type": "Skill"
-    }
+    "skill_hints": [
+      {
+        "icon": "assets/skills/1510_151001.png",
+        "name_en": "Enkindle the First Lodestar",
+        "name_fr": "Première balise céleste allumée",
+        "type": "Basic ATK"
+      },
+      {
+        "icon": "assets/skills/1510_151002.png",
+        "name_en": "Upraise the Vanward Cresset",
+        "name_fr": "Phare dans l'obscurité",
+        "type": "Skill"
+      },
+      {
+        "icon": "assets/skills/1510_151003.png",
+        "name_en": "We, Too, Stride the Stars",
+        "name_fr": "Nous aussi, nous poursuivons les étoiles",
+        "type": "Ultimate"
+      },
+      {
+        "icon": "assets/skills/1510_151004.png",
+        "name_en": "Of Fire and Far Faring",
+        "name_fr": "Voyage commun sur un chemin brûlant",
+        "type": "Talent"
+      },
+      {
+        "icon": "assets/skills/1510_151007.png",
+        "name_en": "Starcharter Cruise",
+        "name_fr": "Croisière d'exploration stellaire",
+        "type": "Technique"
+      }
+    ]
   },
   {
     "id": "1512",
@@ -8063,20 +10273,46 @@
       "icon": "assets/bosses/110509.png"
     },
     "avatar": "assets/characters/1512.png",
-    "preview": "assets/previews/1512.webp",
-    "portrait": "assets/portraits/1512.webp",
+    "portrait": "assets/PORTRAIT/1512.webp",
+    "splash_art": "assets/SPLASHART/1512.webp",
     "quotes": [
       {
         "en": "It's nice to see you again. The weather in Astropolis is wonderful, and the moist breeze is filled with the scent of sunshine... I'm hoping to gather inspiration for a new song. Would you like to take a stroll together on the beach and listen to the sounds of sea conchs?",
         "fr": "Ravie de te revoir. Le temps est magnifique à Astropolis, et la brise humide est chargée d'un parfum de soleil... J'espère trouver l'inspiration pour une nouvelle mélodie. Ça te dirait de te promener sur la plage et d'écouter le chant des coquillages ?"
       }
     ],
-    "skill_hint": {
-      "icon": "assets/skills/1512_151202.png",
-      "name_en": "Summer Strums the Soul",
-      "name_fr": "Âme inondée de soleil",
-      "type": "Skill"
-    }
+    "skill_hints": [
+      {
+        "icon": "assets/skills/1512_151201.png",
+        "name_en": "The Sea Sings in My Key",
+        "name_fr": "Ton de la brise marine",
+        "type": "Basic ATK"
+      },
+      {
+        "icon": "assets/skills/1512_151202.png",
+        "name_en": "Summer Strums the Soul",
+        "name_fr": "Âme inondée de soleil",
+        "type": "Skill"
+      },
+      {
+        "icon": "assets/skills/1512_151203.png",
+        "name_en": "Ascend That Rhapsody in Blue",
+        "name_fr": "Immersion d'une rhapsodie bleue",
+        "type": "Ultimate"
+      },
+      {
+        "icon": "assets/skills/1512_151204.png",
+        "name_en": "Wings Heed No Borders",
+        "name_fr": "Survol des cieux",
+        "type": "Talent"
+      },
+      {
+        "icon": "assets/skills/1512_151207.png",
+        "name_en": "We Are the Melody",
+        "name_fr": "Notre union est une mélodie",
+        "type": "Technique"
+      }
+    ]
   },
   {
     "id": "1513",
@@ -8137,20 +10373,46 @@
       "icon": "assets/bosses/110509.png"
     },
     "avatar": "assets/characters/1513.png",
-    "preview": "assets/previews/1513.webp",
-    "portrait": "assets/portraits/1513.webp",
+    "portrait": "assets/PORTRAIT/1513.webp",
+    "splash_art": "assets/SPLASHART/1513.webp",
     "quotes": [
       {
         "en": "Friends, we meet again! I just wrapped up a sponsored shoot, and wow, keeping a smile plastered to my face for the camera is no easy feat. But now that I've been promoted to P46, I can finally go on vacation. Want to relax and enjoy your time with me? I guarantee you'll have an unforgettable getaway.",
         "fr": "Mes amis, nous voilà de nouveau réunis ! Je viens de terminer une séance photo sponsorisée, et laisse-moi te dire que garder le sourire devant l'objectif, ce n'est pas une mince affaire. Mais maintenant que je suis passé P46, je peux enfin prendre des vacances. Envie de te détendre en ma compagnie ? Je te garantis une escapade inoubliable."
       }
     ],
-    "skill_hint": {
-      "icon": "assets/skills/1513_151302.png",
-      "name_en": "Kill Shot, the Sands Boil",
-      "name_fr": "Exécution des sables ardents",
-      "type": "Skill"
-    }
+    "skill_hints": [
+      {
+        "icon": "assets/skills/1513_151301.png",
+        "name_en": "Dead Center, the Torrent Hits",
+        "name_fr": "Torrent droit au cœur",
+        "type": "Basic ATK"
+      },
+      {
+        "icon": "assets/skills/1513_151302.png",
+        "name_en": "Kill Shot, the Sands Boil",
+        "name_fr": "Exécution des sables ardents",
+        "type": "Skill"
+      },
+      {
+        "icon": "assets/skills/1513_151303.png",
+        "name_en": "Grand Slam, Crest That High Tide",
+        "name_fr": "Vague de la victoire",
+        "type": "Ultimate"
+      },
+      {
+        "icon": "assets/skills/1513_151304.png",
+        "name_en": "Ante Up, the Abyss Answers",
+        "name_fr": "Un pari au son des abysses",
+        "type": "Talent"
+      },
+      {
+        "icon": "assets/skills/1513_151307.png",
+        "name_en": "Make Waves in Still Waters",
+        "name_fr": "Trouble en eaux calmes",
+        "type": "Technique"
+      }
+    ]
   },
   {
     "id": "8001",
@@ -8210,20 +10472,46 @@
       "icon": "assets/bosses/110501.png"
     },
     "avatar": "assets/characters/8001.png",
-    "preview": "assets/previews/8001.webp",
-    "portrait": "assets/portraits/8001.webp",
+    "portrait": "assets/PORTRAIT/8001.webp",
+    "splash_art": "assets/SPLASHART/8001.webp",
     "quotes": [
       {
         "en": "Rules are made to be broken!",
         "fr": "Les règles sont faites pour être brisées !"
       }
     ],
-    "skill_hint": {
-      "icon": "assets/skills/8001_800102.png",
-      "name_en": "RIP Home Run",
-      "name_fr": "Home run final",
-      "type": "Skill"
-    }
+    "skill_hints": [
+      {
+        "icon": "assets/skills/8001_800101.png",
+        "name_en": "Farewell Hit",
+        "name_fr": "Coup d'adieu",
+        "type": "Basic ATK"
+      },
+      {
+        "icon": "assets/skills/8001_800102.png",
+        "name_en": "RIP Home Run",
+        "name_fr": "Home run final",
+        "type": "Skill"
+      },
+      {
+        "icon": "assets/skills/8001_800103.png",
+        "name_en": "Stardust Ace",
+        "name_fr": "{M#Lançeur}{F#Lançeuse} de poussière d'étoile",
+        "type": "Ultimate"
+      },
+      {
+        "icon": "assets/skills/8001_800104.png",
+        "name_en": "Perfect Pickoff",
+        "name_fr": "Pickoff parfait",
+        "type": "Talent"
+      },
+      {
+        "icon": "assets/skills/8001_800107.png",
+        "name_en": "Immortal Third Strike",
+        "name_fr": "Troisième prise immortelle",
+        "type": "Technique"
+      }
+    ]
   },
   {
     "id": "8003",
@@ -8285,20 +10573,46 @@
       "icon": "assets/bosses/110501.png"
     },
     "avatar": "assets/characters/8003.png",
-    "preview": "assets/previews/8003.webp",
-    "portrait": "assets/portraits/8003.webp",
+    "portrait": "assets/PORTRAIT/8003.webp",
+    "splash_art": "assets/SPLASHART/8003.webp",
     "quotes": [
       {
         "en": "Lance ablaze! Flaming lance, forward!",
         "fr": "Que la lance de la Préservation embrase nos ennemis !"
       }
     ],
-    "skill_hint": {
-      "icon": "assets/skills/8003_800302.png",
-      "name_en": "Ever-Burning Amber",
-      "name_fr": "Ambre incandescent",
-      "type": "Skill"
-    }
+    "skill_hints": [
+      {
+        "icon": "assets/skills/8003_800301.png",
+        "name_en": "Ice-Breaking Light",
+        "name_fr": "Feu fendeur de glace",
+        "type": "Basic ATK"
+      },
+      {
+        "icon": "assets/skills/8003_800302.png",
+        "name_en": "Ever-Burning Amber",
+        "name_fr": "Ambre incandescent",
+        "type": "Skill"
+      },
+      {
+        "icon": "assets/skills/8003_800303.png",
+        "name_en": "War-Flaming Lance",
+        "name_fr": "Lance de guerre enflammée",
+        "type": "Ultimate"
+      },
+      {
+        "icon": "assets/skills/8003_800304.png",
+        "name_en": "Treasure of the Architects",
+        "name_fr": "Trésor des Architectes",
+        "type": "Talent"
+      },
+      {
+        "icon": "assets/skills/8003_800307.png",
+        "name_en": "Call of the Guardian",
+        "name_fr": "Appel de la Gardienne",
+        "type": "Technique"
+      }
+    ]
   },
   {
     "id": "8005",
@@ -8362,20 +10676,46 @@
       "icon": "assets/bosses/110504.png"
     },
     "avatar": "assets/characters/8005.png",
-    "preview": "assets/previews/8005.webp",
-    "portrait": "assets/portraits/8005.webp",
+    "portrait": "assets/PORTRAIT/8005.webp",
+    "splash_art": "assets/SPLASHART/8005.webp",
     "quotes": [
       {
         "en": "Time for a show-stopping performance! Dance along!",
         "fr": "Dansez avec moi sous le chapeau magique de l'Harmonie !"
       }
     ],
-    "skill_hint": {
-      "icon": "assets/skills/8005_800502.png",
-      "name_en": "Halftime to Make It Rain",
-      "name_fr": "Pluie d'applaudissements",
-      "type": "Skill"
-    }
+    "skill_hints": [
+      {
+        "icon": "assets/skills/8005_800501.png",
+        "name_en": "Swing Dance Etiquette",
+        "name_fr": "Coup de chapeau",
+        "type": "Basic ATK"
+      },
+      {
+        "icon": "assets/skills/8005_800502.png",
+        "name_en": "Halftime to Make It Rain",
+        "name_fr": "Pluie d'applaudissements",
+        "type": "Skill"
+      },
+      {
+        "icon": "assets/skills/8005_800503.png",
+        "name_en": "All-Out Footlight Parade",
+        "name_fr": "Performance sur scène",
+        "type": "Ultimate"
+      },
+      {
+        "icon": "assets/skills/8005_800504.png",
+        "name_en": "Full-on Aerial Dance",
+        "name_fr": "Ballet aérien",
+        "type": "Talent"
+      },
+      {
+        "icon": "assets/skills/8005_800507.png",
+        "name_en": "Now! I'm the Band!",
+        "name_fr": "Entrée fracassante",
+        "type": "Technique"
+      }
+    ]
   },
   {
     "id": "8007",
@@ -8437,20 +10777,46 @@
       "icon": "assets/bosses/110506.png"
     },
     "avatar": "assets/characters/8007.png",
-    "preview": "assets/previews/8007.webp",
-    "portrait": "assets/portraits/8007.webp",
+    "portrait": "assets/PORTRAIT/8007.webp",
+    "splash_art": "assets/SPLASHART/8007.webp",
     "quotes": [
       {
         "en": "Mem, lend me your strength! Let's explore together!",
         "fr": "Mem, voyageons ensemble à travers les mémoires !"
       }
     ],
-    "skill_hint": {
-      "icon": "assets/skills/8007_800702.png",
-      "name_en": "I Choose You!",
-      "name_fr": "Je te choisis !",
-      "type": "Skill"
-    }
+    "skill_hints": [
+      {
+        "icon": "assets/skills/8007_800701.png",
+        "name_en": "Leave It to Me!",
+        "name_fr": "Je m'en charge !",
+        "type": "Basic ATK"
+      },
+      {
+        "icon": "assets/skills/8007_800702.png",
+        "name_en": "I Choose You!",
+        "name_fr": "Je te choisis !",
+        "type": "Skill"
+      },
+      {
+        "icon": "assets/skills/8007_800703.png",
+        "name_en": "Together, Mem!",
+        "name_fr": "En avant, Mem !",
+        "type": "Ultimate"
+      },
+      {
+        "icon": "assets/skills/8007_800704.png",
+        "name_en": "Almighty Companion",
+        "name_fr": "Compagnon tout-puissant",
+        "type": "Talent"
+      },
+      {
+        "icon": "assets/skills/8007_800707.png",
+        "name_en": "Memories Back as Echoes",
+        "name_fr": "Réveil des souvenirs",
+        "type": "Technique"
+      }
+    ]
   },
   {
     "id": "8009",
@@ -8512,19 +10878,45 @@
       "icon": "assets/bosses/110508.png"
     },
     "avatar": "assets/characters/8009.png",
-    "preview": "assets/previews/8009.webp",
-    "portrait": "assets/portraits/8009.webp",
+    "portrait": "assets/PORTRAIT/8009.webp",
+    "splash_art": "assets/SPLASHART/8009.webp",
     "quotes": [
       {
         "en": "Laughter is a weapon, and I intend to use it well!",
         "fr": "Le rire est une arme, et je compte bien m'en servir !"
       }
     ],
-    "skill_hint": {
-      "icon": "assets/skills/8009_800902.png",
-      "name_en": "Let the Storm Rage On",
-      "name_fr": "Ovation tonitruante",
-      "type": "Skill"
-    }
+    "skill_hints": [
+      {
+        "icon": "assets/skills/8009_800901.png",
+        "name_en": "Make Some Noise",
+        "name_fr": "Faites du bruit",
+        "type": "Basic ATK"
+      },
+      {
+        "icon": "assets/skills/8009_800902.png",
+        "name_en": "Let the Storm Rage On",
+        "name_fr": "Ovation tonitruante",
+        "type": "Skill"
+      },
+      {
+        "icon": "assets/skills/8009_800903.png",
+        "name_en": "May the Trailblaze Fly You Starward",
+        "name_fr": "Les Pionniers à jamais !",
+        "type": "Ultimate"
+      },
+      {
+        "icon": "assets/skills/8009_800904.png",
+        "name_en": "That Smile Hits Different",
+        "name_fr": "Sourire caméra",
+        "type": "Talent"
+      },
+      {
+        "icon": "assets/skills/8009_800907.png",
+        "name_en": "We Are So Back!",
+        "name_fr": "Vous aimez ? C'est pionnier !",
+        "type": "Technique"
+      }
+    ]
   }
 ]
