@@ -28,6 +28,18 @@ Every mode has a daily challenge (same for everyone, one per day) and an infinit
 
 ## Installation
 
+<div align="center">
+
+### 🎮 Want to play right now? Head to **[starraildle.vercel.app](https://starraildle.vercel.app)** 🎮
+
+[![Site status](https://img.shields.io/website?url=https%3A%2F%2Fstarraildle.vercel.app&up_message=online&down_message=offline&label=site)](https://starraildle.vercel.app)
+
+⬇️ click the image to jump in ⬇️
+
+[<img src=".github/assets/EmojiCipherChimera.png" width="200" alt="Play STARRAILdle">](https://starraildle.vercel.app)
+
+</div>
+
 ```
 git clone https://github.com/Gaiiiaaa-GH/STARRAILdle.git
 cd STARRAILdle
