@@ -702,6 +702,14 @@ body {
   transition: transform 0.8s ease-out, filter 0.4s ease-out;
 }
 
+/* Answer images: dragging, right-click "open image" or a mobile long-press
+   would all expose the unfiltered original file (and its id-based name). */
+.silhouette-layer,
+.skill-icon-img {
+  pointer-events: none;
+  user-select: none;
+}
+
 .splash-step-pill {
   position: absolute;
   top: 10px; right: 10px;
