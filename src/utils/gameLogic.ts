@@ -368,6 +368,6 @@ export function generateShareResult(
     text += '\n';
   }
 
-  text += '\nhttps://starraildle.gg';
+  text += '\nhttps://starraildle.vercel.app';
   return text;
 }
