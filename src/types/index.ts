@@ -2,33 +2,27 @@ export type Language = 'fr' | 'en';
 
 export type GameMode = 'classic' | 'splash' | 'portrait' | 'grayscale' | 'quote' | 'skill';
 
-export interface LocalizedString {
-  en: string;
-  fr: string;
-}
-
-export interface ElementInfo {
+interface ElementInfo {
   id: string;
   name_en: string;
   name_fr: string;
   icon: string;
 }
 
-export interface PathInfo {
+interface PathInfo {
   id: string;
   name_en: string;
   name_fr: string;
   icon: string;
 }
 
-export interface LorePathInfo {
+interface LorePathInfo {
   id: string;
   name_en: string;
   name_fr: string;
-  icon?: string;
 }
 
-export interface WeeklyBossInfo {
+interface WeeklyBossInfo {
   material_id: string;
   material_name_fr: string;
   material_name_en: string;
@@ -39,7 +33,7 @@ export interface WeeklyBossInfo {
   icon: string;
 }
 
-export interface SkillHint {
+interface SkillHint {
   icon: string;
   name_en: string;
   name_fr: string;
@@ -74,12 +68,6 @@ export type MatchStatus = 'correct' | 'partial' | 'incorrect';
 export interface ComparisonResult {
   character: Character;
   isCorrect: boolean;
-  name: {
-    match: boolean;
-    name_en: string;
-    name_fr: string;
-    avatar: string;
-  };
   gender: {
     status: MatchStatus;
     value: string;
@@ -118,8 +106,6 @@ export interface ComparisonResult {
     material_name_en: string;
     boss_name_fr: string;
     boss_name_en: string;
-    world_fr: string;
-    world_en: string;
     icon: string;
   };
   world: {

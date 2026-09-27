@@ -1,7 +1,16 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import type { GameMode, Language } from '../types';
-import { HelpCircle, BarChart3, Volume2, VolumeX, Grid, Image, MessageSquare, Flame, Eye, EyeOff, Calendar, Infinity as InfinityIcon, UserRound, Contrast } from 'lucide-react';
+import { HelpCircle, BarChart3, Volume2, VolumeX, Grid, Image, MessageSquare, Flame, Eye, EyeOff, Calendar, Infinity as InfinityIcon, UserRound, Contrast, Timer } from 'lucide-react';
 import { soundManager } from '../utils/audio';
+import { getMsUntilParisMidnight } from '../utils/gameLogic';
+
+function formatCountdown(ms: number): string {
+  const totalSeconds = Math.max(0, Math.floor(ms / 1000));
+  const h = String(Math.floor(totalSeconds / 3600)).padStart(2, '0');
+  const m = String(Math.floor((totalSeconds % 3600) / 60)).padStart(2, '0');
+  const s = String(totalSeconds % 60).padStart(2, '0');
+  return `${h}:${m}:${s}`;
+}
 
 interface HeaderProps {
   currentMode: GameMode;
@@ -35,6 +44,12 @@ export const Header: React.FC<HeaderProps> = ({
   onOpenGallery,
 }) => {
   const isFr = language === 'fr';
+
+  const [msLeft, setMsLeft] = useState(() => getMsUntilParisMidnight());
+  useEffect(() => {
+    const id = setInterval(() => setMsLeft(getMsUntilParisMidnight()), 1000);
+    return () => clearInterval(id);
+  }, []);
 
   const modes: { id: GameMode; labelFr: string; labelEn: string; icon: React.ReactNode }[] = [
     { id: 'classic', labelFr: 'Classique', labelEn: 'Classic', icon: <Grid size={17} /> },
@@ -106,6 +121,11 @@ export const Header: React.FC<HeaderProps> = ({
               <InfinityIcon size={14} />
               <span>{isFr ? 'Infini' : 'Practice'}</span>
             </button>
+          </div>
+
+          <div className="daily-reset-timer" title={isFr ? 'Prochain reset (minuit à Paris)' : 'Next reset (midnight in Paris)'}>
+            <Timer size={13} />
+            <span>{formatCountdown(msLeft)}</span>
           </div>
 
           <button

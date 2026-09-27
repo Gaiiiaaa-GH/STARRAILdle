@@ -6,6 +6,7 @@ import { GuessHistoryList } from './GuessHistoryList';
 import { Sparkles, Lightbulb } from 'lucide-react';
 import { soundManager } from '../utils/audio';
 import { getSilhouetteAnchor, type Anchor, type AnchorMode } from '../utils/silhouetteAnchor';
+import { getParisDateStr } from '../utils/gameLogic';
 import bannerManifest from '../data/bannerManifest.json';
 
 export type SplashVariant = 'splashArt' | 'portrait' | 'grayscale';
@@ -77,7 +78,7 @@ export const SplashZoomMode: React.FC<SplashZoomModeProps> = ({
   // value each time practice moves to a different character.
   // eslint-disable-next-line react-hooks/exhaustive-deps
   const practiceRoundNonce = useMemo(() => Math.random().toString(36).slice(2), [target.id]);
-  const today = new Date().toISOString().slice(0, 10);
+  const today = getParisDateStr();
   const roundSeed = isDaily
     ? `${target.id}_daily_${today}_${variant}`
     : `${target.id}_practice_${practiceRoundNonce}_${variant}`;
@@ -99,11 +100,11 @@ export const SplashZoomMode: React.FC<SplashZoomModeProps> = ({
 
   useEffect(() => {
     let cancelled = false;
-    getSilhouetteAnchor(splashArtSrc, ZOOM_STEPS[0], `${roundSeed}_anchor`, anchorMode).then((a) => {
+    getSilhouetteAnchor(splashArtSrc, ZOOM_STEPS[0], `${roundSeed}_anchor`, anchorMode, variant === 'portrait').then((a) => {
       if (!cancelled) setAnchor(a);
     });
     return () => { cancelled = true; };
-  }, [splashArtSrc, roundSeed, anchorMode]);
+  }, [splashArtSrc, roundSeed, anchorMode, variant]);
 
   const scale = ZOOM_STEPS[Math.min(attempts, ZOOM_STEPS.length - 1)];
 

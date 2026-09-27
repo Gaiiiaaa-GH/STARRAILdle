@@ -4,7 +4,7 @@ import { CharacterSearch } from './CharacterSearch';
 import { NextRoundButton } from './NextRoundButton';
 import { GuessHistoryList } from './GuessHistoryList';
 import { Zap, Sparkles, Check, X } from 'lucide-react';
-import { pickSeeded } from '../utils/gameLogic';
+import { pickSeeded, getParisDateStr } from '../utils/gameLogic';
 
 interface SkillModeProps {
   characters: Character[];
@@ -88,7 +88,7 @@ export const SkillMode: React.FC<SkillModeProps> = ({
   // practice character (each character can have up to 5 distinct abilities
   // -- Basic ATK/Skill/Ultimate/Talent/Technique -- so this also varies
   // which one Skill mode shows, not just whether Challenge Mode is on).
-  const today = new Date().toISOString().slice(0, 10);
+  const today = getParisDateStr();
   const skillSeed = isDaily ? `${target.id}_daily_${today}` : `${target.id}_practice`;
   const skill = useMemo(() => pickSeeded(target.skill_hints, skillSeed), [target.skill_hints, skillSeed]);
 

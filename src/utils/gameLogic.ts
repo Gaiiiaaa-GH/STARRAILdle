@@ -6,6 +6,33 @@ import type { Character, ComparisonResult, MatchStatus, AllStats, ModeStats, Gam
 // `.guess-row.is-new-guess .guess-cell` in index.css.
 export const CLASSIC_MODE_CARD_COUNT = 10;
 
+// The daily target/seed/localStorage-key boundary everyone shares. Fixed to
+// Europe/Paris (not the visitor's own device timezone, not UTC) so the round
+// changes at Paris midnight for every player regardless of where they are.
+// Cached formatters: constructing Intl.DateTimeFormat is not free and the
+// countdown timer calls getMsUntilParisMidnight every second.
+const PARIS_DATE_FMT = new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Paris' });
+const PARIS_TIME_FMT = new Intl.DateTimeFormat('en-GB', {
+  timeZone: 'Europe/Paris',
+  hourCycle: 'h23',
+  hour: '2-digit',
+  minute: '2-digit',
+  second: '2-digit',
+});
+
+// en-CA formats as YYYY-MM-DD, which is also what every daily-seed string
+// and localStorage key in this codebase already expects.
+export function getParisDateStr(date: Date = new Date()): string {
+  return PARIS_DATE_FMT.format(date);
+}
+
+export function getMsUntilParisMidnight(date: Date = new Date()): number {
+  const parts = PARIS_TIME_FMT.formatToParts(date);
+  const get = (type: string) => Number(parts.find((p) => p.type === type)?.value ?? 0);
+  const elapsedMs = ((get('hour') * 60 + get('minute')) * 60 + get('second')) * 1000 + date.getMilliseconds();
+  return 24 * 60 * 60 * 1000 - elapsedMs;
+}
+
 export function compareCharacters(guess: Character, target: Character): ComparisonResult {
   const isExactCharacter = guess.id === target.id;
 
@@ -117,12 +144,6 @@ export function compareCharacters(guess: Character, target: Character): Comparis
   return {
     character: guess,
     isCorrect: isExactCharacter,
-    name: {
-      match: isExactCharacter,
-      name_en: guess.name_en,
-      name_fr: guess.name_fr,
-      avatar: guess.avatar,
-    },
     gender: {
       status: genderStatus,
       value: guess.gender,
@@ -161,8 +182,6 @@ export function compareCharacters(guess: Character, target: Character): Comparis
       material_name_en: guess.weekly_boss.material_name_en,
       boss_name_fr: guess.weekly_boss.boss_name_fr,
       boss_name_en: guess.weekly_boss.boss_name_en,
-      world_fr: guess.weekly_boss.world_fr,
-      world_en: guess.weekly_boss.world_en,
       icon: guess.weekly_boss.icon,
     },
     world: {
@@ -194,18 +213,8 @@ export function pickSeeded<T>(items: T[], seed: string): T {
   return items[index];
 }
 
-// Pseudo-random daily target picker based on date and mode seed
-export function getDailyTarget(characters: Character[], mode: GameMode = 'classic', dateStr?: string): Character {
-  const d = dateStr || new Date().toISOString().slice(0, 10);
-  let hash = 0;
-  const seedString = `starraildle_${mode}_${d}`;
-  for (let i = 0; i < seedString.length; i++) {
-    const char = seedString.charCodeAt(i);
-    hash = (hash << 5) - hash + char;
-    hash |= 0;
-  }
-  const index = Math.abs(hash) % characters.length;
-  return characters[index];
+export function getDailyTarget(characters: Character[], mode: GameMode): Character {
+  return pickSeeded(characters, `starraildle_${mode}_${getParisDateStr()}`);
 }
 
 // Random target picker for unlimited practice mode
@@ -222,7 +231,7 @@ const defaultModeStats: ModeStats = {
   guessDistribution: {},
 };
 
-export const defaultAllStats: AllStats = {
+const defaultAllStats: AllStats = {
   classic: { ...defaultModeStats },
   splash: { ...defaultModeStats },
   portrait: { ...defaultModeStats },
@@ -243,7 +252,7 @@ export function loadGameStats(): AllStats {
   return defaultAllStats;
 }
 
-export function saveGameStats(stats: AllStats) {
+function saveGameStats(stats: AllStats) {
   try {
     localStorage.setItem('starraildle_stats_v1', JSON.stringify(stats));
   } catch {
@@ -267,7 +276,7 @@ export function recordWin(mode: GameMode, guessCount: number): AllStats {
 // the streak back to 1 instead of silently continuing.
 const defaultDailyStreak: DailyStreak = { current: 0, max: 0, lastWinDate: null };
 
-export const defaultDailyStreaks: AllDailyStreaks = {
+const defaultDailyStreaks: AllDailyStreaks = {
   classic: { ...defaultDailyStreak },
   splash: { ...defaultDailyStreak },
   portrait: { ...defaultDailyStreak },
@@ -288,7 +297,7 @@ export function loadDailyStreaks(): AllDailyStreaks {
   return defaultDailyStreaks;
 }
 
-export function saveDailyStreaks(streaks: AllDailyStreaks) {
+function saveDailyStreaks(streaks: AllDailyStreaks) {
   try {
     localStorage.setItem('starraildle_daily_streaks_v1', JSON.stringify(streaks));
   } catch {
@@ -302,7 +311,7 @@ export function recordDailyWin(mode: GameMode, today: string): AllDailyStreaks {
   const streaks = loadDailyStreaks();
   const streak = streaks[mode];
   if (streak.lastWinDate !== today) {
-    const yesterday = new Date(Date.now() - 86400000).toISOString().slice(0, 10);
+    const yesterday = getParisDateStr(new Date(Date.now() - 86400000));
     streak.current = streak.lastWinDate === yesterday ? streak.current + 1 : 1;
     streak.max = Math.max(streak.max, streak.current);
     streak.lastWinDate = today;

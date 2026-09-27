@@ -27,8 +27,7 @@
       {
         "id": "remembrance",
         "name_en": "Remembrance",
-        "name_fr": "Le Souvenir",
-        "icon": "assets/paths/memory.png"
+        "name_fr": "Le Souvenir"
       },
       {
         "id": "enigmata",
@@ -56,16 +55,6 @@
       "Héritiers Chrysos (demi-dieu)",
       "Purs Enfants d'Anāsrava",
       "Titans"
-    ],
-    "archetypes_en": [
-      "Shield",
-      "Follow-up",
-      "Freeze"
-    ],
-    "archetypes_fr": [
-      "Shield",
-      "Follow-up",
-      "Freeze"
     ],
     "weekly_boss": {
       "material_id": "110501",
@@ -177,14 +166,6 @@
       "Astral Express",
       "Les Sans Noms"
     ],
-    "archetypes_en": [
-      "Crit Hypercarry",
-      "Slow / Debuff"
-    ],
-    "archetypes_fr": [
-      "Crit Hypercarry",
-      "Slow / Debuff"
-    ],
     "weekly_boss": {
       "material_id": "110501",
       "material_name_en": "Destroyer's Final Road",
@@ -294,16 +275,6 @@
       "Famille Graphia",
       "Quartier de Colombeaux (lieu de naissance)"
     ],
-    "archetypes_en": [
-      "Follow-up",
-      "AoE / Erudition",
-      "Burn"
-    ],
-    "archetypes_fr": [
-      "Follow-up",
-      "AoE / Erudition",
-      "Burn"
-    ],
     "weekly_boss": {
       "material_id": "110501",
       "material_name_en": "Destroyer's Final Road",
@@ -411,16 +382,6 @@
       "Les Sans Noms",
       "Anti-Entropy (anciennement)"
     ],
-    "archetypes_en": [
-      "Slow / Debuff",
-      "Imprisonment",
-      "Vulnerability"
-    ],
-    "archetypes_fr": [
-      "Slow / Debuff",
-      "Imprisonment",
-      "Vulnerability"
-    ],
     "weekly_boss": {
       "material_id": "110501",
       "material_name_en": "Destroyer's Final Road",
@@ -524,18 +485,6 @@
     "factions_fr": [
       "Chasseurs de Stellaron"
     ],
-    "archetypes_en": [
-      "Weakness Implant",
-      "DEF Shred",
-      "All-Type RES Shred",
-      "Debuff"
-    ],
-    "archetypes_fr": [
-      "Weakness Implant",
-      "DEF Shred",
-      "All-Type RES Shred",
-      "Debuff"
-    ],
     "weekly_boss": {
       "material_id": "110503",
       "material_name_en": "Regret of Infinite Ochema",
@@ -632,8 +581,7 @@
       {
         "id": "elation",
         "name_en": "Elation",
-        "name_fr": "L'Allégresse",
-        "icon": "assets/paths/elation.png"
+        "name_fr": "L'Allégresse"
       }
     ],
     "release_version": "1.1",
@@ -644,16 +592,6 @@
     ],
     "factions_fr": [
       "Chasseurs de Stellaron"
-    ],
-    "archetypes_en": [
-      "DoT / Shock",
-      "DoT Detonation",
-      "Follow-up"
-    ],
-    "archetypes_fr": [
-      "DoT / Shock",
-      "DoT Detonation",
-      "Follow-up"
     ],
     "weekly_boss": {
       "material_id": "110501",
@@ -746,8 +684,7 @@
       {
         "id": "destruction",
         "name_en": "Destruction",
-        "name_fr": "La Destruction",
-        "icon": "assets/paths/warrior.png"
+        "name_fr": "La Destruction"
       }
     ],
     "release_version": "1.0",
@@ -760,14 +697,6 @@
     "factions_fr": [
       "Station spatiale Herta",
       "Département de la sécurité"
-    ],
-    "archetypes_en": [
-      "HP Consume",
-      "Crit Hypercarry"
-    ],
-    "archetypes_fr": [
-      "HP Consume",
-      "Crit Hypercarry"
     ],
     "weekly_boss": {
       "material_id": "110501",
@@ -860,8 +789,7 @@
       {
         "id": "harmony",
         "name_en": "Harmony",
-        "name_fr": "L'Harmonie",
-        "icon": "assets/paths/shaman.png"
+        "name_fr": "L'Harmonie"
       }
     ],
     "release_version": "1.0",
@@ -872,16 +800,6 @@
     ],
     "factions_fr": [
       "Station spatiale Herta"
-    ],
-    "archetypes_en": [
-      "Speed Buff",
-      "ATK Buff",
-      "Fire Boost"
-    ],
-    "archetypes_fr": [
-      "Speed Buff",
-      "ATK Buff",
-      "Fire Boost"
     ],
     "weekly_boss": {
       "material_id": "110501",
@@ -974,8 +892,7 @@
       {
         "id": "erudition",
         "name_en": "Erudition",
-        "name_fr": "L'Érudition",
-        "icon": "assets/paths/mage.png"
+        "name_fr": "L'Érudition"
       }
     ],
     "release_version": "1.0",
@@ -988,18 +905,6 @@
     "factions_fr": [
       "Station spatiale Herta",
       "Société des génies"
-    ],
-    "archetypes_en": [
-      "Follow-up",
-      "Kuru Kuru",
-      "AoE / Erudition",
-      "Freeze"
-    ],
-    "archetypes_fr": [
-      "Follow-up",
-      "Kuru Kuru",
-      "AoE / Erudition",
-      "Freeze"
     ],
     "weekly_boss": {
       "material_id": "110501",
@@ -1092,8 +997,7 @@
       {
         "id": "destruction",
         "name_en": "Destruction",
-        "name_fr": "La Destruction",
-        "icon": "assets/paths/warrior.png"
+        "name_fr": "La Destruction"
       }
     ],
     "release_version": "3.4",
@@ -1104,16 +1008,6 @@
     ],
     "factions_fr": [
       "Collaboration Fate/stay night"
-    ],
-    "archetypes_en": [
-      "Physical/Wind Burst",
-      "Crit Hypercarry",
-      "Excalibur Nuke"
-    ],
-    "archetypes_fr": [
-      "Physical/Wind Burst",
-      "Crit Hypercarry",
-      "Excalibur Nuke"
     ],
     "weekly_boss": {
       "material_id": "110501",
@@ -1206,8 +1100,7 @@
       {
         "id": "hunt",
         "name_en": "The Hunt",
-        "name_fr": "La Chasse",
-        "icon": "assets/paths/rogue.png"
+        "name_fr": "La Chasse"
       }
     ],
     "release_version": "3.4",
@@ -1218,16 +1111,6 @@
     ],
     "factions_fr": [
       "Collaboration Fate/stay night"
-    ],
-    "archetypes_en": [
-      "Single Target Burst",
-      "Crit Hypercarry",
-      "Quantum Hunt"
-    ],
-    "archetypes_fr": [
-      "Single Target Burst",
-      "Crit Hypercarry",
-      "Quantum Hunt"
     ],
     "weekly_boss": {
       "material_id": "110502",
@@ -1320,8 +1203,7 @@
       {
         "id": "preservation",
         "name_en": "Preservation",
-        "name_fr": "La Préservation",
-        "icon": "assets/paths/knight.png"
+        "name_fr": "La Préservation"
       }
     ],
     "release_version": "1.0",
@@ -1336,18 +1218,6 @@
       "Belobog",
       "Gardes de la crinière d'argent",
       "Gardienne suprême"
-    ],
-    "archetypes_en": [
-      "Action Advance",
-      "ATK Buff",
-      "Crit DMG Buff",
-      "Cleanse"
-    ],
-    "archetypes_fr": [
-      "Action Advance",
-      "ATK Buff",
-      "Crit DMG Buff",
-      "Cleanse"
     ],
     "weekly_boss": {
       "material_id": "110502",
@@ -1440,8 +1310,7 @@
       {
         "id": "hunt",
         "name_en": "The Hunt",
-        "name_fr": "La Chasse",
-        "icon": "assets/paths/rogue.png"
+        "name_fr": "La Chasse"
       }
     ],
     "release_version": "1.0",
@@ -1454,16 +1323,6 @@
     "factions_fr": [
       "Belobog",
       "Feux sauvages"
-    ],
-    "archetypes_en": [
-      "Resurgence",
-      "Crit Hypercarry",
-      "Speed"
-    ],
-    "archetypes_fr": [
-      "Resurgence",
-      "Crit Hypercarry",
-      "Speed"
     ],
     "weekly_boss": {
       "material_id": "110502",
@@ -1556,8 +1415,7 @@
       {
         "id": "preservation",
         "name_en": "Preservation",
-        "name_fr": "La Préservation",
-        "icon": "assets/paths/knight.png"
+        "name_fr": "La Préservation"
       }
     ],
     "release_version": "1.0",
@@ -1574,14 +1432,6 @@
       "Famille Landau",
       "Fièvre mécanique",
       "Gardes de la crinière d'argent (anciennement)"
-    ],
-    "archetypes_en": [
-      "DoT / Shock",
-      "Erudition AoE"
-    ],
-    "archetypes_fr": [
-      "DoT / Shock",
-      "Erudition AoE"
     ],
     "weekly_boss": {
       "material_id": "110502",
@@ -1674,8 +1524,7 @@
       {
         "id": "preservation",
         "name_en": "Preservation",
-        "name_fr": "La Préservation",
-        "icon": "assets/paths/knight.png"
+        "name_fr": "La Préservation"
       }
     ],
     "release_version": "1.0",
@@ -1690,16 +1539,6 @@
       "Belobog",
       "Gardes de la crinière d'argent",
       "Famille Landau"
-    ],
-    "archetypes_en": [
-      "Team Shield",
-      "Freeze / Crowd Control",
-      "Taunt"
-    ],
-    "archetypes_fr": [
-      "Team Shield",
-      "Freeze / Crowd Control",
-      "Taunt"
     ],
     "weekly_boss": {
       "material_id": "110502",
@@ -1792,8 +1631,7 @@
       {
         "id": "abundance",
         "name_en": "Abundance",
-        "name_fr": "L'Abondance",
-        "icon": "assets/paths/priest.png"
+        "name_fr": "L'Abondance"
       }
     ],
     "release_version": "1.0",
@@ -1808,16 +1646,6 @@
       "Belobog",
       "Feux sauvages (chef)",
       "Gardes de la crinière d'argent (anciennement)"
-    ],
-    "archetypes_en": [
-      "Heal / Sustain",
-      "Cleanse",
-      "Emergency Heal"
-    ],
-    "archetypes_fr": [
-      "Heal / Sustain",
-      "Cleanse",
-      "Emergency Heal"
     ],
     "weekly_boss": {
       "material_id": "110502",
@@ -1910,8 +1738,7 @@
       {
         "id": "preservation",
         "name_en": "Preservation",
-        "name_fr": "La Préservation",
-        "icon": "assets/paths/knight.png"
+        "name_fr": "La Préservation"
       }
     ],
     "release_version": "1.0",
@@ -1926,16 +1753,6 @@
       "Belobog",
       "Fièvre mécanique",
       "Gardes de la crinière d'argent"
-    ],
-    "archetypes_en": [
-      "DEF Shred",
-      "AoE Debuff",
-      "Dispel"
-    ],
-    "archetypes_fr": [
-      "DEF Shred",
-      "AoE Debuff",
-      "Dispel"
     ],
     "weekly_boss": {
       "material_id": "110502",
@@ -2028,8 +1845,7 @@
       {
         "id": "destruction",
         "name_en": "Destruction",
-        "name_fr": "La Destruction",
-        "icon": "assets/paths/warrior.png"
+        "name_fr": "La Destruction"
       }
     ],
     "release_version": "1.0",
@@ -2044,16 +1860,6 @@
       "Belobog",
       "Les Prospecteurs",
       "Les Taupes (membre honoraire)"
-    ],
-    "archetypes_en": [
-      "Counter / Follow-up",
-      "Damage Reduction",
-      "Taunt"
-    ],
-    "archetypes_fr": [
-      "Counter / Follow-up",
-      "Damage Reduction",
-      "Taunt"
     ],
     "weekly_boss": {
       "material_id": "110502",
@@ -2146,8 +1952,7 @@
       {
         "id": "elation",
         "name_en": "Elation",
-        "name_fr": "L'Allégresse",
-        "icon": "assets/paths/elation.png"
+        "name_fr": "L'Allégresse"
       }
     ],
     "release_version": "1.0",
@@ -2162,16 +1967,6 @@
       "Belobog",
       "Feux sauvages",
       "Fous masqués"
-    ],
-    "archetypes_en": [
-      "DoT / Wind Shear",
-      "Vulnerability",
-      "Blind"
-    ],
-    "archetypes_fr": [
-      "DoT / Wind Shear",
-      "Vulnerability",
-      "Blind"
     ],
     "weekly_boss": {
       "material_id": "110502",
@@ -2264,8 +2059,7 @@
       {
         "id": "destruction",
         "name_en": "Destruction",
-        "name_fr": "La Destruction",
-        "icon": "assets/paths/warrior.png"
+        "name_fr": "La Destruction"
       }
     ],
     "release_version": "1.0",
@@ -2278,14 +2072,6 @@
     "factions_fr": [
       "Belobog",
       "Les Taupes (cheffe)"
-    ],
-    "archetypes_en": [
-      "DoT / Burn",
-      "Single Target Burst"
-    ],
-    "archetypes_fr": [
-      "DoT / Burn",
-      "Single Target Burst"
     ],
     "weekly_boss": {
       "material_id": "110502",
@@ -2378,8 +2164,7 @@
       {
         "id": "abundance",
         "name_en": "Abundance",
-        "name_fr": "L'Abondance",
-        "icon": "assets/paths/priest.png"
+        "name_fr": "L'Abondance"
       }
     ],
     "release_version": "1.3",
@@ -2394,18 +2179,6 @@
       "Belobog",
       "Famille Landau",
       "Fièvre mécanique"
-    ],
-    "archetypes_en": [
-      "Heal / Sustain",
-      "Team Cleanse",
-      "Max HP Buff",
-      "Aggro Manipulation"
-    ],
-    "archetypes_fr": [
-      "Heal / Sustain",
-      "Team Cleanse",
-      "Max HP Buff",
-      "Aggro Manipulation"
     ],
     "weekly_boss": {
       "material_id": "110502",
@@ -2498,8 +2271,7 @@
       {
         "id": "nihility",
         "name_en": "Nihility",
-        "name_fr": "La Nihilité",
-        "icon": "assets/paths/warlock.png"
+        "name_fr": "La Nihilité"
       }
     ],
     "release_version": "1.2",
@@ -2514,16 +2286,6 @@
       "Belobog",
       "Feux sauvages",
       "Les Taupes"
-    ],
-    "archetypes_en": [
-      "DoT / Bleed",
-      "Single Target Burst",
-      "Vulnerability"
-    ],
-    "archetypes_fr": [
-      "DoT / Bleed",
-      "Single Target Burst",
-      "Vulnerability"
     ],
     "weekly_boss": {
       "material_id": "110503",
@@ -2616,8 +2378,7 @@
       {
         "id": "preservation",
         "name_en": "Preservation",
-        "name_fr": "La Préservation",
-        "icon": "assets/paths/knight.png"
+        "name_fr": "La Préservation"
       }
     ],
     "release_version": "1.4",
@@ -2632,18 +2393,6 @@
       "Corporation pour la Paix Interastrale",
       "Département des investissements stratégiques",
       "Dix cœurs de pierre"
-    ],
-    "archetypes_en": [
-      "Follow-up",
-      "Follow-up Vulnerability",
-      "Numby Action Advance",
-      "Debt Collector"
-    ],
-    "archetypes_fr": [
-      "Follow-up",
-      "Follow-up Vulnerability",
-      "Numby Action Advance",
-      "Debt Collector"
     ],
     "weekly_boss": {
       "material_id": "110503",
@@ -2736,8 +2485,7 @@
       {
         "id": "erudition",
         "name_en": "Erudition",
-        "name_fr": "L'Érudition",
-        "icon": "assets/paths/mage.png"
+        "name_fr": "L'Érudition"
       }
     ],
     "release_version": "1.0",
@@ -2750,16 +2498,6 @@
     "factions_fr": [
       "Luofu de Xianzhou",
       "Commission de Divination"
-    ],
-    "archetypes_en": [
-      "Tile Draw / Gambling",
-      "AoE / Erudition",
-      "Crit Burst"
-    ],
-    "archetypes_fr": [
-      "Tile Draw / Gambling",
-      "AoE / Erudition",
-      "Crit Burst"
     ],
     "weekly_boss": {
       "material_id": "110502",
@@ -2852,8 +2590,7 @@
       {
         "id": "harmony",
         "name_en": "Harmony",
-        "name_fr": "L'Harmonie",
-        "icon": "assets/paths/shaman.png"
+        "name_fr": "L'Harmonie"
       }
     ],
     "release_version": "1.0",
@@ -2868,16 +2605,6 @@
       "Luofu de Xianzhou",
       "Commission du Ciel",
       "Guilde des Flammes Sifflantes"
-    ],
-    "archetypes_en": [
-      "Energy Recharge",
-      "ATK Buff",
-      "DMG Buff"
-    ],
-    "archetypes_fr": [
-      "Energy Recharge",
-      "ATK Buff",
-      "DMG Buff"
     ],
     "weekly_boss": {
       "material_id": "110501",
@@ -2970,8 +2697,7 @@
       {
         "id": "abundance",
         "name_en": "Abundance",
-        "name_fr": "L'Abondance",
-        "icon": "assets/paths/priest.png"
+        "name_fr": "L'Abondance"
       }
     ],
     "release_version": "1.1",
@@ -2984,18 +2710,6 @@
     "factions_fr": [
       "Luofu de Xianzhou",
       "Yuque de Xianzhou (marchand enregistré)"
-    ],
-    "archetypes_en": [
-      "Auto-Heal / Field",
-      "Dispel",
-      "Cleanse",
-      "Heal / Sustain"
-    ],
-    "archetypes_fr": [
-      "Auto-Heal / Field",
-      "Dispel",
-      "Cleanse",
-      "Heal / Sustain"
     ],
     "weekly_boss": {
       "material_id": "110502",
@@ -3088,8 +2802,7 @@
       {
         "id": "hunt",
         "name_en": "The Hunt",
-        "name_fr": "La Chasse",
-        "icon": "assets/paths/rogue.png"
+        "name_fr": "La Chasse"
       }
     ],
     "release_version": "1.0",
@@ -3108,16 +2821,6 @@
       "Général Céleste",
       "Six Auriges",
       "Quintet de Haut-Nuage (anciennement)"
-    ],
-    "archetypes_en": [
-      "Follow-up",
-      "Lightning Lord",
-      "AoE / Erudition"
-    ],
-    "archetypes_fr": [
-      "Follow-up",
-      "Lightning Lord",
-      "AoE / Erudition"
     ],
     "weekly_boss": {
       "material_id": "110501",
@@ -3215,8 +2918,7 @@
       {
         "id": "abundance",
         "name_en": "Abundance",
-        "name_fr": "L'Abondance",
-        "icon": "assets/paths/priest.png"
+        "name_fr": "L'Abondance"
       }
     ],
     "release_version": "1.2",
@@ -3229,18 +2931,6 @@
     "factions_fr": [
       "Chasseurs de Stellaron",
       "Quintet de Haut-Nuage (anciennement)"
-    ],
-    "archetypes_en": [
-      "HP Consume",
-      "Follow-up",
-      "Crit Hypercarry",
-      "Self-Heal"
-    ],
-    "archetypes_fr": [
-      "HP Consume",
-      "Follow-up",
-      "Crit Hypercarry",
-      "Self-Heal"
     ],
     "weekly_boss": {
       "material_id": "110503",
@@ -3333,8 +3023,7 @@
       {
         "id": "hunt",
         "name_en": "The Hunt",
-        "name_fr": "La Chasse",
-        "icon": "assets/paths/rogue.png"
+        "name_fr": "La Chasse"
       }
     ],
     "release_version": "1.0",
@@ -3351,16 +3040,6 @@
       "Yaoqing de Xianzhou (anciennement)",
       "Chevaliers des Nuages",
       "Escouade de Chasse aux Fantômes"
-    ],
-    "archetypes_en": [
-      "Physical Break",
-      "Sword Stance Burst",
-      "Action Advance"
-    ],
-    "archetypes_fr": [
-      "Physical Break",
-      "Sword Stance Burst",
-      "Action Advance"
     ],
     "weekly_boss": {
       "material_id": "110502",
@@ -3453,8 +3132,7 @@
       {
         "id": "hunt",
         "name_en": "The Hunt",
-        "name_fr": "La Chasse",
-        "icon": "assets/paths/rogue.png"
+        "name_fr": "La Chasse"
       }
     ],
     "release_version": "1.1",
@@ -3469,18 +3147,6 @@
       "Luofu de Xianzhou",
       "Six Auriges",
       "Commission du Ciel (tête)"
-    ],
-    "archetypes_en": [
-      "Crit Rate Buff",
-      "Crit DMG Buff",
-      "ATK Buff",
-      "Imaginary Break"
-    ],
-    "archetypes_fr": [
-      "Crit Rate Buff",
-      "Crit DMG Buff",
-      "ATK Buff",
-      "Imaginary Break"
     ],
     "weekly_boss": {
       "material_id": "110501",
@@ -3573,14 +3239,12 @@
       {
         "id": "hunt",
         "name_en": "The Hunt",
-        "name_fr": "La Chasse",
-        "icon": "assets/paths/rogue.png"
+        "name_fr": "La Chasse"
       },
       {
         "id": "erudition",
         "name_en": "Erudition",
-        "name_fr": "L'Érudition",
-        "icon": "assets/paths/mage.png"
+        "name_fr": "L'Érudition"
       }
     ],
     "release_version": "1.3",
@@ -3597,18 +3261,6 @@
       "Yuque de Xianzhou (anciennement)",
       "Six Auriges",
       "Commission de Divination (tête)"
-    ],
-    "archetypes_en": [
-      "Damage Redirection / Mitigation",
-      "Crit Rate Buff",
-      "Crowd Control Immunity",
-      "Heal / Sustain"
-    ],
-    "archetypes_fr": [
-      "Damage Redirection / Mitigation",
-      "Crit Rate Buff",
-      "Crowd Control Immunity",
-      "Heal / Sustain"
     ],
     "weekly_boss": {
       "material_id": "110503",
@@ -3701,8 +3353,7 @@
       {
         "id": "hunt",
         "name_en": "The Hunt",
-        "name_fr": "La Chasse",
-        "icon": "assets/paths/rogue.png"
+        "name_fr": "La Chasse"
       }
     ],
     "release_version": "1.0",
@@ -3715,16 +3366,6 @@
     "factions_fr": [
       "Luofu de Xianzhou",
       "Chevaliers des Nuages"
-    ],
-    "archetypes_en": [
-      "Freeze",
-      "Crit Hypercarry",
-      "Soulsteel Jolt"
-    ],
-    "archetypes_fr": [
-      "Freeze",
-      "Crit Hypercarry",
-      "Soulsteel Jolt"
     ],
     "weekly_boss": {
       "material_id": "110502",
@@ -3817,8 +3458,7 @@
       {
         "id": "nihility",
         "name_en": "Nihility",
-        "name_fr": "La Nihilité",
-        "icon": "assets/paths/warlock.png"
+        "name_fr": "La Nihilité"
       }
     ],
     "release_version": "1.4",
@@ -3831,16 +3471,6 @@
     "factions_fr": [
       "Luofu de Xianzhou",
       "Escouade de Chasse aux Fantômes"
-    ],
-    "archetypes_en": [
-      "DoT / Burn",
-      "Firekiss / Vulnerability",
-      "AoE Detonation"
-    ],
-    "archetypes_fr": [
-      "DoT / Burn",
-      "Firekiss / Vulnerability",
-      "AoE Detonation"
     ],
     "weekly_boss": {
       "material_id": "110503",
@@ -3949,16 +3579,6 @@
       "Commission d'Alchimie",
       "Grands Anciens"
     ],
-    "archetypes_en": [
-      "Heal / Sustain",
-      "Revive",
-      "Invigoration"
-    ],
-    "archetypes_fr": [
-      "Heal / Sustain",
-      "Revive",
-      "Invigoration"
-    ],
     "weekly_boss": {
       "material_id": "110502",
       "material_name_en": "Guardian's Lament",
@@ -4050,8 +3670,7 @@
       {
         "id": "hunt",
         "name_en": "The Hunt",
-        "name_fr": "La Chasse",
-        "icon": "assets/paths/rogue.png"
+        "name_fr": "La Chasse"
       }
     ],
     "release_version": "1.4",
@@ -4068,18 +3687,6 @@
       "Cangcheng de Xianzhou (anciennement)",
       "Chevaliers des Nuages (anciennement)",
       "Quintet de Haut-Nuage (anciennement)"
-    ],
-    "archetypes_en": [
-      "Transcendence / Spectral State",
-      "Action Advance",
-      "Crit Hypercarry",
-      "Freeze"
-    ],
-    "archetypes_fr": [
-      "Transcendence / Spectral State",
-      "Action Advance",
-      "Crit Hypercarry",
-      "Freeze"
     ],
     "weekly_boss": {
       "material_id": "110503",
@@ -4193,16 +3800,6 @@
       "Les Sans-Noms",
       "Astral Express"
     ],
-    "archetypes_en": [
-      "3-SP Enhanced Basic",
-      "Crit Hypercarry",
-      "Imaginary Break"
-    ],
-    "archetypes_fr": [
-      "3-SP Enhanced Basic",
-      "Crit Hypercarry",
-      "Imaginary Break"
-    ],
     "weekly_boss": {
       "material_id": "110503",
       "material_name_en": "Regret of Infinite Ochema",
@@ -4294,8 +3891,7 @@
       {
         "id": "destruction",
         "name_en": "Destruction",
-        "name_fr": "La Destruction",
-        "icon": "assets/paths/warrior.png"
+        "name_fr": "La Destruction"
       }
     ],
     "release_version": "1.6",
@@ -4308,18 +3904,6 @@
     "factions_fr": [
       "Luofu de Xianzhou",
       "Commission des Dix Seigneurs"
-    ],
-    "archetypes_en": [
-      "Toughness Shred / All-Type",
-      "Follow-up",
-      "Quantum Break",
-      "Karma Stacks"
-    ],
-    "archetypes_fr": [
-      "Toughness Shred / All-Type",
-      "Follow-up",
-      "Quantum Break",
-      "Karma Stacks"
     ],
     "weekly_boss": {
       "material_id": "110504",
@@ -4412,8 +3996,7 @@
       {
         "id": "harmony",
         "name_en": "Harmony",
-        "name_fr": "L'Harmonie",
-        "icon": "assets/paths/shaman.png"
+        "name_fr": "L'Harmonie"
       }
     ],
     "release_version": "1.5",
@@ -4426,18 +4009,6 @@
     "factions_fr": [
       "Luofu de Xianzhou",
       "Commission des Dix Seigneurs"
-    ],
-    "archetypes_en": [
-      "Skill Point Recovery",
-      "Speed Buff",
-      "ATK Buff",
-      "Physical Vulnerability"
-    ],
-    "archetypes_fr": [
-      "Skill Point Recovery",
-      "Speed Buff",
-      "ATK Buff",
-      "Physical Vulnerability"
     ],
     "weekly_boss": {
       "material_id": "110503",
@@ -4530,8 +4101,7 @@
       {
         "id": "abundance",
         "name_en": "Abundance",
-        "name_fr": "L'Abondance",
-        "icon": "assets/paths/priest.png"
+        "name_fr": "L'Abondance"
       }
     ],
     "release_version": "1.5",
@@ -4546,18 +4116,6 @@
       "Luofu de Xianzhou",
       "Commission des Dix Seigneurs",
       "Escouade de Chasse aux Fantômes"
-    ],
-    "archetypes_en": [
-      "Team Energy Recharge",
-      "ATK Buff",
-      "Turn-Start Cleanse",
-      "Heal / Sustain"
-    ],
-    "archetypes_fr": [
-      "Team Energy Recharge",
-      "ATK Buff",
-      "Turn-Start Cleanse",
-      "Heal / Sustain"
     ],
     "weekly_boss": {
       "material_id": "110503",
@@ -4650,8 +4208,7 @@
       {
         "id": "nihility",
         "name_en": "Nihility",
-        "name_fr": "La Nihilité",
-        "icon": "assets/paths/warlock.png"
+        "name_fr": "La Nihilité"
       }
     ],
     "release_version": "2.4",
@@ -4664,18 +4221,6 @@
     "factions_fr": [
       "Yaoqing de Xianzhou",
       "Commission d'Alchimie"
-    ],
-    "archetypes_en": [
-      "Ashen Roast / Vulnerability",
-      "Ultimate DMG Debuff",
-      "DoT / Burn",
-      "AoE Field"
-    ],
-    "archetypes_fr": [
-      "Ashen Roast / Vulnerability",
-      "Ultimate DMG Debuff",
-      "DoT / Burn",
-      "AoE Field"
     ],
     "weekly_boss": {
       "material_id": "110503",
@@ -4768,14 +4313,12 @@
       {
         "id": "hunt",
         "name_en": "The Hunt",
-        "name_fr": "La Chasse",
-        "icon": "assets/paths/rogue.png"
+        "name_fr": "La Chasse"
       },
       {
         "id": "abundance",
         "name_en": "Abundance",
-        "name_fr": "L'Abondance",
-        "icon": "assets/paths/priest.png"
+        "name_fr": "L'Abondance"
       }
     ],
     "release_version": "2.5",
@@ -4796,18 +4339,6 @@
       "Chevaliers de Verdoyaume",
       "Général Céleste",
       "Meute de l'Éclipse (anciennement, esclave)"
-    ],
-    "archetypes_en": [
-      "Flying Aureus / Ultimate Stacking",
-      "Follow-up",
-      "Speed / Crit Hypercarry",
-      "Weakness Bypass"
-    ],
-    "archetypes_fr": [
-      "Flying Aureus / Ultimate Stacking",
-      "Follow-up",
-      "Speed / Crit Hypercarry",
-      "Weakness Bypass"
     ],
     "weekly_boss": {
       "material_id": "110503",
@@ -4900,8 +4431,7 @@
       {
         "id": "hunt",
         "name_en": "The Hunt",
-        "name_fr": "La Chasse",
-        "icon": "assets/paths/rogue.png"
+        "name_fr": "La Chasse"
       }
     ],
     "release_version": "2.4",
@@ -4918,16 +4448,6 @@
       "Chevaliers des Nuages",
       "Octuor du Disque Enflammé",
       "Commission de l'Artisanat (apprentie)"
-    ],
-    "archetypes_en": [
-      "Parry / Counter / Follow-up",
-      "Crit Hypercarry",
-      "Taunt / Cull Slash"
-    ],
-    "archetypes_fr": [
-      "Parry / Counter / Follow-up",
-      "Crit Hypercarry",
-      "Taunt / Cull Slash"
     ],
     "weekly_boss": {
       "material_id": "110503",
@@ -5020,8 +4540,7 @@
       {
         "id": "hunt",
         "name_en": "The Hunt",
-        "name_fr": "La Chasse",
-        "icon": "assets/paths/rogue.png"
+        "name_fr": "La Chasse"
       },
       {
         "id": "permanence",
@@ -5041,18 +4560,6 @@
       "Luofu de Xianzhou",
       "Six Auriges",
       "Commission d'Alchimie (tête)"
-    ],
-    "archetypes_en": [
-      "Fuxia Summon / Follow-up Cleanse",
-      "Break Vulnerability",
-      "Super Break Synergy",
-      "Heal / Sustain"
-    ],
-    "archetypes_fr": [
-      "Fuxia Summon / Follow-up Cleanse",
-      "Break Vulnerability",
-      "Super Break Synergy",
-      "Heal / Sustain"
     ],
     "weekly_boss": {
       "material_id": "110506",
@@ -5145,8 +4652,7 @@
       {
         "id": "hunt",
         "name_en": "The Hunt",
-        "name_fr": "La Chasse",
-        "icon": "assets/paths/rogue.png"
+        "name_fr": "La Chasse"
       }
     ],
     "release_version": "2.5",
@@ -5161,18 +4667,6 @@
       "Yaoqing de Xianzhou",
       "Garde de l'Ombre",
       "Disciples de Sanctus Medicus (anciennement)"
-    ],
-    "archetypes_en": [
-      "Prey Mark / Departure State",
-      "Follow-up",
-      "Crit DMG Buff",
-      "Single Target Burst"
-    ],
-    "archetypes_fr": [
-      "Prey Mark / Departure State",
-      "Follow-up",
-      "Crit DMG Buff",
-      "Single Target Burst"
     ],
     "weekly_boss": {
       "material_id": "110506",
@@ -5270,8 +4764,7 @@
       {
         "id": "remembrance",
         "name_en": "Remembrance",
-        "name_fr": "Le Souvenir",
-        "icon": "assets/paths/memory.png"
+        "name_fr": "Le Souvenir"
       },
       {
         "id": "enigmata",
@@ -5299,18 +4792,6 @@
       "Héritiers chryséens (demi-dieu)",
       "Enfants purs de l'Anāsrava",
       "Titans"
-    ],
-    "archetypes_en": [
-      "Master Bonding / Follow-up",
-      "Crit DMG Buff",
-      "Speed Buff",
-      "Break Charge"
-    ],
-    "archetypes_fr": [
-      "Master Bonding / Follow-up",
-      "Crit DMG Buff",
-      "Speed Buff",
-      "Break Charge"
     ],
     "weekly_boss": {
       "material_id": "110501",
@@ -5403,8 +4884,7 @@
       {
         "id": "destruction",
         "name_en": "Destruction",
-        "name_fr": "La Destruction",
-        "icon": "assets/paths/warrior.png"
+        "name_fr": "La Destruction"
       }
     ],
     "release_version": "2.7",
@@ -5419,18 +4899,6 @@
       "Luofu de Xianzhou",
       "Commission du Ciel (anciennement)",
       "Guilde des Flammes Sifflantes (anciennement, représentante en chef)"
-    ],
-    "archetypes_en": [
-      "Cloudflame / Super Break",
-      "DEF Shred",
-      "Weakness Break Extension",
-      "DoT / Fire"
-    ],
-    "archetypes_fr": [
-      "Cloudflame / Super Break",
-      "DEF Shred",
-      "Weakness Break Extension",
-      "DoT / Fire"
     ],
     "weekly_boss": {
       "material_id": "110503",
@@ -5539,18 +5007,6 @@
       "Bloodhound Family",
       "History Fictionologists"
     ],
-    "archetypes_en": [
-      "Break Effect Scaling",
-      "Besotted / Break DMG Vulnerability",
-      "Action Advance on Ult",
-      "Heal / Sustain"
-    ],
-    "archetypes_fr": [
-      "Break Effect Scaling",
-      "Besotted / Break DMG Vulnerability",
-      "Action Advance on Ult",
-      "Heal / Sustain"
-    ],
     "weekly_boss": {
       "material_id": "110504",
       "material_name_en": "Past Evils of the Borehole Planet Disaster",
@@ -5654,16 +5110,6 @@
     "factions_fr": [
       "Knights of Beauty"
     ],
-    "archetypes_en": [
-      "Double Ultimate / Energy Burst",
-      "AoE / Erudition",
-      "Crit Burst"
-    ],
-    "archetypes_fr": [
-      "Double Ultimate / Energy Burst",
-      "AoE / Erudition",
-      "Crit Burst"
-    ],
     "weekly_boss": {
       "material_id": "110503",
       "material_name_en": "Regret of Infinite Ochema",
@@ -5755,8 +5201,7 @@
       {
         "id": "erudition",
         "name_en": "Erudition",
-        "name_fr": "L'Érudition",
-        "icon": "assets/paths/mage.png"
+        "name_fr": "L'Érudition"
       }
     ],
     "release_version": "1.6",
@@ -5769,18 +5214,6 @@
     "factions_fr": [
       "Herta Space Station",
       "Genius Society"
-    ],
-    "archetypes_en": [
-      "Weakness Break Efficiency",
-      "All-Type RES PEN",
-      "Speed Buff",
-      "Break Re-trigger / Delay"
-    ],
-    "archetypes_fr": [
-      "Weakness Break Efficiency",
-      "All-Type RES PEN",
-      "Speed Buff",
-      "Break Re-trigger / Delay"
     ],
     "weekly_boss": {
       "material_id": "110504",
@@ -5873,8 +5306,7 @@
       {
         "id": "preservation",
         "name_en": "Preservation",
-        "name_fr": "La Préservation",
-        "icon": "assets/paths/knight.png"
+        "name_fr": "La Préservation"
       }
     ],
     "release_version": "2.1",
@@ -5889,18 +5321,6 @@
       "Interastral Peace Corporation",
       "Strategic Investment Department",
       "Ten Stonehearts"
-    ],
-    "archetypes_en": [
-      "Stackable Team Shield",
-      "Follow-up / Blind Bet",
-      "Crit DMG Debuff",
-      "Effect RES Buff"
-    ],
-    "archetypes_fr": [
-      "Stackable Team Shield",
-      "Follow-up / Blind Bet",
-      "Crit DMG Debuff",
-      "Effect RES Buff"
     ],
     "weekly_boss": {
       "material_id": "110504",
@@ -5993,8 +5413,7 @@
       {
         "id": "erudition",
         "name_en": "Erudition",
-        "name_fr": "L'Érudition",
-        "icon": "assets/paths/mage.png"
+        "name_fr": "L'Érudition"
       }
     ],
     "release_version": "1.6",
@@ -6009,18 +5428,6 @@
       "Intelligentsia Guild",
       "Council of Mundanites",
       "University of Veritas Prime"
-    ],
-    "archetypes_en": [
-      "Follow-up",
-      "Debuff Synergy",
-      "Chalk Throw",
-      "Crit Hypercarry"
-    ],
-    "archetypes_fr": [
-      "Follow-up",
-      "Debuff Synergy",
-      "Chalk Throw",
-      "Crit Hypercarry"
     ],
     "weekly_boss": {
       "material_id": "110504",
@@ -6113,14 +5520,12 @@
       {
         "id": "harmony",
         "name_en": "Harmony",
-        "name_fr": "L'Harmonie",
-        "icon": "assets/paths/shaman.png"
+        "name_fr": "L'Harmonie"
       },
       {
         "id": "elation",
         "name_en": "Elation",
-        "name_fr": "L'Allégresse",
-        "icon": "assets/paths/elation.png"
+        "name_fr": "L'Allégresse"
       }
     ],
     "release_version": "2.0",
@@ -6131,18 +5536,6 @@
     ],
     "factions_fr": [
       "Masked Fools"
-    ],
-    "archetypes_en": [
-      "Skill Point Expansion / Recovery",
-      "Action Advance 50%",
-      "Crit DMG Buff",
-      "ATK Buff"
-    ],
-    "archetypes_fr": [
-      "Skill Point Expansion / Recovery",
-      "Action Advance 50%",
-      "Crit DMG Buff",
-      "ATK Buff"
     ],
     "weekly_boss": {
       "material_id": "110504",
@@ -6235,8 +5628,7 @@
       {
         "id": "remembrance",
         "name_en": "Remembrance",
-        "name_fr": "Le Souvenir",
-        "icon": "assets/paths/memory.png"
+        "name_fr": "Le Souvenir"
       }
     ],
     "release_version": "2.0",
@@ -6247,16 +5639,6 @@
     ],
     "factions_fr": [
       "Garden of Recollection"
-    ],
-    "archetypes_en": [
-      "DoT / Arcana",
-      "DEF Shred",
-      "DoT Stacking / Epiphany"
-    ],
-    "archetypes_fr": [
-      "DoT / Arcana",
-      "DEF Shred",
-      "DoT Stacking / Epiphany"
     ],
     "weekly_boss": {
       "material_id": "110504",
@@ -6349,8 +5731,7 @@
       {
         "id": "nihility",
         "name_en": "Nihility",
-        "name_fr": "La Nihilité",
-        "icon": "assets/paths/warlock.png"
+        "name_fr": "La Nihilité"
       }
     ],
     "release_version": "2.1",
@@ -6363,18 +5744,6 @@
     "factions_fr": [
       "Self-Annihilators",
       "Galaxy Rangers"
-    ],
-    "archetypes_en": [
-      "Slashed Dream / Non-Energy Ultimate",
-      "All-Type RES PEN",
-      "Debuff Synergy",
-      "Crit Hypercarry"
-    ],
-    "archetypes_fr": [
-      "Slashed Dream / Non-Energy Ultimate",
-      "All-Type RES PEN",
-      "Debuff Synergy",
-      "Crit Hypercarry"
     ],
     "weekly_boss": {
       "material_id": "110504",
@@ -6467,8 +5836,7 @@
       {
         "id": "harmony",
         "name_en": "Harmony",
-        "name_fr": "L'Harmonie",
-        "icon": "assets/paths/shaman.png"
+        "name_fr": "L'Harmonie"
       }
     ],
     "release_version": "2.2",
@@ -6483,18 +5851,6 @@
       "Penacony",
       "The Family",
       "Oak Family"
-    ],
-    "archetypes_en": [
-      "Concerto / Team Action Advance 100%",
-      "ATK Buff",
-      "Additional Physical DMG",
-      "Follow-up Synergy"
-    ],
-    "archetypes_fr": [
-      "Concerto / Team Action Advance 100%",
-      "ATK Buff",
-      "Additional Physical DMG",
-      "Follow-up Synergy"
     ],
     "weekly_boss": {
       "material_id": "110504",
@@ -6606,18 +5962,6 @@
       "Stellaron Hunters",
       "Iron Cavalry"
     ],
-    "archetypes_en": [
-      "Super Break",
-      "Complete Combustion / Speed 60",
-      "Weakness Implant (Fire)",
-      "Self-HP Consume / Heal"
-    ],
-    "archetypes_fr": [
-      "Super Break",
-      "Complete Combustion / Speed 60",
-      "Weakness Implant (Fire)",
-      "Self-HP Consume / Heal"
-    ],
     "weekly_boss": {
       "material_id": "110505",
       "material_name_en": "Lost Echo of the Shared Wish",
@@ -6723,16 +6067,6 @@
       "Penacony",
       "The Nameless"
     ],
-    "archetypes_en": [
-      "Freeze",
-      "Bounce Hits",
-      "Action Delay"
-    ],
-    "archetypes_fr": [
-      "Freeze",
-      "Bounce Hits",
-      "Action Delay"
-    ],
     "weekly_boss": {
       "material_id": "110504",
       "material_name_en": "Past Evils of the Borehole Planet Disaster",
@@ -6824,8 +6158,7 @@
       {
         "id": "harmony",
         "name_en": "Harmony",
-        "name_fr": "L'Harmonie",
-        "icon": "assets/paths/shaman.png"
+        "name_fr": "L'Harmonie"
       },
       {
         "id": "order",
@@ -6856,18 +6189,6 @@
       "Penacony",
       "The Family",
       "Oak Family"
-    ],
-    "archetypes_en": [
-      "Action Advance 100%",
-      "Energy Recharge",
-      "Crit DMG Buff",
-      "Summon Support"
-    ],
-    "archetypes_fr": [
-      "Action Advance 100%",
-      "Energy Recharge",
-      "Crit DMG Buff",
-      "Summon Support"
     ],
     "weekly_boss": {
       "material_id": "110505",
@@ -6960,8 +6281,7 @@
       {
         "id": "preservation",
         "name_en": "Preservation",
-        "name_fr": "La Préservation",
-        "icon": "assets/paths/knight.png"
+        "name_fr": "La Préservation"
       }
     ],
     "release_version": "2.3",
@@ -6976,18 +6296,6 @@
       "Interastral Peace Corporation",
       "Strategic Investment Department",
       "Ten Stonehearts"
-    ],
-    "archetypes_en": [
-      "Follow-up",
-      "Debt Collector Contract",
-      "Speed Buff",
-      "Quantum AoE / Erudition"
-    ],
-    "archetypes_fr": [
-      "Follow-up",
-      "Debt Collector Contract",
-      "Speed Buff",
-      "Quantum AoE / Erudition"
     ],
     "weekly_boss": {
       "material_id": "110505",
@@ -7080,8 +6388,7 @@
       {
         "id": "hunt",
         "name_en": "The Hunt",
-        "name_fr": "La Chasse",
-        "icon": "assets/paths/rogue.png"
+        "name_fr": "La Chasse"
       }
     ],
     "release_version": "2.2",
@@ -7092,18 +6399,6 @@
     ],
     "factions_fr": [
       "Galaxy Rangers"
-    ],
-    "archetypes_en": [
-      "Physical Break / Pocket Trickshot",
-      "Weakness Implant (Physical)",
-      "Standoff Duel",
-      "Break / Super Break"
-    ],
-    "archetypes_fr": [
-      "Physical Break / Pocket Trickshot",
-      "Weakness Implant (Physical)",
-      "Standoff Duel",
-      "Break / Super Break"
     ],
     "weekly_boss": {
       "material_id": "110505",
@@ -7196,8 +6491,7 @@
       {
         "id": "hunt",
         "name_en": "The Hunt",
-        "name_fr": "La Chasse",
-        "icon": "assets/paths/rogue.png"
+        "name_fr": "La Chasse"
       }
     ],
     "release_version": "2.6",
@@ -7208,18 +6502,6 @@
     ],
     "factions_fr": [
       "Galaxy Rangers"
-    ],
-    "archetypes_en": [
-      "Super Break",
-      "Color Seal Ninjutsu",
-      "Break / AoE Bounce",
-      "Weakness Bypass"
-    ],
-    "archetypes_fr": [
-      "Super Break",
-      "Color Seal Ninjutsu",
-      "Break / AoE Bounce",
-      "Weakness Bypass"
     ],
     "weekly_boss": {
       "material_id": "110505",
@@ -7312,14 +6594,12 @@
       {
         "id": "warrior",
         "name_en": "Destruction",
-        "name_fr": "La Destruction",
-        "icon": "assets/paths/warrior.png"
+        "name_fr": "La Destruction"
       },
       {
         "id": "memory",
         "name_en": "Remembrance",
-        "name_fr": "Le Souvenir",
-        "icon": "assets/paths/memory.png"
+        "name_fr": "Le Souvenir"
       }
     ],
     "release_version": "3.8",
@@ -7336,14 +6616,6 @@
       "Annihilation Gang",
       "Ever-Flame Mansion",
       "Garden of Recollection (anciennement)"
-    ],
-    "archetypes_en": [
-      "DoT / Nihility",
-      "Debuff"
-    ],
-    "archetypes_fr": [
-      "DoT / Nihility",
-      "Debuff"
     ],
     "weekly_boss": {
       "material_id": "110508",
@@ -7420,8 +6692,7 @@
       {
         "id": "erudition",
         "name_en": "Erudition",
-        "name_fr": "L'Érudition",
-        "icon": "assets/paths/mage.png"
+        "name_fr": "L'Érudition"
       }
     ],
     "release_version": "3.0",
@@ -7434,18 +6705,6 @@
     "factions_fr": [
       "Herta Space Station",
       "Genius Society"
-    ],
-    "archetypes_en": [
-      "AoE / Erudition",
-      "Freeze / Ice Burst",
-      "Follow-up",
-      "Crit Hypercarry"
-    ],
-    "archetypes_fr": [
-      "AoE / Erudition",
-      "Freeze / Ice Burst",
-      "Follow-up",
-      "Crit Hypercarry"
     ],
     "weekly_boss": {
       "material_id": "110506",
@@ -7538,8 +6797,7 @@
       {
         "id": "destruction",
         "name_en": "Destruction",
-        "name_fr": "La Destruction",
-        "icon": "assets/paths/warrior.png"
+        "name_fr": "La Destruction"
       },
       {
         "id": "beauty",
@@ -7561,18 +6819,6 @@
       "Chrysos Heirs",
       "Okhema",
       "Titans"
-    ],
-    "archetypes_en": [
-      "Memosprite Garment Weaver",
-      "Speed Scaling",
-      "Lightning Remembrance",
-      "Crit Hypercarry"
-    ],
-    "archetypes_fr": [
-      "Memosprite Garment Weaver",
-      "Speed Scaling",
-      "Lightning Remembrance",
-      "Crit Hypercarry"
     ],
     "weekly_boss": {
       "material_id": "110506",
@@ -7665,14 +6911,12 @@
       {
         "id": "destruction",
         "name_en": "Destruction",
-        "name_fr": "La Destruction",
-        "icon": "assets/paths/warrior.png"
+        "name_fr": "La Destruction"
       },
       {
         "id": "harmony",
         "name_en": "Harmony",
-        "name_fr": "L'Harmonie",
-        "icon": "assets/paths/shaman.png"
+        "name_fr": "L'Harmonie"
       }
     ],
     "release_version": "3.1",
@@ -7691,16 +6935,6 @@
       "Janusopolis",
       "Okhema",
       "Titans"
-    ],
-    "archetypes_en": [
-      "Team DMG Amplification",
-      "Action Advance",
-      "Quantum Buff"
-    ],
-    "archetypes_fr": [
-      "Team DMG Amplification",
-      "Action Advance",
-      "Quantum Buff"
     ],
     "weekly_boss": {
       "material_id": "110505",
@@ -7793,14 +7027,12 @@
       {
         "id": "destruction",
         "name_en": "Destruction",
-        "name_fr": "La Destruction",
-        "icon": "assets/paths/warrior.png"
+        "name_fr": "La Destruction"
       },
       {
         "id": "hunt",
         "name_en": "The Hunt",
-        "name_fr": "La Chasse",
-        "icon": "assets/paths/rogue.png"
+        "name_fr": "La Chasse"
       }
     ],
     "release_version": "3.1",
@@ -7823,16 +7055,6 @@
       "Kremnoan Dynasty",
       "Okhema",
       "Titans"
-    ],
-    "archetypes_en": [
-      "HP Consume",
-      "Crit Hypercarry",
-      "Imaginary Blast"
-    ],
-    "archetypes_fr": [
-      "HP Consume",
-      "Crit Hypercarry",
-      "Imaginary Blast"
     ],
     "weekly_boss": {
       "material_id": "110506",
@@ -7925,14 +7147,12 @@
       {
         "id": "destruction",
         "name_en": "Destruction",
-        "name_fr": "La Destruction",
-        "icon": "assets/paths/warrior.png"
+        "name_fr": "La Destruction"
       },
       {
         "id": "erudition",
         "name_en": "Erudition",
-        "name_fr": "L'Érudition",
-        "icon": "assets/paths/mage.png"
+        "name_fr": "L'Érudition"
       }
     ],
     "release_version": "3.2",
@@ -7951,16 +7171,6 @@
       "Nousporists",
       "Venerationists (formerly)",
       "Seven Sages"
-    ],
-    "archetypes_en": [
-      "AoE / Erudition",
-      "Wind Shear",
-      "Energy Stacking"
-    ],
-    "archetypes_fr": [
-      "AoE / Erudition",
-      "Wind Shear",
-      "Energy Stacking"
     ],
     "weekly_boss": {
       "material_id": "110505",
@@ -8053,14 +7263,12 @@
       {
         "id": "destruction",
         "name_en": "Destruction",
-        "name_fr": "La Destruction",
-        "icon": "assets/paths/warrior.png"
+        "name_fr": "La Destruction"
       },
       {
         "id": "elation",
         "name_en": "Elation",
-        "name_fr": "L'Allégresse",
-        "icon": "assets/paths/elation.png"
+        "name_fr": "L'Allégresse"
       }
     ],
     "release_version": "3.3",
@@ -8077,16 +7285,6 @@
       "Dolos",
       "Okhema",
       "Three Hundred Rogues of Dolos"
-    ],
-    "archetypes_en": [
-      "Debuff",
-      "Quantum Penetration",
-      "Vulnerability"
-    ],
-    "archetypes_fr": [
-      "Debuff",
-      "Quantum Penetration",
-      "Vulnerability"
     ],
     "weekly_boss": {
       "material_id": "110507",
@@ -8179,8 +7377,7 @@
       {
         "id": "destruction",
         "name_en": "Destruction",
-        "name_fr": "La Destruction",
-        "icon": "assets/paths/warrior.png"
+        "name_fr": "La Destruction"
       },
       {
         "id": "equilibrium",
@@ -8206,16 +7403,6 @@
       "Okhema",
       "Grove of Epiphany",
       "Nousporists"
-    ],
-    "archetypes_en": [
-      "Summon / Memosprite",
-      "Quantum Remembrance",
-      "Crit Hypercarry"
-    ],
-    "archetypes_fr": [
-      "Summon / Memosprite",
-      "Quantum Remembrance",
-      "Crit Hypercarry"
     ],
     "weekly_boss": {
       "material_id": "110506",
@@ -8308,8 +7495,7 @@
       {
         "id": "destruction",
         "name_en": "Destruction",
-        "name_fr": "La Destruction",
-        "icon": "assets/paths/warrior.png"
+        "name_fr": "La Destruction"
       },
       {
         "id": "trailblaze",
@@ -8333,16 +7519,6 @@
       "Okhema",
       "Grove of Epiphany",
       "Nousporists"
-    ],
-    "archetypes_en": [
-      "Physical Burst",
-      "Crit Hypercarry",
-      "Shield Break"
-    ],
-    "archetypes_fr": [
-      "Physical Burst",
-      "Crit Hypercarry",
-      "Shield Break"
     ],
     "weekly_boss": {
       "material_id": "110507",
@@ -8435,14 +7611,12 @@
       {
         "id": "destruction",
         "name_en": "Destruction",
-        "name_fr": "La Destruction",
-        "icon": "assets/paths/warrior.png"
+        "name_fr": "La Destruction"
       },
       {
         "id": "preservation",
         "name_en": "Preservation",
-        "name_fr": "La Préservation",
-        "icon": "assets/paths/knight.png"
+        "name_fr": "La Préservation"
       }
     ],
     "release_version": "3.4",
@@ -8461,14 +7635,6 @@
       "Grove of Epiphany",
       "Nousporists",
       "Okhema"
-    ],
-    "archetypes_en": [
-      "Summon / Memosprite",
-      "Wind Remembrance"
-    ],
-    "archetypes_fr": [
-      "Summon / Memosprite",
-      "Wind Remembrance"
     ],
     "weekly_boss": {
       "material_id": "110505",
@@ -8561,14 +7727,12 @@
       {
         "id": "destruction",
         "name_en": "Destruction",
-        "name_fr": "La Destruction",
-        "icon": "assets/paths/warrior.png"
+        "name_fr": "La Destruction"
       },
       {
         "id": "nihility",
         "name_en": "Nihility",
-        "name_fr": "La Nihilité",
-        "icon": "assets/paths/warlock.png"
+        "name_fr": "La Nihilité"
       }
     ],
     "release_version": "3.4",
@@ -8587,14 +7751,6 @@
       "Styxia",
       "Okhema",
       "The Five Gourmet Overlords"
-    ],
-    "archetypes_en": [
-      "Physical DoT / Bleed",
-      "Debuff"
-    ],
-    "archetypes_fr": [
-      "Physical DoT / Bleed",
-      "Debuff"
     ],
     "weekly_boss": {
       "material_id": "110507",
@@ -8687,8 +7843,7 @@
       {
         "id": "destruction",
         "name_en": "Destruction",
-        "name_fr": "La Destruction",
-        "icon": "assets/paths/warrior.png"
+        "name_fr": "La Destruction"
       },
       {
         "id": "order",
@@ -8708,14 +7863,6 @@
       "Chrysos Heirs",
       "Okhema",
       "Hyperborea"
-    ],
-    "archetypes_en": [
-      "Wind Buff",
-      "Action Advance"
-    ],
-    "archetypes_fr": [
-      "Wind Buff",
-      "Action Advance"
     ],
     "weekly_boss": {
       "material_id": "110507",
@@ -8808,8 +7955,7 @@
       {
         "id": "remembrance",
         "name_en": "Remembrance",
-        "name_fr": "Le Souvenir",
-        "icon": "assets/paths/memory.png"
+        "name_fr": "Le Souvenir"
       },
       {
         "id": "enigmata",
@@ -8827,14 +7973,6 @@
     "factions_fr": [
       "Chrysos Heirs",
       "Pure Children of Anāsrava"
-    ],
-    "archetypes_en": [
-      "Ice Remembrance",
-      "Freeze / Crit"
-    ],
-    "archetypes_fr": [
-      "Ice Remembrance",
-      "Freeze / Crit"
     ],
     "weekly_boss": {
       "material_id": "110507",
@@ -8948,16 +8086,6 @@
       "Astral Express",
       "The Nameless"
     ],
-    "archetypes_en": [
-      "Physical Preservation",
-      "Shield",
-      "Counter"
-    ],
-    "archetypes_fr": [
-      "Physical Preservation",
-      "Shield",
-      "Counter"
-    ],
     "weekly_boss": {
       "material_id": "110507",
       "material_name_en": "Daythunder Anamnesis",
@@ -9049,14 +8177,12 @@
       {
         "id": "remembrance",
         "name_en": "Remembrance",
-        "name_fr": "Le Souvenir",
-        "icon": "assets/paths/memory.png"
+        "name_fr": "Le Souvenir"
       },
       {
         "id": "destruction",
         "name_en": "Destruction",
-        "name_fr": "La Destruction",
-        "icon": "assets/paths/warrior.png"
+        "name_fr": "La Destruction"
       }
     ],
     "release_version": "3.6",
@@ -9073,16 +8199,6 @@
       "Aedes Elysiae",
       "Janusopolis",
       "Pure Children of Anāsrava"
-    ],
-    "archetypes_en": [
-      "Ice Remembrance",
-      "Memosprite",
-      "Summon"
-    ],
-    "archetypes_fr": [
-      "Ice Remembrance",
-      "Memosprite",
-      "Summon"
     ],
     "weekly_boss": {
       "material_id": "110507",
@@ -9175,8 +8291,7 @@
       {
         "id": "elation",
         "name_en": "Elation",
-        "name_fr": "L'Allégresse",
-        "icon": "assets/paths/elation.png"
+        "name_fr": "L'Allégresse"
       }
     ],
     "release_version": "4.0",
@@ -9187,16 +8302,6 @@
     ],
     "factions_fr": [
       "Masked Fools"
-    ],
-    "archetypes_en": [
-      "Elation Buff",
-      "Follow-up",
-      "ATK Buff"
-    ],
-    "archetypes_fr": [
-      "Elation Buff",
-      "Follow-up",
-      "ATK Buff"
     ],
     "weekly_boss": {
       "material_id": "110508",
@@ -9289,8 +8394,7 @@
       {
         "id": "hunt",
         "name_en": "The Hunt",
-        "name_fr": "La Chasse",
-        "icon": "assets/paths/rogue.png"
+        "name_fr": "La Chasse"
       }
     ],
     "release_version": "4.0",
@@ -9305,16 +8409,6 @@
       "Six Charioteers",
       "Cloud Knights",
       "Arbiter-Generals"
-    ],
-    "archetypes_en": [
-      "Elation Support",
-      "Team Buff",
-      "Physical Boost"
-    ],
-    "archetypes_fr": [
-      "Elation Support",
-      "Team Buff",
-      "Physical Boost"
     ],
     "weekly_boss": {
       "material_id": "110508",
@@ -9407,8 +8501,7 @@
       {
         "id": "hunt",
         "name_en": "The Hunt",
-        "name_fr": "La Chasse",
-        "icon": "assets/paths/rogue.png"
+        "name_fr": "La Chasse"
       },
       {
         "id": "voracity",
@@ -9426,16 +8519,6 @@
     "factions_fr": [
       "Galaxy Rangers",
       "Ashen Detective Agency"
-    ],
-    "archetypes_en": [
-      "Single Target Burst",
-      "Detective / Investigation",
-      "Lightning Hypercarry"
-    ],
-    "archetypes_fr": [
-      "Single Target Burst",
-      "Detective / Investigation",
-      "Lightning Hypercarry"
     ],
     "weekly_boss": {
       "material_id": "110508",
@@ -9528,14 +8611,12 @@
       {
         "id": "abundance",
         "name_en": "Abundance",
-        "name_fr": "L'Abondance",
-        "icon": "assets/paths/priest.png"
+        "name_fr": "L'Abondance"
       },
       {
         "id": "elation",
         "name_en": "Elation",
-        "name_fr": "L'Allégresse",
-        "icon": "assets/paths/elation.png"
+        "name_fr": "L'Allégresse"
       }
     ],
     "release_version": "4.2",
@@ -9546,16 +8627,6 @@
     ],
     "factions_fr": [
       "Elixir Seekers (formerly)"
-    ],
-    "archetypes_en": [
-      "Elation Buff",
-      "Crit DMG Buff",
-      "Physical Hypercarry"
-    ],
-    "archetypes_fr": [
-      "Elation Buff",
-      "Crit DMG Buff",
-      "Physical Hypercarry"
     ],
     "weekly_boss": {
       "material_id": "110508",
@@ -9653,8 +8724,7 @@
       {
         "id": "elation",
         "name_en": "Elation",
-        "name_fr": "L'Allégresse",
-        "icon": "assets/paths/elation.png"
+        "name_fr": "L'Allégresse"
       }
     ],
     "release_version": "4.2",
@@ -9665,16 +8735,6 @@
     ],
     "factions_fr": [
       "Stellaron Hunters"
-    ],
-    "archetypes_en": [
-      "Weakness Implant",
-      "DEF Shred",
-      "Elation Debuff"
-    ],
-    "archetypes_fr": [
-      "Weakness Implant",
-      "DEF Shred",
-      "Elation Debuff"
     ],
     "weekly_boss": {
       "material_id": "110508",
@@ -9772,8 +8832,7 @@
       {
         "id": "abundance",
         "name_en": "Abundance",
-        "name_fr": "L'Abondance",
-        "icon": "assets/paths/priest.png"
+        "name_fr": "L'Abondance"
       }
     ],
     "release_version": "4.3",
@@ -9786,16 +8845,6 @@
     "factions_fr": [
       "Stellaron Hunters",
       "High-Cloud Quintet (formerly)"
-    ],
-    "archetypes_en": [
-      "DoT / Debuff",
-      "Nihility Support",
-      "Fire Vulnerability"
-    ],
-    "archetypes_fr": [
-      "DoT / Debuff",
-      "Nihility Support",
-      "Fire Vulnerability"
     ],
     "weekly_boss": {
       "material_id": "110508",
@@ -9888,8 +8937,7 @@
       {
         "id": "erudition",
         "name_en": "Erudition",
-        "name_fr": "L'Érudition",
-        "icon": "assets/paths/mage.png"
+        "name_fr": "L'Érudition"
       }
     ],
     "release_version": "4.4",
@@ -9902,16 +8950,6 @@
     "factions_fr": [
       "Fate/stay night Collaboration",
       "Tohsaka Family"
-    ],
-    "archetypes_en": [
-      "AoE / Erudition",
-      "Skill Point Synergy",
-      "Joint Attack"
-    ],
-    "archetypes_fr": [
-      "AoE / Erudition",
-      "Skill Point Synergy",
-      "Joint Attack"
     ],
     "weekly_boss": {
       "material_id": "110501",
@@ -10004,8 +9042,7 @@
       {
         "id": "destruction",
         "name_en": "Destruction",
-        "name_fr": "La Destruction",
-        "icon": "assets/paths/warrior.png"
+        "name_fr": "La Destruction"
       }
     ],
     "release_version": "4.4",
@@ -10016,16 +9053,6 @@
     ],
     "factions_fr": [
       "Fate/stay night Collaboration"
-    ],
-    "archetypes_en": [
-      "Physical Burst",
-      "Crit Hypercarry",
-      "Destruction"
-    ],
-    "archetypes_fr": [
-      "Physical Burst",
-      "Crit Hypercarry",
-      "Destruction"
     ],
     "weekly_boss": {
       "material_id": "110502",
@@ -10136,16 +9163,6 @@
       "Graphia Family",
       "Dovebrook District"
     ],
-    "archetypes_en": [
-      "Mecha Summon",
-      "AoE / Erudition",
-      "Fire Hypercarry"
-    ],
-    "archetypes_fr": [
-      "Mecha Summon",
-      "AoE / Erudition",
-      "Fire Hypercarry"
-    ],
     "weekly_boss": {
       "material_id": "110508",
       "material_name_en": "Vanquished Flow's Reticence",
@@ -10237,8 +9254,7 @@
       {
         "id": "shaman",
         "name_en": "Harmony",
-        "name_fr": "L'Harmonie",
-        "icon": "assets/paths/shaman.png"
+        "name_fr": "L'Harmonie"
       }
     ],
     "release_version": "4.5",
@@ -10253,14 +9269,6 @@
       "Penacony",
       "The Family",
       "Oak Family"
-    ],
-    "archetypes_en": [
-      "Harmony Support",
-      "Team Buff"
-    ],
-    "archetypes_fr": [
-      "Harmony Support",
-      "Team Buff"
     ],
     "weekly_boss": {
       "material_id": "110509",
@@ -10337,8 +9345,7 @@
       {
         "id": "knight",
         "name_en": "Preservation",
-        "name_fr": "La Préservation",
-        "icon": "assets/paths/knight.png"
+        "name_fr": "La Préservation"
       }
     ],
     "release_version": "4.5",
@@ -10353,14 +9360,6 @@
       "Interastral Peace Corporation",
       "Strategic Investment Department",
       "Ten Stonehearts"
-    ],
-    "archetypes_en": [
-      "Elation Support",
-      "Team Buff"
-    ],
-    "archetypes_fr": [
-      "Elation Support",
-      "Team Buff"
     ],
     "weekly_boss": {
       "material_id": "110509",
@@ -10453,14 +9452,6 @@
       "Nameless",
       "Stellaron Receptacle"
     ],
-    "archetypes_en": [
-      "Physical Blast",
-      "Crit Hypercarry"
-    ],
-    "archetypes_fr": [
-      "Physical Blast",
-      "Crit Hypercarry"
-    ],
     "weekly_boss": {
       "material_id": "110501",
       "material_name_en": "Destroyer's Final Road",
@@ -10551,16 +9542,6 @@
       "Astral Express",
       "Nameless",
       "Belobog Lance"
-    ],
-    "archetypes_en": [
-      "Team Shield",
-      "Taunt",
-      "Fire Damage Reduction"
-    ],
-    "archetypes_fr": [
-      "Team Shield",
-      "Taunt",
-      "Fire Damage Reduction"
     ],
     "weekly_boss": {
       "material_id": "110501",
@@ -10655,16 +9636,6 @@
       "Clockie Friend",
       "Penacony Hat"
     ],
-    "archetypes_en": [
-      "Super Break Enabler",
-      "Break Effect Team Buff",
-      "Imaginary Break"
-    ],
-    "archetypes_fr": [
-      "Super Break Enabler",
-      "Break Effect Team Buff",
-      "Imaginary Break"
-    ],
     "weekly_boss": {
       "material_id": "110504",
       "material_name_en": "Past Evils of the Borehole Planet Disaster",
@@ -10756,16 +9727,6 @@
       "Nameless",
       "Chrysos Journey"
     ],
-    "archetypes_en": [
-      "Summon / Memosprite (Mem)",
-      "Ice Remembrance",
-      "Crit Buff"
-    ],
-    "archetypes_fr": [
-      "Summon / Memosprite (Mem)",
-      "Ice Remembrance",
-      "Crit Buff"
-    ],
     "weekly_boss": {
       "material_id": "110506",
       "material_name_en": "Auspice Sliver",
@@ -10856,16 +9817,6 @@
       "Astral Express",
       "Nameless",
       "Emanator of Elation"
-    ],
-    "archetypes_en": [
-      "Elation Support",
-      "Team Buff",
-      "Lightning Damage"
-    ],
-    "archetypes_fr": [
-      "Elation Support",
-      "Team Buff",
-      "Lightning Damage"
     ],
     "weekly_boss": {
       "material_id": "110508",

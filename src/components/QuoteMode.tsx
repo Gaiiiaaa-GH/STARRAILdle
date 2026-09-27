@@ -4,7 +4,7 @@ import { CharacterSearch } from './CharacterSearch';
 import { NextRoundButton } from './NextRoundButton';
 import { GuessHistoryList } from './GuessHistoryList';
 import { Quote as QuoteIcon, Sparkles } from 'lucide-react';
-import { pickSeeded } from '../utils/gameLogic';
+import { pickSeeded, getParisDateStr } from '../utils/gameLogic';
 
 interface QuoteModeProps {
   characters: Character[];
@@ -38,7 +38,7 @@ export const QuoteMode: React.FC<QuoteModeProps> = ({
   // Stable per round: same quote for the whole daily round (and across
   // reloads, since it's seeded off the date), a fresh pick each practice round.
   const quoteSeed = isDaily
-    ? `${target.id}_daily_${new Date().toISOString().slice(0, 10)}`
+    ? `${target.id}_daily_${getParisDateStr()}`
     : `${target.id}_practice`;
   const quote = useMemo(() => pickSeeded(target.quotes, quoteSeed), [target.quotes, quoteSeed]);
 

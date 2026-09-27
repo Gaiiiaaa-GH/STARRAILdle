@@ -3,22 +3,22 @@
     "factions_en": ["The Cremators", "Annihilation Gang", "Ever-Flame Mansion", "Garden of Recollection (formerly)"],
     "factions_fr": ["The Cremators", "Annihilation Gang", "Ever-Flame Mansion", "Garden of Recollection (anciennement)"],
     "lore_paths": [
-      {"id": "warrior", "name_en": "Destruction", "name_fr": "La Destruction", "icon": "assets/paths/warrior.png"},
-      {"id": "memory", "name_en": "Remembrance", "name_fr": "Le Souvenir", "icon": "assets/paths/memory.png"}
+      {"id": "warrior", "name_en": "Destruction", "name_fr": "La Destruction"},
+      {"id": "memory", "name_en": "Remembrance", "name_fr": "Le Souvenir"}
     ]
   },
   "1512": {
     "factions_en": ["Penacony", "The Family", "Oak Family"],
     "factions_fr": ["Penacony", "The Family", "Oak Family"],
     "lore_paths": [
-      {"id": "shaman", "name_en": "Harmony", "name_fr": "L'Harmonie", "icon": "assets/paths/shaman.png"}
+      {"id": "shaman", "name_en": "Harmony", "name_fr": "L'Harmonie"}
     ]
   },
   "1513": {
     "factions_en": ["Interastral Peace Corporation", "Strategic Investment Department", "Ten Stonehearts"],
     "factions_fr": ["Interastral Peace Corporation", "Strategic Investment Department", "Ten Stonehearts"],
     "lore_paths": [
-      {"id": "knight", "name_en": "Preservation", "name_fr": "La Préservation", "icon": "assets/paths/knight.png"}
+      {"id": "knight", "name_en": "Preservation", "name_fr": "La Préservation"}
     ]
   },
   "1001": {
@@ -49,8 +49,7 @@
       {
         "id": "remembrance",
         "name_en": "Remembrance",
-        "name_fr": "Le Souvenir",
-        "icon": "assets/paths/memory.png"
+        "name_fr": "Le Souvenir"
       },
       {
         "id": "enigmata",
@@ -152,8 +151,7 @@
       {
         "id": "elation",
         "name_en": "Elation",
-        "name_fr": "L'Allégresse",
-        "icon": "assets/paths/elation.png"
+        "name_fr": "L'Allégresse"
       }
     ]
   },
@@ -170,8 +168,7 @@
       {
         "id": "destruction",
         "name_en": "Destruction",
-        "name_fr": "La Destruction",
-        "icon": "assets/paths/warrior.png"
+        "name_fr": "La Destruction"
       }
     ]
   },
@@ -186,8 +183,7 @@
       {
         "id": "harmony",
         "name_en": "Harmony",
-        "name_fr": "L'Harmonie",
-        "icon": "assets/paths/shaman.png"
+        "name_fr": "L'Harmonie"
       }
     ]
   },
@@ -204,8 +200,7 @@
       {
         "id": "erudition",
         "name_en": "Erudition",
-        "name_fr": "L'Érudition",
-        "icon": "assets/paths/mage.png"
+        "name_fr": "L'Érudition"
       }
     ]
   },
@@ -220,8 +215,7 @@
       {
         "id": "destruction",
         "name_en": "Destruction",
-        "name_fr": "La Destruction",
-        "icon": "assets/paths/warrior.png"
+        "name_fr": "La Destruction"
       }
     ]
   },
@@ -236,8 +230,7 @@
       {
         "id": "hunt",
         "name_en": "The Hunt",
-        "name_fr": "La Chasse",
-        "icon": "assets/paths/rogue.png"
+        "name_fr": "La Chasse"
       }
     ]
   },
@@ -256,8 +249,7 @@
       {
         "id": "preservation",
         "name_en": "Preservation",
-        "name_fr": "La Préservation",
-        "icon": "assets/paths/knight.png"
+        "name_fr": "La Préservation"
       }
     ]
   },
@@ -274,8 +266,7 @@
       {
         "id": "hunt",
         "name_en": "The Hunt",
-        "name_fr": "La Chasse",
-        "icon": "assets/paths/rogue.png"
+        "name_fr": "La Chasse"
       }
     ]
   },
@@ -296,8 +287,7 @@
       {
         "id": "preservation",
         "name_en": "Preservation",
-        "name_fr": "La Préservation",
-        "icon": "assets/paths/knight.png"
+        "name_fr": "La Préservation"
       }
     ]
   },
@@ -316,8 +306,7 @@
       {
         "id": "preservation",
         "name_en": "Preservation",
-        "name_fr": "La Préservation",
-        "icon": "assets/paths/knight.png"
+        "name_fr": "La Préservation"
       }
     ]
   },
@@ -336,8 +325,7 @@
       {
         "id": "abundance",
         "name_en": "Abundance",
-        "name_fr": "L'Abondance",
-        "icon": "assets/paths/priest.png"
+        "name_fr": "L'Abondance"
       }
     ]
   },
@@ -356,8 +344,7 @@
       {
         "id": "preservation",
         "name_en": "Preservation",
-        "name_fr": "La Préservation",
-        "icon": "assets/paths/knight.png"
+        "name_fr": "La Préservation"
       }
     ]
   },
@@ -376,8 +363,7 @@
       {
         "id": "destruction",
         "name_en": "Destruction",
-        "name_fr": "La Destruction",
-        "icon": "assets/paths/warrior.png"
+        "name_fr": "La Destruction"
       }
     ]
   },
@@ -396,8 +382,7 @@
       {
         "id": "elation",
         "name_en": "Elation",
-        "name_fr": "L'Allégresse",
-        "icon": "assets/paths/elation.png"
+        "name_fr": "L'Allégresse"
       }
     ]
   },
@@ -414,8 +399,7 @@
       {
         "id": "destruction",
         "name_en": "Destruction",
-        "name_fr": "La Destruction",
-        "icon": "assets/paths/warrior.png"
+        "name_fr": "La Destruction"
       }
     ]
   },
@@ -434,8 +418,7 @@
       {
         "id": "abundance",
         "name_en": "Abundance",
-        "name_fr": "L'Abondance",
-        "icon": "assets/paths/priest.png"
+        "name_fr": "L'Abondance"
       }
     ]
   },
@@ -454,8 +437,7 @@
       {
         "id": "nihility",
         "name_en": "Nihility",
-        "name_fr": "La Nihilité",
-        "icon": "assets/paths/warlock.png"
+        "name_fr": "La Nihilité"
       }
     ]
   },
@@ -474,8 +456,7 @@
       {
         "id": "preservation",
         "name_en": "Preservation",
-        "name_fr": "La Préservation",
-        "icon": "assets/paths/knight.png"
+        "name_fr": "La Préservation"
       }
     ]
   },
@@ -492,8 +473,7 @@
       {
         "id": "erudition",
         "name_en": "Erudition",
-        "name_fr": "L'Érudition",
-        "icon": "assets/paths/mage.png"
+        "name_fr": "L'Érudition"
       }
     ]
   },
@@ -512,8 +492,7 @@
       {
         "id": "harmony",
         "name_en": "Harmony",
-        "name_fr": "L'Harmonie",
-        "icon": "assets/paths/shaman.png"
+        "name_fr": "L'Harmonie"
       }
     ]
   },
@@ -530,8 +509,7 @@
       {
         "id": "abundance",
         "name_en": "Abundance",
-        "name_fr": "L'Abondance",
-        "icon": "assets/paths/priest.png"
+        "name_fr": "L'Abondance"
       }
     ]
   },
@@ -554,8 +532,7 @@
       {
         "id": "hunt",
         "name_en": "The Hunt",
-        "name_fr": "La Chasse",
-        "icon": "assets/paths/rogue.png"
+        "name_fr": "La Chasse"
       }
     ]
   },
@@ -577,8 +554,7 @@
       {
         "id": "abundance",
         "name_en": "Abundance",
-        "name_fr": "L'Abondance",
-        "icon": "assets/paths/priest.png"
+        "name_fr": "L'Abondance"
       }
     ]
   },
@@ -599,8 +575,7 @@
       {
         "id": "hunt",
         "name_en": "The Hunt",
-        "name_fr": "La Chasse",
-        "icon": "assets/paths/rogue.png"
+        "name_fr": "La Chasse"
       }
     ]
   },
@@ -619,8 +594,7 @@
       {
         "id": "hunt",
         "name_en": "The Hunt",
-        "name_fr": "La Chasse",
-        "icon": "assets/paths/rogue.png"
+        "name_fr": "La Chasse"
       }
     ]
   },
@@ -641,14 +615,12 @@
       {
         "id": "hunt",
         "name_en": "The Hunt",
-        "name_fr": "La Chasse",
-        "icon": "assets/paths/rogue.png"
+        "name_fr": "La Chasse"
       },
       {
         "id": "erudition",
         "name_en": "Erudition",
-        "name_fr": "L'Érudition",
-        "icon": "assets/paths/mage.png"
+        "name_fr": "L'Érudition"
       }
     ]
   },
@@ -665,8 +637,7 @@
       {
         "id": "hunt",
         "name_en": "The Hunt",
-        "name_fr": "La Chasse",
-        "icon": "assets/paths/rogue.png"
+        "name_fr": "La Chasse"
       }
     ]
   },
@@ -683,8 +654,7 @@
       {
         "id": "nihility",
         "name_en": "Nihility",
-        "name_fr": "La Nihilité",
-        "icon": "assets/paths/warlock.png"
+        "name_fr": "La Nihilité"
       }
     ]
   },
@@ -724,8 +694,7 @@
       {
         "id": "hunt",
         "name_en": "The Hunt",
-        "name_fr": "La Chasse",
-        "icon": "assets/paths/rogue.png"
+        "name_fr": "La Chasse"
       }
     ]
   },
@@ -766,8 +735,7 @@
       {
         "id": "destruction",
         "name_en": "Destruction",
-        "name_fr": "La Destruction",
-        "icon": "assets/paths/warrior.png"
+        "name_fr": "La Destruction"
       }
     ]
   },
@@ -784,8 +752,7 @@
       {
         "id": "harmony",
         "name_en": "Harmony",
-        "name_fr": "L'Harmonie",
-        "icon": "assets/paths/shaman.png"
+        "name_fr": "L'Harmonie"
       }
     ]
   },
@@ -804,8 +771,7 @@
       {
         "id": "abundance",
         "name_en": "Abundance",
-        "name_fr": "L'Abondance",
-        "icon": "assets/paths/priest.png"
+        "name_fr": "L'Abondance"
       }
     ]
   },
@@ -822,8 +788,7 @@
       {
         "id": "nihility",
         "name_en": "Nihility",
-        "name_fr": "La Nihilité",
-        "icon": "assets/paths/warlock.png"
+        "name_fr": "La Nihilité"
       }
     ]
   },
@@ -848,14 +813,12 @@
       {
         "id": "hunt",
         "name_en": "The Hunt",
-        "name_fr": "La Chasse",
-        "icon": "assets/paths/rogue.png"
+        "name_fr": "La Chasse"
       },
       {
         "id": "abundance",
         "name_en": "Abundance",
-        "name_fr": "L'Abondance",
-        "icon": "assets/paths/priest.png"
+        "name_fr": "L'Abondance"
       }
     ]
   },
@@ -876,8 +839,7 @@
       {
         "id": "hunt",
         "name_en": "The Hunt",
-        "name_fr": "La Chasse",
-        "icon": "assets/paths/rogue.png"
+        "name_fr": "La Chasse"
       }
     ]
   },
@@ -896,8 +858,7 @@
       {
         "id": "hunt",
         "name_en": "The Hunt",
-        "name_fr": "La Chasse",
-        "icon": "assets/paths/rogue.png"
+        "name_fr": "La Chasse"
       },
       {
         "id": "permanence",
@@ -921,8 +882,7 @@
       {
         "id": "hunt",
         "name_en": "The Hunt",
-        "name_fr": "La Chasse",
-        "icon": "assets/paths/rogue.png"
+        "name_fr": "La Chasse"
       }
     ]
   },
@@ -954,8 +914,7 @@
       {
         "id": "remembrance",
         "name_en": "Remembrance",
-        "name_fr": "Le Souvenir",
-        "icon": "assets/paths/memory.png"
+        "name_fr": "Le Souvenir"
       },
       {
         "id": "enigmata",
@@ -979,8 +938,7 @@
       {
         "id": "destruction",
         "name_en": "Destruction",
-        "name_fr": "La Destruction",
-        "icon": "assets/paths/warrior.png"
+        "name_fr": "La Destruction"
       }
     ]
   },
@@ -1031,8 +989,7 @@
       {
         "id": "erudition",
         "name_en": "Erudition",
-        "name_fr": "L'Érudition",
-        "icon": "assets/paths/mage.png"
+        "name_fr": "L'Érudition"
       }
     ]
   },
@@ -1051,8 +1008,7 @@
       {
         "id": "preservation",
         "name_en": "Preservation",
-        "name_fr": "La Préservation",
-        "icon": "assets/paths/knight.png"
+        "name_fr": "La Préservation"
       }
     ]
   },
@@ -1071,8 +1027,7 @@
       {
         "id": "erudition",
         "name_en": "Erudition",
-        "name_fr": "L'Érudition",
-        "icon": "assets/paths/mage.png"
+        "name_fr": "L'Érudition"
       }
     ]
   },
@@ -1087,14 +1042,12 @@
       {
         "id": "harmony",
         "name_en": "Harmony",
-        "name_fr": "L'Harmonie",
-        "icon": "assets/paths/shaman.png"
+        "name_fr": "L'Harmonie"
       },
       {
         "id": "elation",
         "name_en": "Elation",
-        "name_fr": "L'Allégresse",
-        "icon": "assets/paths/elation.png"
+        "name_fr": "L'Allégresse"
       }
     ]
   },
@@ -1109,8 +1062,7 @@
       {
         "id": "remembrance",
         "name_en": "Remembrance",
-        "name_fr": "Le Souvenir",
-        "icon": "assets/paths/memory.png"
+        "name_fr": "Le Souvenir"
       }
     ]
   },
@@ -1127,8 +1079,7 @@
       {
         "id": "nihility",
         "name_en": "Nihility",
-        "name_fr": "La Nihilité",
-        "icon": "assets/paths/warlock.png"
+        "name_fr": "La Nihilité"
       }
     ]
   },
@@ -1147,8 +1098,7 @@
       {
         "id": "harmony",
         "name_en": "Harmony",
-        "name_fr": "L'Harmonie",
-        "icon": "assets/paths/shaman.png"
+        "name_fr": "L'Harmonie"
       }
     ]
   },
@@ -1212,8 +1162,7 @@
       {
         "id": "harmony",
         "name_en": "Harmony",
-        "name_fr": "L'Harmonie",
-        "icon": "assets/paths/shaman.png"
+        "name_fr": "L'Harmonie"
       },
       {
         "id": "order",
@@ -1242,8 +1191,7 @@
       {
         "id": "preservation",
         "name_en": "Preservation",
-        "name_fr": "La Préservation",
-        "icon": "assets/paths/knight.png"
+        "name_fr": "La Préservation"
       }
     ]
   },
@@ -1258,8 +1206,7 @@
       {
         "id": "hunt",
         "name_en": "The Hunt",
-        "name_fr": "La Chasse",
-        "icon": "assets/paths/rogue.png"
+        "name_fr": "La Chasse"
       }
     ]
   },
@@ -1274,8 +1221,7 @@
       {
         "id": "hunt",
         "name_en": "The Hunt",
-        "name_fr": "La Chasse",
-        "icon": "assets/paths/rogue.png"
+        "name_fr": "La Chasse"
       }
     ]
   },
@@ -1292,8 +1238,7 @@
       {
         "id": "erudition",
         "name_en": "Erudition",
-        "name_fr": "L'Érudition",
-        "icon": "assets/paths/mage.png"
+        "name_fr": "L'Érudition"
       }
     ]
   },
@@ -1314,8 +1259,7 @@
       {
         "id": "destruction",
         "name_en": "Destruction",
-        "name_fr": "La Destruction",
-        "icon": "assets/paths/warrior.png"
+        "name_fr": "La Destruction"
       },
       {
         "id": "beauty",
@@ -1343,14 +1287,12 @@
       {
         "id": "destruction",
         "name_en": "Destruction",
-        "name_fr": "La Destruction",
-        "icon": "assets/paths/warrior.png"
+        "name_fr": "La Destruction"
       },
       {
         "id": "harmony",
         "name_en": "Harmony",
-        "name_fr": "L'Harmonie",
-        "icon": "assets/paths/shaman.png"
+        "name_fr": "L'Harmonie"
       }
     ]
   },
@@ -1377,14 +1319,12 @@
       {
         "id": "destruction",
         "name_en": "Destruction",
-        "name_fr": "La Destruction",
-        "icon": "assets/paths/warrior.png"
+        "name_fr": "La Destruction"
       },
       {
         "id": "hunt",
         "name_en": "The Hunt",
-        "name_fr": "La Chasse",
-        "icon": "assets/paths/rogue.png"
+        "name_fr": "La Chasse"
       }
     ]
   },
@@ -1407,14 +1347,12 @@
       {
         "id": "destruction",
         "name_en": "Destruction",
-        "name_fr": "La Destruction",
-        "icon": "assets/paths/warrior.png"
+        "name_fr": "La Destruction"
       },
       {
         "id": "erudition",
         "name_en": "Erudition",
-        "name_fr": "L'Érudition",
-        "icon": "assets/paths/mage.png"
+        "name_fr": "L'Érudition"
       }
     ]
   },
@@ -1435,14 +1373,12 @@
       {
         "id": "destruction",
         "name_en": "Destruction",
-        "name_fr": "La Destruction",
-        "icon": "assets/paths/warrior.png"
+        "name_fr": "La Destruction"
       },
       {
         "id": "elation",
         "name_en": "Elation",
-        "name_fr": "L'Allégresse",
-        "icon": "assets/paths/elation.png"
+        "name_fr": "L'Allégresse"
       }
     ]
   },
@@ -1467,8 +1403,7 @@
       {
         "id": "destruction",
         "name_en": "Destruction",
-        "name_fr": "La Destruction",
-        "icon": "assets/paths/warrior.png"
+        "name_fr": "La Destruction"
       },
       {
         "id": "equilibrium",
@@ -1496,8 +1431,7 @@
       {
         "id": "destruction",
         "name_en": "Destruction",
-        "name_fr": "La Destruction",
-        "icon": "assets/paths/warrior.png"
+        "name_fr": "La Destruction"
       },
       {
         "id": "trailblaze",
@@ -1525,14 +1459,12 @@
       {
         "id": "destruction",
         "name_en": "Destruction",
-        "name_fr": "La Destruction",
-        "icon": "assets/paths/warrior.png"
+        "name_fr": "La Destruction"
       },
       {
         "id": "preservation",
         "name_en": "Preservation",
-        "name_fr": "La Préservation",
-        "icon": "assets/paths/knight.png"
+        "name_fr": "La Préservation"
       }
     ]
   },
@@ -1555,14 +1487,12 @@
       {
         "id": "destruction",
         "name_en": "Destruction",
-        "name_fr": "La Destruction",
-        "icon": "assets/paths/warrior.png"
+        "name_fr": "La Destruction"
       },
       {
         "id": "nihility",
         "name_en": "Nihility",
-        "name_fr": "La Nihilité",
-        "icon": "assets/paths/warlock.png"
+        "name_fr": "La Nihilité"
       }
     ]
   },
@@ -1581,8 +1511,7 @@
       {
         "id": "destruction",
         "name_en": "Destruction",
-        "name_fr": "La Destruction",
-        "icon": "assets/paths/warrior.png"
+        "name_fr": "La Destruction"
       },
       {
         "id": "order",
@@ -1604,8 +1533,7 @@
       {
         "id": "remembrance",
         "name_en": "Remembrance",
-        "name_fr": "Le Souvenir",
-        "icon": "assets/paths/memory.png"
+        "name_fr": "Le Souvenir"
       },
       {
         "id": "enigmata",
@@ -1655,14 +1583,12 @@
       {
         "id": "remembrance",
         "name_en": "Remembrance",
-        "name_fr": "Le Souvenir",
-        "icon": "assets/paths/memory.png"
+        "name_fr": "Le Souvenir"
       },
       {
         "id": "destruction",
         "name_en": "Destruction",
-        "name_fr": "La Destruction",
-        "icon": "assets/paths/warrior.png"
+        "name_fr": "La Destruction"
       }
     ]
   },
@@ -1677,8 +1603,7 @@
       {
         "id": "elation",
         "name_en": "Elation",
-        "name_fr": "L'Allégresse",
-        "icon": "assets/paths/elation.png"
+        "name_fr": "L'Allégresse"
       }
     ]
   },
@@ -1697,8 +1622,7 @@
       {
         "id": "hunt",
         "name_en": "The Hunt",
-        "name_fr": "La Chasse",
-        "icon": "assets/paths/rogue.png"
+        "name_fr": "La Chasse"
       }
     ]
   },
@@ -1715,8 +1639,7 @@
       {
         "id": "hunt",
         "name_en": "The Hunt",
-        "name_fr": "La Chasse",
-        "icon": "assets/paths/rogue.png"
+        "name_fr": "La Chasse"
       },
       {
         "id": "voracity",
@@ -1736,14 +1659,12 @@
       {
         "id": "abundance",
         "name_en": "Abundance",
-        "name_fr": "L'Abondance",
-        "icon": "assets/paths/priest.png"
+        "name_fr": "L'Abondance"
       },
       {
         "id": "elation",
         "name_en": "Elation",
-        "name_fr": "L'Allégresse",
-        "icon": "assets/paths/elation.png"
+        "name_fr": "L'Allégresse"
       }
     ]
   },
@@ -1763,8 +1684,7 @@
       {
         "id": "elation",
         "name_en": "Elation",
-        "name_fr": "L'Allégresse",
-        "icon": "assets/paths/elation.png"
+        "name_fr": "L'Allégresse"
       }
     ]
   },
@@ -1786,8 +1706,7 @@
       {
         "id": "abundance",
         "name_en": "Abundance",
-        "name_fr": "L'Abondance",
-        "icon": "assets/paths/priest.png"
+        "name_fr": "L'Abondance"
       }
     ]
   },
@@ -1804,8 +1723,7 @@
       {
         "id": "erudition",
         "name_en": "Erudition",
-        "name_fr": "L'Érudition",
-        "icon": "assets/paths/mage.png"
+        "name_fr": "L'Érudition"
       }
     ]
   },
@@ -1820,8 +1738,7 @@
       {
         "id": "destruction",
         "name_en": "Destruction",
-        "name_fr": "La Destruction",
-        "icon": "assets/paths/warrior.png"
+        "name_fr": "La Destruction"
       }
     ]
   },

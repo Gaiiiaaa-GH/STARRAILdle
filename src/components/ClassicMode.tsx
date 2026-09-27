@@ -5,7 +5,6 @@ import { NextRoundButton } from './NextRoundButton';
 
 interface ClassicModeProps {
   characters: Character[];
-  target: Character;
   guesses: ComparisonResult[];
   onMakeGuess: (character: Character) => void;
   hasWon: boolean;

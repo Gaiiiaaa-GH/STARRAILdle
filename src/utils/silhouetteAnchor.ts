@@ -50,12 +50,17 @@ export function getSilhouetteAnchor(
   imgSrc: string,
   initialScale: number,
   seed: string,
-  mode: AnchorMode = 'opacity'
+  mode: AnchorMode = 'opacity',
+  // Portrait cutouts fade to transparent at chest level, and that fade edge
+  // scores well against the opacity target -- landing the very first zoomed
+  // crop on a strip of collar/shoulder fabric that's unguessable. Restricting
+  // to the top grid row keeps the crop on the head instead.
+  topOnly = false
 ): Promise<Anchor> {
-  const key = `${imgSrc}@${initialScale}@${seed}@${mode}`;
+  const key = `${imgSrc}@${initialScale}@${seed}@${mode}@${topOnly}`;
   let promise = cache.get(key);
   if (!promise) {
-    promise = computeAnchor(imgSrc, initialScale, seed, mode);
+    promise = computeAnchor(imgSrc, initialScale, seed, mode, topOnly);
     cache.set(key, promise);
   }
   return promise;
@@ -123,7 +128,7 @@ function makeScorer(data: Uint8ClampedArray, window: number, mode: AnchorMode) {
   return { score, threshold };
 }
 
-async function computeAnchor(imgSrc: string, initialScale: number, seed: string, mode: AnchorMode): Promise<Anchor> {
+async function computeAnchor(imgSrc: string, initialScale: number, seed: string, mode: AnchorMode, topOnly: boolean): Promise<Anchor> {
   try {
     const img = await loadImage(imgSrc);
     const canvas = document.createElement('canvas');
@@ -152,7 +157,8 @@ async function computeAnchor(imgSrc: string, initialScale: number, seed: string,
     const zoneCandidates: Candidate[] = [];
     let globalBest: Candidate = { x: SAMPLE_SIZE / 2, y: SAMPLE_SIZE / 2, score: Infinity };
 
-    for (let gy = 0; gy < GRID_SIZE; gy++) {
+    const rowCount = topOnly ? 1 : GRID_SIZE;
+    for (let gy = 0; gy < rowCount; gy++) {
       const zoneYStart = lo + ((hi - lo) * gy) / GRID_SIZE;
       const zoneYEnd = lo + ((hi - lo) * (gy + 1)) / GRID_SIZE;
       for (let gx = 0; gx < GRID_SIZE; gx++) {

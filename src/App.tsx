@@ -16,6 +16,7 @@ import {
   compareCharacters,
   getDailyTarget,
   getRandomTarget,
+  getParisDateStr,
   loadGameStats,
   loadDailyStreaks,
   recordWin,
@@ -57,7 +58,7 @@ interface ModeWon {
   skill: boolean;
 }
 
-export function App() {
+function App() {
   const [language, setLanguage] = useState<Language>(() => {
     return (localStorage.getItem('starraildle_lang') as Language) || 'fr';
   });
@@ -143,7 +144,7 @@ export function App() {
 
   // Load Daily state on startup and re-hydrate with latest character schema
   useEffect(() => {
-    const today = new Date().toISOString().slice(0, 10);
+    const today = getParisDateStr();
     const savedDailyKey = `starraildle_daily_${today}`;
     try {
       const saved = localStorage.getItem(savedDailyKey);
@@ -195,7 +196,7 @@ export function App() {
 
   // Save Daily state whenever it changes (daily guesses/wins only ever change via daily play)
   useEffect(() => {
-    const today = new Date().toISOString().slice(0, 10);
+    const today = getParisDateStr();
     const savedDailyKey = `starraildle_daily_${today}`;
     const payload = {
       classicGuesses: dailyGuesses.classic,
@@ -275,7 +276,7 @@ export function App() {
       setTimeout(() => {
         setHasWon((prev) => ({ ...prev, classic: true }));
         recordWin('classic', newGuesses.length);
-        if (isDaily) recordDailyWin('classic', new Date().toISOString().slice(0, 10));
+        if (isDaily) recordDailyWin('classic', getParisDateStr());
         setIsVictoryModalOpen(true);
       }, CLASSIC_MODE_CARD_COUNT * 280 + 350);
     }
@@ -289,7 +290,7 @@ export function App() {
     if (guessChar.id === currentTarget.id) {
       setHasWon((prev) => ({ ...prev, [mode]: true }));
       recordWin(mode, newGuesses.length);
-      if (isDaily) recordDailyWin(mode, new Date().toISOString().slice(0, 10));
+      if (isDaily) recordDailyWin(mode, getParisDateStr());
       setIsVictoryModalOpen(true);
     } else {
       soundManager.playFlip(0);
@@ -308,7 +309,7 @@ export function App() {
     if (!correct) return;
     setHasWon((prev) => ({ ...prev, skill: true }));
     recordWin('skill', guesses.skill.length);
-    if (isDaily) recordDailyWin('skill', new Date().toISOString().slice(0, 10));
+    if (isDaily) recordDailyWin('skill', getParisDateStr());
     setIsVictoryModalOpen(true);
   };
 
@@ -338,7 +339,6 @@ export function App() {
             {currentMode === 'classic' && (
               <ClassicMode
                 characters={characters}
-                target={currentTarget}
                 guesses={guesses.classic}
                 onMakeGuess={handleClassicGuess}
                 hasWon={hasWon.classic}
