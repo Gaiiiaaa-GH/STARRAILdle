@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@types/canvas-confetti": "^1.9.0",
+    "@vercel/analytics": "^2.0.1",
     "canvas-confetti": "^1.9.4",
     "lucide-react": "^1.31.0",
     "react": "^19.2.8",
