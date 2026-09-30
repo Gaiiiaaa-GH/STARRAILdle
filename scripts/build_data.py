@@ -1,81 +1,50 @@
-import os
+"""Builds src/data/characters.json.
+
+Combines three sources:
+- Mar-7th/StarRailRes: names, element, path, rarity, abilities, weekly boss material.
+- scripts/fiches.json: everything entered by hand (version, gender, world,
+  factions, lore paths, name overrides, weekly boss names). Edited through the
+  local tool in STARRAILdle-Assets, or by hand.
+- scripts/wiki_research/merged_quotes.json: researched voice lines.
+
+It never downloads images and never invents data: a character without a fiche,
+or whose images haven't been accepted into public/assets yet, is skipped and
+listed at the end.
+"""
 import json
+import os
 import urllib.request
-from io import BytesIO
-from PIL import Image
 
 BASE_URL = "https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/"
+HERE = os.path.dirname(os.path.abspath(__file__))
+PUBLIC_DIR = os.path.join(HERE, "..", "public")
+DATA_DIR = os.path.join(HERE, "..", "src", "data")
 
-# Factions + narrative "lore path" per character, researched from the community
-# wiki (honkai-star-rail.fandom.com infobox `faction`/`pathlore` fields). This
-# file is the hand-maintained source: add new characters to it directly.
-# Overrides the generic CHARACTER_METADATA factions below with real, specific
-# sub-affiliations.
-WIKI_RESEARCH_PATH = os.path.join(os.path.dirname(__file__), "wiki_research", "merged.json")
-with open(WIKI_RESEARCH_PATH, "r", encoding="utf-8") as f:
-    WIKI_RESEARCH = json.load(f)
+# Female Trailblazer ids duplicate the male ones (one entry per Path form).
+EXCLUDE_IDS = {"8002", "8004", "8006", "8008", "8010"}
+KNOWN_SKILL_TYPES = {"Basic ATK", "Skill", "Ultimate", "Talent", "Technique"}
 
-# Real, verified voice lines per character (4-5 each), researched from the
-# wiki's Voice-Over pages. Hand-maintained like merged.json. Replaces the
-# single hand-invented quote_en/quote_fr below (kept as the fallback for ids
-# with no research, e.g. the Trailblazer forms).
-QUOTES_RESEARCH_PATH = os.path.join(os.path.dirname(__file__), "wiki_research", "merged_quotes.json")
-with open(QUOTES_RESEARCH_PATH, "r", encoding="utf-8") as f:
-    QUOTES_RESEARCH = json.load(f)
 
-# Trailblazer's canonical lore path across every combat form: the Nameless /
-# Astral Express Crew embody Akivili's Path of Trailblaze regardless of which
-# playable Path form is active (Destruction/Preservation/Harmony/Remembrance/Elation).
-TRAILBLAZE_LORE_PATH = [{"id": "trailblaze", "name_en": "Trailblaze", "name_fr": "Le Pionnier"}]
+def load_json(*parts):
+    with open(os.path.join(HERE, *parts), encoding="utf-8") as f:
+        return json.load(f)
 
-PUBLIC_DIR = os.path.join(os.path.dirname(__file__), "..", "public", "assets")
-DATA_DIR = os.path.join(os.path.dirname(__file__), "..", "src", "data")
-
-os.makedirs(os.path.join(PUBLIC_DIR, "icons"), exist_ok=True)
-os.makedirs(os.path.join(PUBLIC_DIR, "type_icons", "paths"), exist_ok=True)
-os.makedirs(os.path.join(PUBLIC_DIR, "type_icons", "elements"), exist_ok=True)
-os.makedirs(os.path.join(PUBLIC_DIR, "type_icons", "bosses"), exist_ok=True)
-os.makedirs(os.path.join(PUBLIC_DIR, "skills"), exist_ok=True)
-os.makedirs(os.path.join(PUBLIC_DIR, "portraits"), exist_ok=True)
-os.makedirs(os.path.join(PUBLIC_DIR, "splash_art"), exist_ok=True)
-os.makedirs(DATA_DIR, exist_ok=True)
 
 def fetch_json(endpoint):
-    url = BASE_URL + endpoint
-    req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+    req = urllib.request.Request(BASE_URL + endpoint, headers={"User-Agent": "Mozilla/5.0"})
     with urllib.request.urlopen(req) as resp:
-        return json.loads(resp.read().decode('utf-8'))
+        return json.loads(resp.read().decode("utf-8"))
 
-def download_file(rel_path, dest_path):
-    if os.path.exists(dest_path) and os.path.getsize(dest_path) > 0:
-        return
-    url = BASE_URL + rel_path
-    try:
-        req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
-        with urllib.request.urlopen(req) as resp, open(dest_path, 'wb') as f:
-            f.write(resp.read())
-    except Exception as e:
-        print(f"Failed to download {url}: {e}")
 
-def download_as_webp(rel_path, dest_path, max_width=None, quality=85):
-    # Splash-art silhouette source images: same idea as the background
-    # banner compression, but keeps alpha (these are character cutouts on
-    # a transparent background, not opaque photos).
-    if os.path.exists(dest_path) and os.path.getsize(dest_path) > 0:
-        return
-    url = BASE_URL + rel_path
-    try:
-        req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
-        with urllib.request.urlopen(req) as resp:
-            im = Image.open(BytesIO(resp.read())).convert('RGBA')
-        if max_width and im.width > max_width:
-            target_h = round(im.height * max_width / im.width)
-            im = im.resize((max_width, target_h), Image.LANCZOS)
-        im.save(dest_path, 'WEBP', quality=quality, method=6)
-    except Exception as e:
-        print(f"Failed to download/convert {url}: {e}")
+def asset_exists(rel_path):
+    return os.path.isfile(os.path.join(PUBLIC_DIR, rel_path))
 
-print("Fetching raw data from StarRailRes...")
+
+FICHES = load_json("fiches.json")
+BOSSES, PERSOS = FICHES["bosses"], FICHES["persos"]
+QUOTES_RESEARCH = load_json("wiki_research", "merged_quotes.json")
+
+print("Fetching data from StarRailRes...")
 chars_en = fetch_json("index_new/en/characters.json")
 chars_fr = fetch_json("index_new/fr/characters.json")
 paths_en = fetch_json("index_new/en/paths.json")
@@ -88,453 +57,133 @@ skill_trees = fetch_json("index_new/en/character_skill_trees.json")
 skills_en = fetch_json("index_new/en/character_skills.json")
 skills_fr = fetch_json("index_new/fr/character_skills.json")
 
-# Boss info mapping
-BOSS_INFO = {
-    "110501": {
-        "boss_name_en": "Doomsday Beast",
-        "boss_name_fr": "Bête de l'apocalypse",
-        "world_en": "Herta Space Station",
-        "world_fr": "Station spatiale Herta",
-        "echo_of_war_en": "Destruction's Beginning",
-        "echo_of_war_fr": "Début de la destruction"
-    },
-    "110502": {
-        "boss_name_en": "Cocolia, Mother of Deception",
-        "boss_name_fr": "Cocolia, Mère de la tromperie",
-        "world_en": "Jarilo-VI",
-        "world_fr": "Jarilo-VI",
-        "echo_of_war_en": "End of the Eternal Freeze",
-        "echo_of_war_fr": "Fin du gel éternel"
-    },
-    "110503": {
-        "boss_name_en": "Phantylia the Undying",
-        "boss_name_fr": "Phantylia l'Immortelle",
-        "world_en": "Xianzhou Luofu",
-        "world_fr": "Xianzhou Luofu",
-        "echo_of_war_en": "Divine Seed",
-        "echo_of_war_fr": "Graine divine"
-    },
-    "110504": {
-        "boss_name_en": "Starcrusher Swarm King: Skaracabaz",
-        "boss_name_fr": "Skaracabaz, roi de l'Essaim",
-        "world_en": "Herta Space Station",
-        "world_fr": "Station spatiale Herta",
-        "echo_of_war_en": "Borehole Planet Disaster",
-        "echo_of_war_fr": "Désastre de la planète forage"
-    },
-    "110505": {
-        "boss_name_en": "\"Harmonious Choir\" The Great Septimus",
-        "boss_name_fr": "« Chœur harmonieux » Le Grand Septimus",
-        "world_en": "Penacony",
-        "world_fr": "Penacony",
-        "echo_of_war_en": "Salutations of Ashen Dreams",
-        "echo_of_war_fr": "Salutations des rêves de cendre"
-    },
-    "110506": {
-        "boss_name_en": "Shadow of \"Feixiao\"",
-        "boss_name_fr": "Ombre de « Feixiao »",
-        "world_en": "Xianzhou Luofu",
-        "world_fr": "Xianzhou Luofu",
-        "echo_of_war_en": "Inner Beast's Battlefield",
-        "echo_of_war_fr": "Champ de bataille de la bête intérieure"
-    },
-    "110507": {
-        "boss_name_en": "Iron Tomb",
-        "boss_name_fr": "Tombeau de Fer",
-        "world_en": "Amphoreus",
-        "world_fr": "Amphoreus",
-        "echo_of_war_en": "Daythunder Tempest",
-        "echo_of_war_fr": "Tempête d'orage diurne"
-    },
-    "110508": {
-        "boss_name_en": "Tide of Strife",
-        "boss_name_fr": "Marée des conflits",
-        "world_en": "Amphoreus",
-        "world_fr": "Amphoreus",
-        "echo_of_war_en": "Vanquished Flow",
-        "echo_of_war_fr": "Courant vaincu"
-    },
-    "110509": {
-        "boss_name_en": "Ode of False Light",
-        "boss_name_fr": "Ode de la Fausse Lumière",
-        "world_en": "Amphoreus",
-        "world_fr": "Amphoreus",
-        "echo_of_war_en": "Falsely Enlightened",
-        "echo_of_war_fr": "Faux Éveillé"
-    }
-}
-
-# Map characters to weekly boss material from skill trees
+# Weekly boss material per character, read from its trace upgrade costs.
 char_weekly_map = {}
 for st_id, st_data in skill_trees.items():
-    cid = st_id[:4]
-    for lvl in st_data.get('levels', []):
-        for mat in lvl.get('materials', []):
-            mid = mat.get('id')
-            if mid and mid.startswith('1105'):
-                char_weekly_map[cid] = mid
+    for lvl in st_data.get("levels", []):
+        for mat in lvl.get("materials", []):
+            mid = mat.get("id")
+            if mid and mid.startswith("1105"):
+                char_weekly_map[st_id[:4]] = mid
 
-# Known character metadata enrichment: Release version, Gender, Factions, World, Archetypes, Quotes
-CHARACTER_METADATA = {
-    # 1.0
-    "1001": {"version": "1.0", "gender": "Female", "world": "Astral Express", "factions": ["Astral Express", "Nameless", "Six-Phased Ice"], "quote_fr": "Regardez-moi ça ! Souriez !", "quote_en": "Check out this awesome move!"},
-    "1002": {"version": "1.0", "gender": "Male", "world": "Astral Express", "factions": ["Astral Express", "Nameless", "High-Cloud Quintet"], "quote_fr": "Cette fois-ci, c'est différent.", "quote_en": "This sanctuary is but a vision... Break!"},
-    "1003": {"version": "1.0", "gender": "Female", "world": "Astral Express", "factions": ["Astral Express", "Nameless"], "quote_fr": "L'humanité ne cache jamais son désir de contrôler les cieux.", "quote_en": "Humanity never conceals its desire to control the heavens."},
-    "1004": {"version": "1.0", "gender": "Male", "world": "Astral Express", "factions": ["Astral Express", "Nameless", "Anti-Entropy"], "quote_fr": "Survivez ou soyez détruits, le choix n'appartient qu'à vous.", "quote_en": "Survive or be destroyed, there is no other choice."},
-    "1008": {"version": "1.0", "gender": "Male", "world": "Herta Space Station", "factions": ["Herta Space Station", "Security Department"], "quote_fr": "Je protégerai tout le monde !", "quote_en": "I will protect everyone!"},
-    "1009": {"version": "1.0", "gender": "Female", "world": "Herta Space Station", "factions": ["Herta Space Station", "Lead Researcher"], "quote_fr": "Que les étoiles vous bénissent !", "quote_en": "Let the stars bless you!"},
-    "1013": {"version": "1.0", "gender": "Female", "world": "Herta Space Station", "factions": ["Genius Society", "Herta Space Station", "The Erudition"], "quote_fr": "Il est temps de faire tourner la chance ! Kuru Kuru !", "quote_en": "Time to twirl! Kuru kuru~"},
-    "1101": {"version": "1.0", "gender": "Female", "world": "Jarilo-VI", "factions": ["Jarilo-VI", "Silvermane Guards", "Supreme Guardian"], "quote_fr": "Que le vent de l'hiver balaye nos ennemis !", "quote_en": "To guard and defend, crush them!"},
-    "1102": {"version": "1.0", "gender": "Female", "world": "Jarilo-VI", "factions": ["Jarilo-VI", "Wildfire", "Underworld"], "quote_fr": "Disparais dans une mer de papillons !", "quote_en": "Disappear among the sea of butterflies, illusions of the past!"},
-    "1103": {"version": "1.0", "gender": "Female", "world": "Jarilo-VI", "factions": ["Jarilo-VI", "Silvermane Guards", "Landau Family"], "quote_fr": "Faisons vibrer cette scène !", "quote_en": "Let's turn up the volume!"},
-    "1104": {"version": "1.0", "gender": "Male", "world": "Jarilo-VI", "factions": ["Jarilo-VI", "Silvermane Guards", "Landau Family"], "quote_fr": "En l'honneur des Gardes de la crinière d'argent, je tiendrai !", "quote_en": "In the name of Landau, a shield that never yields!"},
-    "1105": {"version": "1.0", "gender": "Female", "world": "Jarilo-VI", "factions": ["Jarilo-VI", "Wildfire", "Underworld"], "quote_fr": "Prenez ce médicament, vous irez mieux.", "quote_en": "Listen to your doctor, take your medicine!"},
-    "1106": {"version": "1.0", "gender": "Female", "world": "Jarilo-VI", "factions": ["Jarilo-VI", "Silvermane Guards", "Intelligence Officer"], "quote_fr": "Données analysées, point faible localisé !", "quote_en": "Target analyzed, executing strike!"},
-    "1107": {"version": "1.0", "gender": "Female", "world": "Jarilo-VI", "factions": ["Jarilo-VI", "Svarog", "Underworld"], "quote_fr": "Monsieur Svarog, protégez-moi !", "quote_en": "Mr. Svarog, please help me!"},
-    "1108": {"version": "1.0", "gender": "Male", "world": "Jarilo-VI", "factions": ["Masked Fools", "Jarilo-VI", "Underworld"], "quote_fr": "Faites confiance à Sampo Koski, votre ami loyal !", "quote_en": "Trust Sampo, customer always comes first!"},
-    "1109": {"version": "1.0", "gender": "Female", "world": "Jarilo-VI", "factions": ["Jarilo-VI", "The Moles", "Underworld"], "quote_fr": "La Grande Hook Sombre ne perd jamais !", "quote_en": "Pitch-Dark Hook the Great will teach you a lesson!"},
-    "1201": {"version": "1.0", "gender": "Female", "world": "Xianzhou Luofu", "factions": ["Xianzhou Luofu", "Divination Commission"], "quote_fr": "Victoire par Mahjong ! Un tirage parfait !", "quote_en": "Mahjong victory! A hidden hand strikes!"},
-    "1202": {"version": "1.0", "gender": "Female", "world": "Xianzhou Luofu", "factions": ["Xianzhou Luofu", "Sky-Faring Commission", "Whistling Flames"], "quote_fr": "Bienfaiteurs, recevez ma modeste bénédiction.", "quote_en": "Benefactor, allow me to lend you strength."},
-    "1204": {"version": "1.0", "gender": "Male", "world": "Xianzhou Luofu", "factions": ["Xianzhou Luofu", "Cloud Knights", "High-Cloud Quintet", "Seven Arbiter-Generals"], "quote_fr": "Que le Seigneur foudroyant s'abatte sur les hérétiques !", "quote_en": "Time for the master stroke! Lightning Lord, strike!"},
-    "1206": {"version": "1.0", "gender": "Female", "world": "Xianzhou Luofu", "factions": ["Xianzhou Luofu", "Cloud Knights"], "quote_fr": "Prenez garde au coup de mon épée céleste !", "quote_en": "Rise, Phoenix! My sword strikes true!"},
-    "1209": {"version": "1.0", "gender": "Male", "world": "Xianzhou Luofu", "factions": ["Xianzhou Luofu", "Cloud Knights"], "quote_fr": "Lames volantes, formez le cercle !", "quote_en": "Swords, dance at my command!"},
-    "1211": {"version": "1.0", "gender": "Female", "world": "Xianzhou Luofu", "factions": ["Xianzhou Luofu", "Alchemy Commission", "Vidyadhara High Elder"], "quote_fr": "Buvez cette tisane et faites de beaux rêves !", "quote_en": "Good medicine tastes bitter, but this will cure you!"},
-    
-    # 1.1
-    "1005": {"version": "1.2", "gender": "Female", "world": "Pteruges-V", "factions": ["Stellaron Hunters", "Punklorde"], "quote_fr": "C'est juste un jeu, et je gagne toujours.", "quote_en": "Can this game get any more interesting?"},
-    "1203": {"version": "1.1", "gender": "Male", "world": "Xianzhou Luofu", "factions": ["Intergalactic Merchant", "Abundance Followers"], "quote_fr": "Les morts reposent en paix, et les vivants persévèrent.", "quote_en": "The dead shall rest, the living shall proceed."},
-    "1207": {"version": "1.1", "gender": "Female", "world": "Xianzhou Luofu", "factions": ["Xianzhou Luofu", "Sky-Faring Commission", "Helm Master"], "quote_fr": "Volez au cœur du cyclone céleste !", "quote_en": "Ascend to the endless skies!"},
-    
-    # 1.2
-    "1006": {"version": "1.1", "gender": "Female", "world": "Punklorde", "factions": ["Stellaron Hunters", "Destiny's Slave Followers"], "quote_fr": "Boom. Ferme les yeux et écoute le violon.", "quote_en": "Boom. Listen to my tune..."},
-    "1205": {"version": "1.2", "gender": "Male", "world": "Xianzhou Luofu", "factions": ["Stellaron Hunters", "High-Cloud Quintet", "Cloud Knights"], "quote_fr": "Ce corps ne connaît pas la mort... seulement le tourment.", "quote_en": "That paradise may be unreachable for me... Savor it for me!"},
-    "1111": {"version": "1.2", "gender": "Male", "world": "Jarilo-VI", "factions": ["Jarilo-VI", "Wildfire", "Underworld Fight Club"], "quote_fr": "Mon poing d'acier va vous remettre les idées en place !", "quote_en": "Direct hit! Here comes the champion's right hook!"},
-    
-    # 1.3
-    "1208": {"version": "1.3", "gender": "Female", "world": "Xianzhou Luofu", "factions": ["Xianzhou Luofu", "Divination Commission", "Master Diviner"], "quote_fr": "Les étoiles ont déjà scellé votre destin.", "quote_en": "The matrix predicts your every breath. Subside!"},
-    "1213": {"version": "1.3", "gender": "Male", "world": "Xianzhou Luofu", "factions": ["Astral Express", "Xianzhou Luofu", "High-Cloud Quintet", "Vidyadhara High Elder"], "quote_fr": "Dragon azur, purifie les ténèbres !", "quote_en": "Roar, Azure Dragon! Cleanse the defiled realm!"},
-    "1110": {"version": "1.3", "gender": "Female", "world": "Jarilo-VI", "factions": ["Jarilo-VI", "Landau Family", "Snow Plains Explorer"], "quote_fr": "Je connais chaque coin de ces plaines enneigées !", "quote_en": "Ready for an expedition? Eat well, survive well!"},
-    
-    # 1.4
-    "1212": {"version": "1.4", "gender": "Female", "world": "Xianzhou Luofu", "factions": ["Xianzhou Luofu", "High-Cloud Quintet", "Cloud Knights Sword Champion"], "quote_fr": "Que la lune de givre brise ce monde éphémère !", "quote_en": "Moonlight, illuminate my blade! Transcendent flash!"},
-    "1112": {"version": "1.4", "gender": "Female", "world": "Pier Point", "factions": ["IPC", "Ten Stonehearts", "Strategic Investment Department"], "quote_fr": "Numby, déniche-moi ces mauvais payeurs !", "quote_en": "Numby, invest! Pay up what you owe!"},
-    "1210": {"version": "1.4", "gender": "Female", "world": "Xianzhou Luofu", "factions": ["Xianzhou Luofu", "Street Performer", "Camelia Family"], "quote_fr": "Regardez bien, le spectacle d'artifice commence !", "quote_en": "Let's put on an unforgettable street show!"},
-    
-    # 1.5
-    "1217": {"version": "1.5", "gender": "Female", "world": "Xianzhou Luofu", "factions": ["Xianzhou Luofu", "Ten-Lords Commission", "Foxian Judge Trainee"], "quote_fr": "Monsieur Tail, au secours ! Ne me laissez pas seule !", "quote_en": "Tail, lend me a hand! Don't let the ghosts get me!"},
-    "1302": {"version": "1.5", "gender": "Male", "world": "A Nameless, War-Torn Homeworld", "factions": ["Knights of Beauty", "Idrila Followers"], "quote_fr": "Au nom de la Beauté suprême d'Idrila !", "quote_en": "For Idrila! May pure beauty illuminate this world!"},
-    "1215": {"version": "1.5", "gender": "Female", "world": "Xianzhou Luofu", "factions": ["Xianzhou Luofu", "Ten-Lords Commission", "Netherworld Judge"], "quote_fr": "Le karma est gravé sur le parchemin des morts.", "quote_en": "Inscribe your sins upon the karmic tablet."},
-    
-    # 1.6
-    "1303": {"version": "1.6", "gender": "Female", "world": "Herta Space Station", "factions": ["Genius Society", "Herta Space Station", "Simulated Universe Creator"], "quote_fr": "Chaque forme de vie possède une note harmonique parfaite.", "quote_en": "All things blossom and wither in the grand tapestry of life."},
-    "1305": {"version": "1.6", "gender": "Male", "world": "Pier Point", "factions": ["Intelligentsia Guild", "IPC Partner", "Genius Candidate"], "quote_fr": "Zéro pointé ! L'ignorance est la pire des maladies !", "quote_en": "Zero points! Ignorance is an incurable ailment!"},
-    "1214": {"version": "1.6", "gender": "Female", "world": "Xianzhou Luofu", "factions": ["Xianzhou Luofu", "Ten-Lords Commission", "Judge Puppet"], "quote_fr": "Exécution de la sentence karmatique. Neutralisation !", "quote_en": "Execute punishment. Karmic retribution delivered!"},
-    
-    # 2.0
-    "1307": {"version": "2.0", "gender": "Female", "world": "Penacony", "factions": ["Garden of Recollection", "Memokeeper", "Penacony Guest"], "quote_fr": "Laissez vos souvenirs les plus doux vous consumer.", "quote_en": "Dance in the kaleidoscope of memories. Revel in Arcana!"},
-    "1306": {"version": "2.0", "gender": "Female", "world": "Penacony", "factions": ["Masked Fools", "Aha Followers", "Penacony Guest"], "quote_fr": "La vie est une comédie grandeur nature ! Riez !", "quote_en": "All the cosmos is a stage! Let's put on a real spectacle!"},
-    "1312": {"version": "2.0", "gender": "Male", "world": "Penacony", "factions": ["Penacony", "The Reverie Hotel", "Nameless Bloodline"], "quote_fr": "Je vais nettoyer cet endroit jusqu'à ce qu'il brille !", "quote_en": "Luggage secured, room service delivered!"},
-    
-    # 2.1
-    "1308": {"version": "2.1", "gender": "Female", "world": "Izumo", "factions": ["Self-Annihilator", "Galaxy Rangers", "IX Emissary"], "quote_fr": "Je pleure la mort des défunts... Que la pluie s'abatte.", "quote_en": "I weep for the departed... Let the crimson rain fall!"},
-    "1304": {"version": "2.1", "gender": "Male", "world": "Sigonia", "factions": ["IPC", "Ten Stonehearts", "Strategic Investment Department", "Avgin Tribe"], "quote_fr": "Je mise tout sur cette main ! Rien ne va plus !", "quote_en": "All or nothing! The house always pays!"},
-    "1301": {"version": "2.1", "gender": "Male", "world": "Penacony", "factions": ["Penacony", "Bloodhound Family", "History Fictionologists", "Enigmata Followers"], "quote_fr": "Une gorgée de vérité dans un verre de mensonges.", "quote_en": "Time to mix something special. Bottoms up!"},
-    
-    # 2.2
-    "1309": {"version": "2.2", "gender": "Female", "world": "Penacony", "factions": ["Penacony", "The Family", "Oak Family", "Cosmic Pop Star"], "quote_fr": "Écoutez ma voix ! Que l'harmonie résonne dans vos cœurs !", "quote_en": "Welcome to my world! Let every soul unite in song!"},
-    "1315": {"version": "2.2", "gender": "Male", "world": "Aeragan-Epharshel", "factions": ["Galaxy Rangers", "Hunt Followers", "Cyborg Cowboy"], "quote_fr": "Fils de flûte ! Rangez vos pétoires et préparez-vous au duel !", "quote_en": "Time to settle accounts, fudgehead! Quick draw!"},
-    
-    # 2.3
-    "1310": {"version": "2.3", "gender": "Female", "world": "Glamoth", "factions": ["Stellaron Hunters", "Iron Cavalry of Glamoth", "SAM"], "quote_fr": "J'embraserai les mers et détruirai tout sur mon passage !", "quote_en": "I will set the seas ablaze! Protocol SAM active!"},
-    "1314": {"version": "2.3", "gender": "Female", "world": "Pier Point", "factions": ["IPC", "Ten Stonehearts", "Strategic Investment Department", "Bonajade Exchange"], "quote_fr": "Chaque désir a un prix. Quel est le vôtre ?", "quote_en": "Sign here. Greed is a virtue worth indulging in."},
-    
-    # 2.4
-    "1221": {"version": "2.4", "gender": "Female", "world": "Xianzhou Zhuming", "factions": ["Xianzhou Zhuming", "Cloud Knights", "Flamewheel Octet", "Huaiyan Apprentice"], "quote_fr": "L'épée parle pour moi ! Viens tester mon tranchant !", "quote_en": "Parry and strike! My blade knows no mercy!"},
-    "1218": {"version": "2.4", "gender": "Male", "world": "Xianzhou Yaoqing", "factions": ["Xianzhou Yaoqing", "Cloud Knights", "Alchemy Healer / Strategist"], "quote_fr": "Un plat épicé pour embraser vos sens et vos faiblesses.", "quote_en": "A taste of spicy hotpot to boil away your defense!"},
-    "1224": {"version": "2.4", "gender": "Female", "world": "Astral Express", "factions": ["Astral Express", "Nameless", "Xianzhou Swordmaster Trainee"], "quote_fr": "Maître, admirez mes nouvelles techniques de sabre !", "quote_en": "Master, observe! Double sword style, strike!"},
-    
-    # 2.5
-    "1220": {"version": "2.5", "gender": "Female", "world": "Xianzhou Yaoqing", "factions": ["Xianzhou Yaoqing", "Cloud Knights", "Seven Arbiter-Generals", "Merlin's Claw"], "quote_fr": "Je suis le vent de la victoire ! Nulle cible n'échappe à mes flèches !", "quote_en": "Victory is predetermined! Fly, arrows of the Yaoqing!"},
-    "1222": {"version": "2.5", "gender": "Female", "world": "Xianzhou Luofu", "factions": ["Xianzhou Luofu", "Alchemy Commission", "Cauldron Master", "Foxian Healer"], "quote_fr": "Que l'encens spirituel purifie votre corps et votre esprit.", "quote_en": "Smoky mists arise, cleanse every lingering affliction!"},
-    "1223": {"version": "2.5", "gender": "Male", "world": "Xianzhou Yaoqing", "factions": ["Xianzhou Yaoqing", "Shadow Guard", "Feixiao Retainer"], "quote_fr": "Dans l'ombre, la cible est déjà abattue.", "quote_en": "Strike from the shadows. Target marked for termination."},
-    
-    # 2.6
-    "1317": {"version": "2.6", "gender": "Female", "world": "Penacony", "factions": ["Galaxy Rangers", "Dazzling Ninja", "Hunt / Erudition Hybrid"], "quote_fr": "Ninjutsu cosmique ! Rappa déchaîne le graffiti shinobi !", "quote_en": "Cosmic Ninjutsu! Dazzling graffiti strikes the wicked!"},
-    
-    # 2.7
-    "1313": {"version": "2.7", "gender": "Male", "world": "Penacony", "factions": ["Penacony", "The Family", "Oak Family", "Order Followers", "Astral Express Ally"], "quote_fr": "Que l'ordre divin veille sur le repos de l'univers.", "quote_en": "May order bring eternal peace to the dreaming cosmos."},
-    "1225": {"version": "2.7", "gender": "Female", "world": "Xianzhou Luofu", "factions": ["Xianzhou Luofu", "Sky-Faring Commission", "Whistling Flames", "Foxian Resurrected"], "quote_fr": "La flamme qui s'éteint renaît avec un éclat plus ardent.", "quote_en": "From the ashes, a new brilliance awakens!"},
-    
-    # 3.0
-    "1401": {"version": "3.0", "gender": "Female", "world": "Herta Space Station", "factions": ["Genius Society", "Herta Space Station", "The Erudition", "Emanator of Erudition"], "quote_fr": "La véritable Herta se montre enfin. Admirez la perfection !", "quote_en": "Behold the true genius! The universe bends to knowledge!"},
-    "1402": {"version": "3.0", "gender": "Female", "world": "Amphoreus", "factions": ["Amphoreus", "Chrysos Heirs", "Castrum Kremnos", "Okhema Garment Guild"], "quote_fr": "Tissez le fil d'or du destin céleste !", "quote_en": "Weave the golden threads of our immortal triumph!"},
-    
-    # 3.1
-    "1403": {"version": "3.1", "gender": "Female", "world": "Amphoreus", "factions": ["Amphoreus", "Chrysos Heirs", "Harmony"], "quote_fr": "Que la fête commence sous les étoiles d'Amphoreus !", "quote_en": "Let joy echo across the amphitheater of stars!"},
-    "1404": {"version": "3.1", "gender": "Male", "world": "Amphoreus", "factions": ["Amphoreus", "Chrysos Heirs", "Destruction Warrior"], "quote_fr": "Ma lance brisera les chaînes imposées par le ciel.", "quote_en": "Break the chains! My spear shall carve the path!"},
-    
-    # 3.2
-    "1407": {"version": "3.2", "gender": "Female", "world": "Amphoreus", "factions": ["Amphoreus", "Chrysos Heirs", "Remembrance Memosprite"], "quote_fr": "Les reflets de nos mémoires ne s'effaceront jamais.", "quote_en": "Gaze into the mirror of eternity. Remember our vow!"},
-    "1405": {"version": "3.2", "gender": "Male", "world": "Amphoreus", "factions": ["Amphoreus", "Chrysos Heirs", "Wind Erudition"], "quote_fr": "Le vent propage la sentence des anciens rois.", "quote_en": "The gales of Amphoreus will sweep away all opposition!"},
-
-    # 3.3+
-    "1406": {"version": "3.3", "gender": "Female", "world": "Amphoreus", "factions": ["Amphoreus", "Chrysos Heirs", "Nihility"], "quote_fr": "L'énigme est résolue au moment de votre chute.", "quote_en": "The cipher unravels. Your fate is sealed."},
-    "1408": {"version": "3.3", "gender": "Male", "world": "Amphoreus", "factions": ["Amphoreus", "Chrysos Heirs", "Destruction"], "quote_fr": "La lumière solaire purifie l'obscurité.", "quote_en": "The celestial dawn shatters all shadows."},
-    "1409": {"version": "3.4", "gender": "Female", "world": "Amphoreus", "factions": ["Amphoreus", "Chrysos Heirs", "Remembrance"], "quote_fr": "Le murmure des fleurs célestes.", "quote_en": "Listen to the sacred whisper of blossoms."},
-    "1014": {"version": "3.4", "gender": "Female", "world": "Camelot", "factions": ["Fate Collaboration", "Knights of the Round Table"], "quote_fr": "Excalibur ne connaît qu'une seule volonté : la victoire.", "quote_en": "Excalibur knows but one will: victory."},
-    "1015": {"version": "3.4", "gender": "Male", "world": "Fuyuki City", "factions": ["Fate Collaboration", "Counter Guardian"], "quote_fr": "Je suis l'os de mon épée, et jamais je ne faiblirai.", "quote_en": "I am the bone of my sword, and I will never yield."},
-    "1410": {"version": "3.4", "gender": "Female", "world": "Amphoreus", "factions": ["Amphoreus", "Chrysos Heirs", "Nihility"], "quote_fr": "Dans le silence, la vérité se dévoile.", "quote_en": "In silence, absolute reality is revealed."},
-    "1412": {"version": "3.5", "gender": "Female", "world": "Amphoreus", "factions": ["Amphoreus", "Chrysos Heirs", "Harmony"], "quote_fr": "La symphonie céleste retentit.", "quote_en": "The heavenly overture resounds."},
-    "1413": {"version": "3.5", "gender": "Female", "world": "Amphoreus", "factions": ["Amphoreus", "Chrysos Heirs", "Remembrance"], "quote_fr": "La nuit éternelle garde ses secrets.", "quote_en": "The boundless night conceals our memories."},
-    "1414": {"version": "3.6", "gender": "Male", "world": "Amphoreus", "factions": ["Astral Express", "Amphoreus", "Chrysos Heirs"], "quote_fr": "La terre inébranlable protège nos pas.", "quote_en": "Steadfast as stone, our foundation stands firm."},
-    "1415": {"version": "3.6", "gender": "Female", "world": "Amphoreus", "factions": ["Amphoreus", "Chrysos Heirs", "Remembrance"], "quote_fr": "La mélodie sacrée de Cyrène.", "quote_en": "Hear the sacred serenade of the tides."},
-
-    # 4.0
-    "1501": {"version": "4.0", "gender": "Female", "world": "Planarcadia", "factions": ["Masked Fools", "Sparkle's Persona", "Livestream Creator"], "quote_fr": "Vous n'avez encore rien vu ! Place au spectacle !", "quote_en": "You haven't seen anything yet -- let the show begin!"},
-    "1502": {"version": "4.0", "gender": "Female", "world": "Xianzhou Luofu", "factions": ["Xianzhou Yuque", "Xianzhou Luofu"], "quote_fr": "Madame Yao veille sur vous, ne l'oubliez jamais.", "quote_en": "Madam Yao watches over all -- never forget that."},
-
-    # 4.1
-    "1504": {"version": "4.1", "gender": "Male", "world": "Planarcadia", "factions": ["Ashen Detective Agency", "The Hunt"], "quote_fr": "Chaque indice mène à la vérité, et je ne la laisse jamais filer.", "quote_en": "Every clue leads to the truth, and I never let it slip away."},
-
-    # 4.2
-    "1505": {"version": "4.2", "gender": "Female", "world": "Planarcadia", "factions": ["Phantasmoon Games", "Aha Followers", "Elation Observer"], "quote_fr": "La grâce est un jeu, et je n'ai jamais perdu une partie.", "quote_en": "Grace is a game, and I have never lost a round."},
-    "1506": {"version": "4.2", "gender": "Female", "world": "Punklorde", "factions": ["Stellaron Hunters", "Emanator of Elation"], "quote_fr": "Atteindre le sommet de l'Allégresse ? Ennuyeux... J'ai la cartouche, alors c'est moi qui fixe les règles.", "quote_en": "Reach the peak of Elation? Boring. I've got the cartridge, so I make the rules."},
-    "8009": {"version": "4.2", "gender": "Other", "world": "Astral Express", "factions": ["Astral Express", "Nameless", "Emanator of Elation"], "quote_fr": "Le rire est une arme, et je compte bien m'en servir !", "quote_en": "Laughter is a weapon, and I intend to use it well!"},
-
-    # 4.3
-    "1507": {"version": "4.3", "gender": "Male", "world": "Xianzhou Luofu", "factions": ["Stellaron Hunters", "High-Cloud Quintet"], "quote_fr": "Un corps tel un bois de printemps, un cœur telles des cendres mortes... quelle réponse vais-je forger ?", "quote_en": "A body like spring wood, a heart like dead ashes -- what answer will I forge from the sparks that remain?"},
-
-    # 4.4
-    "1508": {"version": "4.4", "gender": "Female", "world": "Fuyuki City", "factions": ["Fate Collaboration", "Tohsaka Family", "Mage Association"], "quote_fr": "Je ne perds jamais mon temps, et certainement pas contre toi.", "quote_en": "I never waste my time, and certainly not on you."},
-    "1509": {"version": "4.4", "gender": "Male", "world": "Uruk", "factions": ["Fate Collaboration", "King of Heroes"], "quote_fr": "Je reprendrai ce qui m'appartient de droit, en roi que je suis.", "quote_en": "I shall reclaim what is rightfully mine, as befits a king."},
-    "1510": {"version": "4.4", "gender": "Female", "world": "Planarcadia", "factions": ["Herta Space Station", "Astral Express", "Trailblaze Mission"], "quote_fr": "Starblazer est prêt. Voyons jusqu'où cette flamme peut nous mener.", "quote_en": "Starblazer stands ready -- let's see how far this flame can carry us."},
-
-    # Trailblazer forms
-    "8001": {"version": "1.0", "gender": "Other", "world": "Astral Express", "factions": ["Astral Express", "Nameless", "Stellaron Receptacle"], "quote_fr": "Les règles sont faites pour être brisées !", "quote_en": "Rules are made to be broken!"},
-    "8003": {"version": "1.0", "gender": "Other", "world": "Astral Express", "factions": ["Astral Express", "Nameless", "Belobog Lance"], "quote_fr": "Que la lance de la Préservation embrase nos ennemis !", "quote_en": "Lance ablaze! Flaming lance, forward!"},
-    "8005": {"version": "2.2", "gender": "Other", "world": "Astral Express", "factions": ["Astral Express", "Nameless", "Clockie Friend", "Penacony Hat"], "quote_fr": "Dansez avec moi sous le chapeau magique de l'Harmonie !", "quote_en": "Time for a show-stopping performance! Dance along!"},
-    "8007": {"version": "3.0", "gender": "Other", "world": "Astral Express", "factions": ["Astral Express", "Nameless", "Chrysos Journey"], "quote_fr": "Mem, voyageons ensemble à travers les mémoires !", "quote_en": "Mem, lend me your strength! Let's explore together!"},
-
-    # These three ship their own combat kit (own element/path/abilities), verified against
-    # the wiki -- not simple reskins of an existing character, despite the family resemblance
-    # in name. An earlier pass here wrongly assumed 1512/1513 were cosmetic-only "outfit"
-    # variants of Robin/Aventurine and force-copied the base character's element/path onto
-    # them, which was backwards: StarRailRes's Elation/Remembrance path values were correct
-    # all along, they just belong in `path` (combat), not `lore_paths`.
-    "1321": {"version": "3.8", "gender": "Female", "world": "Penacony", "factions": ["The Cremators", "Annihilation Gang", "Ever-Flame Mansion"], "quote_fr": "C'est moi. Je t'ai fait peur en... apparaissant sans un bruit ?", "quote_en": "It's me. Did I scare you with how I... popped up without a sound?"},
-    "1512": {"version": "4.5", "gender": "Female", "world": "Penacony", "factions": ["Penacony", "The Family", "Oak Family"], "quote_fr": "Ravie de te revoir. Le temps est magnifique à Astropolis, et la brise humide est chargée d'un parfum de soleil... J'espère trouver l'inspiration pour une nouvelle mélodie. Ça te dirait de te promener sur la plage et d'écouter le chant des coquillages ?", "quote_en": "It's nice to see you again. The weather in Astropolis is wonderful, and the moist breeze is filled with the scent of sunshine... I'm hoping to gather inspiration for a new song. Would you like to take a stroll together on the beach and listen to the sounds of sea conchs?"},
-    "1513": {"version": "4.5", "gender": "Male", "world": "Sigonia", "factions": ["Interastral Peace Corporation", "Strategic Investment Department", "Ten Stonehearts"], "quote_fr": "Mes amis, nous voilà de nouveau réunis ! Je viens de terminer une séance photo sponsorisée, et laisse-moi te dire que garder le sourire devant l'objectif, ce n'est pas une mince affaire. Mais maintenant que je suis passé P46, je peux enfin prendre des vacances. Envie de te détendre en ma compagnie ? Je te garantis une escapade inoubliable.", "quote_en": "Friends, we meet again! I just wrapped up a sponsored shoot, and wow, keeping a smile plastered to my face for the camera is no easy feat. But now that I've been promoted to P46, I can finally go on vacation. Want to relax and enjoy your time with me? I guarantee you'll have an unforgettable getaway."},
-}
-
-# Download Element Icons
-print("Downloading Element icons...")
-for eid, edata in elements_en.items():
-    icon_rel = edata.get('icon')
-    if icon_rel:
-        fname = f"{eid.lower()}.png"
-        download_file(icon_rel, os.path.join(PUBLIC_DIR, "type_icons", "elements", fname))
-
-# Download Path Icons
-print("Downloading Path icons...")
-for pid, pdata in paths_en.items():
-    icon_rel = pdata.get('icon')
-    if icon_rel:
-        fname = f"{pid.lower()}.png"
-        download_file(icon_rel, os.path.join(PUBLIC_DIR, "type_icons", "paths", fname))
-
-# Download Boss Icons
-print("Downloading Weekly Boss Material icons...")
-for bid, bmeta in BOSS_INFO.items():
-    if bid in items_en:
-        icon_rel = items_en[bid].get('icon')
-        if icon_rel:
-            fname = f"{bid}.png"
-            download_file(icon_rel, os.path.join(PUBLIC_DIR, "type_icons", "bosses", fname))
-
-# Process Characters
 processed_characters = []
+skipped = []
 
-# Exclude duplicate male/female Trailblazer IDs (we only keep the "playerboy" id per path form).
-EXCLUDE_IDS = {"8002", "8004", "8006", "8008", "8010"}
-
-for cid in sorted(chars_en.keys(), key=lambda x: int(x)):
+for cid in sorted(chars_en.keys(), key=int):
     if cid in EXCLUDE_IDS:
         continue
-    
     c_en = chars_en[cid]
     c_fr = chars_fr.get(cid, {})
+    fiche = PERSOS.get(cid)
+    label = f"{c_fr.get('name') or c_en.get('name')} ({cid})"
+    if fiche is None:
+        skipped.append(f"{label}: pas de fiche")
+        continue
 
-    name_en = c_en.get('name')
-    name_fr = c_fr.get('name', name_en)
+    name_en = fiche.get("name_en") or c_en.get("name")
+    name_fr = fiche.get("name_fr") or c_fr.get("name", name_en)
+    elem_id = c_en.get("element")
+    path_id = c_en.get("path")
 
-    # Clean up Trailblazer names
-    if cid == "8001":
-        name_en = "Trailblazer (Destruction)"
-        name_fr = "Pionnier·ère (Destruction)"
-    elif cid == "8003":
-        name_en = "Trailblazer (Preservation)"
-        name_fr = "Pionnier·ère (Préservation)"
-    elif cid == "8005":
-        name_en = "Trailblazer (Harmony)"
-        name_fr = "Pionnier·ère (Harmonie)"
-    elif cid == "8007":
-        name_en = "Trailblazer (Remembrance)"
-        name_fr = "Pionnier·ère (Souvenir)"
-    elif cid == "8009":
-        name_en = "Trailblazer (Elation)"
-        name_fr = "Pionnier·ère (Allégresse)"
-    elif cid == "1224":
-        name_en = "March 7th (The Hunt)"
-        name_fr = "March 7th (La Chasse)"
-    elif cid == "1001":
-        name_en = "March 7th (Preservation)"
-        name_fr = "March 7th (Préservation)"
+    wb_id = char_weekly_map.get(cid)
+    if wb_id not in BOSSES:
+        skipped.append(f"{label}: boss hebdo inconnu ({wb_id}), à ajouter dans fiches.json > bosses")
+        continue
+    wb_info = BOSSES[wb_id]
 
-    elem_id = c_en.get('element')
-    path_id = c_en.get('path')
-    rarity = c_en.get('rarity')
+    quotes = QUOTES_RESEARCH.get(cid) or ([fiche["quote_fallback"]] if fiche.get("quote_fallback") else None)
+    if not quotes:
+        skipped.append(f"{label}: aucune citation")
+        continue
 
-    elem_name_en = elements_en.get(elem_id, {}).get('name', elem_id)
-    elem_name_fr = elements_fr.get(elem_id, {}).get('name', elem_name_en)
-
-    path_name_en = paths_en.get(path_id, {}).get('name', path_id)
-    path_name_fr = paths_fr.get(path_id, {}).get('name', path_name_en)
-
-    # Weekly boss
-    wb_id = char_weekly_map.get(cid, "110501")
-    wb_info = BOSS_INFO.get(wb_id, BOSS_INFO["110501"])
-    wb_mat_en = items_en.get(wb_id, {}).get('name', "Weekly Boss Material")
-    wb_mat_fr = items_fr.get(wb_id, {}).get('name', wb_mat_en)
-
-    meta = CHARACTER_METADATA.get(cid, {
-        "version": "2.0",
-        "gender": "Female" if rarity == 5 else "Male",
-        "world": "Cosmos",
-        "factions": ["Cosmos"],
-        "quote_fr": f"En route pour l'aventure stellaire avec {name_fr} !",
-        "quote_en": f"Embarking on the galactic voyage with {name_en}!"
-    })
-
-    # Download character avatar
-    icon_rel = c_en.get('icon')
+    # StarRailRes names these fields backwards: its "preview" is the tight
+    # bust crop (-> our Portrait mode), its "portrait" is the big splash scene.
     avatar_path = f"assets/icons/{cid}.png"
-    if icon_rel:
-        download_file(icon_rel, os.path.join(PUBLIC_DIR, "icons", f"{cid}.png"))
+    portrait_path = f"assets/portraits/{cid}.webp" if c_en.get("preview") else None
+    splash_art_path = f"assets/splash_art/{cid}.webp" if c_en.get("portrait") else None
+    element_icon = f"assets/type_icons/elements/{elem_id.lower()}.png" if elem_id else ""
+    path_icon = f"assets/type_icons/paths/{path_id.lower()}.png" if path_id else ""
+    boss_icon = f"assets/type_icons/bosses/{wb_id}.png"
 
-    # Two dedicated source images, one per silhouette game mode. StarRailRes
-    # names its own fields the opposite of what you'd expect: its "preview"
-    # is the tight face/bust crop (-> our Portrait mode), its "portrait" is
-    # the big dynamic splash-art scene (-> our Splash Art mode). Renamed here
-    # on download so nothing downstream has to remember that gotcha.
-    portrait_rel = c_en.get('preview')
-    portrait_path = f"assets/portraits/{cid}.webp"
-    if portrait_rel:
-        download_as_webp(portrait_rel, os.path.join(PUBLIC_DIR, "portraits", f"{cid}.webp"), quality=88)
-
-    splash_art_rel = c_en.get('portrait')
-    splash_art_path = f"assets/splash_art/{cid}.webp"
-    if splash_art_rel:
-        download_as_webp(splash_art_rel, os.path.join(PUBLIC_DIR, "splash_art", f"{cid}.webp"), max_width=1200, quality=85)
-
-    # Download skill icons for Skill Game Mode: one entry per real ability
-    # type (Basic ATK / Skill / Ultimate / Talent / Technique), deduped so a
-    # character with an alternate/eidolon-enhanced kit doesn't list the same
-    # type twice. A random one gets shown per round (see SkillMode.tsx),
-    # which is also what makes "guess the ability type" a real question in
-    # Challenge Mode instead of always being "Skill".
-    KNOWN_SKILL_TYPES = {'Basic ATK', 'Skill', 'Ultimate', 'Talent', 'Technique'}
+    # One ability per real type, deduped (see SkillMode.tsx).
     skill_hints = []
     seen_types = set()
-    for sk_id in c_en.get('skills', []):
-        sk_data_en = skills_en.get(sk_id, {})
-        sk_data_fr = skills_fr.get(sk_id, {})
-        sk_type = sk_data_en.get('type_text', '')
-        sk_icon_rel = sk_data_en.get('icon')
-        if sk_type not in KNOWN_SKILL_TYPES or sk_type in seen_types or not sk_icon_rel:
+    for sk_id in c_en.get("skills", []):
+        sk_en = skills_en.get(sk_id, {})
+        sk_type = sk_en.get("type_text", "")
+        if sk_type not in KNOWN_SKILL_TYPES or sk_type in seen_types or not sk_en.get("icon"):
             continue
         seen_types.add(sk_type)
-        fname = f"{cid}_{sk_id}.png"
-        download_file(sk_icon_rel, os.path.join(PUBLIC_DIR, "skills", fname))
         skill_hints.append({
-            "icon": f"assets/skills/{fname}",
-            "name_en": sk_data_en.get('name'),
-            "name_fr": sk_data_fr.get('name', sk_data_en.get('name')),
+            "icon": f"assets/skills/{cid}_{sk_id}.png",
+            "name_en": sk_en.get("name"),
+            "name_fr": skills_fr.get(sk_id, {}).get("name", sk_en.get("name")),
             "type": sk_type,
         })
 
-    wiki = WIKI_RESEARCH.get(cid)
-    if wiki:
-        factions_en = wiki["factions_en"]
-        factions_fr = wiki["factions_fr"]
-        lore_paths = wiki["lore_paths"]
-    elif cid in ("8001", "8003", "8005", "8007", "8009"):
-        factions_en = meta["factions"]
-        factions_fr = meta["factions"]
-        lore_paths = [dict(p) for p in TRAILBLAZE_LORE_PATH]
-    else:
-        # No wiki research available for this id -- fall back to the combat
-        # path itself so the field is always populated (never left blank).
-        factions_en = meta["factions"]
-        factions_fr = meta["factions"]
-        lore_paths = [{
-            "id": path_id.lower() if path_id else "unknown",
-            "name_en": path_name_en,
-            "name_fr": path_name_fr,
-        }]
+    needed = [avatar_path, portrait_path, splash_art_path, element_icon, path_icon, boss_icon] + [s["icon"] for s in skill_hints]
+    missing = [p for p in needed if p and not asset_exists(p)]
+    if missing:
+        skipped.append(f"{label}: images pas encore acceptées ({', '.join(m.split('assets/')[1] for m in missing)})")
+        continue
 
-    char_obj = {
+    processed_characters.append({
         "id": cid,
         "name_en": name_en,
         "name_fr": name_fr,
-        "tag": c_en.get('tag', ''),
-        "rarity": rarity,
-        "gender": meta["gender"],
+        "tag": c_en.get("tag", ""),
+        "rarity": c_en.get("rarity"),
+        "gender": fiche["gender"],
         "element": {
             "id": elem_id.lower() if elem_id else "unknown",
-            "name_en": elem_name_en,
-            "name_fr": elem_name_fr,
-            "icon": f"assets/type_icons/elements/{elem_id.lower()}.png" if elem_id else ""
+            "name_en": elements_en.get(elem_id, {}).get("name", elem_id),
+            "name_fr": elements_fr.get(elem_id, {}).get("name", elements_en.get(elem_id, {}).get("name", elem_id)),
+            "icon": element_icon,
         },
         "path": {
             "id": path_id.lower() if path_id else "unknown",
-            "name_en": path_name_en,
-            "name_fr": path_name_fr,
-            "icon": f"assets/type_icons/paths/{path_id.lower()}.png" if path_id else ""
+            "name_en": paths_en.get(path_id, {}).get("name", path_id),
+            "name_fr": paths_fr.get(path_id, {}).get("name", paths_en.get(path_id, {}).get("name", path_id)),
+            "icon": path_icon,
         },
-        "lore_paths": lore_paths,
-        "release_version": meta["version"],
-        "world_en": meta["world"],
-        "world_fr": meta["world"],
-        "factions_en": factions_en,
-        "factions_fr": factions_fr,
+        "lore_paths": fiche["lore_paths"],
+        "release_version": fiche["version"],
+        "world_en": fiche["world"],
+        "world_fr": fiche["world"],
+        "factions_en": fiche["factions_en"],
+        "factions_fr": fiche["factions_fr"],
         "weekly_boss": {
             "material_id": wb_id,
-            "material_name_en": wb_mat_en,
-            "material_name_fr": wb_mat_fr,
+            "material_name_en": items_en.get(wb_id, {}).get("name", "Weekly Boss Material"),
+            "material_name_fr": items_fr.get(wb_id, {}).get("name", items_en.get(wb_id, {}).get("name", "Weekly Boss Material")),
             "boss_name_en": wb_info["boss_name_en"],
             "boss_name_fr": wb_info["boss_name_fr"],
             "world_en": wb_info["world_en"],
             "world_fr": wb_info["world_fr"],
-            "icon": f"assets/type_icons/bosses/{wb_id}.png"
+            "icon": boss_icon,
         },
         "avatar": avatar_path,
-        "portrait": portrait_path if portrait_rel else None,
-        "splash_art": splash_art_path if splash_art_rel else None,
-        "quotes": QUOTES_RESEARCH.get(cid, [{"en": meta["quote_en"], "fr": meta["quote_fr"]}]),
+        "portrait": portrait_path,
+        "splash_art": splash_art_path,
+        "quotes": quotes,
         "skill_hints": skill_hints or [{
             "icon": avatar_path,
             "name_en": f"{name_en}'s Power",
             "name_fr": f"Pouvoir de {name_fr}",
             "type": "Skill",
         }],
-    }
-    processed_characters.append(char_obj)
-    print(f"Processed: {name_en} ({name_fr}) - {meta['version']} - Boss: {wb_info['boss_name_en']}")
+    })
 
-# Save full JSON
+unknown = sorted(set(PERSOS) - set(chars_en), key=int)
+if unknown:
+    skipped.append(f"fiches sans perso dans StarRailRes : {', '.join(unknown)}")
+
 out_path = os.path.join(DATA_DIR, "characters.json")
-with open(out_path, 'w', encoding='utf-8') as f:
+with open(out_path, "w", encoding="utf-8", newline="\n") as f:
     json.dump(processed_characters, f, indent=2, ensure_ascii=False)
 
-print(f"\nSuccessfully built dataset with {len(processed_characters)} characters!")
-print(f"Saved to {out_path}")
+print(f"{len(processed_characters)} personnages écrits dans {os.path.normpath(out_path)}")
+if skipped:
+    print(f"{len(skipped)} ignoré(s) :")
+    for s in skipped:
+        print(f"  - {s}")
