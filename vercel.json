@@ -1,4 +1,10 @@
 {
+  "rewrites": [
+    { "source": "/assets/characters/:file", "destination": "/assets/icons/:file" },
+    { "source": "/assets/PORTRAIT/:file", "destination": "/assets/portraits/:file" },
+    { "source": "/assets/SPLASHART/:file", "destination": "/assets/splash_art/:file" },
+    { "source": "/assets/:dir(bosses|elements|paths)/:file", "destination": "/assets/type_icons/:dir/:file" }
+  ],
   "headers": [
     {
       "source": "/(.*)",

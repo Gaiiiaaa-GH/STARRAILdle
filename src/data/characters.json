@@ -10,13 +10,13 @@
       "id": "ice",
       "name_en": "Ice",
       "name_fr": "Glace",
-      "icon": "assets/elements/ice.png"
+      "icon": "assets/type_icons/elements/ice.png"
     },
     "path": {
       "id": "knight",
       "name_en": "Preservation",
       "name_fr": "La Préservation",
-      "icon": "assets/paths/knight.png"
+      "icon": "assets/type_icons/paths/knight.png"
     },
     "lore_paths": [
       {
@@ -64,11 +64,11 @@
       "boss_name_fr": "Bête de l'apocalypse",
       "world_en": "Herta Space Station",
       "world_fr": "Station spatiale Herta",
-      "icon": "assets/bosses/110501.png"
+      "icon": "assets/type_icons/bosses/110501.png"
     },
-    "avatar": "assets/characters/1001.png",
-    "portrait": "assets/PORTRAIT/1001.webp",
-    "splash_art": "assets/SPLASHART/1001.webp",
+    "avatar": "assets/icons/1001.png",
+    "portrait": "assets/portraits/1001.webp",
+    "splash_art": "assets/splash_art/1001.webp",
     "quotes": [
       {
         "en": "I told ya I could fight!",
@@ -135,13 +135,13 @@
       "id": "wind",
       "name_en": "Wind",
       "name_fr": "Vent",
-      "icon": "assets/elements/wind.png"
+      "icon": "assets/type_icons/elements/wind.png"
     },
     "path": {
       "id": "rogue",
       "name_en": "The Hunt",
       "name_fr": "La Chasse",
-      "icon": "assets/paths/rogue.png"
+      "icon": "assets/type_icons/paths/rogue.png"
     },
     "lore_paths": [
       {
@@ -174,11 +174,11 @@
       "boss_name_fr": "Bête de l'apocalypse",
       "world_en": "Herta Space Station",
       "world_fr": "Station spatiale Herta",
-      "icon": "assets/bosses/110501.png"
+      "icon": "assets/type_icons/bosses/110501.png"
     },
-    "avatar": "assets/characters/1002.png",
-    "portrait": "assets/PORTRAIT/1002.webp",
-    "splash_art": "assets/SPLASHART/1002.webp",
+    "avatar": "assets/icons/1002.png",
+    "portrait": "assets/portraits/1002.webp",
+    "splash_art": "assets/splash_art/1002.webp",
     "quotes": [
       {
         "en": "The truth of life and death, revealed in an instant.",
@@ -245,13 +245,13 @@
       "id": "fire",
       "name_en": "Fire",
       "name_fr": "Feu",
-      "icon": "assets/elements/fire.png"
+      "icon": "assets/type_icons/elements/fire.png"
     },
     "path": {
       "id": "mage",
       "name_en": "Erudition",
       "name_fr": "L'Érudition",
-      "icon": "assets/paths/mage.png"
+      "icon": "assets/type_icons/paths/mage.png"
     },
     "lore_paths": [
       {
@@ -283,11 +283,11 @@
       "boss_name_fr": "Bête de l'apocalypse",
       "world_en": "Herta Space Station",
       "world_fr": "Station spatiale Herta",
-      "icon": "assets/bosses/110501.png"
+      "icon": "assets/type_icons/bosses/110501.png"
     },
-    "avatar": "assets/characters/1003.png",
-    "portrait": "assets/PORTRAIT/1003.webp",
-    "splash_art": "assets/SPLASHART/1003.webp",
+    "avatar": "assets/icons/1003.png",
+    "portrait": "assets/portraits/1003.webp",
+    "splash_art": "assets/splash_art/1003.webp",
     "quotes": [
       {
         "en": "Humanity never conceals its desire to control the heavens... And I'm no exception.",
@@ -354,13 +354,13 @@
       "id": "imaginary",
       "name_en": "Imaginary",
       "name_fr": "Imaginaire",
-      "icon": "assets/elements/imaginary.png"
+      "icon": "assets/type_icons/elements/imaginary.png"
     },
     "path": {
       "id": "warlock",
       "name_en": "Nihility",
       "name_fr": "La Nihilité",
-      "icon": "assets/paths/warlock.png"
+      "icon": "assets/type_icons/paths/warlock.png"
     },
     "lore_paths": [
       {
@@ -390,11 +390,11 @@
       "boss_name_fr": "Bête de l'apocalypse",
       "world_en": "Herta Space Station",
       "world_fr": "Station spatiale Herta",
-      "icon": "assets/bosses/110501.png"
+      "icon": "assets/type_icons/bosses/110501.png"
     },
-    "avatar": "assets/characters/1004.png",
-    "portrait": "assets/PORTRAIT/1004.webp",
-    "splash_art": "assets/SPLASHART/1004.webp",
+    "avatar": "assets/icons/1004.png",
+    "portrait": "assets/portraits/1004.webp",
+    "splash_art": "assets/splash_art/1004.webp",
     "quotes": [
       {
         "en": "Witness the stars shatter before you... Survive or be destroyed, there is no other choice.",
@@ -461,13 +461,13 @@
       "id": "thunder",
       "name_en": "Lightning",
       "name_fr": "Foudre",
-      "icon": "assets/elements/thunder.png"
+      "icon": "assets/type_icons/elements/thunder.png"
     },
     "path": {
       "id": "warlock",
       "name_en": "Nihility",
       "name_fr": "La Nihilité",
-      "icon": "assets/paths/warlock.png"
+      "icon": "assets/type_icons/paths/warlock.png"
     },
     "lore_paths": [
       {
@@ -493,11 +493,11 @@
       "boss_name_fr": "Phantylia l'Immortelle",
       "world_en": "Xianzhou Luofu",
       "world_fr": "Xianzhou Luofu",
-      "icon": "assets/bosses/110503.png"
+      "icon": "assets/type_icons/bosses/110503.png"
     },
-    "avatar": "assets/characters/1005.png",
-    "portrait": "assets/PORTRAIT/1005.webp",
-    "splash_art": "assets/SPLASHART/1005.webp",
+    "avatar": "assets/icons/1005.png",
+    "portrait": "assets/portraits/1005.webp",
+    "splash_art": "assets/splash_art/1005.webp",
     "quotes": [
       {
         "en": "Good times never last.",
@@ -564,13 +564,13 @@
       "id": "quantum",
       "name_en": "Quantum",
       "name_fr": "Quantique",
-      "icon": "assets/elements/quantum.png"
+      "icon": "assets/type_icons/elements/quantum.png"
     },
     "path": {
       "id": "warlock",
       "name_en": "Nihility",
       "name_fr": "La Nihilité",
-      "icon": "assets/paths/warlock.png"
+      "icon": "assets/type_icons/paths/warlock.png"
     },
     "lore_paths": [
       {
@@ -601,11 +601,11 @@
       "boss_name_fr": "Bête de l'apocalypse",
       "world_en": "Herta Space Station",
       "world_fr": "Station spatiale Herta",
-      "icon": "assets/bosses/110501.png"
+      "icon": "assets/type_icons/bosses/110501.png"
     },
-    "avatar": "assets/characters/1006.png",
-    "portrait": "assets/PORTRAIT/1006.webp",
-    "splash_art": "assets/SPLASHART/1006.webp",
+    "avatar": "assets/icons/1006.png",
+    "portrait": "assets/portraits/1006.webp",
+    "splash_art": "assets/splash_art/1006.webp",
     "quotes": [
       {
         "en": "This combat needs optimizing.",
@@ -672,13 +672,13 @@
       "id": "thunder",
       "name_en": "Lightning",
       "name_fr": "Foudre",
-      "icon": "assets/elements/thunder.png"
+      "icon": "assets/type_icons/elements/thunder.png"
     },
     "path": {
       "id": "warrior",
       "name_en": "Destruction",
       "name_fr": "La Destruction",
-      "icon": "assets/paths/warrior.png"
+      "icon": "assets/type_icons/paths/warrior.png"
     },
     "lore_paths": [
       {
@@ -706,11 +706,11 @@
       "boss_name_fr": "Bête de l'apocalypse",
       "world_en": "Herta Space Station",
       "world_fr": "Station spatiale Herta",
-      "icon": "assets/bosses/110501.png"
+      "icon": "assets/type_icons/bosses/110501.png"
     },
-    "avatar": "assets/characters/1008.png",
-    "portrait": "assets/PORTRAIT/1008.webp",
-    "splash_art": "assets/SPLASHART/1008.webp",
+    "avatar": "assets/icons/1008.png",
+    "portrait": "assets/portraits/1008.webp",
+    "splash_art": "assets/splash_art/1008.webp",
     "quotes": [
       {
         "en": "Let me pay you back — tenfold!",
@@ -777,13 +777,13 @@
       "id": "fire",
       "name_en": "Fire",
       "name_fr": "Feu",
-      "icon": "assets/elements/fire.png"
+      "icon": "assets/type_icons/elements/fire.png"
     },
     "path": {
       "id": "shaman",
       "name_en": "Harmony",
       "name_fr": "L'Harmonie",
-      "icon": "assets/paths/shaman.png"
+      "icon": "assets/type_icons/paths/shaman.png"
     },
     "lore_paths": [
       {
@@ -809,11 +809,11 @@
       "boss_name_fr": "Bête de l'apocalypse",
       "world_en": "Herta Space Station",
       "world_fr": "Station spatiale Herta",
-      "icon": "assets/bosses/110501.png"
+      "icon": "assets/type_icons/bosses/110501.png"
     },
-    "avatar": "assets/characters/1009.png",
-    "portrait": "assets/PORTRAIT/1009.webp",
-    "splash_art": "assets/SPLASHART/1009.webp",
+    "avatar": "assets/icons/1009.png",
+    "portrait": "assets/portraits/1009.webp",
+    "splash_art": "assets/splash_art/1009.webp",
     "quotes": [
       {
         "en": "Oh profound secrets of the stars, give these Trailblazers your blessing!",
@@ -880,13 +880,13 @@
       "id": "ice",
       "name_en": "Ice",
       "name_fr": "Glace",
-      "icon": "assets/elements/ice.png"
+      "icon": "assets/type_icons/elements/ice.png"
     },
     "path": {
       "id": "mage",
       "name_en": "Erudition",
       "name_fr": "L'Érudition",
-      "icon": "assets/paths/mage.png"
+      "icon": "assets/type_icons/paths/mage.png"
     },
     "lore_paths": [
       {
@@ -914,11 +914,11 @@
       "boss_name_fr": "Bête de l'apocalypse",
       "world_en": "Herta Space Station",
       "world_fr": "Station spatiale Herta",
-      "icon": "assets/bosses/110501.png"
+      "icon": "assets/type_icons/bosses/110501.png"
     },
-    "avatar": "assets/characters/1013.png",
-    "portrait": "assets/PORTRAIT/1013.webp",
-    "splash_art": "assets/SPLASHART/1013.webp",
+    "avatar": "assets/icons/1013.png",
+    "portrait": "assets/portraits/1013.webp",
+    "splash_art": "assets/splash_art/1013.webp",
     "quotes": [
       {
         "en": "Ever see a diamond this big? It's all yours~",
@@ -985,13 +985,13 @@
       "id": "wind",
       "name_en": "Wind",
       "name_fr": "Vent",
-      "icon": "assets/elements/wind.png"
+      "icon": "assets/type_icons/elements/wind.png"
     },
     "path": {
       "id": "warrior",
       "name_en": "Destruction",
       "name_fr": "La Destruction",
-      "icon": "assets/paths/warrior.png"
+      "icon": "assets/type_icons/paths/warrior.png"
     },
     "lore_paths": [
       {
@@ -1017,11 +1017,11 @@
       "boss_name_fr": "Bête de l'apocalypse",
       "world_en": "Herta Space Station",
       "world_fr": "Station spatiale Herta",
-      "icon": "assets/bosses/110501.png"
+      "icon": "assets/type_icons/bosses/110501.png"
     },
-    "avatar": "assets/characters/1014.png",
-    "portrait": "assets/PORTRAIT/1014.webp",
-    "splash_art": "assets/SPLASHART/1014.webp",
+    "avatar": "assets/icons/1014.png",
+    "portrait": "assets/portraits/1014.webp",
+    "splash_art": "assets/splash_art/1014.webp",
     "quotes": [
       {
         "en": "Excalibur!",
@@ -1088,13 +1088,13 @@
       "id": "quantum",
       "name_en": "Quantum",
       "name_fr": "Quantique",
-      "icon": "assets/elements/quantum.png"
+      "icon": "assets/type_icons/elements/quantum.png"
     },
     "path": {
       "id": "rogue",
       "name_en": "The Hunt",
       "name_fr": "La Chasse",
-      "icon": "assets/paths/rogue.png"
+      "icon": "assets/type_icons/paths/rogue.png"
     },
     "lore_paths": [
       {
@@ -1120,11 +1120,11 @@
       "boss_name_fr": "Cocolia, Mère de la tromperie",
       "world_en": "Jarilo-VI",
       "world_fr": "Jarilo-VI",
-      "icon": "assets/bosses/110502.png"
+      "icon": "assets/type_icons/bosses/110502.png"
     },
-    "avatar": "assets/characters/1015.png",
-    "portrait": "assets/PORTRAIT/1015.webp",
-    "splash_art": "assets/SPLASHART/1015.webp",
+    "avatar": "assets/icons/1015.png",
+    "portrait": "assets/portraits/1015.webp",
+    "splash_art": "assets/splash_art/1015.webp",
     "quotes": [
       {
         "en": "I am the bone of my sword. Steel is my body, and fire is my blood. I have created over a thousand blades.",
@@ -1191,13 +1191,13 @@
       "id": "wind",
       "name_en": "Wind",
       "name_fr": "Vent",
-      "icon": "assets/elements/wind.png"
+      "icon": "assets/type_icons/elements/wind.png"
     },
     "path": {
       "id": "shaman",
       "name_en": "Harmony",
       "name_fr": "L'Harmonie",
-      "icon": "assets/paths/shaman.png"
+      "icon": "assets/type_icons/paths/shaman.png"
     },
     "lore_paths": [
       {
@@ -1227,11 +1227,11 @@
       "boss_name_fr": "Cocolia, Mère de la tromperie",
       "world_en": "Jarilo-VI",
       "world_fr": "Jarilo-VI",
-      "icon": "assets/bosses/110502.png"
+      "icon": "assets/type_icons/bosses/110502.png"
     },
-    "avatar": "assets/characters/1101.png",
-    "portrait": "assets/PORTRAIT/1101.webp",
-    "splash_art": "assets/SPLASHART/1101.webp",
+    "avatar": "assets/icons/1101.png",
+    "portrait": "assets/portraits/1101.webp",
+    "splash_art": "assets/splash_art/1101.webp",
     "quotes": [
       {
         "en": "To guard and defend, crush them!",
@@ -1298,13 +1298,13 @@
       "id": "quantum",
       "name_en": "Quantum",
       "name_fr": "Quantique",
-      "icon": "assets/elements/quantum.png"
+      "icon": "assets/type_icons/elements/quantum.png"
     },
     "path": {
       "id": "rogue",
       "name_en": "The Hunt",
       "name_fr": "La Chasse",
-      "icon": "assets/paths/rogue.png"
+      "icon": "assets/type_icons/paths/rogue.png"
     },
     "lore_paths": [
       {
@@ -1332,11 +1332,11 @@
       "boss_name_fr": "Cocolia, Mère de la tromperie",
       "world_en": "Jarilo-VI",
       "world_fr": "Jarilo-VI",
-      "icon": "assets/bosses/110502.png"
+      "icon": "assets/type_icons/bosses/110502.png"
     },
-    "avatar": "assets/characters/1102.png",
-    "portrait": "assets/PORTRAIT/1102.webp",
-    "splash_art": "assets/SPLASHART/1102.webp",
+    "avatar": "assets/icons/1102.png",
+    "portrait": "assets/portraits/1102.webp",
+    "splash_art": "assets/splash_art/1102.webp",
     "quotes": [
       {
         "en": "Disappear among the sea of butterflies, illusions of the past!",
@@ -1403,13 +1403,13 @@
       "id": "thunder",
       "name_en": "Lightning",
       "name_fr": "Foudre",
-      "icon": "assets/elements/thunder.png"
+      "icon": "assets/type_icons/elements/thunder.png"
     },
     "path": {
       "id": "mage",
       "name_en": "Erudition",
       "name_fr": "L'Érudition",
-      "icon": "assets/paths/mage.png"
+      "icon": "assets/type_icons/paths/mage.png"
     },
     "lore_paths": [
       {
@@ -1441,11 +1441,11 @@
       "boss_name_fr": "Cocolia, Mère de la tromperie",
       "world_en": "Jarilo-VI",
       "world_fr": "Jarilo-VI",
-      "icon": "assets/bosses/110502.png"
+      "icon": "assets/type_icons/bosses/110502.png"
     },
-    "avatar": "assets/characters/1103.png",
-    "portrait": "assets/PORTRAIT/1103.webp",
-    "splash_art": "assets/SPLASHART/1103.webp",
+    "avatar": "assets/icons/1103.png",
+    "portrait": "assets/portraits/1103.webp",
+    "splash_art": "assets/splash_art/1103.webp",
     "quotes": [
       {
         "en": "Fight it or rock with it... my music conquers all!",
@@ -1512,13 +1512,13 @@
       "id": "ice",
       "name_en": "Ice",
       "name_fr": "Glace",
-      "icon": "assets/elements/ice.png"
+      "icon": "assets/type_icons/elements/ice.png"
     },
     "path": {
       "id": "knight",
       "name_en": "Preservation",
       "name_fr": "La Préservation",
-      "icon": "assets/paths/knight.png"
+      "icon": "assets/type_icons/paths/knight.png"
     },
     "lore_paths": [
       {
@@ -1548,11 +1548,11 @@
       "boss_name_fr": "Cocolia, Mère de la tromperie",
       "world_en": "Jarilo-VI",
       "world_fr": "Jarilo-VI",
-      "icon": "assets/bosses/110502.png"
+      "icon": "assets/type_icons/bosses/110502.png"
     },
-    "avatar": "assets/characters/1104.png",
-    "portrait": "assets/PORTRAIT/1104.webp",
-    "splash_art": "assets/SPLASHART/1104.webp",
+    "avatar": "assets/icons/1104.png",
+    "portrait": "assets/portraits/1104.webp",
+    "splash_art": "assets/splash_art/1104.webp",
     "quotes": [
       {
         "en": "Years of cold hardens the will. We shall never fall!",
@@ -1619,13 +1619,13 @@
       "id": "physical",
       "name_en": "Physical",
       "name_fr": "Physique",
-      "icon": "assets/elements/physical.png"
+      "icon": "assets/type_icons/elements/physical.png"
     },
     "path": {
       "id": "priest",
       "name_en": "Abundance",
       "name_fr": "L'Abondance",
-      "icon": "assets/paths/priest.png"
+      "icon": "assets/type_icons/paths/priest.png"
     },
     "lore_paths": [
       {
@@ -1655,11 +1655,11 @@
       "boss_name_fr": "Cocolia, Mère de la tromperie",
       "world_en": "Jarilo-VI",
       "world_fr": "Jarilo-VI",
-      "icon": "assets/bosses/110502.png"
+      "icon": "assets/type_icons/bosses/110502.png"
     },
-    "avatar": "assets/characters/1105.png",
-    "portrait": "assets/PORTRAIT/1105.webp",
-    "splash_art": "assets/SPLASHART/1105.webp",
+    "avatar": "assets/icons/1105.png",
+    "portrait": "assets/portraits/1105.webp",
+    "splash_art": "assets/splash_art/1105.webp",
     "quotes": [
       {
         "en": "Time for a shot.",
@@ -1726,13 +1726,13 @@
       "id": "ice",
       "name_en": "Ice",
       "name_fr": "Glace",
-      "icon": "assets/elements/ice.png"
+      "icon": "assets/type_icons/elements/ice.png"
     },
     "path": {
       "id": "warlock",
       "name_en": "Nihility",
       "name_fr": "La Nihilité",
-      "icon": "assets/paths/warlock.png"
+      "icon": "assets/type_icons/paths/warlock.png"
     },
     "lore_paths": [
       {
@@ -1762,11 +1762,11 @@
       "boss_name_fr": "Cocolia, Mère de la tromperie",
       "world_en": "Jarilo-VI",
       "world_fr": "Jarilo-VI",
-      "icon": "assets/bosses/110502.png"
+      "icon": "assets/type_icons/bosses/110502.png"
     },
-    "avatar": "assets/characters/1106.png",
-    "portrait": "assets/PORTRAIT/1106.webp",
-    "splash_art": "assets/SPLASHART/1106.webp",
+    "avatar": "assets/icons/1106.png",
+    "portrait": "assets/portraits/1106.webp",
+    "splash_art": "assets/splash_art/1106.webp",
     "quotes": [
       {
         "en": "Net markers activated — time for a good old counterattack.",
@@ -1833,13 +1833,13 @@
       "id": "physical",
       "name_en": "Physical",
       "name_fr": "Physique",
-      "icon": "assets/elements/physical.png"
+      "icon": "assets/type_icons/elements/physical.png"
     },
     "path": {
       "id": "warrior",
       "name_en": "Destruction",
       "name_fr": "La Destruction",
-      "icon": "assets/paths/warrior.png"
+      "icon": "assets/type_icons/paths/warrior.png"
     },
     "lore_paths": [
       {
@@ -1869,11 +1869,11 @@
       "boss_name_fr": "Cocolia, Mère de la tromperie",
       "world_en": "Jarilo-VI",
       "world_fr": "Jarilo-VI",
-      "icon": "assets/bosses/110502.png"
+      "icon": "assets/type_icons/bosses/110502.png"
     },
-    "avatar": "assets/characters/1107.png",
-    "portrait": "assets/PORTRAIT/1107.webp",
-    "splash_art": "assets/SPLASHART/1107.webp",
+    "avatar": "assets/icons/1107.png",
+    "portrait": "assets/portraits/1107.webp",
+    "splash_art": "assets/splash_art/1107.webp",
     "quotes": [
       {
         "en": "Help me, Mr. Svarog!",
@@ -1940,13 +1940,13 @@
       "id": "wind",
       "name_en": "Wind",
       "name_fr": "Vent",
-      "icon": "assets/elements/wind.png"
+      "icon": "assets/type_icons/elements/wind.png"
     },
     "path": {
       "id": "warlock",
       "name_en": "Nihility",
       "name_fr": "La Nihilité",
-      "icon": "assets/paths/warlock.png"
+      "icon": "assets/type_icons/paths/warlock.png"
     },
     "lore_paths": [
       {
@@ -1976,11 +1976,11 @@
       "boss_name_fr": "Cocolia, Mère de la tromperie",
       "world_en": "Jarilo-VI",
       "world_fr": "Jarilo-VI",
-      "icon": "assets/bosses/110502.png"
+      "icon": "assets/type_icons/bosses/110502.png"
     },
-    "avatar": "assets/characters/1108.png",
-    "portrait": "assets/PORTRAIT/1108.webp",
-    "splash_art": "assets/SPLASHART/1108.webp",
+    "avatar": "assets/icons/1108.png",
+    "portrait": "assets/portraits/1108.webp",
+    "splash_art": "assets/splash_art/1108.webp",
     "quotes": [
       {
         "en": "The customer is king, and for me to betray the king, well... You gotta make it worth my while.",
@@ -2047,13 +2047,13 @@
       "id": "fire",
       "name_en": "Fire",
       "name_fr": "Feu",
-      "icon": "assets/elements/fire.png"
+      "icon": "assets/type_icons/elements/fire.png"
     },
     "path": {
       "id": "warrior",
       "name_en": "Destruction",
       "name_fr": "La Destruction",
-      "icon": "assets/paths/warrior.png"
+      "icon": "assets/type_icons/paths/warrior.png"
     },
     "lore_paths": [
       {
@@ -2081,11 +2081,11 @@
       "boss_name_fr": "Cocolia, Mère de la tromperie",
       "world_en": "Jarilo-VI",
       "world_fr": "Jarilo-VI",
-      "icon": "assets/bosses/110502.png"
+      "icon": "assets/type_icons/bosses/110502.png"
     },
-    "avatar": "assets/characters/1109.png",
-    "portrait": "assets/PORTRAIT/1109.webp",
-    "splash_art": "assets/SPLASHART/1109.webp",
+    "avatar": "assets/icons/1109.png",
+    "portrait": "assets/portraits/1109.webp",
+    "splash_art": "assets/splash_art/1109.webp",
     "quotes": [
       {
         "en": "Moles, Moles, leaving our holes, brave Moles, charge as a whole!",
@@ -2152,13 +2152,13 @@
       "id": "quantum",
       "name_en": "Quantum",
       "name_fr": "Quantique",
-      "icon": "assets/elements/quantum.png"
+      "icon": "assets/type_icons/elements/quantum.png"
     },
     "path": {
       "id": "priest",
       "name_en": "Abundance",
       "name_fr": "L'Abondance",
-      "icon": "assets/paths/priest.png"
+      "icon": "assets/type_icons/paths/priest.png"
     },
     "lore_paths": [
       {
@@ -2188,11 +2188,11 @@
       "boss_name_fr": "Cocolia, Mère de la tromperie",
       "world_en": "Jarilo-VI",
       "world_fr": "Jarilo-VI",
-      "icon": "assets/bosses/110502.png"
+      "icon": "assets/type_icons/bosses/110502.png"
     },
-    "avatar": "assets/characters/1110.png",
-    "portrait": "assets/PORTRAIT/1110.webp",
-    "splash_art": "assets/SPLASHART/1110.webp",
+    "avatar": "assets/icons/1110.png",
+    "portrait": "assets/portraits/1110.webp",
+    "splash_art": "assets/splash_art/1110.webp",
     "quotes": [
       {
         "en": "For a tough case like yours, we're gonna try them all!",
@@ -2259,13 +2259,13 @@
       "id": "physical",
       "name_en": "Physical",
       "name_fr": "Physique",
-      "icon": "assets/elements/physical.png"
+      "icon": "assets/type_icons/elements/physical.png"
     },
     "path": {
       "id": "warlock",
       "name_en": "Nihility",
       "name_fr": "La Nihilité",
-      "icon": "assets/paths/warlock.png"
+      "icon": "assets/type_icons/paths/warlock.png"
     },
     "lore_paths": [
       {
@@ -2295,11 +2295,11 @@
       "boss_name_fr": "Phantylia l'Immortelle",
       "world_en": "Xianzhou Luofu",
       "world_fr": "Xianzhou Luofu",
-      "icon": "assets/bosses/110503.png"
+      "icon": "assets/type_icons/bosses/110503.png"
     },
-    "avatar": "assets/characters/1111.png",
-    "portrait": "assets/PORTRAIT/1111.webp",
-    "splash_art": "assets/SPLASHART/1111.webp",
+    "avatar": "assets/icons/1111.png",
+    "portrait": "assets/portraits/1111.webp",
+    "splash_art": "assets/splash_art/1111.webp",
     "quotes": [
       {
         "en": "An opponent worth their salt... Let's see some sparks fly!",
@@ -2366,13 +2366,13 @@
       "id": "fire",
       "name_en": "Fire",
       "name_fr": "Feu",
-      "icon": "assets/elements/fire.png"
+      "icon": "assets/type_icons/elements/fire.png"
     },
     "path": {
       "id": "rogue",
       "name_en": "The Hunt",
       "name_fr": "La Chasse",
-      "icon": "assets/paths/rogue.png"
+      "icon": "assets/type_icons/paths/rogue.png"
     },
     "lore_paths": [
       {
@@ -2402,11 +2402,11 @@
       "boss_name_fr": "Phantylia l'Immortelle",
       "world_en": "Xianzhou Luofu",
       "world_fr": "Xianzhou Luofu",
-      "icon": "assets/bosses/110503.png"
+      "icon": "assets/type_icons/bosses/110503.png"
     },
-    "avatar": "assets/characters/1112.png",
-    "portrait": "assets/PORTRAIT/1112.webp",
-    "splash_art": "assets/SPLASHART/1112.webp",
+    "avatar": "assets/icons/1112.png",
+    "portrait": "assets/portraits/1112.webp",
+    "splash_art": "assets/splash_art/1112.webp",
     "quotes": [
       {
         "en": "Investing in victory... means playing the long game!",
@@ -2473,13 +2473,13 @@
       "id": "quantum",
       "name_en": "Quantum",
       "name_fr": "Quantique",
-      "icon": "assets/elements/quantum.png"
+      "icon": "assets/type_icons/elements/quantum.png"
     },
     "path": {
       "id": "mage",
       "name_en": "Erudition",
       "name_fr": "L'Érudition",
-      "icon": "assets/paths/mage.png"
+      "icon": "assets/type_icons/paths/mage.png"
     },
     "lore_paths": [
       {
@@ -2507,11 +2507,11 @@
       "boss_name_fr": "Cocolia, Mère de la tromperie",
       "world_en": "Jarilo-VI",
       "world_fr": "Jarilo-VI",
-      "icon": "assets/bosses/110502.png"
+      "icon": "assets/type_icons/bosses/110502.png"
     },
-    "avatar": "assets/characters/1201.png",
-    "portrait": "assets/PORTRAIT/1201.webp",
-    "splash_art": "assets/SPLASHART/1201.webp",
+    "avatar": "assets/icons/1201.png",
+    "portrait": "assets/portraits/1201.webp",
+    "splash_art": "assets/splash_art/1201.webp",
     "quotes": [
       {
         "en": "Life's just like a game of tiles, you never know what's gonna come up next~",
@@ -2578,13 +2578,13 @@
       "id": "thunder",
       "name_en": "Lightning",
       "name_fr": "Foudre",
-      "icon": "assets/elements/thunder.png"
+      "icon": "assets/type_icons/elements/thunder.png"
     },
     "path": {
       "id": "shaman",
       "name_en": "Harmony",
       "name_fr": "L'Harmonie",
-      "icon": "assets/paths/shaman.png"
+      "icon": "assets/type_icons/paths/shaman.png"
     },
     "lore_paths": [
       {
@@ -2614,11 +2614,11 @@
       "boss_name_fr": "Bête de l'apocalypse",
       "world_en": "Herta Space Station",
       "world_fr": "Station spatiale Herta",
-      "icon": "assets/bosses/110501.png"
+      "icon": "assets/type_icons/bosses/110501.png"
     },
-    "avatar": "assets/characters/1202.png",
-    "portrait": "assets/PORTRAIT/1202.webp",
-    "splash_art": "assets/SPLASHART/1202.webp",
+    "avatar": "assets/icons/1202.png",
+    "portrait": "assets/portraits/1202.webp",
+    "splash_art": "assets/splash_art/1202.webp",
     "quotes": [
       {
         "en": "Seize the moment!",
@@ -2685,13 +2685,13 @@
       "id": "imaginary",
       "name_en": "Imaginary",
       "name_fr": "Imaginaire",
-      "icon": "assets/elements/imaginary.png"
+      "icon": "assets/type_icons/elements/imaginary.png"
     },
     "path": {
       "id": "priest",
       "name_en": "Abundance",
       "name_fr": "L'Abondance",
-      "icon": "assets/paths/priest.png"
+      "icon": "assets/type_icons/paths/priest.png"
     },
     "lore_paths": [
       {
@@ -2719,11 +2719,11 @@
       "boss_name_fr": "Cocolia, Mère de la tromperie",
       "world_en": "Jarilo-VI",
       "world_fr": "Jarilo-VI",
-      "icon": "assets/bosses/110502.png"
+      "icon": "assets/type_icons/bosses/110502.png"
     },
-    "avatar": "assets/characters/1203.png",
-    "portrait": "assets/PORTRAIT/1203.webp",
-    "splash_art": "assets/SPLASHART/1203.webp",
+    "avatar": "assets/icons/1203.png",
+    "portrait": "assets/portraits/1203.webp",
+    "splash_art": "assets/splash_art/1203.webp",
     "quotes": [
       {
         "en": "Time to settle your accounts.",
@@ -2790,13 +2790,13 @@
       "id": "thunder",
       "name_en": "Lightning",
       "name_fr": "Foudre",
-      "icon": "assets/elements/thunder.png"
+      "icon": "assets/type_icons/elements/thunder.png"
     },
     "path": {
       "id": "mage",
       "name_en": "Erudition",
       "name_fr": "L'Érudition",
-      "icon": "assets/paths/mage.png"
+      "icon": "assets/type_icons/paths/mage.png"
     },
     "lore_paths": [
       {
@@ -2830,11 +2830,11 @@
       "boss_name_fr": "Bête de l'apocalypse",
       "world_en": "Herta Space Station",
       "world_fr": "Station spatiale Herta",
-      "icon": "assets/bosses/110501.png"
+      "icon": "assets/type_icons/bosses/110501.png"
     },
-    "avatar": "assets/characters/1204.png",
-    "portrait": "assets/PORTRAIT/1204.webp",
-    "splash_art": "assets/SPLASHART/1204.webp",
+    "avatar": "assets/icons/1204.png",
+    "portrait": "assets/portraits/1204.webp",
+    "splash_art": "assets/splash_art/1204.webp",
     "quotes": [
       {
         "en": "A foregone conclusion.",
@@ -2901,13 +2901,13 @@
       "id": "wind",
       "name_en": "Wind",
       "name_fr": "Vent",
-      "icon": "assets/elements/wind.png"
+      "icon": "assets/type_icons/elements/wind.png"
     },
     "path": {
       "id": "warrior",
       "name_en": "Destruction",
       "name_fr": "La Destruction",
-      "icon": "assets/paths/warrior.png"
+      "icon": "assets/type_icons/paths/warrior.png"
     },
     "lore_paths": [
       {
@@ -2940,11 +2940,11 @@
       "boss_name_fr": "Phantylia l'Immortelle",
       "world_en": "Xianzhou Luofu",
       "world_fr": "Xianzhou Luofu",
-      "icon": "assets/bosses/110503.png"
+      "icon": "assets/type_icons/bosses/110503.png"
     },
-    "avatar": "assets/characters/1205.png",
-    "portrait": "assets/PORTRAIT/1205.webp",
-    "splash_art": "assets/SPLASHART/1205.webp",
+    "avatar": "assets/icons/1205.png",
+    "portrait": "assets/portraits/1205.webp",
+    "splash_art": "assets/splash_art/1205.webp",
     "quotes": [
       {
         "en": "Life itself is punishment.",
@@ -3011,13 +3011,13 @@
       "id": "physical",
       "name_en": "Physical",
       "name_fr": "Physique",
-      "icon": "assets/elements/physical.png"
+      "icon": "assets/type_icons/elements/physical.png"
     },
     "path": {
       "id": "rogue",
       "name_en": "The Hunt",
       "name_fr": "La Chasse",
-      "icon": "assets/paths/rogue.png"
+      "icon": "assets/type_icons/paths/rogue.png"
     },
     "lore_paths": [
       {
@@ -3049,11 +3049,11 @@
       "boss_name_fr": "Cocolia, Mère de la tromperie",
       "world_en": "Jarilo-VI",
       "world_fr": "Jarilo-VI",
-      "icon": "assets/bosses/110502.png"
+      "icon": "assets/type_icons/bosses/110502.png"
     },
-    "avatar": "assets/characters/1206.png",
-    "portrait": "assets/PORTRAIT/1206.webp",
-    "splash_art": "assets/SPLASHART/1206.webp",
+    "avatar": "assets/icons/1206.png",
+    "portrait": "assets/portraits/1206.webp",
+    "splash_art": "assets/splash_art/1206.webp",
     "quotes": [
       {
         "en": "No more playing nice!",
@@ -3120,13 +3120,13 @@
       "id": "imaginary",
       "name_en": "Imaginary",
       "name_fr": "Imaginaire",
-      "icon": "assets/elements/imaginary.png"
+      "icon": "assets/type_icons/elements/imaginary.png"
     },
     "path": {
       "id": "shaman",
       "name_en": "Harmony",
       "name_fr": "L'Harmonie",
-      "icon": "assets/paths/shaman.png"
+      "icon": "assets/type_icons/paths/shaman.png"
     },
     "lore_paths": [
       {
@@ -3156,11 +3156,11 @@
       "boss_name_fr": "Bête de l'apocalypse",
       "world_en": "Herta Space Station",
       "world_fr": "Station spatiale Herta",
-      "icon": "assets/bosses/110501.png"
+      "icon": "assets/type_icons/bosses/110501.png"
     },
-    "avatar": "assets/characters/1207.png",
-    "portrait": "assets/PORTRAIT/1207.webp",
-    "splash_art": "assets/SPLASHART/1207.webp",
+    "avatar": "assets/icons/1207.png",
+    "portrait": "assets/portraits/1207.webp",
+    "splash_art": "assets/splash_art/1207.webp",
     "quotes": [
       {
         "en": "Brave the wind!",
@@ -3227,13 +3227,13 @@
       "id": "quantum",
       "name_en": "Quantum",
       "name_fr": "Quantique",
-      "icon": "assets/elements/quantum.png"
+      "icon": "assets/type_icons/elements/quantum.png"
     },
     "path": {
       "id": "knight",
       "name_en": "Preservation",
       "name_fr": "La Préservation",
-      "icon": "assets/paths/knight.png"
+      "icon": "assets/type_icons/paths/knight.png"
     },
     "lore_paths": [
       {
@@ -3270,11 +3270,11 @@
       "boss_name_fr": "Phantylia l'Immortelle",
       "world_en": "Xianzhou Luofu",
       "world_fr": "Xianzhou Luofu",
-      "icon": "assets/bosses/110503.png"
+      "icon": "assets/type_icons/bosses/110503.png"
     },
-    "avatar": "assets/characters/1208.png",
-    "portrait": "assets/PORTRAIT/1208.webp",
-    "splash_art": "assets/SPLASHART/1208.webp",
+    "avatar": "assets/icons/1208.png",
+    "portrait": "assets/portraits/1208.webp",
+    "splash_art": "assets/splash_art/1208.webp",
     "quotes": [
       {
         "en": "The omniscia sees through you...",
@@ -3341,13 +3341,13 @@
       "id": "ice",
       "name_en": "Ice",
       "name_fr": "Glace",
-      "icon": "assets/elements/ice.png"
+      "icon": "assets/type_icons/elements/ice.png"
     },
     "path": {
       "id": "rogue",
       "name_en": "The Hunt",
       "name_fr": "La Chasse",
-      "icon": "assets/paths/rogue.png"
+      "icon": "assets/type_icons/paths/rogue.png"
     },
     "lore_paths": [
       {
@@ -3375,11 +3375,11 @@
       "boss_name_fr": "Cocolia, Mère de la tromperie",
       "world_en": "Jarilo-VI",
       "world_fr": "Jarilo-VI",
-      "icon": "assets/bosses/110502.png"
+      "icon": "assets/type_icons/bosses/110502.png"
     },
-    "avatar": "assets/characters/1209.png",
-    "portrait": "assets/PORTRAIT/1209.webp",
-    "splash_art": "assets/SPLASHART/1209.webp",
+    "avatar": "assets/icons/1209.png",
+    "portrait": "assets/portraits/1209.webp",
+    "splash_art": "assets/splash_art/1209.webp",
     "quotes": [
       {
         "en": "A strong adversary. Help me improve!",
@@ -3446,13 +3446,13 @@
       "id": "fire",
       "name_en": "Fire",
       "name_fr": "Feu",
-      "icon": "assets/elements/fire.png"
+      "icon": "assets/type_icons/elements/fire.png"
     },
     "path": {
       "id": "warlock",
       "name_en": "Nihility",
       "name_fr": "La Nihilité",
-      "icon": "assets/paths/warlock.png"
+      "icon": "assets/type_icons/paths/warlock.png"
     },
     "lore_paths": [
       {
@@ -3480,11 +3480,11 @@
       "boss_name_fr": "Phantylia l'Immortelle",
       "world_en": "Xianzhou Luofu",
       "world_fr": "Xianzhou Luofu",
-      "icon": "assets/bosses/110503.png"
+      "icon": "assets/type_icons/bosses/110503.png"
     },
-    "avatar": "assets/characters/1210.png",
-    "portrait": "assets/PORTRAIT/1210.webp",
-    "splash_art": "assets/SPLASHART/1210.webp",
+    "avatar": "assets/icons/1210.png",
+    "portrait": "assets/portraits/1210.webp",
+    "splash_art": "assets/splash_art/1210.webp",
     "quotes": [
       {
         "en": "Come feast your eyes!",
@@ -3551,13 +3551,13 @@
       "id": "thunder",
       "name_en": "Lightning",
       "name_fr": "Foudre",
-      "icon": "assets/elements/thunder.png"
+      "icon": "assets/type_icons/elements/thunder.png"
     },
     "path": {
       "id": "priest",
       "name_en": "Abundance",
       "name_fr": "L'Abondance",
-      "icon": "assets/paths/priest.png"
+      "icon": "assets/type_icons/paths/priest.png"
     },
     "lore_paths": [
       {
@@ -3587,11 +3587,11 @@
       "boss_name_fr": "Cocolia, Mère de la tromperie",
       "world_en": "Jarilo-VI",
       "world_fr": "Jarilo-VI",
-      "icon": "assets/bosses/110502.png"
+      "icon": "assets/type_icons/bosses/110502.png"
     },
-    "avatar": "assets/characters/1211.png",
-    "portrait": "assets/PORTRAIT/1211.webp",
-    "splash_art": "assets/SPLASHART/1211.webp",
+    "avatar": "assets/icons/1211.png",
+    "portrait": "assets/portraits/1211.webp",
+    "splash_art": "assets/splash_art/1211.webp",
     "quotes": [
       {
         "en": "Ha, you don't look so good.",
@@ -3658,13 +3658,13 @@
       "id": "ice",
       "name_en": "Ice",
       "name_fr": "Glace",
-      "icon": "assets/elements/ice.png"
+      "icon": "assets/type_icons/elements/ice.png"
     },
     "path": {
       "id": "warrior",
       "name_en": "Destruction",
       "name_fr": "La Destruction",
-      "icon": "assets/paths/warrior.png"
+      "icon": "assets/type_icons/paths/warrior.png"
     },
     "lore_paths": [
       {
@@ -3696,11 +3696,11 @@
       "boss_name_fr": "Phantylia l'Immortelle",
       "world_en": "Xianzhou Luofu",
       "world_fr": "Xianzhou Luofu",
-      "icon": "assets/bosses/110503.png"
+      "icon": "assets/type_icons/bosses/110503.png"
     },
-    "avatar": "assets/characters/1212.png",
-    "portrait": "assets/PORTRAIT/1212.webp",
-    "splash_art": "assets/SPLASHART/1212.webp",
+    "avatar": "assets/icons/1212.png",
+    "portrait": "assets/portraits/1212.webp",
+    "splash_art": "assets/splash_art/1212.webp",
     "quotes": [
       {
         "en": "Unworthy of my time.",
@@ -3767,13 +3767,13 @@
       "id": "imaginary",
       "name_en": "Imaginary",
       "name_fr": "Imaginaire",
-      "icon": "assets/elements/imaginary.png"
+      "icon": "assets/type_icons/elements/imaginary.png"
     },
     "path": {
       "id": "warrior",
       "name_en": "Destruction",
       "name_fr": "La Destruction",
-      "icon": "assets/paths/warrior.png"
+      "icon": "assets/type_icons/paths/warrior.png"
     },
     "lore_paths": [
       {
@@ -3808,11 +3808,11 @@
       "boss_name_fr": "Phantylia l'Immortelle",
       "world_en": "Xianzhou Luofu",
       "world_fr": "Xianzhou Luofu",
-      "icon": "assets/bosses/110503.png"
+      "icon": "assets/type_icons/bosses/110503.png"
     },
-    "avatar": "assets/characters/1213.png",
-    "portrait": "assets/PORTRAIT/1213.webp",
-    "splash_art": "assets/SPLASHART/1213.webp",
+    "avatar": "assets/icons/1213.png",
+    "portrait": "assets/portraits/1213.webp",
+    "splash_art": "assets/splash_art/1213.webp",
     "quotes": [
       {
         "en": "I sense a storm...",
@@ -3879,13 +3879,13 @@
       "id": "quantum",
       "name_en": "Quantum",
       "name_fr": "Quantique",
-      "icon": "assets/elements/quantum.png"
+      "icon": "assets/type_icons/elements/quantum.png"
     },
     "path": {
       "id": "warrior",
       "name_en": "Destruction",
       "name_fr": "La Destruction",
-      "icon": "assets/paths/warrior.png"
+      "icon": "assets/type_icons/paths/warrior.png"
     },
     "lore_paths": [
       {
@@ -3913,11 +3913,11 @@
       "boss_name_fr": "Skaracabaz, roi de l'Essaim",
       "world_en": "Herta Space Station",
       "world_fr": "Station spatiale Herta",
-      "icon": "assets/bosses/110504.png"
+      "icon": "assets/type_icons/bosses/110504.png"
     },
-    "avatar": "assets/characters/1214.png",
-    "portrait": "assets/PORTRAIT/1214.webp",
-    "splash_art": "assets/SPLASHART/1214.webp",
+    "avatar": "assets/icons/1214.png",
+    "portrait": "assets/portraits/1214.webp",
+    "splash_art": "assets/splash_art/1214.webp",
     "quotes": [
       {
         "en": "Do you admit this crime?",
@@ -3984,13 +3984,13 @@
       "id": "physical",
       "name_en": "Physical",
       "name_fr": "Physique",
-      "icon": "assets/elements/physical.png"
+      "icon": "assets/type_icons/elements/physical.png"
     },
     "path": {
       "id": "shaman",
       "name_en": "Harmony",
       "name_fr": "L'Harmonie",
-      "icon": "assets/paths/shaman.png"
+      "icon": "assets/type_icons/paths/shaman.png"
     },
     "lore_paths": [
       {
@@ -4018,11 +4018,11 @@
       "boss_name_fr": "Phantylia l'Immortelle",
       "world_en": "Xianzhou Luofu",
       "world_fr": "Xianzhou Luofu",
-      "icon": "assets/bosses/110503.png"
+      "icon": "assets/type_icons/bosses/110503.png"
     },
-    "avatar": "assets/characters/1215.png",
-    "portrait": "assets/PORTRAIT/1215.webp",
-    "splash_art": "assets/SPLASHART/1215.webp",
+    "avatar": "assets/icons/1215.png",
+    "portrait": "assets/portraits/1215.webp",
+    "splash_art": "assets/splash_art/1215.webp",
     "quotes": [
       {
         "en": "You don't know how serious this is...",
@@ -4089,13 +4089,13 @@
       "id": "wind",
       "name_en": "Wind",
       "name_fr": "Vent",
-      "icon": "assets/elements/wind.png"
+      "icon": "assets/type_icons/elements/wind.png"
     },
     "path": {
       "id": "priest",
       "name_en": "Abundance",
       "name_fr": "L'Abondance",
-      "icon": "assets/paths/priest.png"
+      "icon": "assets/type_icons/paths/priest.png"
     },
     "lore_paths": [
       {
@@ -4125,11 +4125,11 @@
       "boss_name_fr": "Phantylia l'Immortelle",
       "world_en": "Xianzhou Luofu",
       "world_fr": "Xianzhou Luofu",
-      "icon": "assets/bosses/110503.png"
+      "icon": "assets/type_icons/bosses/110503.png"
     },
-    "avatar": "assets/characters/1217.png",
-    "portrait": "assets/PORTRAIT/1217.webp",
-    "splash_art": "assets/SPLASHART/1217.webp",
+    "avatar": "assets/icons/1217.png",
+    "portrait": "assets/portraits/1217.webp",
+    "splash_art": "assets/splash_art/1217.webp",
     "quotes": [
       {
         "en": "Demons... depart...",
@@ -4196,13 +4196,13 @@
       "id": "fire",
       "name_en": "Fire",
       "name_fr": "Feu",
-      "icon": "assets/elements/fire.png"
+      "icon": "assets/type_icons/elements/fire.png"
     },
     "path": {
       "id": "warlock",
       "name_en": "Nihility",
       "name_fr": "La Nihilité",
-      "icon": "assets/paths/warlock.png"
+      "icon": "assets/type_icons/paths/warlock.png"
     },
     "lore_paths": [
       {
@@ -4230,11 +4230,11 @@
       "boss_name_fr": "Phantylia l'Immortelle",
       "world_en": "Xianzhou Luofu",
       "world_fr": "Xianzhou Luofu",
-      "icon": "assets/bosses/110503.png"
+      "icon": "assets/type_icons/bosses/110503.png"
     },
-    "avatar": "assets/characters/1218.png",
-    "portrait": "assets/PORTRAIT/1218.webp",
-    "splash_art": "assets/SPLASHART/1218.webp",
+    "avatar": "assets/icons/1218.png",
+    "portrait": "assets/portraits/1218.webp",
+    "splash_art": "assets/splash_art/1218.webp",
     "quotes": [
       {
         "en": "I still prefer adding fuel to the fire.",
@@ -4301,13 +4301,13 @@
       "id": "wind",
       "name_en": "Wind",
       "name_fr": "Vent",
-      "icon": "assets/elements/wind.png"
+      "icon": "assets/type_icons/elements/wind.png"
     },
     "path": {
       "id": "rogue",
       "name_en": "The Hunt",
       "name_fr": "La Chasse",
-      "icon": "assets/paths/rogue.png"
+      "icon": "assets/type_icons/paths/rogue.png"
     },
     "lore_paths": [
       {
@@ -4348,11 +4348,11 @@
       "boss_name_fr": "Phantylia l'Immortelle",
       "world_en": "Xianzhou Luofu",
       "world_fr": "Xianzhou Luofu",
-      "icon": "assets/bosses/110503.png"
+      "icon": "assets/type_icons/bosses/110503.png"
     },
-    "avatar": "assets/characters/1220.png",
-    "portrait": "assets/PORTRAIT/1220.webp",
-    "splash_art": "assets/SPLASHART/1220.webp",
+    "avatar": "assets/icons/1220.png",
+    "portrait": "assets/portraits/1220.webp",
+    "splash_art": "assets/splash_art/1220.webp",
     "quotes": [
       {
         "en": "Set me aflame! Let's find out if you can reduce me to cinders!",
@@ -4419,13 +4419,13 @@
       "id": "physical",
       "name_en": "Physical",
       "name_fr": "Physique",
-      "icon": "assets/elements/physical.png"
+      "icon": "assets/type_icons/elements/physical.png"
     },
     "path": {
       "id": "warrior",
       "name_en": "Destruction",
       "name_fr": "La Destruction",
-      "icon": "assets/paths/warrior.png"
+      "icon": "assets/type_icons/paths/warrior.png"
     },
     "lore_paths": [
       {
@@ -4457,11 +4457,11 @@
       "boss_name_fr": "Phantylia l'Immortelle",
       "world_en": "Xianzhou Luofu",
       "world_fr": "Xianzhou Luofu",
-      "icon": "assets/bosses/110503.png"
+      "icon": "assets/type_icons/bosses/110503.png"
     },
-    "avatar": "assets/characters/1221.png",
-    "portrait": "assets/PORTRAIT/1221.webp",
-    "splash_art": "assets/SPLASHART/1221.webp",
+    "avatar": "assets/icons/1221.png",
+    "portrait": "assets/portraits/1221.webp",
+    "splash_art": "assets/splash_art/1221.webp",
     "quotes": [
       {
         "en": "Strike while the iron is hot.",
@@ -4528,13 +4528,13 @@
       "id": "fire",
       "name_en": "Fire",
       "name_fr": "Feu",
-      "icon": "assets/elements/fire.png"
+      "icon": "assets/type_icons/elements/fire.png"
     },
     "path": {
       "id": "priest",
       "name_en": "Abundance",
       "name_fr": "L'Abondance",
-      "icon": "assets/paths/priest.png"
+      "icon": "assets/type_icons/paths/priest.png"
     },
     "lore_paths": [
       {
@@ -4569,11 +4569,11 @@
       "boss_name_fr": "Ombre de « Feixiao »",
       "world_en": "Xianzhou Luofu",
       "world_fr": "Xianzhou Luofu",
-      "icon": "assets/bosses/110506.png"
+      "icon": "assets/type_icons/bosses/110506.png"
     },
-    "avatar": "assets/characters/1222.png",
-    "portrait": "assets/PORTRAIT/1222.webp",
-    "splash_art": "assets/SPLASHART/1222.webp",
+    "avatar": "assets/icons/1222.png",
+    "portrait": "assets/portraits/1222.webp",
+    "splash_art": "assets/splash_art/1222.webp",
     "quotes": [
       {
         "en": "...The stench of evil.",
@@ -4640,13 +4640,13 @@
       "id": "thunder",
       "name_en": "Lightning",
       "name_fr": "Foudre",
-      "icon": "assets/elements/thunder.png"
+      "icon": "assets/type_icons/elements/thunder.png"
     },
     "path": {
       "id": "rogue",
       "name_en": "The Hunt",
       "name_fr": "La Chasse",
-      "icon": "assets/paths/rogue.png"
+      "icon": "assets/type_icons/paths/rogue.png"
     },
     "lore_paths": [
       {
@@ -4676,11 +4676,11 @@
       "boss_name_fr": "Ombre de « Feixiao »",
       "world_en": "Xianzhou Luofu",
       "world_fr": "Xianzhou Luofu",
-      "icon": "assets/bosses/110506.png"
+      "icon": "assets/type_icons/bosses/110506.png"
     },
-    "avatar": "assets/characters/1223.png",
-    "portrait": "assets/PORTRAIT/1223.webp",
-    "splash_art": "assets/SPLASHART/1223.webp",
+    "avatar": "assets/icons/1223.png",
+    "portrait": "assets/portraits/1223.webp",
+    "splash_art": "assets/splash_art/1223.webp",
     "quotes": [
       {
         "en": "I am the blade...",
@@ -4747,13 +4747,13 @@
       "id": "imaginary",
       "name_en": "Imaginary",
       "name_fr": "Imaginaire",
-      "icon": "assets/elements/imaginary.png"
+      "icon": "assets/type_icons/elements/imaginary.png"
     },
     "path": {
       "id": "rogue",
       "name_en": "The Hunt",
       "name_fr": "La Chasse",
-      "icon": "assets/paths/rogue.png"
+      "icon": "assets/type_icons/paths/rogue.png"
     },
     "lore_paths": [
       {
@@ -4801,11 +4801,11 @@
       "boss_name_fr": "Bête de l'apocalypse",
       "world_en": "Herta Space Station",
       "world_fr": "Station spatiale Herta",
-      "icon": "assets/bosses/110501.png"
+      "icon": "assets/type_icons/bosses/110501.png"
     },
-    "avatar": "assets/characters/1224.png",
-    "portrait": "assets/PORTRAIT/1224.webp",
-    "splash_art": "assets/SPLASHART/1224.webp",
+    "avatar": "assets/icons/1224.png",
+    "portrait": "assets/portraits/1224.webp",
+    "splash_art": "assets/splash_art/1224.webp",
     "quotes": [
       {
         "en": "You'll make for good practice!",
@@ -4872,13 +4872,13 @@
       "id": "fire",
       "name_en": "Fire",
       "name_fr": "Feu",
-      "icon": "assets/elements/fire.png"
+      "icon": "assets/type_icons/elements/fire.png"
     },
     "path": {
       "id": "warlock",
       "name_en": "Nihility",
       "name_fr": "La Nihilité",
-      "icon": "assets/paths/warlock.png"
+      "icon": "assets/type_icons/paths/warlock.png"
     },
     "lore_paths": [
       {
@@ -4908,11 +4908,11 @@
       "boss_name_fr": "Phantylia l'Immortelle",
       "world_en": "Xianzhou Luofu",
       "world_fr": "Xianzhou Luofu",
-      "icon": "assets/bosses/110503.png"
+      "icon": "assets/type_icons/bosses/110503.png"
     },
-    "avatar": "assets/characters/1225.png",
-    "portrait": "assets/PORTRAIT/1225.webp",
-    "splash_art": "assets/SPLASHART/1225.webp",
+    "avatar": "assets/icons/1225.png",
+    "portrait": "assets/portraits/1225.webp",
+    "splash_art": "assets/splash_art/1225.webp",
     "quotes": [
       {
         "en": "Let's seize this fine moment.",
@@ -4979,13 +4979,13 @@
       "id": "fire",
       "name_en": "Fire",
       "name_fr": "Feu",
-      "icon": "assets/elements/fire.png"
+      "icon": "assets/type_icons/elements/fire.png"
     },
     "path": {
       "id": "priest",
       "name_en": "Abundance",
       "name_fr": "L'Abondance",
-      "icon": "assets/paths/priest.png"
+      "icon": "assets/type_icons/paths/priest.png"
     },
     "lore_paths": [
       {
@@ -5015,11 +5015,11 @@
       "boss_name_fr": "Skaracabaz, roi de l'Essaim",
       "world_en": "Herta Space Station",
       "world_fr": "Station spatiale Herta",
-      "icon": "assets/bosses/110504.png"
+      "icon": "assets/type_icons/bosses/110504.png"
     },
-    "avatar": "assets/characters/1301.png",
-    "portrait": "assets/PORTRAIT/1301.webp",
-    "splash_art": "assets/SPLASHART/1301.webp",
+    "avatar": "assets/icons/1301.png",
+    "portrait": "assets/portraits/1301.webp",
+    "splash_art": "assets/splash_art/1301.webp",
     "quotes": [
       {
         "en": "Life's like a good brew – full-bodied and sweet.",
@@ -5086,13 +5086,13 @@
       "id": "physical",
       "name_en": "Physical",
       "name_fr": "Physique",
-      "icon": "assets/elements/physical.png"
+      "icon": "assets/type_icons/elements/physical.png"
     },
     "path": {
       "id": "mage",
       "name_en": "Erudition",
       "name_fr": "L'Érudition",
-      "icon": "assets/paths/mage.png"
+      "icon": "assets/type_icons/paths/mage.png"
     },
     "lore_paths": [
       {
@@ -5118,11 +5118,11 @@
       "boss_name_fr": "Phantylia l'Immortelle",
       "world_en": "Xianzhou Luofu",
       "world_fr": "Xianzhou Luofu",
-      "icon": "assets/bosses/110503.png"
+      "icon": "assets/type_icons/bosses/110503.png"
     },
-    "avatar": "assets/characters/1302.png",
-    "portrait": "assets/PORTRAIT/1302.webp",
-    "splash_art": "assets/SPLASHART/1302.webp",
+    "avatar": "assets/icons/1302.png",
+    "portrait": "assets/portraits/1302.webp",
+    "splash_art": "assets/splash_art/1302.webp",
     "quotes": [
       {
         "en": "The Beauty... is eternal.",
@@ -5189,13 +5189,13 @@
       "id": "ice",
       "name_en": "Ice",
       "name_fr": "Glace",
-      "icon": "assets/elements/ice.png"
+      "icon": "assets/type_icons/elements/ice.png"
     },
     "path": {
       "id": "shaman",
       "name_en": "Harmony",
       "name_fr": "L'Harmonie",
-      "icon": "assets/paths/shaman.png"
+      "icon": "assets/type_icons/paths/shaman.png"
     },
     "lore_paths": [
       {
@@ -5223,11 +5223,11 @@
       "boss_name_fr": "Skaracabaz, roi de l'Essaim",
       "world_en": "Herta Space Station",
       "world_fr": "Station spatiale Herta",
-      "icon": "assets/bosses/110504.png"
+      "icon": "assets/type_icons/bosses/110504.png"
     },
-    "avatar": "assets/characters/1303.png",
-    "portrait": "assets/PORTRAIT/1303.webp",
-    "splash_art": "assets/SPLASHART/1303.webp",
+    "avatar": "assets/icons/1303.png",
+    "portrait": "assets/portraits/1303.webp",
+    "splash_art": "assets/splash_art/1303.webp",
     "quotes": [
       {
         "en": "Eternal melody.",
@@ -5294,13 +5294,13 @@
       "id": "imaginary",
       "name_en": "Imaginary",
       "name_fr": "Imaginaire",
-      "icon": "assets/elements/imaginary.png"
+      "icon": "assets/type_icons/elements/imaginary.png"
     },
     "path": {
       "id": "knight",
       "name_en": "Preservation",
       "name_fr": "La Préservation",
-      "icon": "assets/paths/knight.png"
+      "icon": "assets/type_icons/paths/knight.png"
     },
     "lore_paths": [
       {
@@ -5330,11 +5330,11 @@
       "boss_name_fr": "Skaracabaz, roi de l'Essaim",
       "world_en": "Herta Space Station",
       "world_fr": "Station spatiale Herta",
-      "icon": "assets/bosses/110504.png"
+      "icon": "assets/type_icons/bosses/110504.png"
     },
-    "avatar": "assets/characters/1304.png",
-    "portrait": "assets/PORTRAIT/1304.webp",
-    "splash_art": "assets/SPLASHART/1304.webp",
+    "avatar": "assets/icons/1304.png",
+    "portrait": "assets/portraits/1304.webp",
+    "splash_art": "assets/splash_art/1304.webp",
     "quotes": [
       {
         "en": "Going all in. Tab's on me.",
@@ -5401,13 +5401,13 @@
       "id": "imaginary",
       "name_en": "Imaginary",
       "name_fr": "Imaginaire",
-      "icon": "assets/elements/imaginary.png"
+      "icon": "assets/type_icons/elements/imaginary.png"
     },
     "path": {
       "id": "rogue",
       "name_en": "The Hunt",
       "name_fr": "La Chasse",
-      "icon": "assets/paths/rogue.png"
+      "icon": "assets/type_icons/paths/rogue.png"
     },
     "lore_paths": [
       {
@@ -5437,11 +5437,11 @@
       "boss_name_fr": "Skaracabaz, roi de l'Essaim",
       "world_en": "Herta Space Station",
       "world_fr": "Station spatiale Herta",
-      "icon": "assets/bosses/110504.png"
+      "icon": "assets/type_icons/bosses/110504.png"
     },
-    "avatar": "assets/characters/1305.png",
-    "portrait": "assets/PORTRAIT/1305.webp",
-    "splash_art": "assets/SPLASHART/1305.webp",
+    "avatar": "assets/icons/1305.png",
+    "portrait": "assets/portraits/1305.webp",
+    "splash_art": "assets/splash_art/1305.webp",
     "quotes": [
       {
         "en": "Knowledge is the measure of all things. It reveals truth... and falsehood.",
@@ -5508,13 +5508,13 @@
       "id": "quantum",
       "name_en": "Quantum",
       "name_fr": "Quantique",
-      "icon": "assets/elements/quantum.png"
+      "icon": "assets/type_icons/elements/quantum.png"
     },
     "path": {
       "id": "shaman",
       "name_en": "Harmony",
       "name_fr": "L'Harmonie",
-      "icon": "assets/paths/shaman.png"
+      "icon": "assets/type_icons/paths/shaman.png"
     },
     "lore_paths": [
       {
@@ -5545,11 +5545,11 @@
       "boss_name_fr": "Skaracabaz, roi de l'Essaim",
       "world_en": "Herta Space Station",
       "world_fr": "Station spatiale Herta",
-      "icon": "assets/bosses/110504.png"
+      "icon": "assets/type_icons/bosses/110504.png"
     },
-    "avatar": "assets/characters/1306.png",
-    "portrait": "assets/PORTRAIT/1306.webp",
-    "splash_art": "assets/SPLASHART/1306.webp",
+    "avatar": "assets/icons/1306.png",
+    "portrait": "assets/portraits/1306.webp",
+    "splash_art": "assets/splash_art/1306.webp",
     "quotes": [
       {
         "en": "Let's play hide and seek.",
@@ -5616,13 +5616,13 @@
       "id": "wind",
       "name_en": "Wind",
       "name_fr": "Vent",
-      "icon": "assets/elements/wind.png"
+      "icon": "assets/type_icons/elements/wind.png"
     },
     "path": {
       "id": "warlock",
       "name_en": "Nihility",
       "name_fr": "La Nihilité",
-      "icon": "assets/paths/warlock.png"
+      "icon": "assets/type_icons/paths/warlock.png"
     },
     "lore_paths": [
       {
@@ -5648,11 +5648,11 @@
       "boss_name_fr": "Skaracabaz, roi de l'Essaim",
       "world_en": "Herta Space Station",
       "world_fr": "Station spatiale Herta",
-      "icon": "assets/bosses/110504.png"
+      "icon": "assets/type_icons/bosses/110504.png"
     },
-    "avatar": "assets/characters/1307.png",
-    "portrait": "assets/PORTRAIT/1307.webp",
-    "splash_art": "assets/SPLASHART/1307.webp",
+    "avatar": "assets/icons/1307.png",
+    "portrait": "assets/portraits/1307.webp",
+    "splash_art": "assets/splash_art/1307.webp",
     "quotes": [
       {
         "en": "Beneath the silent waters lies an endless abyss.",
@@ -5719,13 +5719,13 @@
       "id": "thunder",
       "name_en": "Lightning",
       "name_fr": "Foudre",
-      "icon": "assets/elements/thunder.png"
+      "icon": "assets/type_icons/elements/thunder.png"
     },
     "path": {
       "id": "warlock",
       "name_en": "Nihility",
       "name_fr": "La Nihilité",
-      "icon": "assets/paths/warlock.png"
+      "icon": "assets/type_icons/paths/warlock.png"
     },
     "lore_paths": [
       {
@@ -5753,11 +5753,11 @@
       "boss_name_fr": "Skaracabaz, roi de l'Essaim",
       "world_en": "Herta Space Station",
       "world_fr": "Station spatiale Herta",
-      "icon": "assets/bosses/110504.png"
+      "icon": "assets/type_icons/bosses/110504.png"
     },
-    "avatar": "assets/characters/1308.png",
-    "portrait": "assets/PORTRAIT/1308.webp",
-    "splash_art": "assets/SPLASHART/1308.webp",
+    "avatar": "assets/icons/1308.png",
+    "portrait": "assets/portraits/1308.webp",
+    "splash_art": "assets/splash_art/1308.webp",
     "quotes": [
       {
         "en": "Existence is fleeting as the dawn's dew, destined for oblivion.",
@@ -5824,13 +5824,13 @@
       "id": "physical",
       "name_en": "Physical",
       "name_fr": "Physique",
-      "icon": "assets/elements/physical.png"
+      "icon": "assets/type_icons/elements/physical.png"
     },
     "path": {
       "id": "shaman",
       "name_en": "Harmony",
       "name_fr": "L'Harmonie",
-      "icon": "assets/paths/shaman.png"
+      "icon": "assets/type_icons/paths/shaman.png"
     },
     "lore_paths": [
       {
@@ -5860,11 +5860,11 @@
       "boss_name_fr": "Skaracabaz, roi de l'Essaim",
       "world_en": "Herta Space Station",
       "world_fr": "Station spatiale Herta",
-      "icon": "assets/bosses/110504.png"
+      "icon": "assets/type_icons/bosses/110504.png"
     },
-    "avatar": "assets/characters/1309.png",
-    "portrait": "assets/PORTRAIT/1309.webp",
-    "splash_art": "assets/SPLASHART/1309.webp",
+    "avatar": "assets/icons/1309.png",
+    "portrait": "assets/portraits/1309.webp",
+    "splash_art": "assets/splash_art/1309.webp",
     "quotes": [
       {
         "en": "Tonight, the stars echo because of me.",
@@ -5931,13 +5931,13 @@
       "id": "fire",
       "name_en": "Fire",
       "name_fr": "Feu",
-      "icon": "assets/elements/fire.png"
+      "icon": "assets/type_icons/elements/fire.png"
     },
     "path": {
       "id": "warrior",
       "name_en": "Destruction",
       "name_fr": "La Destruction",
-      "icon": "assets/paths/warrior.png"
+      "icon": "assets/type_icons/paths/warrior.png"
     },
     "lore_paths": [
       {
@@ -5970,11 +5970,11 @@
       "boss_name_fr": "« Chœur harmonieux » Le Grand Septimus",
       "world_en": "Penacony",
       "world_fr": "Penacony",
-      "icon": "assets/bosses/110505.png"
+      "icon": "assets/type_icons/bosses/110505.png"
     },
-    "avatar": "assets/characters/1310.png",
-    "portrait": "assets/PORTRAIT/1310.webp",
-    "splash_art": "assets/SPLASHART/1310.webp",
+    "avatar": "assets/icons/1310.png",
+    "portrait": "assets/portraits/1310.webp",
+    "splash_art": "assets/splash_art/1310.webp",
     "quotes": [
       {
         "en": "I will fight for myself, until everything... burns to ashes!",
@@ -6041,13 +6041,13 @@
       "id": "ice",
       "name_en": "Ice",
       "name_fr": "Glace",
-      "icon": "assets/elements/ice.png"
+      "icon": "assets/type_icons/elements/ice.png"
     },
     "path": {
       "id": "warrior",
       "name_en": "Destruction",
       "name_fr": "La Destruction",
-      "icon": "assets/paths/warrior.png"
+      "icon": "assets/type_icons/paths/warrior.png"
     },
     "lore_paths": [
       {
@@ -6075,11 +6075,11 @@
       "boss_name_fr": "Skaracabaz, roi de l'Essaim",
       "world_en": "Herta Space Station",
       "world_fr": "Station spatiale Herta",
-      "icon": "assets/bosses/110504.png"
+      "icon": "assets/type_icons/bosses/110504.png"
     },
-    "avatar": "assets/characters/1312.png",
-    "portrait": "assets/PORTRAIT/1312.webp",
-    "splash_art": "assets/SPLASHART/1312.webp",
+    "avatar": "assets/icons/1312.png",
+    "portrait": "assets/portraits/1312.webp",
+    "splash_art": "assets/splash_art/1312.webp",
     "quotes": [
       {
         "en": "The one thing I look forward to? Growing up, of course!",
@@ -6146,13 +6146,13 @@
       "id": "imaginary",
       "name_en": "Imaginary",
       "name_fr": "Imaginaire",
-      "icon": "assets/elements/imaginary.png"
+      "icon": "assets/type_icons/elements/imaginary.png"
     },
     "path": {
       "id": "shaman",
       "name_en": "Harmony",
       "name_fr": "L'Harmonie",
-      "icon": "assets/paths/shaman.png"
+      "icon": "assets/type_icons/paths/shaman.png"
     },
     "lore_paths": [
       {
@@ -6198,11 +6198,11 @@
       "boss_name_fr": "« Chœur harmonieux » Le Grand Septimus",
       "world_en": "Penacony",
       "world_fr": "Penacony",
-      "icon": "assets/bosses/110505.png"
+      "icon": "assets/type_icons/bosses/110505.png"
     },
-    "avatar": "assets/characters/1313.png",
-    "portrait": "assets/PORTRAIT/1313.webp",
-    "splash_art": "assets/SPLASHART/1313.webp",
+    "avatar": "assets/icons/1313.png",
+    "portrait": "assets/portraits/1313.webp",
+    "splash_art": "assets/splash_art/1313.webp",
     "quotes": [
       {
         "en": "I will walk with you, watch over you, and guide you on your path.",
@@ -6269,13 +6269,13 @@
       "id": "quantum",
       "name_en": "Quantum",
       "name_fr": "Quantique",
-      "icon": "assets/elements/quantum.png"
+      "icon": "assets/type_icons/elements/quantum.png"
     },
     "path": {
       "id": "mage",
       "name_en": "Erudition",
       "name_fr": "L'Érudition",
-      "icon": "assets/paths/mage.png"
+      "icon": "assets/type_icons/paths/mage.png"
     },
     "lore_paths": [
       {
@@ -6305,11 +6305,11 @@
       "boss_name_fr": "« Chœur harmonieux » Le Grand Septimus",
       "world_en": "Penacony",
       "world_fr": "Penacony",
-      "icon": "assets/bosses/110505.png"
+      "icon": "assets/type_icons/bosses/110505.png"
     },
-    "avatar": "assets/characters/1314.png",
-    "portrait": "assets/PORTRAIT/1314.webp",
-    "splash_art": "assets/SPLASHART/1314.webp",
+    "avatar": "assets/icons/1314.png",
+    "portrait": "assets/portraits/1314.webp",
+    "splash_art": "assets/splash_art/1314.webp",
     "quotes": [
       {
         "en": "There's no backing out now, for me... or for you.",
@@ -6376,13 +6376,13 @@
       "id": "physical",
       "name_en": "Physical",
       "name_fr": "Physique",
-      "icon": "assets/elements/physical.png"
+      "icon": "assets/type_icons/elements/physical.png"
     },
     "path": {
       "id": "rogue",
       "name_en": "The Hunt",
       "name_fr": "La Chasse",
-      "icon": "assets/paths/rogue.png"
+      "icon": "assets/type_icons/paths/rogue.png"
     },
     "lore_paths": [
       {
@@ -6408,11 +6408,11 @@
       "boss_name_fr": "« Chœur harmonieux » Le Grand Septimus",
       "world_en": "Penacony",
       "world_fr": "Penacony",
-      "icon": "assets/bosses/110505.png"
+      "icon": "assets/type_icons/bosses/110505.png"
     },
-    "avatar": "assets/characters/1315.png",
-    "portrait": "assets/PORTRAIT/1315.webp",
-    "splash_art": "assets/SPLASHART/1315.webp",
+    "avatar": "assets/icons/1315.png",
+    "portrait": "assets/portraits/1315.webp",
+    "splash_art": "assets/splash_art/1315.webp",
     "quotes": [
       {
         "en": "There are only two kinds of people in the world — those with a loaded gun... and those who dig their own grave!",
@@ -6479,13 +6479,13 @@
       "id": "imaginary",
       "name_en": "Imaginary",
       "name_fr": "Imaginaire",
-      "icon": "assets/elements/imaginary.png"
+      "icon": "assets/type_icons/elements/imaginary.png"
     },
     "path": {
       "id": "mage",
       "name_en": "Erudition",
       "name_fr": "L'Érudition",
-      "icon": "assets/paths/mage.png"
+      "icon": "assets/type_icons/paths/mage.png"
     },
     "lore_paths": [
       {
@@ -6511,11 +6511,11 @@
       "boss_name_fr": "« Chœur harmonieux » Le Grand Septimus",
       "world_en": "Penacony",
       "world_fr": "Penacony",
-      "icon": "assets/bosses/110505.png"
+      "icon": "assets/type_icons/bosses/110505.png"
     },
-    "avatar": "assets/characters/1317.png",
-    "portrait": "assets/PORTRAIT/1317.webp",
-    "splash_art": "assets/SPLASHART/1317.webp",
+    "avatar": "assets/icons/1317.png",
+    "portrait": "assets/portraits/1317.webp",
+    "splash_art": "assets/splash_art/1317.webp",
     "quotes": [
       {
         "en": "Slash! Cut! Cleave!",
@@ -6582,13 +6582,13 @@
       "id": "fire",
       "name_en": "Fire",
       "name_fr": "Feu",
-      "icon": "assets/elements/fire.png"
+      "icon": "assets/type_icons/elements/fire.png"
     },
     "path": {
       "id": "warlock",
       "name_en": "Nihility",
       "name_fr": "La Nihilité",
-      "icon": "assets/paths/warlock.png"
+      "icon": "assets/type_icons/paths/warlock.png"
     },
     "lore_paths": [
       {
@@ -6625,11 +6625,11 @@
       "boss_name_fr": "Marée des conflits",
       "world_en": "Amphoreus",
       "world_fr": "Amphoreus",
-      "icon": "assets/bosses/110508.png"
+      "icon": "assets/type_icons/bosses/110508.png"
     },
-    "avatar": "assets/characters/1321.png",
-    "portrait": "assets/PORTRAIT/1321.webp",
-    "splash_art": "assets/SPLASHART/1321.webp",
+    "avatar": "assets/icons/1321.png",
+    "portrait": "assets/portraits/1321.webp",
+    "splash_art": "assets/splash_art/1321.webp",
     "quotes": [
       {
         "en": "It's me. Did I scare you with how I... popped up without a sound?",
@@ -6680,13 +6680,13 @@
       "id": "ice",
       "name_en": "Ice",
       "name_fr": "Glace",
-      "icon": "assets/elements/ice.png"
+      "icon": "assets/type_icons/elements/ice.png"
     },
     "path": {
       "id": "mage",
       "name_en": "Erudition",
       "name_fr": "L'Érudition",
-      "icon": "assets/paths/mage.png"
+      "icon": "assets/type_icons/paths/mage.png"
     },
     "lore_paths": [
       {
@@ -6714,11 +6714,11 @@
       "boss_name_fr": "Ombre de « Feixiao »",
       "world_en": "Xianzhou Luofu",
       "world_fr": "Xianzhou Luofu",
-      "icon": "assets/bosses/110506.png"
+      "icon": "assets/type_icons/bosses/110506.png"
     },
-    "avatar": "assets/characters/1401.png",
-    "portrait": "assets/PORTRAIT/1401.webp",
-    "splash_art": "assets/SPLASHART/1401.webp",
+    "avatar": "assets/icons/1401.png",
+    "portrait": "assets/portraits/1401.webp",
+    "splash_art": "assets/splash_art/1401.webp",
     "quotes": [
       {
         "en": "Endless riddles, but the answer... is nothing but a void.",
@@ -6785,13 +6785,13 @@
       "id": "thunder",
       "name_en": "Lightning",
       "name_fr": "Foudre",
-      "icon": "assets/elements/thunder.png"
+      "icon": "assets/type_icons/elements/thunder.png"
     },
     "path": {
       "id": "memory",
       "name_en": "Remembrance",
       "name_fr": "Le Souvenir",
-      "icon": "assets/paths/memory.png"
+      "icon": "assets/type_icons/paths/memory.png"
     },
     "lore_paths": [
       {
@@ -6828,11 +6828,11 @@
       "boss_name_fr": "Ombre de « Feixiao »",
       "world_en": "Xianzhou Luofu",
       "world_fr": "Xianzhou Luofu",
-      "icon": "assets/bosses/110506.png"
+      "icon": "assets/type_icons/bosses/110506.png"
     },
-    "avatar": "assets/characters/1402.png",
-    "portrait": "assets/PORTRAIT/1402.webp",
-    "splash_art": "assets/SPLASHART/1402.webp",
+    "avatar": "assets/icons/1402.png",
+    "portrait": "assets/portraits/1402.webp",
+    "splash_art": "assets/splash_art/1402.webp",
     "quotes": [
       {
         "en": "Thus, your fate and mine become one.",
@@ -6899,13 +6899,13 @@
       "id": "quantum",
       "name_en": "Quantum",
       "name_fr": "Quantique",
-      "icon": "assets/elements/quantum.png"
+      "icon": "assets/type_icons/elements/quantum.png"
     },
     "path": {
       "id": "shaman",
       "name_en": "Harmony",
       "name_fr": "L'Harmonie",
-      "icon": "assets/paths/shaman.png"
+      "icon": "assets/type_icons/paths/shaman.png"
     },
     "lore_paths": [
       {
@@ -6944,11 +6944,11 @@
       "boss_name_fr": "« Chœur harmonieux » Le Grand Septimus",
       "world_en": "Penacony",
       "world_fr": "Penacony",
-      "icon": "assets/bosses/110505.png"
+      "icon": "assets/type_icons/bosses/110505.png"
     },
-    "avatar": "assets/characters/1403.png",
-    "portrait": "assets/PORTRAIT/1403.webp",
-    "splash_art": "assets/SPLASHART/1403.webp",
+    "avatar": "assets/icons/1403.png",
+    "portrait": "assets/portraits/1403.webp",
+    "splash_art": "assets/splash_art/1403.webp",
     "quotes": [
       {
         "en": "Move aside, no bullying allowed!",
@@ -7015,13 +7015,13 @@
       "id": "imaginary",
       "name_en": "Imaginary",
       "name_fr": "Imaginaire",
-      "icon": "assets/elements/imaginary.png"
+      "icon": "assets/type_icons/elements/imaginary.png"
     },
     "path": {
       "id": "warrior",
       "name_en": "Destruction",
       "name_fr": "La Destruction",
-      "icon": "assets/paths/warrior.png"
+      "icon": "assets/type_icons/paths/warrior.png"
     },
     "lore_paths": [
       {
@@ -7064,11 +7064,11 @@
       "boss_name_fr": "Ombre de « Feixiao »",
       "world_en": "Xianzhou Luofu",
       "world_fr": "Xianzhou Luofu",
-      "icon": "assets/bosses/110506.png"
+      "icon": "assets/type_icons/bosses/110506.png"
     },
-    "avatar": "assets/characters/1404.png",
-    "portrait": "assets/PORTRAIT/1404.webp",
-    "splash_art": "assets/SPLASHART/1404.webp",
+    "avatar": "assets/icons/1404.png",
+    "portrait": "assets/portraits/1404.webp",
+    "splash_art": "assets/splash_art/1404.webp",
     "quotes": [
       {
         "en": "I allow you to accept your punishment!",
@@ -7135,13 +7135,13 @@
       "id": "wind",
       "name_en": "Wind",
       "name_fr": "Vent",
-      "icon": "assets/elements/wind.png"
+      "icon": "assets/type_icons/elements/wind.png"
     },
     "path": {
       "id": "mage",
       "name_en": "Erudition",
       "name_fr": "L'Érudition",
-      "icon": "assets/paths/mage.png"
+      "icon": "assets/type_icons/paths/mage.png"
     },
     "lore_paths": [
       {
@@ -7180,11 +7180,11 @@
       "boss_name_fr": "« Chœur harmonieux » Le Grand Septimus",
       "world_en": "Penacony",
       "world_fr": "Penacony",
-      "icon": "assets/bosses/110505.png"
+      "icon": "assets/type_icons/bosses/110505.png"
     },
-    "avatar": "assets/characters/1405.png",
-    "portrait": "assets/PORTRAIT/1405.webp",
-    "splash_art": "assets/SPLASHART/1405.webp",
+    "avatar": "assets/icons/1405.png",
+    "portrait": "assets/portraits/1405.webp",
+    "splash_art": "assets/splash_art/1405.webp",
     "quotes": [
       {
         "en": "Sink into insanity!",
@@ -7251,13 +7251,13 @@
       "id": "quantum",
       "name_en": "Quantum",
       "name_fr": "Quantique",
-      "icon": "assets/elements/quantum.png"
+      "icon": "assets/type_icons/elements/quantum.png"
     },
     "path": {
       "id": "warlock",
       "name_en": "Nihility",
       "name_fr": "La Nihilité",
-      "icon": "assets/paths/warlock.png"
+      "icon": "assets/type_icons/paths/warlock.png"
     },
     "lore_paths": [
       {
@@ -7294,11 +7294,11 @@
       "boss_name_fr": "Tombeau de Fer",
       "world_en": "Amphoreus",
       "world_fr": "Amphoreus",
-      "icon": "assets/bosses/110507.png"
+      "icon": "assets/type_icons/bosses/110507.png"
     },
-    "avatar": "assets/characters/1406.png",
-    "portrait": "assets/PORTRAIT/1406.webp",
-    "splash_art": "assets/SPLASHART/1406.webp",
+    "avatar": "assets/icons/1406.png",
+    "portrait": "assets/portraits/1406.webp",
+    "splash_art": "assets/splash_art/1406.webp",
     "quotes": [
       {
         "en": "Treasure~ Come to me!",
@@ -7365,13 +7365,13 @@
       "id": "quantum",
       "name_en": "Quantum",
       "name_fr": "Quantique",
-      "icon": "assets/elements/quantum.png"
+      "icon": "assets/type_icons/elements/quantum.png"
     },
     "path": {
       "id": "memory",
       "name_en": "Remembrance",
       "name_fr": "Le Souvenir",
-      "icon": "assets/paths/memory.png"
+      "icon": "assets/type_icons/paths/memory.png"
     },
     "lore_paths": [
       {
@@ -7412,11 +7412,11 @@
       "boss_name_fr": "Ombre de « Feixiao »",
       "world_en": "Xianzhou Luofu",
       "world_fr": "Xianzhou Luofu",
-      "icon": "assets/bosses/110506.png"
+      "icon": "assets/type_icons/bosses/110506.png"
     },
-    "avatar": "assets/characters/1407.png",
-    "portrait": "assets/PORTRAIT/1407.webp",
-    "splash_art": "assets/SPLASHART/1407.webp",
+    "avatar": "assets/icons/1407.png",
+    "portrait": "assets/portraits/1407.webp",
+    "splash_art": "assets/splash_art/1407.webp",
     "quotes": [
       {
         "en": "Please, wilt here.",
@@ -7483,13 +7483,13 @@
       "id": "physical",
       "name_en": "Physical",
       "name_fr": "Physique",
-      "icon": "assets/elements/physical.png"
+      "icon": "assets/type_icons/elements/physical.png"
     },
     "path": {
       "id": "warrior",
       "name_en": "Destruction",
       "name_fr": "La Destruction",
-      "icon": "assets/paths/warrior.png"
+      "icon": "assets/type_icons/paths/warrior.png"
     },
     "lore_paths": [
       {
@@ -7528,11 +7528,11 @@
       "boss_name_fr": "Tombeau de Fer",
       "world_en": "Amphoreus",
       "world_fr": "Amphoreus",
-      "icon": "assets/bosses/110507.png"
+      "icon": "assets/type_icons/bosses/110507.png"
     },
-    "avatar": "assets/characters/1408.png",
-    "portrait": "assets/PORTRAIT/1408.webp",
-    "splash_art": "assets/SPLASHART/1408.webp",
+    "avatar": "assets/icons/1408.png",
+    "portrait": "assets/portraits/1408.webp",
+    "splash_art": "assets/splash_art/1408.webp",
     "quotes": [
       {
         "en": "The new world will arrive!",
@@ -7599,13 +7599,13 @@
       "id": "wind",
       "name_en": "Wind",
       "name_fr": "Vent",
-      "icon": "assets/elements/wind.png"
+      "icon": "assets/type_icons/elements/wind.png"
     },
     "path": {
       "id": "memory",
       "name_en": "Remembrance",
       "name_fr": "Le Souvenir",
-      "icon": "assets/paths/memory.png"
+      "icon": "assets/type_icons/paths/memory.png"
     },
     "lore_paths": [
       {
@@ -7644,11 +7644,11 @@
       "boss_name_fr": "« Chœur harmonieux » Le Grand Septimus",
       "world_en": "Penacony",
       "world_fr": "Penacony",
-      "icon": "assets/bosses/110505.png"
+      "icon": "assets/type_icons/bosses/110505.png"
     },
-    "avatar": "assets/characters/1409.png",
-    "portrait": "assets/PORTRAIT/1409.webp",
-    "splash_art": "assets/SPLASHART/1409.webp",
+    "avatar": "assets/icons/1409.png",
+    "portrait": "assets/portraits/1409.webp",
+    "splash_art": "assets/splash_art/1409.webp",
     "quotes": [
       {
         "en": "We do need some sunshine~",
@@ -7715,13 +7715,13 @@
       "id": "physical",
       "name_en": "Physical",
       "name_fr": "Physique",
-      "icon": "assets/elements/physical.png"
+      "icon": "assets/type_icons/elements/physical.png"
     },
     "path": {
       "id": "warlock",
       "name_en": "Nihility",
       "name_fr": "La Nihilité",
-      "icon": "assets/paths/warlock.png"
+      "icon": "assets/type_icons/paths/warlock.png"
     },
     "lore_paths": [
       {
@@ -7760,11 +7760,11 @@
       "boss_name_fr": "Tombeau de Fer",
       "world_en": "Amphoreus",
       "world_fr": "Amphoreus",
-      "icon": "assets/bosses/110507.png"
+      "icon": "assets/type_icons/bosses/110507.png"
     },
-    "avatar": "assets/characters/1410.png",
-    "portrait": "assets/PORTRAIT/1410.webp",
-    "splash_art": "assets/SPLASHART/1410.webp",
+    "avatar": "assets/icons/1410.png",
+    "portrait": "assets/portraits/1410.webp",
+    "splash_art": "assets/splash_art/1410.webp",
     "quotes": [
       {
         "en": "Tides, sink with me.",
@@ -7831,13 +7831,13 @@
       "id": "wind",
       "name_en": "Wind",
       "name_fr": "Vent",
-      "icon": "assets/elements/wind.png"
+      "icon": "assets/type_icons/elements/wind.png"
     },
     "path": {
       "id": "shaman",
       "name_en": "Harmony",
       "name_fr": "L'Harmonie",
-      "icon": "assets/paths/shaman.png"
+      "icon": "assets/type_icons/paths/shaman.png"
     },
     "lore_paths": [
       {
@@ -7872,11 +7872,11 @@
       "boss_name_fr": "Tombeau de Fer",
       "world_en": "Amphoreus",
       "world_fr": "Amphoreus",
-      "icon": "assets/bosses/110507.png"
+      "icon": "assets/type_icons/bosses/110507.png"
     },
-    "avatar": "assets/characters/1412.png",
-    "portrait": "assets/PORTRAIT/1412.webp",
-    "splash_art": "assets/SPLASHART/1412.webp",
+    "avatar": "assets/icons/1412.png",
+    "portrait": "assets/portraits/1412.webp",
+    "splash_art": "assets/splash_art/1412.webp",
     "quotes": [
       {
         "en": "Come now, step onto the board!",
@@ -7943,13 +7943,13 @@
       "id": "ice",
       "name_en": "Ice",
       "name_fr": "Glace",
-      "icon": "assets/elements/ice.png"
+      "icon": "assets/type_icons/elements/ice.png"
     },
     "path": {
       "id": "memory",
       "name_en": "Remembrance",
       "name_fr": "Le Souvenir",
-      "icon": "assets/paths/memory.png"
+      "icon": "assets/type_icons/paths/memory.png"
     },
     "lore_paths": [
       {
@@ -7982,11 +7982,11 @@
       "boss_name_fr": "Tombeau de Fer",
       "world_en": "Amphoreus",
       "world_fr": "Amphoreus",
-      "icon": "assets/bosses/110507.png"
+      "icon": "assets/type_icons/bosses/110507.png"
     },
-    "avatar": "assets/characters/1413.png",
-    "portrait": "assets/PORTRAIT/1413.webp",
-    "splash_art": "assets/SPLASHART/1413.webp",
+    "avatar": "assets/icons/1413.png",
+    "portrait": "assets/portraits/1413.webp",
+    "splash_art": "assets/splash_art/1413.webp",
     "quotes": [
       {
         "en": "Go on. Treat our guests nicely~",
@@ -8053,13 +8053,13 @@
       "id": "physical",
       "name_en": "Physical",
       "name_fr": "Physique",
-      "icon": "assets/elements/physical.png"
+      "icon": "assets/type_icons/elements/physical.png"
     },
     "path": {
       "id": "knight",
       "name_en": "Preservation",
       "name_fr": "La Préservation",
-      "icon": "assets/paths/knight.png"
+      "icon": "assets/type_icons/paths/knight.png"
     },
     "lore_paths": [
       {
@@ -8094,11 +8094,11 @@
       "boss_name_fr": "Tombeau de Fer",
       "world_en": "Amphoreus",
       "world_fr": "Amphoreus",
-      "icon": "assets/bosses/110507.png"
+      "icon": "assets/type_icons/bosses/110507.png"
     },
-    "avatar": "assets/characters/1414.png",
-    "portrait": "assets/PORTRAIT/1414.webp",
-    "splash_art": "assets/SPLASHART/1414.webp",
+    "avatar": "assets/icons/1414.png",
+    "portrait": "assets/portraits/1414.webp",
+    "splash_art": "assets/splash_art/1414.webp",
     "quotes": [
       {
         "en": "Mountains roar. Dragons rise!",
@@ -8165,13 +8165,13 @@
       "id": "ice",
       "name_en": "Ice",
       "name_fr": "Glace",
-      "icon": "assets/elements/ice.png"
+      "icon": "assets/type_icons/elements/ice.png"
     },
     "path": {
       "id": "memory",
       "name_en": "Remembrance",
       "name_fr": "Le Souvenir",
-      "icon": "assets/paths/memory.png"
+      "icon": "assets/type_icons/paths/memory.png"
     },
     "lore_paths": [
       {
@@ -8208,11 +8208,11 @@
       "boss_name_fr": "Tombeau de Fer",
       "world_en": "Amphoreus",
       "world_fr": "Amphoreus",
-      "icon": "assets/bosses/110507.png"
+      "icon": "assets/type_icons/bosses/110507.png"
     },
-    "avatar": "assets/characters/1415.png",
-    "portrait": "assets/PORTRAIT/1415.webp",
-    "splash_art": "assets/SPLASHART/1415.webp",
+    "avatar": "assets/icons/1415.png",
+    "portrait": "assets/portraits/1415.webp",
+    "splash_art": "assets/splash_art/1415.webp",
     "quotes": [
       {
         "en": "Endless flowers, please bloom for tomorrow.",
@@ -8279,13 +8279,13 @@
       "id": "fire",
       "name_en": "Fire",
       "name_fr": "Feu",
-      "icon": "assets/elements/fire.png"
+      "icon": "assets/type_icons/elements/fire.png"
     },
     "path": {
       "id": "elation",
       "name_en": "Elation",
       "name_fr": "L'Allégresse",
-      "icon": "assets/paths/elation.png"
+      "icon": "assets/type_icons/paths/elation.png"
     },
     "lore_paths": [
       {
@@ -8311,11 +8311,11 @@
       "boss_name_fr": "Marée des conflits",
       "world_en": "Amphoreus",
       "world_fr": "Amphoreus",
-      "icon": "assets/bosses/110508.png"
+      "icon": "assets/type_icons/bosses/110508.png"
     },
-    "avatar": "assets/characters/1501.png",
-    "portrait": "assets/PORTRAIT/1501.webp",
-    "splash_art": "assets/SPLASHART/1501.webp",
+    "avatar": "assets/icons/1501.png",
+    "portrait": "assets/portraits/1501.webp",
+    "splash_art": "assets/splash_art/1501.webp",
     "quotes": [
       {
         "en": "Punishment time!",
@@ -8382,13 +8382,13 @@
       "id": "physical",
       "name_en": "Physical",
       "name_fr": "Physique",
-      "icon": "assets/elements/physical.png"
+      "icon": "assets/type_icons/elements/physical.png"
     },
     "path": {
       "id": "elation",
       "name_en": "Elation",
       "name_fr": "L'Allégresse",
-      "icon": "assets/paths/elation.png"
+      "icon": "assets/type_icons/paths/elation.png"
     },
     "lore_paths": [
       {
@@ -8418,11 +8418,11 @@
       "boss_name_fr": "Marée des conflits",
       "world_en": "Amphoreus",
       "world_fr": "Amphoreus",
-      "icon": "assets/bosses/110508.png"
+      "icon": "assets/type_icons/bosses/110508.png"
     },
-    "avatar": "assets/characters/1502.png",
-    "portrait": "assets/PORTRAIT/1502.webp",
-    "splash_art": "assets/SPLASHART/1502.webp",
+    "avatar": "assets/icons/1502.png",
+    "portrait": "assets/portraits/1502.webp",
+    "splash_art": "assets/splash_art/1502.webp",
     "quotes": [
       {
         "en": "Stars of fortune favor us.",
@@ -8489,13 +8489,13 @@
       "id": "thunder",
       "name_en": "Lightning",
       "name_fr": "Foudre",
-      "icon": "assets/elements/thunder.png"
+      "icon": "assets/type_icons/elements/thunder.png"
     },
     "path": {
       "id": "rogue",
       "name_en": "The Hunt",
       "name_fr": "La Chasse",
-      "icon": "assets/paths/rogue.png"
+      "icon": "assets/type_icons/paths/rogue.png"
     },
     "lore_paths": [
       {
@@ -8528,11 +8528,11 @@
       "boss_name_fr": "Marée des conflits",
       "world_en": "Amphoreus",
       "world_fr": "Amphoreus",
-      "icon": "assets/bosses/110508.png"
+      "icon": "assets/type_icons/bosses/110508.png"
     },
-    "avatar": "assets/characters/1504.png",
-    "portrait": "assets/PORTRAIT/1504.webp",
-    "splash_art": "assets/SPLASHART/1504.webp",
+    "avatar": "assets/icons/1504.png",
+    "portrait": "assets/portraits/1504.webp",
+    "splash_art": "assets/splash_art/1504.webp",
     "quotes": [
       {
         "en": "I... see through you.",
@@ -8599,13 +8599,13 @@
       "id": "physical",
       "name_en": "Physical",
       "name_fr": "Physique",
-      "icon": "assets/elements/physical.png"
+      "icon": "assets/type_icons/elements/physical.png"
     },
     "path": {
       "id": "elation",
       "name_en": "Elation",
       "name_fr": "L'Allégresse",
-      "icon": "assets/paths/elation.png"
+      "icon": "assets/type_icons/paths/elation.png"
     },
     "lore_paths": [
       {
@@ -8636,11 +8636,11 @@
       "boss_name_fr": "Marée des conflits",
       "world_en": "Amphoreus",
       "world_fr": "Amphoreus",
-      "icon": "assets/bosses/110508.png"
+      "icon": "assets/type_icons/bosses/110508.png"
     },
-    "avatar": "assets/characters/1505.png",
-    "portrait": "assets/PORTRAIT/1505.webp",
-    "splash_art": "assets/SPLASHART/1505.webp",
+    "avatar": "assets/icons/1505.png",
+    "portrait": "assets/portraits/1505.webp",
+    "splash_art": "assets/splash_art/1505.webp",
     "quotes": [
       {
         "en": "By the Phantasmoon I'll vanquish you!",
@@ -8707,13 +8707,13 @@
       "id": "imaginary",
       "name_en": "Imaginary",
       "name_fr": "Imaginaire",
-      "icon": "assets/elements/imaginary.png"
+      "icon": "assets/type_icons/elements/imaginary.png"
     },
     "path": {
       "id": "elation",
       "name_en": "Elation",
       "name_fr": "L'Allégresse",
-      "icon": "assets/paths/elation.png"
+      "icon": "assets/type_icons/paths/elation.png"
     },
     "lore_paths": [
       {
@@ -8744,11 +8744,11 @@
       "boss_name_fr": "Marée des conflits",
       "world_en": "Amphoreus",
       "world_fr": "Amphoreus",
-      "icon": "assets/bosses/110508.png"
+      "icon": "assets/type_icons/bosses/110508.png"
     },
-    "avatar": "assets/characters/1506.png",
-    "portrait": "assets/PORTRAIT/1506.webp",
-    "splash_art": "assets/SPLASHART/1506.webp",
+    "avatar": "assets/icons/1506.png",
+    "portrait": "assets/portraits/1506.webp",
+    "splash_art": "assets/splash_art/1506.webp",
     "quotes": [
       {
         "en": "Let me teach you some moves. Get all that?",
@@ -8815,13 +8815,13 @@
       "id": "fire",
       "name_en": "Fire",
       "name_fr": "Feu",
-      "icon": "assets/elements/fire.png"
+      "icon": "assets/type_icons/elements/fire.png"
     },
     "path": {
       "id": "warlock",
       "name_en": "Nihility",
       "name_fr": "La Nihilité",
-      "icon": "assets/paths/warlock.png"
+      "icon": "assets/type_icons/paths/warlock.png"
     },
     "lore_paths": [
       {
@@ -8854,11 +8854,11 @@
       "boss_name_fr": "Marée des conflits",
       "world_en": "Amphoreus",
       "world_fr": "Amphoreus",
-      "icon": "assets/bosses/110508.png"
+      "icon": "assets/type_icons/bosses/110508.png"
     },
-    "avatar": "assets/characters/1507.png",
-    "portrait": "assets/PORTRAIT/1507.webp",
-    "splash_art": "assets/SPLASHART/1507.webp",
+    "avatar": "assets/icons/1507.png",
+    "portrait": "assets/portraits/1507.webp",
+    "splash_art": "assets/splash_art/1507.webp",
     "quotes": [
       {
         "en": "Purgatory... take hold!",
@@ -8925,13 +8925,13 @@
       "id": "quantum",
       "name_en": "Quantum",
       "name_fr": "Quantique",
-      "icon": "assets/elements/quantum.png"
+      "icon": "assets/type_icons/elements/quantum.png"
     },
     "path": {
       "id": "mage",
       "name_en": "Erudition",
       "name_fr": "L'Érudition",
-      "icon": "assets/paths/mage.png"
+      "icon": "assets/type_icons/paths/mage.png"
     },
     "lore_paths": [
       {
@@ -8959,11 +8959,11 @@
       "boss_name_fr": "Bête de l'apocalypse",
       "world_en": "Herta Space Station",
       "world_fr": "Station spatiale Herta",
-      "icon": "assets/bosses/110501.png"
+      "icon": "assets/type_icons/bosses/110501.png"
     },
-    "avatar": "assets/characters/1508.png",
-    "portrait": "assets/PORTRAIT/1508.webp",
-    "splash_art": "assets/SPLASHART/1508.webp",
+    "avatar": "assets/icons/1508.png",
+    "portrait": "assets/portraits/1508.webp",
+    "splash_art": "assets/splash_art/1508.webp",
     "quotes": [
       {
         "en": "Time to shine!",
@@ -9030,13 +9030,13 @@
       "id": "thunder",
       "name_en": "Lightning",
       "name_fr": "Foudre",
-      "icon": "assets/elements/thunder.png"
+      "icon": "assets/type_icons/elements/thunder.png"
     },
     "path": {
       "id": "warrior",
       "name_en": "Destruction",
       "name_fr": "La Destruction",
-      "icon": "assets/paths/warrior.png"
+      "icon": "assets/type_icons/paths/warrior.png"
     },
     "lore_paths": [
       {
@@ -9062,11 +9062,11 @@
       "boss_name_fr": "Cocolia, Mère de la tromperie",
       "world_en": "Jarilo-VI",
       "world_fr": "Jarilo-VI",
-      "icon": "assets/bosses/110502.png"
+      "icon": "assets/type_icons/bosses/110502.png"
     },
-    "avatar": "assets/characters/1509.png",
-    "portrait": "assets/PORTRAIT/1509.webp",
-    "splash_art": "assets/SPLASHART/1509.webp",
+    "avatar": "assets/icons/1509.png",
+    "portrait": "assets/portraits/1509.webp",
+    "splash_art": "assets/splash_art/1509.webp",
     "quotes": [
       {
         "en": "Behold and worship! Hahahahahaha!",
@@ -9133,13 +9133,13 @@
       "id": "fire",
       "name_en": "Fire",
       "name_fr": "Feu",
-      "icon": "assets/elements/fire.png"
+      "icon": "assets/type_icons/elements/fire.png"
     },
     "path": {
       "id": "mage",
       "name_en": "Erudition",
       "name_fr": "L'Érudition",
-      "icon": "assets/paths/mage.png"
+      "icon": "assets/type_icons/paths/mage.png"
     },
     "lore_paths": [
       {
@@ -9171,11 +9171,11 @@
       "boss_name_fr": "Marée des conflits",
       "world_en": "Amphoreus",
       "world_fr": "Amphoreus",
-      "icon": "assets/bosses/110508.png"
+      "icon": "assets/type_icons/bosses/110508.png"
     },
-    "avatar": "assets/characters/1510.png",
-    "portrait": "assets/PORTRAIT/1510.webp",
-    "splash_art": "assets/SPLASHART/1510.webp",
+    "avatar": "assets/icons/1510.png",
+    "portrait": "assets/portraits/1510.webp",
+    "splash_art": "assets/splash_art/1510.webp",
     "quotes": [
       {
         "en": "I'll safeguard your path ahead!",
@@ -9242,13 +9242,13 @@
       "id": "wind",
       "name_en": "Wind",
       "name_fr": "Vent",
-      "icon": "assets/elements/wind.png"
+      "icon": "assets/type_icons/elements/wind.png"
     },
     "path": {
       "id": "memory",
       "name_en": "Remembrance",
       "name_fr": "Le Souvenir",
-      "icon": "assets/paths/memory.png"
+      "icon": "assets/type_icons/paths/memory.png"
     },
     "lore_paths": [
       {
@@ -9278,11 +9278,11 @@
       "boss_name_fr": "Ode de la Fausse Lumière",
       "world_en": "Amphoreus",
       "world_fr": "Amphoreus",
-      "icon": "assets/bosses/110509.png"
+      "icon": "assets/type_icons/bosses/110509.png"
     },
-    "avatar": "assets/characters/1512.png",
-    "portrait": "assets/PORTRAIT/1512.webp",
-    "splash_art": "assets/SPLASHART/1512.webp",
+    "avatar": "assets/icons/1512.png",
+    "portrait": "assets/portraits/1512.webp",
+    "splash_art": "assets/splash_art/1512.webp",
     "quotes": [
       {
         "en": "It's nice to see you again. The weather in Astropolis is wonderful, and the moist breeze is filled with the scent of sunshine... I'm hoping to gather inspiration for a new song. Would you like to take a stroll together on the beach and listen to the sounds of sea conchs?",
@@ -9333,13 +9333,13 @@
       "id": "quantum",
       "name_en": "Quantum",
       "name_fr": "Quantique",
-      "icon": "assets/elements/quantum.png"
+      "icon": "assets/type_icons/elements/quantum.png"
     },
     "path": {
       "id": "elation",
       "name_en": "Elation",
       "name_fr": "L'Allégresse",
-      "icon": "assets/paths/elation.png"
+      "icon": "assets/type_icons/paths/elation.png"
     },
     "lore_paths": [
       {
@@ -9369,11 +9369,11 @@
       "boss_name_fr": "Ode de la Fausse Lumière",
       "world_en": "Amphoreus",
       "world_fr": "Amphoreus",
-      "icon": "assets/bosses/110509.png"
+      "icon": "assets/type_icons/bosses/110509.png"
     },
-    "avatar": "assets/characters/1513.png",
-    "portrait": "assets/PORTRAIT/1513.webp",
-    "splash_art": "assets/SPLASHART/1513.webp",
+    "avatar": "assets/icons/1513.png",
+    "portrait": "assets/portraits/1513.webp",
+    "splash_art": "assets/splash_art/1513.webp",
     "quotes": [
       {
         "en": "Friends, we meet again! I just wrapped up a sponsored shoot, and wow, keeping a smile plastered to my face for the camera is no easy feat. But now that I've been promoted to P46, I can finally go on vacation. Want to relax and enjoy your time with me? I guarantee you'll have an unforgettable getaway.",
@@ -9424,13 +9424,13 @@
       "id": "physical",
       "name_en": "Physical",
       "name_fr": "Physique",
-      "icon": "assets/elements/physical.png"
+      "icon": "assets/type_icons/elements/physical.png"
     },
     "path": {
       "id": "warrior",
       "name_en": "Destruction",
       "name_fr": "La Destruction",
-      "icon": "assets/paths/warrior.png"
+      "icon": "assets/type_icons/paths/warrior.png"
     },
     "lore_paths": [
       {
@@ -9460,11 +9460,11 @@
       "boss_name_fr": "Bête de l'apocalypse",
       "world_en": "Herta Space Station",
       "world_fr": "Station spatiale Herta",
-      "icon": "assets/bosses/110501.png"
+      "icon": "assets/type_icons/bosses/110501.png"
     },
-    "avatar": "assets/characters/8001.png",
-    "portrait": "assets/PORTRAIT/8001.webp",
-    "splash_art": "assets/SPLASHART/8001.webp",
+    "avatar": "assets/icons/8001.png",
+    "portrait": "assets/portraits/8001.webp",
+    "splash_art": "assets/splash_art/8001.webp",
     "quotes": [
       {
         "en": "Rules are made to be broken!",
@@ -9515,13 +9515,13 @@
       "id": "fire",
       "name_en": "Fire",
       "name_fr": "Feu",
-      "icon": "assets/elements/fire.png"
+      "icon": "assets/type_icons/elements/fire.png"
     },
     "path": {
       "id": "knight",
       "name_en": "Preservation",
       "name_fr": "La Préservation",
-      "icon": "assets/paths/knight.png"
+      "icon": "assets/type_icons/paths/knight.png"
     },
     "lore_paths": [
       {
@@ -9551,11 +9551,11 @@
       "boss_name_fr": "Bête de l'apocalypse",
       "world_en": "Herta Space Station",
       "world_fr": "Station spatiale Herta",
-      "icon": "assets/bosses/110501.png"
+      "icon": "assets/type_icons/bosses/110501.png"
     },
-    "avatar": "assets/characters/8003.png",
-    "portrait": "assets/PORTRAIT/8003.webp",
-    "splash_art": "assets/SPLASHART/8003.webp",
+    "avatar": "assets/icons/8003.png",
+    "portrait": "assets/portraits/8003.webp",
+    "splash_art": "assets/splash_art/8003.webp",
     "quotes": [
       {
         "en": "Lance ablaze! Flaming lance, forward!",
@@ -9606,13 +9606,13 @@
       "id": "imaginary",
       "name_en": "Imaginary",
       "name_fr": "Imaginaire",
-      "icon": "assets/elements/imaginary.png"
+      "icon": "assets/type_icons/elements/imaginary.png"
     },
     "path": {
       "id": "shaman",
       "name_en": "Harmony",
       "name_fr": "L'Harmonie",
-      "icon": "assets/paths/shaman.png"
+      "icon": "assets/type_icons/paths/shaman.png"
     },
     "lore_paths": [
       {
@@ -9644,11 +9644,11 @@
       "boss_name_fr": "Skaracabaz, roi de l'Essaim",
       "world_en": "Herta Space Station",
       "world_fr": "Station spatiale Herta",
-      "icon": "assets/bosses/110504.png"
+      "icon": "assets/type_icons/bosses/110504.png"
     },
-    "avatar": "assets/characters/8005.png",
-    "portrait": "assets/PORTRAIT/8005.webp",
-    "splash_art": "assets/SPLASHART/8005.webp",
+    "avatar": "assets/icons/8005.png",
+    "portrait": "assets/portraits/8005.webp",
+    "splash_art": "assets/splash_art/8005.webp",
     "quotes": [
       {
         "en": "Time for a show-stopping performance! Dance along!",
@@ -9699,13 +9699,13 @@
       "id": "ice",
       "name_en": "Ice",
       "name_fr": "Glace",
-      "icon": "assets/elements/ice.png"
+      "icon": "assets/type_icons/elements/ice.png"
     },
     "path": {
       "id": "memory",
       "name_en": "Remembrance",
       "name_fr": "Le Souvenir",
-      "icon": "assets/paths/memory.png"
+      "icon": "assets/type_icons/paths/memory.png"
     },
     "lore_paths": [
       {
@@ -9735,11 +9735,11 @@
       "boss_name_fr": "Ombre de « Feixiao »",
       "world_en": "Xianzhou Luofu",
       "world_fr": "Xianzhou Luofu",
-      "icon": "assets/bosses/110506.png"
+      "icon": "assets/type_icons/bosses/110506.png"
     },
-    "avatar": "assets/characters/8007.png",
-    "portrait": "assets/PORTRAIT/8007.webp",
-    "splash_art": "assets/SPLASHART/8007.webp",
+    "avatar": "assets/icons/8007.png",
+    "portrait": "assets/portraits/8007.webp",
+    "splash_art": "assets/splash_art/8007.webp",
     "quotes": [
       {
         "en": "Mem, lend me your strength! Let's explore together!",
@@ -9790,13 +9790,13 @@
       "id": "thunder",
       "name_en": "Lightning",
       "name_fr": "Foudre",
-      "icon": "assets/elements/thunder.png"
+      "icon": "assets/type_icons/elements/thunder.png"
     },
     "path": {
       "id": "elation",
       "name_en": "Elation",
       "name_fr": "L'Allégresse",
-      "icon": "assets/paths/elation.png"
+      "icon": "assets/type_icons/paths/elation.png"
     },
     "lore_paths": [
       {
@@ -9826,11 +9826,11 @@
       "boss_name_fr": "Marée des conflits",
       "world_en": "Amphoreus",
       "world_fr": "Amphoreus",
-      "icon": "assets/bosses/110508.png"
+      "icon": "assets/type_icons/bosses/110508.png"
     },
-    "avatar": "assets/characters/8009.png",
-    "portrait": "assets/PORTRAIT/8009.webp",
-    "splash_art": "assets/SPLASHART/8009.webp",
+    "avatar": "assets/icons/8009.png",
+    "portrait": "assets/portraits/8009.webp",
+    "splash_art": "assets/splash_art/8009.webp",
     "quotes": [
       {
         "en": "Laughter is a weapon, and I intend to use it well!",

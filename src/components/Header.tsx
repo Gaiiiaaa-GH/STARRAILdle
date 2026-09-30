@@ -77,7 +77,7 @@ export const Header: React.FC<HeaderProps> = ({
           onKeyDown={(e) => { if (e.key === 'Enter') handleModeClick('classic'); }}
         >
           <div className="brand-icon-box">
-            <img src="/assets/characters/1406.png" alt="Cipher" className="brand-cipher-icon" />
+            <img src="/assets/icons/1406.png" alt="Cipher" className="brand-cipher-icon" />
           </div>
           <div>
             <div className="brand-text">

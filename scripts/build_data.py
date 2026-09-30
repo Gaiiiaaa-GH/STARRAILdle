@@ -31,13 +31,13 @@ TRAILBLAZE_LORE_PATH = [{"id": "trailblaze", "name_en": "Trailblaze", "name_fr":
 PUBLIC_DIR = os.path.join(os.path.dirname(__file__), "..", "public", "assets")
 DATA_DIR = os.path.join(os.path.dirname(__file__), "..", "src", "data")
 
-os.makedirs(os.path.join(PUBLIC_DIR, "characters"), exist_ok=True)
-os.makedirs(os.path.join(PUBLIC_DIR, "paths"), exist_ok=True)
-os.makedirs(os.path.join(PUBLIC_DIR, "elements"), exist_ok=True)
-os.makedirs(os.path.join(PUBLIC_DIR, "bosses"), exist_ok=True)
+os.makedirs(os.path.join(PUBLIC_DIR, "icons"), exist_ok=True)
+os.makedirs(os.path.join(PUBLIC_DIR, "type_icons", "paths"), exist_ok=True)
+os.makedirs(os.path.join(PUBLIC_DIR, "type_icons", "elements"), exist_ok=True)
+os.makedirs(os.path.join(PUBLIC_DIR, "type_icons", "bosses"), exist_ok=True)
 os.makedirs(os.path.join(PUBLIC_DIR, "skills"), exist_ok=True)
-os.makedirs(os.path.join(PUBLIC_DIR, "PORTRAIT"), exist_ok=True)
-os.makedirs(os.path.join(PUBLIC_DIR, "SPLASHART"), exist_ok=True)
+os.makedirs(os.path.join(PUBLIC_DIR, "portraits"), exist_ok=True)
+os.makedirs(os.path.join(PUBLIC_DIR, "splash_art"), exist_ok=True)
 os.makedirs(DATA_DIR, exist_ok=True)
 
 def fetch_json(endpoint):
@@ -332,7 +332,7 @@ for eid, edata in elements_en.items():
     icon_rel = edata.get('icon')
     if icon_rel:
         fname = f"{eid.lower()}.png"
-        download_file(icon_rel, os.path.join(PUBLIC_DIR, "elements", fname))
+        download_file(icon_rel, os.path.join(PUBLIC_DIR, "type_icons", "elements", fname))
 
 # Download Path Icons
 print("Downloading Path icons...")
@@ -340,7 +340,7 @@ for pid, pdata in paths_en.items():
     icon_rel = pdata.get('icon')
     if icon_rel:
         fname = f"{pid.lower()}.png"
-        download_file(icon_rel, os.path.join(PUBLIC_DIR, "paths", fname))
+        download_file(icon_rel, os.path.join(PUBLIC_DIR, "type_icons", "paths", fname))
 
 # Download Boss Icons
 print("Downloading Weekly Boss Material icons...")
@@ -349,7 +349,7 @@ for bid, bmeta in BOSS_INFO.items():
         icon_rel = items_en[bid].get('icon')
         if icon_rel:
             fname = f"{bid}.png"
-            download_file(icon_rel, os.path.join(PUBLIC_DIR, "bosses", fname))
+            download_file(icon_rel, os.path.join(PUBLIC_DIR, "type_icons", "bosses", fname))
 
 # Process Characters
 processed_characters = []
@@ -417,9 +417,9 @@ for cid in sorted(chars_en.keys(), key=lambda x: int(x)):
 
     # Download character avatar
     icon_rel = c_en.get('icon')
-    avatar_path = f"assets/characters/{cid}.png"
+    avatar_path = f"assets/icons/{cid}.png"
     if icon_rel:
-        download_file(icon_rel, os.path.join(PUBLIC_DIR, "characters", f"{cid}.png"))
+        download_file(icon_rel, os.path.join(PUBLIC_DIR, "icons", f"{cid}.png"))
 
     # Two dedicated source images, one per silhouette game mode. StarRailRes
     # names its own fields the opposite of what you'd expect: its "preview"
@@ -427,14 +427,14 @@ for cid in sorted(chars_en.keys(), key=lambda x: int(x)):
     # the big dynamic splash-art scene (-> our Splash Art mode). Renamed here
     # on download so nothing downstream has to remember that gotcha.
     portrait_rel = c_en.get('preview')
-    portrait_path = f"assets/PORTRAIT/{cid}.webp"
+    portrait_path = f"assets/portraits/{cid}.webp"
     if portrait_rel:
-        download_as_webp(portrait_rel, os.path.join(PUBLIC_DIR, "PORTRAIT", f"{cid}.webp"), quality=88)
+        download_as_webp(portrait_rel, os.path.join(PUBLIC_DIR, "portraits", f"{cid}.webp"), quality=88)
 
     splash_art_rel = c_en.get('portrait')
-    splash_art_path = f"assets/SPLASHART/{cid}.webp"
+    splash_art_path = f"assets/splash_art/{cid}.webp"
     if splash_art_rel:
-        download_as_webp(splash_art_rel, os.path.join(PUBLIC_DIR, "SPLASHART", f"{cid}.webp"), max_width=1200, quality=85)
+        download_as_webp(splash_art_rel, os.path.join(PUBLIC_DIR, "splash_art", f"{cid}.webp"), max_width=1200, quality=85)
 
     # Download skill icons for Skill Game Mode: one entry per real ability
     # type (Basic ATK / Skill / Ultimate / Talent / Technique), deduped so a
@@ -493,13 +493,13 @@ for cid in sorted(chars_en.keys(), key=lambda x: int(x)):
             "id": elem_id.lower() if elem_id else "unknown",
             "name_en": elem_name_en,
             "name_fr": elem_name_fr,
-            "icon": f"assets/elements/{elem_id.lower()}.png" if elem_id else ""
+            "icon": f"assets/type_icons/elements/{elem_id.lower()}.png" if elem_id else ""
         },
         "path": {
             "id": path_id.lower() if path_id else "unknown",
             "name_en": path_name_en,
             "name_fr": path_name_fr,
-            "icon": f"assets/paths/{path_id.lower()}.png" if path_id else ""
+            "icon": f"assets/type_icons/paths/{path_id.lower()}.png" if path_id else ""
         },
         "lore_paths": lore_paths,
         "release_version": meta["version"],
@@ -515,7 +515,7 @@ for cid in sorted(chars_en.keys(), key=lambda x: int(x)):
             "boss_name_fr": wb_info["boss_name_fr"],
             "world_en": wb_info["world_en"],
             "world_fr": wb_info["world_fr"],
-            "icon": f"assets/bosses/{wb_id}.png"
+            "icon": f"assets/type_icons/bosses/{wb_id}.png"
         },
         "avatar": avatar_path,
         "portrait": portrait_path if portrait_rel else None,
