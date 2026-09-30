@@ -344,13 +344,14 @@ body {
   /* Plain children here have no background of their own (unlike the glass
      cards, which get promoted above the backdrop for free via their own
      backdrop-filter) -- promote the whole wrapper once instead of patching
-     every text/button element that lives directly inside it. */
+     every text/button element that lives directly inside it. Kept one level
+     above the guide panel: below 1400px the guide stacks under the game, and
+     the search dropdown (confined to this stacking context) must cover it. */
   position: relative;
-  z-index: 1;
+  z-index: calc(var(--z-guide) + 1);
 }
 
-/* Right guide panel — sticky within its own grid column, so it can
-   never paint over the search dropdown in the center column. */
+/* Right guide panel — sticky within its own grid column on wide screens. */
 .right-panel-guide {
   grid-column: 2;
   position: sticky;
@@ -445,9 +446,35 @@ body {
 .search-wrapper {
   position: relative;
   width: 100%;
-  max-width: 620px;
+  max-width: 720px;
   z-index: var(--z-dropdown);
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
 }
+.search-field { position: relative; flex: 1; min-width: 0; }
+
+.search-easy-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  flex-shrink: 0;
+  padding: 0.55rem 0.9rem;
+  border-radius: var(--radius-pill);
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text-dim);
+  font-family: var(--font);
+  font-size: 0.78rem;
+  font-weight: 600;
+  white-space: nowrap;
+  cursor: pointer;
+  backdrop-filter: blur(var(--glass-blur-weak)) saturate(140%);
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+}
+.search-easy-toggle:hover { border-color: var(--border-hover); color: var(--text); }
+.search-easy-toggle.active { background: var(--accent-secondary); border-color: var(--accent-secondary); color: #10152a; }
+@media (max-width: 520px) { .search-easy-toggle span { display: none; } }
 
 .search-input-box {
   display: flex;

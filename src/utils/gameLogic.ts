@@ -1,4 +1,4 @@
-import type { Character, ComparisonResult, MatchStatus, AllStats, ModeStats, GameMode, DailyStreak, AllDailyStreaks } from '../types';
+import type { Character, ComparisonResult, MatchStatus, AllStats, ModeStats, GameMode, DailyStreak, AllDailyStreaks, Language } from '../types';
 
 // Number of attribute cards in the Classic mode guess-board row (character +
 // gender + element + path + lore_paths + rarity + version + boss + world +
@@ -215,6 +215,42 @@ export function pickSeeded<T>(items: T[], seed: string): T {
 
 export function getDailyTarget(characters: Character[], mode: GameMode): Character {
   return pickSeeded(characters, `starraildle_${mode}_${getParisDateStr()}`);
+}
+
+const normalize = (s: string) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
+const words = (s: string) => normalize(s).split(/[^a-z0-9]+/).filter(Boolean);
+
+// How well `text` matches the typed query `q` (already normalized), lower is
+// better: 0 = text starts with it, 1 = one of its words does, 2 = found inside
+// a word (only from 3 letters on, otherwise "a" would match nearly everyone).
+function matchRank(text: string, q: string): number {
+  const n = normalize(text);
+  if (n.startsWith(q)) return 0;
+  if (words(text).some((w) => w.startsWith(q))) return 1;
+  if (q.length >= 3 && n.includes(q)) return 2;
+  return Infinity;
+}
+
+// Characters matching what the player is typing, best guesses first, then
+// alphabetical in the display language. Names are matched in both languages;
+// element/path names only when `byType` (the search bar's easy mode) is on,
+// ranked after every name match.
+export function searchCharacters(characters: Character[], query: string, language: Language, byType = false): Character[] {
+  const q = normalize(query.trim());
+  if (!q) return [];
+  const name = (c: Character) => (language === 'fr' ? c.name_fr : c.name_en);
+  return characters
+    .map((c) => {
+      let rank = Math.min(matchRank(c.name_fr, q), matchRank(c.name_en, q), matchRank(c.tag, q));
+      if (rank === Infinity && byType) {
+        const types = [c.element.name_fr, c.element.name_en, c.path.name_fr, c.path.name_en];
+        if (types.some((t) => words(t).some((w) => w.startsWith(q)))) rank = 3;
+      }
+      return { c, rank };
+    })
+    .filter((x) => x.rank !== Infinity)
+    .sort((a, b) => a.rank - b.rank || name(a.c).localeCompare(name(b.c), language))
+    .map((x) => x.c);
 }
 
 // Random target picker for unlimited practice mode

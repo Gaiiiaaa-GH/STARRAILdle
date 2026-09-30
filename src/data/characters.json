@@ -8479,6 +8479,101 @@
     ]
   },
   {
+    "id": "1503",
+    "name_en": "Pearl",
+    "name_fr": "Perle",
+    "tag": "pearl",
+    "rarity": 5,
+    "gender": "Female",
+    "element": {
+      "id": "ice",
+      "name_en": "Ice",
+      "name_fr": "Glace",
+      "icon": "assets/type_icons/elements/ice.png"
+    },
+    "path": {
+      "id": "elation",
+      "name_en": "Elation",
+      "name_fr": "L'Allégresse",
+      "icon": "assets/type_icons/paths/elation.png"
+    },
+    "lore_paths": [
+      {
+        "id": "preservation",
+        "name_en": "Preservation",
+        "name_fr": "La Préservation"
+      }
+    ],
+    "release_version": "4.6",
+    "world_en": "Planarcadia",
+    "world_fr": "Planarcadia",
+    "factions_en": [
+      "Strategic Investment Department",
+      "Ten Stonehearts",
+      "Planarcadia (CEO)",
+      "Pearluxe Corp",
+      "Interastral Peace Corporation"
+    ],
+    "factions_fr": [
+      "Département des investissements stratégiques",
+      "Dix cœurs de pierre",
+      "Planarcadia (CEO)",
+      "Pearluxe Corp",
+      "Corporation pour la Paix Interastrale"
+    ],
+    "weekly_boss": {
+      "material_id": "110509",
+      "material_name_en": "High Hopes of the Falsely Enlightened",
+      "material_name_fr": "Espoir du faux éveillé",
+      "boss_name_en": "Ode of False Light",
+      "boss_name_fr": "Ode de la Fausse Lumière",
+      "world_en": "Amphoreus",
+      "world_fr": "Amphoreus",
+      "icon": "assets/type_icons/bosses/110509.png"
+    },
+    "avatar": "assets/icons/1503.png",
+    "portrait": "assets/portraits/1503.webp",
+    "splash_art": "assets/splash_art/1503.webp",
+    "quotes": [
+      {
+        "en": "All life has imperfections.",
+        "fr": "Toutes vies à ces imperfections."
+      }
+    ],
+    "skill_hints": [
+      {
+        "icon": "assets/skills/1503_150301.png",
+        "name_en": "Brushstroke: Trace the Severed Stream",
+        "name_fr": "Trait des flots divisés",
+        "type": "Basic ATK"
+      },
+      {
+        "icon": "assets/skills/1503_150302.png",
+        "name_en": "Relume Life's Light",
+        "name_fr": "Lueur de la restauration",
+        "type": "Skill"
+      },
+      {
+        "icon": "assets/skills/1503_150303.png",
+        "name_en": "Appraise Soul's Ground",
+        "name_fr": "Miroir des nuances de l'âme",
+        "type": "Ultimate"
+      },
+      {
+        "icon": "assets/skills/1503_150304.png",
+        "name_en": "Grow Grace from Grit",
+        "name_fr": "Grâce née du combat",
+        "type": "Talent"
+      },
+      {
+        "icon": "assets/skills/1503_150307.png",
+        "name_en": "Recast Masterwork in Nacre",
+        "name_fr": "Condensation nacrée, reproduction d'un magnum opus",
+        "type": "Technique"
+      }
+    ]
+  },
+  {
     "id": "1504",
     "name_en": "Ashveil",
     "name_fr": "Ashveil",

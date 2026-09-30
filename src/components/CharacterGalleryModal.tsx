@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import type { Character, Language } from '../types';
 import { X, Search } from 'lucide-react';
 import { soundManager } from '../utils/audio';
+import { searchCharacters } from '../utils/gameLogic';
 import { Modal } from './Modal';
 
 interface CharacterGalleryModalProps {
@@ -44,21 +45,18 @@ export const CharacterGalleryModal: React.FC<CharacterGalleryModalProps> = ({
     { id: 'knight', name_fr: 'Préservation', name_en: 'Preservation' },
     { id: 'priest', name_fr: 'Abondance', name_en: 'Abundance' },
     { id: 'memory', name_fr: 'Souvenir', name_en: 'Remembrance' },
+    { id: 'elation', name_fr: 'Allégresse', name_en: 'Elation' },
   ];
 
-  const filtered = characters.filter((c) => {
-    const q = search.toLowerCase().trim();
-    const matchesSearch =
-      !q ||
-      c.name_en.toLowerCase().includes(q) ||
-      c.name_fr.toLowerCase().includes(q) ||
-      c.tag.toLowerCase().includes(q);
-
+  const displayName = (c: Character) => (isFr ? c.name_fr : c.name_en);
+  const matching = search.trim()
+    ? searchCharacters(characters, search, language)
+    : [...characters].sort((a, b) => displayName(a).localeCompare(displayName(b), language));
+  const filtered = matching.filter((c) => {
     const matchesElement = selectedElement === 'all' || c.element.id.toLowerCase() === selectedElement;
     const matchesPath = selectedPath === 'all' || c.path.id.toLowerCase() === selectedPath;
     const matchesRarity = selectedRarity === 'all' || c.rarity === selectedRarity;
-
-    return matchesSearch && matchesElement && matchesPath && matchesRarity;
+    return matchesElement && matchesPath && matchesRarity;
   });
 
   return (
