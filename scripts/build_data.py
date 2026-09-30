@@ -3,8 +3,8 @@
 Combines three sources:
 - Mar-7th/StarRailRes: names, element, path, rarity, abilities, weekly boss material.
 - scripts/fiches.json: everything entered by hand (version, gender, world,
-  factions, lore paths, name overrides, weekly boss names). Edited through the
-  local tool in STARRAILdle-Assets, or by hand.
+  factions, lore paths, name overrides, weekly boss names). Edited through a
+  local update tool, or by hand.
 - scripts/wiki_research/merged_quotes.json: researched voice lines.
 
 It never downloads images and never invents data: a character without a fiche,

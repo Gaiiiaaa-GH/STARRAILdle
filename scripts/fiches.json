@@ -1925,6 +1925,36 @@
         }
       ]
     },
+    "1503": {
+      "version": "4.6",
+      "gender": "Female",
+      "world": "Planarcadia",
+      "factions_en": [
+        "Strategic Investment Department",
+        "Ten Stonehearts",
+        "Planarcadia (CEO)",
+        "Pearluxe Corp",
+        "Interastral Peace Corporation"
+      ],
+      "factions_fr": [
+        "Département des investissements stratégiques",
+        "Dix cœurs de pierre",
+        "Planarcadia (CEO)",
+        "Pearluxe Corp",
+        "Corporation pour la Paix Interastrale"
+      ],
+      "lore_paths": [
+        {
+          "id": "preservation",
+          "name_en": "Preservation",
+          "name_fr": "La Préservation"
+        }
+      ],
+      "quote_fallback": {
+        "en": "All life has imperfections.",
+        "fr": "Toutes vies à ces imperfections."
+      }
+    },
     "1504": {
       "version": "4.1",
       "gender": "Male",
