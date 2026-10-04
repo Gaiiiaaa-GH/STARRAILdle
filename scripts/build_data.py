@@ -182,7 +182,14 @@ out_path = os.path.join(DATA_DIR, "characters.json")
 with open(out_path, "w", encoding="utf-8", newline="\n") as f:
     json.dump(processed_characters, f, indent=2, ensure_ascii=False)
 
+# Background / Black & White banners: whatever is in public/assets/banners.
+banner_dir = os.path.join(PUBLIC_DIR, "assets", "banners")
+banner_ids = sorted((f[:-5] for f in os.listdir(banner_dir) if f.endswith(".webp")), key=int)
+with open(os.path.join(DATA_DIR, "bannerManifest.json"), "w", encoding="utf-8", newline="\n") as f:
+    json.dump(banner_ids, f, indent=2)
+
 print(f"{len(processed_characters)} personnages écrits dans {os.path.normpath(out_path)}")
+print(f"{len(banner_ids)} bannières")
 if skipped:
     print(f"{len(skipped)} ignoré(s) :")
     for s in skipped:
