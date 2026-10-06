@@ -83,7 +83,7 @@ body {
   line-height: 1.55;
 }
 
-::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar { width: 5px; height: 5px; }
 ::-webkit-scrollbar-track { background: transparent; }
 ::-webkit-scrollbar-thumb { background: rgba(255, 255, 255, 0.14); border-radius: 4px; }
 
@@ -221,6 +221,7 @@ body {
   display: flex;
   align-items: center;
   gap: 6px;
+  white-space: nowrap;
 }
 .mode-tab:hover { color: #fff; background: rgba(255, 255, 255, 0.05); }
 .mode-tab.active {
@@ -1186,6 +1187,7 @@ body {
 
 .stats-mode-tabs {
   display: flex;
+  flex-wrap: wrap;
   gap: 3px;
   background: rgba(0, 0, 0, 0.22);
   padding: 3px;
@@ -1451,9 +1453,24 @@ body {
 
 /* ── Responsive ──────────────────────────────────────── */
 
+@media (max-width: 1500px) {
+  /* The header needs ~1500px on one line. Below that the modes get a row of
+     their own instead of pushing the whole page wider than the screen. */
+  .station-header-inner {
+    flex-wrap: wrap;
+    height: auto;
+    padding: 0.6rem 1.5rem;
+    row-gap: 0.5rem;
+  }
+  .header-actions { order: 2; flex-wrap: wrap; }
+  .mode-nav { order: 3; width: 100%; justify-content: center; }
+}
+
 @media (max-width: 1400px) {
   .app-container {
-    grid-template-columns: 1fr;
+    /* minmax(0, …): a plain 1fr grows to the guess board's width and drags the
+       whole page wider than the screen instead of letting the board scroll. */
+    grid-template-columns: minmax(0, 1fr);
   }
   .right-panel-guide {
     grid-column: 1;
@@ -1474,21 +1491,42 @@ body {
 }
 
 @media (max-width: 768px) {
-  .station-header-inner {
-    flex-wrap: wrap;
-    height: auto;
-    padding: 0.6rem 0.75rem;
-    row-gap: 0.5rem;
-  }
+  /* Three rows tall here: pinned, it would eat half the screen once the
+     keyboard is open. */
+  .station-header-bar { position: static; }
+  .station-header-inner { padding: 0.6rem 0.75rem; }
+  /* Everything stays visible: the actions lose their labels and the six
+     modes sit on a 3x2 grid instead of hiding in sideways-scrolling strips. */
+  .header-actions .action-btn svg + span { display: none; }
   .mode-nav {
-    order: 3;
-    width: 100%;
-    overflow-x: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border-radius: var(--radius-md);
   }
-  .header-actions {
-    order: 2;
-    overflow-x: auto;
-    max-width: 60%;
+  .mode-tab {
+    justify-content: center;
+    padding: 7px 4px;
+    font-size: 0.78rem;
   }
+  /* Smaller cards so more of the row fits, and the character card stays
+     pinned on the left while the row scrolls sideways. */
+  .table-header-row, .guess-row {
+    grid-template-columns: 80px 64px 76px 84px 92px 56px 68px 124px 100px 124px;
+    gap: 4px;
+    justify-content: start;
+  }
+  .table-header-row > :first-child, .guess-row > :first-child {
+    position: sticky;
+    left: 0;
+    z-index: 1;
+  }
+  .table-header-row > :first-child { background: var(--bg); }
+  .th-cell { font-size: 0.58rem; letter-spacing: 0.4px; padding: 6px 2px; }
+  .guess-cell { height: 84px; padding: 4px; font-size: 0.72rem; }
+  .cell-icon { width: 28px; height: 28px; }
+  .cell-tag { font-size: 0.6rem; padding: 2px 4px; }
+  .cell-boss-text { font-size: 0.62rem; }
+  .cell-world-text { font-size: 0.68rem; }
+  .modal-content { padding: 1.25rem; }
   .splash-viewport-frame { width: 320px; height: 320px; }
 }

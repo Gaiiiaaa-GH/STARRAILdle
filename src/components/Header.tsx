@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import type { GameMode, Language } from '../types';
-import { HelpCircle, BarChart3, Volume2, VolumeX, Grid, Image, MessageSquare, Flame, Eye, EyeOff, Calendar, Infinity as InfinityIcon, UserRound, Contrast, Timer } from 'lucide-react';
+import { HelpCircle, BarChart3, Volume2, VolumeX, Grid, Image, MessageSquare, Flame, Eye, EyeOff, Calendar, Infinity as InfinityIcon, UserRound, Contrast, Timer, Users } from 'lucide-react';
 import { soundManager } from '../utils/audio';
 import { getMsUntilParisMidnight } from '../utils/gameLogic';
 
@@ -133,7 +133,7 @@ export const Header: React.FC<HeaderProps> = ({
             onClick={onOpenGallery}
             title={isFr ? 'Base de données des personnages' : 'Character Database'}
           >
-            <Grid size={15} />
+            <Users size={15} />
             <span>{'Roster'}</span>
           </button>
 

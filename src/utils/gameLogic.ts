@@ -199,22 +199,45 @@ export function compareCharacters(guess: Character, target: Character): Comparis
   };
 }
 
-// Deterministic pick from a list based on a seed string (same seed always
-// picks the same item — used to keep the Quote mode's chosen line stable
-// across re-renders/reloads for a given character + day).
-export function pickSeeded<T>(items: T[], seed: string): T {
+// Same seed string -> same unsigned 32-bit number.
+function hashSeed(seed: string): number {
   let hash = 0;
   for (let i = 0; i < seed.length; i++) {
     const char = seed.charCodeAt(i);
     hash = (hash << 5) - hash + char;
     hash |= 0;
   }
-  const index = Math.abs(hash) % items.length;
-  return items[index];
+  // Scramble the bits (murmur3 finalizer): seeds that differ only by their
+  // last character, like consecutive dates, would otherwise give consecutive
+  // hashes and walk the list one step per day.
+  hash ^= hash >>> 16;
+  hash = Math.imul(hash, 0x85ebca6b);
+  hash ^= hash >>> 13;
+  hash = Math.imul(hash, 0xc2b2ae35);
+  hash ^= hash >>> 16;
+  return hash >>> 0;
 }
 
-export function getDailyTarget(characters: Character[], mode: GameMode): Character {
-  return pickSeeded(characters, `starraildle_${mode}_${getParisDateStr()}`);
+// Deterministic pick from a list based on a seed string (same seed always
+// picks the same item — used to keep the Quote mode's chosen line stable
+// across re-renders/reloads for a given character + day).
+export function pickSeeded<T>(items: T[], seed: string): T {
+  return items[hashSeed(seed) % items.length];
+}
+
+// Every character gets its own score for the day and the highest one wins
+// (rendezvous hashing). A new character can win from the moment it is in the
+// data, and adding it only changes the days it wins: every other day, past
+// or future, keeps its target. A plain `hash % count` would reshuffle them all.
+export function getDailyTarget(characters: Character[], mode: GameMode, date = getParisDateStr()): Character {
+  const seed = `starraildle_${mode}_${date}`;
+  let best = characters[0];
+  let bestScore = -1;
+  for (const c of characters) {
+    const score = hashSeed(`${seed}_${c.id}`);
+    if (score > bestScore) [best, bestScore] = [c, score];
+  }
+  return best;
 }
 
 const normalize = (s: string) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
